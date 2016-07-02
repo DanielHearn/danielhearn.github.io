@@ -1,0 +1,121 @@
+body {
+  -webkit-font-smoothing: antialiased;
+  font-family: 'Montserrat', sans-serif;
+  background-color: #1F1F25;
+  background-position: cover;
+  width:100%;
+  height:100%;
+  margin: 0;
+}
+
+.content {
+  text-align:left;
+  margin: 0 auto;
+  max-width: 700px;
+  margin-top: 150px;
+  margin-bottom: 50px;
+  z-index: 2;
+}
+
+h1 {
+  font-size: 5em;
+  font-weight: bold;
+  color: #FFF;
+  letter-spacing: 4px;
+  margin: 0;
+}
+
+.bar {
+  width: 97%;
+  height: 6px;
+  background: #de4e40;
+  display: block;
+}
+
+h2 {
+  font-size: 1.6em;
+  font-weight: 400;
+  color: #FFF;
+  letter-spacing: 1px;
+}
+
+h3 {
+  font-size: 1.3em;
+  font-weight: 500;
+  color: #FFF;
+}
+
+.red {
+  color: #de4e40;
+}
+
+.box {
+  background: #de4e40;
+  display: inline-block;
+  padding: 6px 12px 6px 12px;
+  border: none;
+  margin: 5px;
+  margin-left: 0px;
+  transition: background 0.3s linear;
+  cursor:pointer;
+  box-shadow: inset 0 -4px #C53C2F;
+}
+
+.box h2 {
+  color: #FFF;
+  font-weight: bold;
+  letter-spacing: 0.05em;
+}
+
+.box:hover {
+  background: #c73527;
+  color: #FFF;
+  box-shadow: inset 0 -4px #b12b1e;
+}
+
+.box:hover h2 {
+  color: #FFF;
+}
+
+a {
+  color: #de4e40;
+  text-decoration: none;
+  font-weight: bold;
+  margin-top: 15px;
+}
+
+a:hover {
+  text-decoration:underline;
+}
+
+.button {
+   padding: 15px 40px;
+   background:transparent;
+   border:2px solid white;
+   color: white;
+   font-family:'Montserrat', sans-serif;
+   font-size:1.5em;
+   font-weight:400;
+   transition: all 0.3s;
+   cursor: pointer;
+   font-weight: bold;
+}
+
+.button:hover {
+  background-color: #DE4E40;
+  color: #FFFFFF;
+  border: 2px solid #DE4E40;
+}
+
+@media (max-width: 720px){
+    .content {
+      margin-top: 20px;
+      padding: 15px;
+    }
+    .button {
+      padding: 15px 15px;
+    }
+    .bar {
+      width: 100%;
+    }
+}
