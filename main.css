@@ -87,9 +87,9 @@ a:hover {
   text-decoration:underline;
 }
 
-.button {
+button {
    background:transparent;
-   padding: 15px 40px;
+   padding: 14px 20px;
    border:2px solid white;
    margin-top: 8px;
    color: white;
@@ -101,10 +101,21 @@ a:hover {
    font-weight: bold;
 }
 
-.button:hover {
+button:hover {
   background-color: #DE4E40;
-  color: #FFFFFF;
   border: 2px solid #DE4E40;
+  color: #FFFFFF;
+}
+
+.icon {
+  padding: 10px 20px;
+  position: relative;
+  top: 4px;
+}
+
+img {
+  width: 1.3em;
+  height: 1.3em;
 }
 
 @media (max-width: 720px){
