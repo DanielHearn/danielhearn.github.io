@@ -81,7 +81,6 @@ a {
   color: #de4e40;
   text-decoration: none;
   font-weight: bold;
-  margin-top: 15px;
 }
 
 a:hover {
@@ -89,9 +88,10 @@ a:hover {
 }
 
 .button {
-   padding: 15px 40px;
    background:transparent;
+   padding: 15px 40px;
    border:2px solid white;
+   margin-top: 8px;
    color: white;
    font-family:'Montserrat', sans-serif;
    font-size:1.5em;
