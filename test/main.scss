@@ -1,0 +1,140 @@
+$red: #de4e40;
+$dark-grey: #353b43;
+$white: #fff;
+
+body {
+  -webkit-font-smoothing: antialiased;
+  font-family: 'Montserrat', sans-serif;
+  background-color: $red;
+  margin: 0;
+  color: $white;
+  font-size: 16px;
+}
+
+h1 {
+  font-size: 400%;
+  font-weight: bold;
+  color: $white;
+  letter-spacing: 4px;
+  margin: 0;
+  text-align: left;
+}
+
+h2 {
+  font-size: 150%;
+  font-weight: 400;
+  color: $white;
+  letter-spacing: 1px;
+  text-align: left;
+}
+
+h3 {
+  font-size: 120%;
+  color: $white;
+  text-align: left;
+}
+
+a {
+  color: $red;
+  text-decoration: none;
+  font-weight: bold;
+  &:hover {
+    text-decoration: underline;
+  }
+}
+
+button {
+   background:transparent;
+   padding: 15px 25px;
+   border:2px solid $white;
+   margin-top: 8px;
+   color: white;
+   font-size:1.5em;
+   transition: all 0.3s;
+   cursor: pointer;
+   font-weight: bold;
+   margin: 0 auto;
+   &:hover {
+     background-color: $red;
+     border: 2px solid  $red;
+     color: $white;
+   }
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 800px;
+  text-align: center;
+}
+
+.intro {
+  background-color: $dark-grey;
+  height: 100vh;
+  width: 100%;
+  .container {
+    margin: 0 auto;
+    max-width: 700px;
+    padding-top: 20vh;
+  }
+}
+
+.skills {
+  background-color: $red;
+  height: 100vh;
+  width: 100%;
+}
+
+.projects {
+  background-color: $dark-grey;
+}
+
+.outro {
+  background-color: $red;
+}
+
+.bar {
+  width: 100%;
+  height: 6px;
+  background: $red;
+  display: block;
+}
+
+.down {
+  position: absolute;
+  bottom: 2%;
+  margin-left: -40px;
+  width: 80px;
+  .arrow {
+      width: 32px;
+  }
+}
+
+@media(max-width:60em){body{font-size: 80%}}
+
+
+@media screen and (max-width: 750px) {
+  .intro .container {
+    max-width: 600px;
+    padding-top: 10vh;
+    padding: 20px;
+  }
+}
+
+/*
+
+@media screen and (min-width: 1000px) {
+  h1 {
+    font-size: 80px;
+  }
+  h2 {
+    font-size: 25px;
+  }
+  h3 {
+    font-size: 20px;
+  }
+  .intro .container {
+    width: 700px;
+    padding-top: 20vh;
+  }
+}
+*/
