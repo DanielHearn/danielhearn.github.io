@@ -11,21 +11,18 @@ h1 {
   font-weight: bold;
   color: #fff;
   letter-spacing: 4px;
-  margin: 0;
-  text-align: left; }
+  margin: 0; }
 
 h2 {
   font-size: 150%;
   font-weight: 400;
   color: #fff;
-  letter-spacing: 1px;
-  text-align: left; }
+  letter-spacing: 1px; }
 
 h3 {
   font-size: 120%;
   font-weight: 300;
-  color: #fff;
-  text-align: left; }
+  color: #fff; }
 
 a {
   color: #de4e40;
@@ -56,13 +53,15 @@ button {
   text-align: center; }
 
 .intro {
-  background-color: #353b43;
+  background-color: #1f2125;
   height: 100vh;
   width: 100%; }
   .intro .container {
     margin: 0 auto;
     max-width: 700px;
     padding-top: 20vh; }
+    .intro .container .contact {
+      margin-top: 10vh; }
 
 .skills {
   background-color: #de4e40;
@@ -70,7 +69,7 @@ button {
   width: 100%; }
 
 .projects {
-  background-color: #353b43; }
+  background-color: #1f2125; }
 
 .outro {
   background-color: #de4e40; }
@@ -95,8 +94,8 @@ button {
 @media screen and (max-width: 750px) {
   .intro .container {
     max-width: 600px;
-    padding-top: 10vh;
-    padding: 20px; } }
+    padding: 20px;
+    padding-top: 10vh; } }
 /*
 
 @media screen and (min-width: 1000px) {

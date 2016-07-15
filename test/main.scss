@@ -1,5 +1,5 @@
 $red: #de4e40;
-$dark-grey: #353b43;
+$dark-grey: #1f2125;
 $white: #fff;
 
 body {
@@ -17,7 +17,6 @@ h1 {
   color: $white;
   letter-spacing: 4px;
   margin: 0;
-  text-align: left;
 }
 
 h2 {
@@ -25,13 +24,12 @@ h2 {
   font-weight: 400;
   color: $white;
   letter-spacing: 1px;
-  text-align: left;
 }
 
 h3 {
   font-size: 120%;
+  font-weight: 300;
   color: $white;
-  text-align: left;
 }
 
 a {
@@ -74,7 +72,10 @@ button {
   .container {
     margin: 0 auto;
     max-width: 700px;
-    padding-top: 20vh;
+    padding-top: 25vh;
+    .contact {
+      margin-top: 10vh;
+    }
   }
 }
 
@@ -115,8 +116,8 @@ button {
 @media screen and (max-width: 750px) {
   .intro .container {
     max-width: 600px;
-    padding-top: 10vh;
     padding: 20px;
+    padding-top: 10vh;
   }
 }
 
