@@ -1,5 +1,5 @@
 $red: #de4e40;
-$dark-grey: #1f2125;
+$dark-grey: #2c3035;
 $white: #fff;
 
 body {
@@ -12,7 +12,7 @@ body {
 }
 
 h1 {
-  font-size: 400%;
+  font-size: 500%;
   font-weight: bold;
   color: $white;
   letter-spacing: 4px;
@@ -20,7 +20,7 @@ h1 {
 }
 
 h2 {
-  font-size: 150%;
+  font-size: 140%;
   font-weight: 400;
   color: $white;
   letter-spacing: 1px;
@@ -43,14 +43,15 @@ a {
 
 button {
    background:transparent;
-   padding: 15px 25px;
+   padding: 14px 24px;
    border:2px solid $white;
    margin-top: 8px;
    color: white;
-   font-size:1.5em;
+   font-size: 130%;
+   font-weight: 600;
+   letter-spacing: 0.5px;
    transition: all 0.3s;
    cursor: pointer;
-   font-weight: bold;
    margin: 0 auto;
    &:hover {
      background-color: $red;
@@ -72,7 +73,10 @@ button {
   .container {
     margin: 0 auto;
     max-width: 700px;
-    padding-top: 25vh;
+    padding-top: 30vh;
+    h1 {
+      margin-bottom: 20px;
+    }
     .contact {
       margin-top: 10vh;
     }
@@ -83,31 +87,62 @@ button {
   background-color: $red;
   height: 100vh;
   width: 100%;
+  .container {
+    margin: 0 auto;
+    max-width: 800px;
+    padding-top: 60px;
+    h2 {
+      font-size: 200%;
+      text-decoration: underline;
+    }
+  }
 }
 
 .projects {
   background-color: $dark-grey;
+  height: 100vh;
+  width: 100%;
 }
 
 .outro {
   background-color: $red;
+  height: 100vh;
+  width: 100%;
 }
 
 .bar {
-  width: 100%;
+  width: 60%;
   height: 6px;
   background: $red;
   display: block;
+  margin: 0 auto;
 }
 
 .down {
   position: absolute;
   bottom: 2%;
-  margin-left: -40px;
+  margin-left: -60px;
   width: 80px;
   .arrow {
-      width: 32px;
+    width: 32px;
   }
+}
+
+#toskills {
+  width: 120px;
+  text-decoration: none;
+}
+
+#toprojects {
+  position: absolute;
+  bottom: -98%;
+  margin-left: -45px;
+}
+
+#tooutro {
+  position: absolute;
+  bottom: -200%;
+  margin-left: -45px;
 }
 
 @media(max-width:60em){body{font-size: 80%}}

@@ -7,7 +7,9 @@
 	 <link rel="icon" type="image/png" href="Favicon.png">
    <link href="main.css" rel="stylesheet">
    <link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
-   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.0.0/jquery.min.js"></script>
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+   <script src="jquery.scrollTo.min.js"></script>
+   <script src="jquery.easing.1.3.js"></script>
 </head>
 <body>
   <div class="main">
@@ -19,14 +21,39 @@
         <span class="bar"></span>
         <a href="mailto:hearndaniel2@live.co.uk"><button class="contact">Contact Me</button></a>
         <br>
-        <a href="#" class="down"><img class="arrow" src="Arrow.png"></a>
+        <a href="#" class="down" id="toskills"><h3>Learn More</h3><img class="arrow" src="Arrow.png"></a>
       </div>
     </div>
-    <div class="skills">
+    <div class="skills" id="skills">
         <div class="container">
-
+          <h2 id="skillsscroll">SKILLS</h2>
+          <h3>This is a summary of my current skills, I'm also actively learning new technologies
+and continuing to advance my existing skills.</h3>
+            <a href="#" class="down" id="toprojects"><img class="arrow" src="Arrow.png"></a>
+        </div>
+    </div>
+    <div class="projects" id="projects">
+        <div class="container">
+          <h2 id="projectsscroll">PROJECTS</h2>
+            <a href="#" class="down" id="tooutro"><img class="arrow" src="Arrow.png"></a>
+        </div>
+    </div>
+    <div class="outro" id="outro">
+        <div class="container">
+          <h2 id="outroscroll">CONTACT</h2>
         </div>
     </div>
   </div>
 </body>
+<script>
+$("#toskills").click(function() {
+  $(window).scrollTo(document.getElementById('skills'), 800,{easing:'easeInQuad'} );
+});
+$("#toprojects").click(function() {
+  $(window).scrollTo(document.getElementById('projects'), 800,{easing:'easeInQuad'} );
+});
+$("#tooutro").click(function() {
+  $(window).scrollTo(document.getElementById('outro'), 800,{easing:'easeInQuad'} );
+});
+</script>
 </html>
