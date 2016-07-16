@@ -124,7 +124,9 @@ button {
 @media screen and (max-width: 750px) {
   .intro .container {
     max-width: 600px;
-    padding: 20px;
-    padding-top: 10vh; } }
+    padding-top: 10vh; }
+
+  .container {
+    padding: 20px; } }
 
 /*# sourceMappingURL=main.css.map */
