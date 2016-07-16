@@ -82,11 +82,25 @@ button {
   background-color: #2c3035;
   height: 100vh;
   width: 100%; }
+  .projects .container {
+    margin: 0 auto;
+    max-width: 800px;
+    padding-top: 60px; }
+    .projects .container h2 {
+      font-size: 200%;
+      text-decoration: underline; }
 
 .outro {
   background-color: #de4e40;
   height: 100vh;
   width: 100%; }
+  .outro .container {
+    margin: 0 auto;
+    max-width: 800px;
+    padding-top: 60px; }
+    .outro .container h2 {
+      font-size: 200%;
+      text-decoration: underline; }
 
 .bar {
   width: 60%;
@@ -99,23 +113,10 @@ button {
   position: absolute;
   bottom: 2%;
   margin-left: -60px;
-  width: 80px; }
-  .down .arrow {
-    width: 32px; }
-
-#toskills {
   width: 120px;
   text-decoration: none; }
-
-#toprojects {
-  position: absolute;
-  bottom: -98%;
-  margin-left: -45px; }
-
-#tooutro {
-  position: absolute;
-  bottom: -200%;
-  margin-left: -45px; }
+  .down .arrow {
+    width: 32px; }
 
 @media (max-width: 60em) {
   body {
@@ -125,23 +126,5 @@ button {
     max-width: 600px;
     padding: 20px;
     padding-top: 10vh; } }
-/*
-
-@media screen and (min-width: 1000px) {
-  h1 {
-    font-size: 80px;
-  }
-  h2 {
-    font-size: 25px;
-  }
-  h3 {
-    font-size: 20px;
-  }
-  .intro .container {
-    width: 700px;
-    padding-top: 20vh;
-  }
-}
-*/
 
 /*# sourceMappingURL=main.css.map */
