@@ -73,7 +73,7 @@ button {
   .skills .container {
     margin: 0 auto;
     max-width: 800px;
-    padding-top: 60px; }
+    padding-top: 40px; }
     .skills .container h2 {
       font-size: 200%;
       text-decoration: underline; }
@@ -85,7 +85,7 @@ button {
   .projects .container {
     margin: 0 auto;
     max-width: 800px;
-    padding-top: 60px; }
+    padding-top: 40px; }
     .projects .container h2 {
       font-size: 200%;
       text-decoration: underline; }
@@ -97,7 +97,7 @@ button {
   .outro .container {
     margin: 0 auto;
     max-width: 800px;
-    padding-top: 60px; }
+    padding-top: 40px; }
     .outro .container h2 {
       font-size: 200%;
       text-decoration: underline; }
