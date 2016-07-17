@@ -1,0 +1,124 @@
+$red: #de4e40;
+$dark-grey: #2c3035;
+$white: #fff;
+
+body {
+  -webkit-font-smoothing: antialiased;
+  font-family: 'Montserrat', sans-serif;
+  background-color: $dark-grey;
+  margin: 0;
+  color: $white;
+  font-size: 16px;
+}
+
+h1 {
+  font-size: 500%;
+  font-weight: bold;
+  color: $white;
+  letter-spacing: 4px;
+  margin: 0;
+}
+
+h2 {
+  font-size: 140%;
+  font-weight: 400;
+  color: $white;
+  letter-spacing: 1px;
+}
+
+h3 {
+  font-size: 110%;
+  font-weight: 300;
+  color: $white;
+  margin-top: 20px;
+}
+
+a {
+  color: $red;
+  text-decoration: none;
+  font-weight: bold;
+  &:hover {
+    text-decoration: underline;
+  }
+}
+
+span {
+  color: $red;
+}
+
+img {
+  width: 32px;
+  height: 32px;
+}
+
+button {
+  background:transparent;
+  padding: 14px 24px;
+  border:2px solid $white;
+  color: white;
+  font-size: 140%;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  transition: all 0.3s;
+  cursor: pointer;
+  margin: 0 auto;
+  margin-top: 2vh;
+  &:hover {
+    background-color: $red;
+    border: 2px solid  $red;
+    color: $white;
+  }
+}
+
+
+.intro {
+  background-color: $dark-grey;
+  width: 100%;
+  .container {
+    margin: 0 auto;
+    max-width: 700px;
+    text-align: center;
+    padding-top: 20vh;
+    h1 {
+      margin-bottom: 20px;
+    }
+  }
+}
+
+.bar {
+  width: 60%;
+  height: 6px;
+  background: $red;
+  display: block;
+  margin: 0 auto;
+}
+
+.icon {
+  padding: 8px 16px;
+  position: relative;
+  top: 6px;
+}
+
+.contact {
+  margin-top: 5vh;
+}
+
+@media(max-width:60em){
+  body {
+    font-size: 90%;
+  }
+  img {
+    width: 28px;
+    height: 28px;
+  }
+}
+
+@media screen and (max-width: 750px) {
+  .intro .container {
+    max-width: 600px;
+    padding-top: 10vh;
+  }
+  .container {
+    padding: 20px;
+  }
+}
