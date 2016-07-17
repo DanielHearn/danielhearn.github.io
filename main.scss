@@ -86,7 +86,7 @@ button {
 }
 
 .bar {
-  width: 60%;
+  width: 90%;
   height: 6px;
   background: $red;
   display: block;
@@ -111,6 +111,9 @@ button {
   img {
     width: 28px;
     height: 28px;
+  }
+  h1 {
+    font-size: 400%;
   }
 }
 

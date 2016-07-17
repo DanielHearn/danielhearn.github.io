@@ -68,7 +68,7 @@ button {
       margin-bottom: 20px; }
 
 .bar {
-  width: 60%;
+  width: 90%;
   height: 6px;
   background: #de4e40;
   display: block;
@@ -89,7 +89,10 @@ button {
 
   img {
     width: 28px;
-    height: 28px; } }
+    height: 28px; }
+
+  h1 {
+    font-size: 400%; } }
 @media screen and (max-width: 750px) {
   .intro .container {
     max-width: 600px;
