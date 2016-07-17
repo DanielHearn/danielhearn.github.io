@@ -44,8 +44,9 @@ button {
   padding: 14px 24px;
   border: 2px solid #fff;
   color: white;
-  font-size: 140%;
-  font-weight: 600;
+  font-size: 130%;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
   letter-spacing: 0.5px;
   transition: all 0.3s;
   cursor: pointer;
