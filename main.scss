@@ -62,7 +62,7 @@ button {
   transition: all 0.3s;
   cursor: pointer;
   margin: 0 auto;
-  margin-top: 2vh;
+  margin-top: 20px;
   &:hover {
     background-color: $red;
     border: 2px solid  $red;
@@ -78,7 +78,7 @@ button {
     margin: 0 auto;
     max-width: 700px;
     text-align: center;
-    padding-top: 20vh;
+    margin-top: 20vh;
     h1 {
       margin-bottom: 20px;
     }
@@ -100,7 +100,7 @@ button {
 }
 
 .contact {
-  margin-top: 5vh;
+  margin-top: 40px;
 }
 
 @media(max-width:60em){
@@ -116,7 +116,7 @@ button {
 @media screen and (max-width: 750px) {
   .intro .container {
     max-width: 600px;
-    padding-top: 10vh;
+    margin-top: 10vh;
   }
   .container {
     padding: 20px;
