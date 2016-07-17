@@ -96,5 +96,7 @@ button {
 
   .container {
     padding: 20px; } }
+@-ms-viewport {
+  width: device-width; }
 
 /*# sourceMappingURL=main.css.map */
