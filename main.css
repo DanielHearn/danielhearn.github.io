@@ -149,11 +149,9 @@ button {
   h1 {
     font-size: 400%; } }
 @media screen and (max-width: 750px) {
-  .container {
-    padding: 30px 20px; }
-
   .intro .container {
-    max-width: 600px; }
+    max-width: 600px;
+    padding: 50px 20px; }
 
   .about .container {
     max-width: 600px; } }
