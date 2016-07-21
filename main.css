@@ -38,10 +38,6 @@ span {
   color: #2c3035;
   font-weight: 400; }
 
-img {
-  width: 32px;
-  height: 32px; }
-
 button {
   background: transparent;
   border: 2px solid #f5f5f5;
@@ -102,6 +98,8 @@ button {
 .projects {
   background-color: #e69045;
   width: 100%; }
+  .projects .container {
+    max-width: 1000px; }
 
 .contact {
   background-color: #2c3035;
@@ -124,11 +122,32 @@ button {
   display: block;
   margin: 30px 0; }
 
-.icon {
+.iconbutton {
   padding: 8px 16px;
   position: relative;
   top: 6px; }
 
+.iconimg {
+  width: 32px;
+  height: 32px; }
+
+.projectcontainer {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between; }
+
+.projectbox {
+  display: inline-block;
+  width: 48%;
+  padding: 0.25rem; }
+
+.projectimg {
+  max-width: 100%; }
+
+@media screen and (max-width: 1400px) {
+  .projects .container {
+    max-width: 800px; } }
 @media screen and (max-width: 1000px) {
   .container {
     padding: 40px 20px; }
@@ -139,12 +158,15 @@ button {
   .about .container {
     max-width: 700px; }
 
-  body {
-    font-size: 90%; }
-
-  img {
+  .iconimg {
     width: 28px;
     height: 28px; }
+
+  .projectbox {
+    width: 48%; }
+
+  body {
+    font-size: 90%; }
 
   h1 {
     font-size: 400%; } }
@@ -154,7 +176,10 @@ button {
     padding: 30px 20px; }
 
   .about .container {
-    max-width: 600px; } }
+    max-width: 600px; }
+
+  .projectbox {
+    width: 100%; } }
 @media screen and (max-width: 350px) {
   .intro .container {
     padding: 20px 20px; } }
