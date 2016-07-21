@@ -150,7 +150,7 @@ button {
     font-size: 400%; } }
 @media screen and (max-width: 750px) {
   .container {
-    padding: 40px 20px; }
+    padding: 30px 20px; }
 
   .intro .container {
     max-width: 600px; }
