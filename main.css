@@ -55,8 +55,8 @@ button {
   margin: 0 auto;
   margin-top: 20px; }
   button:hover {
-    background-color: #dc8f4d;
-    border: 2px solid #dc8f4d;
+    background-color: #e69046;
+    border: 2px solid #e69046;
     color: #f5f5f5; }
 
 .contactbutton {
@@ -78,7 +78,7 @@ button {
   max-width: 800px; }
 
 .intro {
-  background-color: #dc8f4d;
+  background-color: #e69046;
   width: 100%; }
   .intro .container {
     padding: 100px 20px; }
@@ -100,7 +100,7 @@ button {
       color: #676764; }
 
 .projects {
-  background-color: #dc8f4d;
+  background-color: #e69046;
   width: 100%; }
 
 .contact {
