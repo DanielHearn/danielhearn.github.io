@@ -59,7 +59,8 @@ body {
   .intro .container {
     padding: 100px 20px; }
     .intro .container h1 {
-      margin-bottom: 40px; }
+      margin-bottom: 40px;
+      text-transform: uppercase; }
     .intro .container h2 {
       font-weight: 200; }
     .intro .container .contactbutton {
