@@ -157,6 +157,7 @@ body {
       margin: 0;
       background: rgba(39,39,39,0.87);
       transition: all 0.4s ease-in-out;
+      z-index: 1;
       h3 {
         font-size: 140%;
       }
@@ -215,7 +216,6 @@ body {
     height: 32px;
   }
 }
-
 
 @media screen and (max-width: 1400px) {
   .projects .container {
