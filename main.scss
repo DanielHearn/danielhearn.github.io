@@ -1,4 +1,5 @@
 $orange: #e69045;
+$light-orange: #ea9b56;
 $dark-grey: #2c3035;
 $light-grey: #494b4e;
 $grey: #d5d5d0;
@@ -12,76 +13,54 @@ body {
   color: $white;
   font-size: 16px;
   text-align: center;
-}
-
-h1 {
-  font-size: 500%;
-  font-weight: bold;
-  color: $white;
-  letter-spacing: 4px;
-  margin: 0;
-}
-
-h2 {
-  font-size: 240%;
-  font-weight: 300;
-  color: $white;
-  letter-spacing: 1px;
-}
-
-h3 {
-  font-size: 130%;
-  font-weight: 300;
-  color: $white;
-  margin-top: 20px;
-  line-height: 30px;
-}
-
-a {
-  color: $dark-grey;
-  text-decoration: none;
-  font-weight: 400;
-  &:hover {
-    text-decoration: underline;
-  }
-}
-
-span {
-  color: $dark-grey;
-  font-weight: 400;
-}
-
-button {
-  background:transparent;
-  border:2px solid $white;
-  color: white;
-  font-size: 140%;
-  font-weight: 600;
-  letter-spacing: 0.5px;
-  transition: all 0.3s;
-  cursor: pointer;
-  padding: 14px 24px;
-  margin: 0 auto;
-  margin-top: 20px;
-  &:hover {
-    background-color: $orange;
-    border: 2px solid  $orange;
+  h1 {
+    font-size: 500%;
+    font-weight: bold;
     color: $white;
+    letter-spacing: 4px;
+    margin: 0;
   }
-}
-
-.contactbutton {
-  background-color: $dark-grey;
-  color: $white;
-  border:2px solid $dark-grey;
-  font-size: 120%;
-  padding: 20px 28px;
-  margin-top: 40px;
-  margin-bottom: 40px;
-  &:hover {
-    background-color: $light-grey;
-    border: 2px solid  $light-grey;
+  h2 {
+    font-size: 240%;
+    font-weight: 300;
     color: $white;
+    letter-spacing: 1px;
+  }
+  h3 {
+    font-size: 130%;
+    font-weight: 300;
+    color: $white;
+    margin-top: 20px;
+    line-height: 30px;
+  }
+  a {
+    color: $dark-grey;
+    text-decoration: none;
+    font-weight: 400;
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+  span {
+    font-weight: 500;
+  }
+  button {
+    background: transparent;
+    border: 2px solid $white;
+    color: white;
+    font-size: 140%;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    transition: all 0.3s;
+    cursor: pointer;
+    padding: 14px 24px;
+    margin: 0 auto;
+    margin-top: 20px;
+    &:hover {
+      background-color: $orange;
+      border: 2px solid  $orange;
+      color: $white;
+    }
   }
 }
 
@@ -102,6 +81,20 @@ button {
     h2 {
       font-weight: 200;
     }
+    .contactbutton {
+      background-color: $dark-grey;
+      color: $white;
+      border:2px solid $dark-grey;
+      font-size: 120%;
+      padding: 20px 28px;
+      margin-top: 40px;
+      margin-bottom: 40px;
+      &:hover {
+        background-color: $light-grey;
+        border: 2px solid  $light-grey;
+        color: $white;
+      }
+    }
   }
 }
 
@@ -118,6 +111,16 @@ button {
     h3 {
       color: #676764;
     }
+    a {
+      color:  #e69045
+    }
+    .bar {
+      width: 100%;
+      height: 2px;
+      background: $grey;
+      display: block;
+      margin: 30px 0;
+    }
   }
 }
 
@@ -125,7 +128,55 @@ button {
   background-color: $orange;
   width: 100%;
   .container {
-    max-width: 1000px;
+    max-width: 900px;
+  }
+}
+
+.projectcontainer {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  .projectbox {
+    display: inline-block;
+    position: relative;
+    width: 48%;
+    margin-bottom: 20px;
+    .projectimg {
+      max-width: 100%;
+    }
+    .projectoverlay {
+      position: absolute;
+      top: 0;
+      left: 0;
+      visibility: hidden;
+      opacity: 0;
+      height: 99.5%;
+      width: 100%;
+      margin: 0;
+      background: rgba(39,39,39,0.87);
+      transition: all 0.4s ease-in-out;
+      p {
+        margin: 1em 1em;
+      }
+      .projectbutton {
+        padding: 10px 14px;
+        margin-top: 6px;
+        background: $orange;
+        border:2px solid $orange;
+        &:hover {
+          background: $light-orange;
+          border: 2px solid $light-orange;
+        }
+        p {
+          margin: 0;
+        }
+      }
+    }
+    &:hover .projectoverlay{
+      opacity: 1;
+      visibility: visible;
+    }
   }
 }
 
@@ -143,48 +194,23 @@ button {
     }
     a {
       color: $white;
+      text-decoration: underline;
       &:hover {
-        text-decoration: underline;
       }
     }
   }
-}
-
-.bar {
-  width: 100%;
-  height: 2px;
-  background: $grey;
-  display: block;
-  margin: 30px 0;
 }
 
 .iconbutton {
   padding: 8px 16px;
   position: relative;
   top: 6px;
+  .iconimg {
+    width: 32px;
+    height: 32px;
+  }
 }
 
-.iconimg {
-  width: 32px;
-  height: 32px;
-}
-
-.projectcontainer {
-  width: 100%;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-}
-
-.projectbox {
-  display: inline-block;
-  width: 48%;
-  padding: 0.25rem;
-}
-
-.projectimg {
-  max-width: 100%;
-}
 
 @media screen and (max-width: 1400px) {
   .projects .container {
@@ -206,14 +232,17 @@ button {
     width: 28px;
     height: 28px;
   }
-  .projectbox {
+  .projectcontainer .projectbox {
     width: 48%;
   }
   body {
     font-size: 90%;
-  }
-  h1 {
-    font-size: 400%;
+    h1 {
+      font-size: 400%;
+    }
+    h2 {
+      font-size: 180%;
+    }
   }
 }
 
@@ -225,7 +254,7 @@ button {
   .about .container {
     max-width: 600px;
   }
-  .projectbox {
+  .projectcontainer .projectbox {
     width: 100%;
   }
 }
