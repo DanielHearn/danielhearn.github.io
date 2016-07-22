@@ -30,7 +30,7 @@ body {
     body a:hover {
       text-decoration: underline; }
   body span {
-    font-weight: 500; }
+    font-weight: bold; }
   body button {
     background: transparent;
     border: 2px solid #f5f5f5;
@@ -99,7 +99,7 @@ body {
   background-color: #e69045;
   width: 100%; }
   .projects .container {
-    max-width: 900px; }
+    max-width: 1000px; }
 
 .projectcontainer {
   width: 100%;
