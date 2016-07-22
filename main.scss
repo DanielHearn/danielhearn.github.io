@@ -157,8 +157,12 @@ body {
       margin: 0;
       background: rgba(39,39,39,0.87);
       transition: all 0.4s ease-in-out;
+      h3 {
+        font-size: 140%;
+      }
       p {
         margin: 1.5em 1.5em;
+        font-size: 110%;
       }
       .projectbutton {
         padding: 8px 16px;
