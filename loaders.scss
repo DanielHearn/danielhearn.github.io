@@ -15,6 +15,14 @@
   &:nth-child(5)  {
     background: #de4e40;
   }
+  h3 {
+    margin: 0 auto;
+    position: relative;
+    top: 75%;
+    a {
+      color: $white;
+    }
+  }
 }
 
 textarea {
@@ -74,8 +82,8 @@ textarea {
 
 .pulse {
     margin: 0 auto;
-    width: 70px;
-    height: 70px;
+    width: 60px;
+    height: 60px;
     border-radius: 60px;
     background-color: white;
     animation: pulseanim 1s ease-in-out infinite;
@@ -174,5 +182,8 @@ textarea {
 @media screen and (max-width: 750px) {
   .loadercontainer {
     height: 300px;
+    a {
+      top: 60%;
+    }
   }
 }
