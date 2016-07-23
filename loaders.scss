@@ -1,0 +1,189 @@
+.loaderrow {
+  width: 100%;
+  display: inline-block;
+  .loadercontainer {
+    width: 50%;
+    height: 500px;
+    background-color: $dark-grey;
+    display: inline-block;
+  }
+  .loadercode {
+    width: 50%;
+    height: 500px;
+    background-color: $white;
+    display: inline-block;
+    h2 {
+      color: $dark-grey;
+      margin: 0 5px;
+    }
+  }
+  textarea {
+    width: 100%;
+    outline: 0;
+    resize: none;
+  }
+  .loader {
+    margin: 0 auto;
+    position: relative;
+    top: 40%;
+  }
+}
+
+
+/* Stairs Loader */
+
+.stairs {
+  max-width: 60px;
+  max-height: 60px;
+  text-align: center;
+  font-size: 1.2em;
+}
+
+.box {
+  height: 30px;
+  width: 30px;
+  background-color: white;
+  position: relative;
+  animation: stairsanim 3s infinite;
+}
+
+.stair2 {
+  bottom: 30px;
+  left: 30px;
+  animation-delay: 0.3s;
+}
+
+.stair3 {
+  bottom: 30px;
+  left: 30px;
+  animation-delay: 0.6s;
+}
+
+.stair4 {
+  bottom: 60px;
+  animation-delay: 0.9s;
+}
+
+@keyframes stairsanim {
+    0%   {opacity: 1;}
+    40% {opacity: 0;}
+    50% {opacity: 0;}
+    90% {opacity: 1;}
+    100% {opacity: 1;}
+}
+
+/* Pulse Loader */
+
+.pulse {
+    margin: 0 auto;
+    width: 70px;
+    height: 70px;
+    border-radius: 60px;
+    background-color: white;
+    animation: pulseanim 1s ease-in-out infinite;
+}
+
+@keyframes pulseanim {
+    0% { transform: scale(0); }
+    100% { transform: scale(1); opacity: 0;}
+}
+
+/* Three Dot Loader */
+
+.dot {
+  width: 20px;
+  height: 20px;
+  border-radius: 60px;
+  background-color: white;
+  position: relative;
+  margin: 0 auto;
+  animation: dotanim 1.6s infinite ease-in-out;
+}
+
+.dot1 {
+  right: 25px;
+  animation-delay: 0s;
+}
+
+.dot2 {
+  bottom: 20px;
+  animation-delay: 0.3s;
+}
+
+.dot3 {
+  bottom: 40px;
+  left: 25px;
+  animation-delay: 0.6s;
+}
+
+@keyframes dotanim {
+  0% { transform: scale(1); }
+  50% { transform: scale(0); }
+  100% { transform: scale(1); }
+}
+
+/* Slider Loader */
+
+.slider {
+  max-width: 52px;
+}
+
+.rect {
+  height: 16px;
+  width: 8px;
+  background-color: #FFF;
+  display: inline-block;
+  animation: slideanim 1.4s ease-in-out infinite;
+  margin-right: -1px;
+}
+
+.slider2 {
+  animation-delay: 0.15s;
+}
+
+.slider3 {
+  animation-delay: 0.3s;
+}
+
+.slider4 {
+  animation-delay: 0.45s;
+}
+
+.slider5 {
+  animation-delay: 0.6s;
+}
+
+@keyframes slideanim {
+  0% {transform: scaleY(1);}
+  25% {transform: scaleY(3);}
+  50% {transform: scaleY(1);}
+  100% {transform: scaleY(1);}
+}
+
+@media screen and (min-width: 750px) {
+  .loaderrow .loadercontainer {
+      float: left;
+  }
+  .loaderrow .loadercode {
+      float: left;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .loaderrow {
+    .loadercontainer {
+      width: 100%;
+      display: block;
+    }
+    .loadercode {
+      width: 100%;
+      display: block;
+    }
+  }
+}
+
+@media screen and (max-width: 750px) {
+  .loaderrow .loadercontainer {
+      height: 300px;
+  }
+}

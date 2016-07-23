@@ -19,57 +19,146 @@
 <body>
     <div class="intro">
       <div class="container">
-        <h1>CSS</h1>
-        <h2>17 Year old student interested in the web</h2>
-        <a href="mailto:daniel_hearn@outlook.com"><button class="contactbutton">Contact Me</button></a>
+        <h1 class="mobiletitle">CSS Loaders</h1>
+        <h3>CSSLoaders is a collection of loading animations animated in css, the code provided allows the animations to be easily implemented into any project, the collection is also open-source.</h3>
+        <a href="https://github.com/DanielHearn/CSSLoaders"><button class="contactbutton">View on Github</button></a>
       </div>
     </div>
-    <div class="about">
-      <div class="container">
-        <span class="bar"></span>
-        <h2>About</h2>
-        <h3>I aim to create unique, responsive and interactive experiences.You can check out my work over at my <a href="http://behance.net/Danielhearn">behance</a> or check out
-        some of my experiments on <a href="http://codepen.io/danhearn/">codepen</a>.</h3>
-        <h3>Currently my skills include, <span>CSS</span>, <span>HTML 5</span>, <span>Git</span>, <span>Photoshop</span>.</h3>
-        <h3>I'm also actively learning new technologies and continuing to
-        advance my existing skills.</h3>
-        <span class="bar"></span>
-      </div>
-    </div>
-    <div class="projects">
-      <div class="container">
-          <h2>Projects</h2>
-            <div class="projectcontainer">
-              <div class="projectbox">
-                <div class="projectoverlay">
-                  <h3>CSSLoaders</h3>
-                  <p>Collection of loading animations created with CSS.</p>
-                  <a href="http://danielhearn.co.uk/cssloaders"><button class="projectbutton"><p>View</p></button></a>
-                  <a href="https://github.com/DanielHearn/CSSLoaders"><button class="projectbutton"><p>Github</p></button></a>
-                </div>
-                <img class="projectimg" src="images/Project1.jpg">
+    <div class="loaderrow">
+        <div class="loadercontainer">
+          <div class="stairs loader">
+            <div class="box"></div>
+            <div class="box stair2"></div>
+            <div class="box stair3"></div>
+            <div class="box stair4"></div>
+          </div>
+        </div>
+        <div class="loadercode">
+            <h2>HTML</h2>
+            <textarea readonly="" class="css-code">
+              <div class="stairs loader">
+                <div class="box"></div>
+                <div class="box stair2"></div>
+                <div class="box stair3"></div>
+                <div class="box stair4"></div>
               </div>
-              <div class="projectbox">
-                <div class="projectoverlay">
-                  <h3>Project 2</h3>
-                  <p>Information on what project two is.</p>
-                  <a href="#"><button class="projectbutton"><p>View</p></button></a>
-                  <a href="#"><button class="projectbutton"><p>Github</p></button></a>
-                </div>
-                <img class="projectimg" src="images/Projectplaceholder2.jpeg">
-              </div>
+            </textarea>
+            <h2>CSS</h2>
+            <textarea readonly="" class="css-code">
+.loader {
+  margin: 0 auto;
+  margin-top: 80px;
+  margin-bottom: 80px;
+}
 
-            </div>
-      </div>
+.stairs {
+ max-width: 60px;
+ text-align: center;
+ font-size: 1.2em;
+}
+
+.box {
+  height: 30px;
+  width: 30px;
+  background-color: white;
+  position: relative;
+  animation: stairsanim 3s infinite;
+}
+
+.stair2 {
+  bottom: 30px;
+  left: 30px;
+  animation-delay: 0.3s;
+}
+
+.stair3 {
+  bottom: 30px;
+  left: 30px;
+  animation-delay: 0.6s;
+}
+
+.stair4 {
+  bottom: 60px;
+  animation-delay: 0.9s;
+}
+
+@keyframes stairsanim {
+  0%   {opacity: 1;}
+  40% {opacity: 0;}
+  50% {opacity: 0;}
+  90% {opacity: 1;}
+  100% {opacity: 1;}
+}
+          </textarea>
+        </div>
     </div>
-    <div class="contact">
-      <div class="container">
-        <h2>Contact</h2>
-        <h3>You can email me over at <a href="mailto:daniel_hearn@outlook.com">daniel_hearn@outlook.com</a><h3>
-        <a href="http://www.behance.net/Danielhearn"><button class="iconbutton"><img class="iconimg" src="images/behance.svg"></button></a>
-        <a href="http://www.codepen.io/danhearn/"><button class="iconbutton"><img class="iconimg" src="images/codepen.svg"></button></a>
-        <a href="https://www.github.com/DanielHearn"><button class="iconbutton"><img class="iconimg" src="images/github.svg"></button></a>
-      </div>
+    <div class="loaderrow">
+        <div class="loadercontainer">
+          <div class="stairs loader">
+            <div class="box"></div>
+            <div class="box stair2"></div>
+            <div class="box stair3"></div>
+            <div class="box stair4"></div>
+          </div>
+        </div>
+        <div class="loadercode">
+            <h2>HTML</h2>
+            <textarea readonly="" class="css-code">
+              <div class="stairs loader">
+                <div class="box"></div>
+                <div class="box stair2"></div>
+                <div class="box stair3"></div>
+                <div class="box stair4"></div>
+              </div>
+            </textarea>
+            <h2>CSS</h2>
+            <textarea readonly="" class="css-code">
+.loader {
+  margin: 0 auto;
+  margin-top: 80px;
+  margin-bottom: 80px;
+}
+
+.stairs {
+ max-width: 60px;
+ text-align: center;
+ font-size: 1.2em;
+}
+
+.box {
+  height: 30px;
+  width: 30px;
+  background-color: white;
+  position: relative;
+  animation: stairsanim 3s infinite;
+}
+
+.stair2 {
+  bottom: 30px;
+  left: 30px;
+  animation-delay: 0.3s;
+}
+
+.stair3 {
+  bottom: 30px;
+  left: 30px;
+  animation-delay: 0.6s;
+}
+
+.stair4 {
+  bottom: 60px;
+  animation-delay: 0.9s;
+}
+
+@keyframes stairsanim {
+  0%   {opacity: 1;}
+  40% {opacity: 0;}
+  50% {opacity: 0;}
+  90% {opacity: 1;}
+  100% {opacity: 1;}
+}
+          </textarea>
+        </div>
     </div>
 </body>
 </html>

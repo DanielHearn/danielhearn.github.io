@@ -217,6 +217,8 @@ body {
   }
 }
 
+@import 'loaders';
+
 @media screen and (max-width: 1400px) {
   .projects .container {
     max-width: 800px;
@@ -261,6 +263,9 @@ body {
   }
   .projectcontainer .projectbox {
     width: 100%;
+  }
+  .mobiletitle {
+    font-size: 300%;
   }
 }
 
