@@ -1,9 +1,22 @@
 .loadercontainer {
   width: 50%;
   height: 500px;
-  background-color: $dark-grey;
+  background: $dark-grey;
   display: inline-block;
+  &:nth-child(2)  {
+    background: $dark-grey;
+  }
+  &:nth-child(3)  {
+    background: #33475a;
+  }
+  &:nth-child(4)  {
+    background: #2ab565;
+  }
+  &:nth-child(5)  {
+    background: #de4e40;
+  }
 }
+
 textarea {
   width: 100%;
   outline: 0;
