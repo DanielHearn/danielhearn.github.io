@@ -1,34 +1,19 @@
-.loaderrow {
-  width: 100%;
+.loadercontainer {
+  width: 50%;
+  height: 500px;
+  background-color: $dark-grey;
   display: inline-block;
-  .loadercontainer {
-    width: 50%;
-    height: 500px;
-    background-color: $dark-grey;
-    display: inline-block;
-  }
-  .loadercode {
-    width: 50%;
-    height: 500px;
-    background-color: $white;
-    display: inline-block;
-    h2 {
-      color: $dark-grey;
-      margin: 0 5px;
-    }
-  }
-  textarea {
-    width: 100%;
-    outline: 0;
-    resize: none;
-  }
-  .loader {
-    margin: 0 auto;
-    position: relative;
-    top: 40%;
-  }
 }
-
+textarea {
+  width: 100%;
+  outline: 0;
+  resize: none;
+}
+.loader {
+  margin: 0 auto;
+  position: relative;
+  top: 40%;
+}
 
 /* Stairs Loader */
 
@@ -161,29 +146,20 @@
 }
 
 @media screen and (min-width: 750px) {
-  .loaderrow .loadercontainer {
-      float: left;
-  }
-  .loaderrow .loadercode {
+  .loadercontainer {
       float: left;
   }
 }
 
 @media screen and (max-width: 1000px) {
-  .loaderrow {
-    .loadercontainer {
-      width: 100%;
-      display: block;
-    }
-    .loadercode {
-      width: 100%;
-      display: block;
-    }
+  .loadercontainer {
+    width: 100%;
+    display: block;
   }
 }
 
 @media screen and (max-width: 750px) {
-  .loaderrow .loadercontainer {
-      height: 300px;
+  .loadercontainer {
+    height: 300px;
   }
 }
