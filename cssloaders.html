@@ -4,9 +4,10 @@
    <meta charset="UTF-8">
 	 <meta name="viewport" content="width=device-width, initial-scale=1">
    <title>Daniel Hearn</title>
-	 <link rel="icon" type="image/png" href="Favicon.png">
+	 <link rel="icon" type="image/png" href="images/Favicon.png">
    <link href="main.css" rel="stylesheet">
    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700" rel="stylesheet">
+   <script src="modals.js"></script>
    <script>
      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -20,40 +21,227 @@
     <div class="intro">
       <div class="container">
         <h1 class="mobiletitle">CSS Loaders</h1>
-        <h3>CSSLoaders is a collection of loading animations animated in css, the code provided allows the animations to be easily implemented into any project, the collection is also open-source.</h3>
+        <h3>CSSLoaders is a collection of loading animations created in css, the code provided allows the animations to be easily implemented into any project, the collection is also open-source.</h3>
         <a href="https://github.com/DanielHearn/CSSLoaders"><button class="contactbutton">View on Github</button></a>
       </div>
     </div>
     <div class="loadercontainer">
-      <div class="stairs loader">
-        <div class="box"></div>
-        <div class="box stair2"></div>
-        <div class="box stair3"></div>
-        <div class="box stair4"></div>
+      <div class="loader">
+        <div class="stair"></div>
+        <div class="stair"></div>
+        <div class="stair"></div>
+        <div class="stair"></div>
       </div>
-      <h3><a href="#">View code</a></h3>
+      <h3><a id="buttonstairs">View code</a></h3>
     </div>
     <div class="loadercontainer">
       <div class="pulse loader"></div>
-      <h3><a href="#">View code</a></h3>
+      <h3><a id="buttonpulse">View code</a></h3>
     </div>
     <div class="loadercontainer">
-      <div class="three-dot loader">
-        <div class="dot dot1"></div>
-        <div class="dot dot2"></div>
-        <div class="dot dot3"></div>
+      <div class="threedotloader loader">
+        <div class="dot"></div>
+        <div class="dot"></div>
+        <div class="dot"></div>
       </div>
-      <h3><a href="#">View code</a></h3>
+      <h3><a id="buttondot">View code</a></h3>
     </div>
     <div class="loadercontainer">
       <div class="slider loader">
-        <div class="rect slider1"></div>
-        <div class="rect slider2"></div>
-        <div class="rect slider3"></div>
-        <div class="rect slider4"></div>
-        <div class="rect slider5"></div>
+        <div class="rect"></div>
+        <div class="rect"></div>
+        <div class="rect"></div>
+        <div class="rect "></div>
+        <div class="rect"></div>
       </div>
-      <h3><a href="#">View code</a></h3>
+      <h3><a id="buttonslider">View code</a></h3>
     </div>
+    <div id="modalstairs" class="modal">
+      <div class="modalcontent">
+        <span id="closestairs" class="close">×</span>
+        <p>HTML</p>
+        <textarea readonly="">
+<div class="stairloader">
+  <div class="stair"></div>
+  <div class="stair"></div>
+  <div class="stair"></div>
+  <div class="stair"></div>
+</div>
+        </textarea>
+        <p>CSS</p>
+        <textarea readonly="" class="csscode">
+.stairloader {
+  margin: 0 auto;
+  margin-top: 40vh;
+  max-width: 60px;
+}
+
+.stair {
+  height: 30px;
+  width: 30px;
+  background-color: white;
+  float: right;
+  animation: stairanim 3s infinite;
+}
+
+.stair:nth-child(1) {
+  float: left;
+}
+
+.stair:nth-child(2) {
+  animation-delay: 0.3s;
+}
+
+.stair:nth-child(3) {
+  animation-delay: 0.6s;
+}
+
+.stair:nth-child(4) {
+  animation-delay: 0.9s;
+}
+
+@keyframes stairanim {
+  0% {opacity: 1;}
+  40% {opacity: 0;}
+  50% {opacity: 0;}
+  90% {opacity: 1;}
+  100% {opacity: 1;}
+}
+        </textarea>
+      </div>
+   </div>
+   <div id="modalpulse" class="modal">
+     <div class="modalcontent">
+       <span id="closepulse" class="close">×</span>
+       <p>HTML</p>
+       <textarea readonly="">
+<div class="pulse loader"></div>
+       </textarea>
+       <p>CSS</p>
+       <textarea readonly="" class="csscode">
+.pulse {
+ margin: 0 auto;
+ margin-top: 40vh;
+ width: 60px;
+ height: 60px;
+ border-radius: 60px;
+ background-color: white;
+ animation: pulse 1.2s ease-in-out infinite;
+}
+
+@keyframes pulse {
+ 0% { transform: scale(0);}
+ 100% { transform: scale(1); opacity: 0;}
+}
+       </textarea>
+     </div>
+   </div>
+   <div id="modaldot" class="modal">
+     <div class="modalcontent">
+       <span id="closedot" class="close">×</span>
+       <p>HTML</p>
+       <textarea readonly="">
+<div class="threedotloader">
+ <div class="dot"></div>
+ <div class="dot"></div>
+ <div class="dot"></div>
+</div>
+       </textarea>
+       <p>CSS</p>
+       <textarea readonly="" class="csscode">
+.threedotloader {
+ margin: 0 auto;
+ margin-top: 40vh;
+ max-width: 20px;
+}
+
+.dot {
+ width: 20px;
+ height: 20px;
+ border-radius:60px;
+ background-color: white;
+ position: relative;
+ animation: dotanim 2s infinite ease-in-out;
+}
+
+.dot:nth-child(1) {
+ right: 25px;
+ animation-delay: 0s;
+}
+
+.dot:nth-child(2) {
+ bottom: 20px;
+ animation-delay: 0.3s;
+}
+
+.dot:nth-child(3) {
+ bottom: 40px;
+ left: 25px;
+ animation-delay: 0.6s;
+}
+
+@keyframes dotanim {
+ 0% { transform: scale(1); }
+ 40% { transform: scale(0); }
+ 60% { transform: scale(0); }
+ 100% { transform: scale(1); }
+}
+       </textarea>
+     </div>
+   </div>
+   <div id="modalslider" class="modal">
+     <div class="modalcontent">
+       <span id="closeslider" class="close">×</span>
+       <p>HTML</p>
+       <textarea readonly="">
+<div class="sliderloader">
+ <div class="rect"></div>
+ <div class="rect"></div>
+ <div class="rect"></div>
+ <div class="rect"></div>
+ <div class="rect"></div>
+</div>
+       </textarea>
+       <p>CSS</p>
+       <textarea readonly="" class="csscode">
+.sliderloader {
+ padding-top: 40vh;
+ text-align: center;
+}
+
+.rect {
+ height: 16px;
+ width: 8px;
+ background-color: #FFF;
+ display: inline-block;
+ animation: slideranim 1.4s ease-in-out infinite;
+ margin-right: -1px;
+}
+
+.rect:nth-child(2) {
+ animation-delay: 0.15s;
+}
+
+.rect:nth-child(3) {
+ animation-delay: 0.3s;
+}
+
+.rect:nth-child(4) {
+ animation-delay: 0.45s;
+}
+
+.rect:nth-child(5) {
+ animation-delay: 0.6s;
+}
+
+@keyframes slideranim {
+ 0% {transform: scaleY(1);}
+ 25% {transform: scaleY(3);}
+ 50% {transform: scaleY(1);}
+ 100% {transform: scaleY(1);}
+}
+       </textarea>
+     </div>
+   </div>
 </body>
 </html>
