@@ -178,6 +178,10 @@
         height: 80%;
         color: black;
         text-align: left;
+        .scss-link {
+          color: $light-grey;
+          cursor: pointer;
+        }
         textarea {
           color: $dark-grey;
           cursor: text;
@@ -233,5 +237,11 @@
   }
   .modal .modalcontent .csscode {
     height: 50%;
+  }
+}
+
+@media screen and (max-height: 400px) {
+  .modal .modalcontent .csscode {
+      height: 30%;
   }
 }
