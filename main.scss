@@ -58,6 +58,9 @@ body {
       position: relative;
       top: 7px;
     }
+    a {
+      display: inline-block;
+    }
   }
 }
 
@@ -70,6 +73,9 @@ body {
       h2 {
         font-size: 1.6rem;
       }
+  }
+  a {
+    display: block;
   }
 }
 
