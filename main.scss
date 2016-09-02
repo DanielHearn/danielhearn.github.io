@@ -12,6 +12,7 @@ body {
   .container {
       padding: 80px 20px;
       margin: 0 auto;
+      margin-top: 15vh;
       max-width: 650px;
     h1 {
       font-size: 4rem;
@@ -61,7 +62,7 @@ body {
   }
 }
 
-@media screen and (max-width: 350px) {
+@media screen and (max-width: 450px) {
   body .container {
     padding: 20px 20px;
       h1 {
@@ -73,9 +74,15 @@ body {
   }
 }
 
-@media screen and (min-width: 350px) and (max-width: 750px) {
+@media screen and (min-width: 450px) and (max-width: 750px) {
   body .container {
     padding: 40px 20px;
+  }
+}
+
+@media screen and (max-width: 1050px) {
+  body .container {
+    margin-top: 0;
   }
 }
 
