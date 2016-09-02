@@ -61,12 +61,6 @@ body {
   }
 }
 
-@media screen and (max-width: 750px) {
-  body .container {
-    padding: 40px 20px;
-  }
-}
-
 @media screen and (max-width: 350px) {
   body .container {
     padding: 20px 20px;
@@ -76,6 +70,12 @@ body {
       h2 {
         font-size: 1.6rem;
       }
+  }
+}
+
+@media screen and (max-width: 750px) {
+  body .container {
+    padding: 40px 20px;
   }
 }
 
