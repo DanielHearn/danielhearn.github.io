@@ -61,7 +61,7 @@ body {
   }
 }
 
-@media (max-width: 350px) {
+@media screen and (max-width: 350px) {
   body .container {
     padding: 20px 20px;
       h1 {
@@ -73,7 +73,7 @@ body {
   }
 }
 
-@media (max-width: 750px) {
+@media screen and (max-width: 750px) {
   body .container {
     padding: 40px 20px;
   }
