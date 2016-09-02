@@ -73,6 +73,12 @@ body {
   }
 }
 
+@media screen and (max-width: 750px) {
+  body .container {
+    padding: 40px 20px;
+  }
+}
+
 @-ms-viewport{
   width: device-width;
 }
