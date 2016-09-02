@@ -1,278 +1,75 @@
-$orange: #e69045;
-$light-orange: #ea9b56;
+$orange: #f6926a;
+$white: #fff;
 $dark-grey: #2c3035;
-$light-grey: #3c3d40;
-$grey: #d5d5d0;
-$white: #f5f5f5;
 
 body {
   -webkit-font-smoothing: antialiased;
   font-family: 'Montserrat', sans-serif;
-  background-color: $white;
+  background-color: $orange;
   margin: 0;
   color: $white;
-  font-size: 16px;
   text-align: center;
-  h1 {
-    font-size: 500%;
-    font-weight: bold;
-    color: $white;
-    letter-spacing: 4px;
-    margin: 0;
-  }
-  h2 {
-    font-size: 240%;
-    font-weight: 300;
-    color: $white;
-    letter-spacing: 1px;
-  }
-  h3 {
-    font-size: 130%;
-    font-weight: 300;
-    color: $white;
-    margin-top: 20px;
-    line-height: 30px;
-  }
-  a {
-    color: $dark-grey;
-    text-decoration: none;
-    font-weight: 400;
-    &:hover {
-      text-decoration: underline;
-    }
-  }
-  span {
-    font-weight: bold;
-  }
-  button {
-    background: transparent;
-    border: 2px solid $orange;
-    color: white;
-    font-size: 120%;
-    font-weight: bold;
-    letter-spacing: 0.5px;
-    transition: all 0.3s;
-    cursor: pointer;
-    padding: 14px 24px;
-    margin: 0 auto;
-    margin-top: 20px;
-    &:hover {
-      background-color: $orange;
-      border: 2px solid  $orange;
-      color: $white;
-    }
-  }
-}
-
-.container {
-  padding: 80px 20px;
-  margin: 0 auto;
-  max-width: 800px;
-}
-
-.intro {
-  background-color: $orange;
-  width: 100%;
   .container {
-    padding: 100px 20px;
+      padding: 80px 20px;
+      margin: 0 auto;
+      max-width: 650px;
     h1 {
-      margin-bottom: 40px;
+      font-size: 4rem;
       text-transform: uppercase;
+      letter-spacing: 2px;
+      margin: 20px 0;
     }
     h2 {
+      font-size: 2rem;
       font-weight: 200;
-      font-size: 220%;
-    }
-    .contactbutton {
-      background-color: $dark-grey;
-      color: $white;
-      border:2px solid $dark-grey;
-      font-size: 120%;
-      padding: 20px 28px;
-      margin-top: 40px;
-      margin-bottom: 40px;
-      &:hover {
-        background-color: $light-grey;
-        border: 2px solid  $light-grey;
-        color: $white;
-      }
-    }
-  }
-}
-
-.about {
-  background-color: $white;
-  color: $dark-grey;
-  width: 100%;
-  .container {
-    max-width: 1000px;
-    h2 {
-      color: #333332;
-      margin-bottom: 20px;
+      margin: 8px 0;
     }
     h3 {
-      color: #676764;
+      font-weight: 300;
+      margin: 20px 0;
     }
-    a {
-      color:  $light-orange;
-    }
-    .bar {
-      width: 100%;
-      height: 2px;
-      background: $grey;
+    span {
+      width: 98%;
+      height: 5px;
+      background: $white;
       display: block;
-      margin: 30px 0;
+      text-align: center;
+      margin: 0 auto;
     }
-  }
-}
-
-.projects {
-  background-color: $orange;
-  width: 100%;
-  .container {
-    max-width: 1000px;
-  }
-}
-
-.projectcontainer {
-  width: 100%;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  .projectbox {
-    display: inline-block;
-    position: relative;
-    width: 48%;
-    margin-bottom: 20px;
-    .projectimg {
-      max-width: 100%;
-    }
-    .projectoverlay {
-      position: absolute;
-      top: 0;
-      left: 0;
-      visibility: hidden;
-      opacity: 0;
-      height: 99.5%;
-      width: 100%;
-      margin: 0;
-      background: rgba(39,39,39,0.87);
-      transition: all 0.4s ease-in-out;
-      z-index: 1;
-      h3 {
-        font-size: 140%;
-      }
-      p {
-        margin: 1.5em 1.5em;
-        font-size: 110%;
-      }
-      .projectbutton {
-        padding: 8px 16px;
-        margin-top: 6px;
-        background: $orange;
-        border:2px solid $orange;
-        &:hover {
-          background: $light-orange;
-          border: 2px solid $light-orange;
-        }
-        p {
-          margin: 0;
-        }
-      }
-    }
-    &:hover .projectoverlay{
-      opacity: 1;
-      visibility: visible;
-    }
-  }
-}
-
-.contact {
-  background-color: $dark-grey;
-  color: $white;
-  width: 100%;
-  .container {
-    h2 {
-      color: $white;
-      margin-bottom: 20px;
-    }
-    h3 {
-      color: $white;
-    }
-    a {
-      color: $white;
-      text-decoration: underline;
+    button {
+      background-color: $white;
+      border: none;
+      color: $orange;
+      font-size: 1.2rem;
+      padding: 20px 28px;
+      transition: all 0.5s;
+      cursor: pointer;
+      box-shadow: inset 0 0 $dark-grey;
       &:hover {
+        box-shadow: inset 0 -65px $dark-grey;
+      }
+      img {
+        width: 32px;
+        height: 32px;
       }
     }
-  }
-}
-
-.iconbutton {
-  padding: 8px 16px;
-  position: relative;
-  top: 6px;
-  .iconimg {
-    width: 32px;
-    height: 32px;
-  }
-}
-
-@import 'loaders';
-
-@media screen and (max-width: 1400px) {
-  .projects .container {
-    max-width: 800px;
-  }
-}
-
-@media screen and (max-width: 1000px) {
-  .container {
-    padding: 40px 20px;
-  }
-  .intro .container {
-    max-width: 700px;
-  }
-  .about .container {
-    max-width: 700px;
-  }
-  .iconimg {
-    width: 28px;
-    height: 28px;
-  }
-  .projectcontainer .projectbox {
-    width: 48%;
-  }
-  body {
-    font-size: 90%;
-    h1 {
-      font-size: 400%;
+    .btn-img {
+      padding: 13px 22px;
+      position: relative;
+      top: 7px;
     }
-    h2 {
-      font-size: 180%;
-    }
-  }
-}
-
-@media screen and (max-width: 750px) {
-  .intro .container {
-    max-width: 600px;
-    padding: 30px 20px;
-  }
-  .about .container {
-    max-width: 600px;
-  }
-  .projectcontainer .projectbox {
-    width: 100%;
-  }
-  .mobiletitle {
-    font-size: 300%;
   }
 }
 
 @media screen and (max-width: 350px) {
-  .intro .container {
+  body .container {
     padding: 20px 20px;
+      h1 {
+        font-size: 3rem;
+      }
+      h2 {
+        font-size: 1.6rem;
+      }
   }
 }
 
