@@ -26,7 +26,7 @@ body {
       margin: 8px 0;
     }
     h3 {
-      font-weight: 300;
+      font-weight: 200;
       margin: 20px 0;
     }
     span {
@@ -68,6 +68,7 @@ body {
 @media screen and (max-width: 350px) {
   body .container {
     padding: 20px 20px;
+    margin-top: 0;
       h1 {
         font-size: 2rem;
       }
@@ -83,6 +84,7 @@ body {
 @media screen and (min-width: 350px) and (max-width: 450px) {
   body .container {
     padding: 20px 20px;
+    margin-top: 0;
       h1 {
         font-size: 2.5rem;
       }
@@ -95,18 +97,13 @@ body {
 @media screen and (min-width: 450px) and (max-width: 750px) {
   body .container {
     padding: 40px 20px;
+    margin-top: 0;
     h1 {
       font-size: 3.6rem;
     }
     h2 {
       font-size: 1.8rem;
     }
-  }
-}
-
-@media screen and (max-width: 1050px) {
-  body .container {
-    margin-top: 0;
   }
 }
 
