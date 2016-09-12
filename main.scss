@@ -9,66 +9,65 @@ body {
   margin: 0;
   color: $white;
   text-align: center;
-  .container {
-      padding: 80px 20px;
-      margin: 0 auto;
-      margin-top: 15vh;
-      max-width: 650px;
-    h1 {
-      font-size: 4.8rem;
-      text-transform: uppercase;
-      letter-spacing: 2px;
-      margin: 20px 0;
-    }
-    h2 {
-      font-size: 2rem;
-      font-weight: 200;
-      margin: 8px 0;
-    }
-    h3 {
-      font-weight: 200;
-      margin: 20px 0;
-      font-size: 1.2rem;
-    }
-    span {
-      width: 98%;
-      height: 5px;
-      background: $white;
-      display: block;
-      text-align: center;
-      margin: 0 auto;
-    }
-    button {
-      background-color: $white;
-      border: none;
-      border-radius: 0;
-      color: $orange;
-      font-size: 1.2rem;
-      padding: 20px 28px;
-      transition: all 0.5s;
-      cursor: pointer;
-      box-shadow: inset 0 0 $dark-grey;
-      &:hover {
-        box-shadow: inset 0 -65px $dark-grey;
+  .wrap {
+    .container {
+        max-width: 650px;
+      h1 {
+        font-size: 4.8rem;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+        margin: 20px 0;
       }
-      img {
-        width: 32px;
-        height: 32px;
+      h2 {
+        font-size: 2rem;
+        font-weight: 200;
+        margin: 8px 0;
       }
-    }
-    .btn-img {
-      padding: 12.5px 21.5px;
-      position: relative;
-      top: 7px;
-    }
-    .btn-wrap {
-      display: inline-block;
+      h3 {
+        font-weight: 200;
+        margin: 20px 0;
+        font-size: 1.2rem;
+      }
+      span {
+        width: 98%;
+        height: 5px;
+        background: $white;
+        display: block;
+        text-align: center;
+        margin: 0 auto;
+      }
+      button {
+        background-color: $white;
+        border: none;
+        border-radius: 0;
+        color: $orange;
+        font-size: 1.2rem;
+        padding: 20px 28px;
+        transition: all 0.5s;
+        cursor: pointer;
+        box-shadow: inset 0 0 $dark-grey;
+        &:hover {
+          box-shadow: inset 0 -65px $dark-grey;
+        }
+        img {
+          width: 32px;
+          height: 32px;
+        }
+      }
+      .btn-img {
+        padding: 12.5px 21.5px;
+        position: relative;
+        top: 7px;
+      }
+      .btn-wrap {
+        display: inline-block;
+      }
     }
   }
 }
 
 @media screen and (max-width: 350px) {
-  body .container {
+  body .wrap .container {
     padding: 20px 20px;
     margin-top: 0;
       h1 {
@@ -77,6 +76,9 @@ body {
       h2 {
         font-size: 1.6rem;
       }
+      h3 {
+        font-weight: 300;
+      }
       .btn-wrap {
       display: block;
       }
@@ -84,7 +86,7 @@ body {
 }
 
 @media screen and (min-width: 350px) and (max-width: 450px) {
-  body .container {
+  body .wrap .container {
     padding: 20px 20px;
     margin-top: 0;
       h1 {
@@ -100,7 +102,7 @@ body {
 }
 
 @media screen and (min-width: 450px) and (max-width: 750px) {
-  body .container {
+  body .wrap .container {
     padding: 40px 20px;
     margin-top: 0;
     h1 {
@@ -114,6 +116,21 @@ body {
     }
   }
 }
+
+@media screen and (max-height: 400px) {
+    body .wrap .container {
+        padding: 80px 20px;
+        margin: 0 auto;
+        margin-top: 15vh;
+    }
+}
+@media screen and (min-width: )
+display: flex;
+justify-content: center;
+align-items: center;
+text-align: center;
+flex-direction: column;
+height: 100vh;
 
 @-ms-viewport{
   width: device-width;
