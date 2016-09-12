@@ -9,8 +9,7 @@ body {
   margin: 0;
   color: $white;
   text-align: center;
-  .wrap {
-    .container {
+  .wrap .container {
         max-width: 650px;
       h1 {
         font-size: 4.8rem;
@@ -63,7 +62,6 @@ body {
         display: inline-block;
       }
     }
-  }
 }
 
 @media screen and (max-width: 350px) {
