@@ -1,4 +1,4 @@
-$orange: #f6926a;
+$orange: #ff7253;
 $white: #fff;
 $dark-grey: #2c3035;
 
@@ -119,6 +119,7 @@ body {
 
 @media screen and (max-height: 400px) {
     body .wrap .container {
+        padding: 20px 20px;
         margin: 0 auto;
     }
 }
