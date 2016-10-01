@@ -1,12 +1,13 @@
-$orange: #ef5c5c;
+$orange: #ef8a5c;
 $white: #fff;
 $dark-grey: #2c3035;
 
 body {
   -webkit-font-smoothing: antialiased;
   font-family: 'Montserrat', sans-serif;
-  background-color: $orange;
+  background: linear-gradient(to bottom, rgb(239, 101, 101), rgb(239, 139, 92));
   margin: 0;
+  height: 100vh;
   color: $white;
   text-align: center;
   .wrap {
