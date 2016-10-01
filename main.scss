@@ -43,7 +43,9 @@ body {
         border-radius: 0;
         color: $orange;
         font-size: 1.2rem;
-        padding: 20px 28px;
+        height: 60px;
+        width: 140px;
+        padding: 0;
         transition: all 0.5s;
         cursor: pointer;
         box-shadow: inset 0 0 $dark-grey;
@@ -56,9 +58,12 @@ body {
         }
       }
       .btn-img {
-        padding: 12.5px 21.5px;
+        /* padding: 12.5px 21.5px; */
+        height: 60px;
+        width: 70px;
         position: relative;
         top: 7px;
+        padding: 0;
       }
       .btn-wrap {
         display: inline-block;
