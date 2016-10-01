@@ -4,7 +4,7 @@ $dark-grey: #2c3035;
 
 body {
   -webkit-font-smoothing: antialiased;
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Raleway', sans-serif;
   background: linear-gradient(to bottom, rgb(239, 101, 101), rgb(239, 139, 92));
   margin: 0;
   height: 100vh;
@@ -14,20 +14,20 @@ body {
     .container {
         max-width: 650px;
       h1 {
-        font-size: 4.8rem;
+        font-size: 5rem;
         text-transform: uppercase;
         letter-spacing: 2px;
-        margin: 20px 0;
+        margin: 10px 0;
       }
       h2 {
-        font-size: 2rem;
+        font-size: 34px;
         font-weight: 200;
         margin: 8px 0;
       }
       h3 {
         font-weight: 200;
         margin: 20px 0;
-        font-size: 1.2rem;
+        font-size: 20px;
       }
       span {
         width: 98%;
