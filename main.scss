@@ -1,11 +1,11 @@
-$orange: #ef8a5c;
+$orange: #ef6565;
 $white: #fff;
-$dark-grey: #2c3035;
+$dark-grey: #34383e;
 
 body {
   -webkit-font-smoothing: antialiased;
   font-family: 'Raleway', sans-serif;
-  background: linear-gradient(to bottom, rgb(239, 101, 101), rgb(239, 139, 92));
+  background: linear-gradient(to bottom, #ef8b5c, #ef6565);
   margin: 0;
   height: 100vh;
   color: $white;
