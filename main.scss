@@ -6,7 +6,7 @@ html {
   height: 100%;
   body {
     -webkit-font-smoothing: antialiased;
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Muli', sans-serif;
     background: linear-gradient(to bottom, #ef8b5c, #ef6565);
     margin: 0;
     height: 100%;
@@ -14,21 +14,25 @@ html {
     background-attachment: fixed;
     color: $white;
     text-align: center;
-    .wrap {
-      .container {
-          max-width: 650px;
+    .container {
+        max-width: 650px;
         h1 {
+          font-family: 'Raleway', sans-serif;
           font-size: 5rem;
           text-transform: uppercase;
           letter-spacing: 2px;
           margin: 10px 0;
         }
         h2 {
-          font-size: 34px;
+          font-size: 32px;
           font-weight: 200;
           margin: 8px 0;
+          padding-bottom: 8px;
+          padding-top: 8px;
+          border-bottom: thick solid #ffffff;
+          border-top: thick solid #ffffff;
         }
-        h3 {
+        p {
           font-weight: 200;
           margin: 20px 0;
           font-size: 20px;
@@ -62,25 +66,23 @@ html {
             top: 2px;
             position: relative;
           }
-        }
-        .btn-img {
-          /* padding: 12.5px 21.5px; */
-          height: 60px;
-          width: 70px;
-          position: relative;
-          top: 7px;
-          padding: 0;
-        }
-        .btn-wrap {
-          display: inline-block;
-        }
+      }
+      .btn-img {
+        height: 60px;
+        width: 70px;
+        position: relative;
+        top: 7px;
+        padding: 0;
+      }
+      .btn-wrap {
+        display: inline-block;
       }
     }
   }
 }
 
 @media screen and (max-width: 350px) {
-  html body .wrap .container {
+  html body .container {
     padding: 20px 20px;
     margin-top: 0;
       h1 {
@@ -89,7 +91,7 @@ html {
       h2 {
         font-size: 1.6rem;
       }
-      h3 {
+      p {
         font-weight: 300;
       }
       .btn-wrap {
@@ -99,7 +101,7 @@ html {
 }
 
 @media screen and (min-width: 350px) and (max-width: 450px) {
-  html body .wrap .container {
+  html body  .container {
     padding: 20px 20px;
     margin-top: 0;
       h1 {
@@ -108,14 +110,14 @@ html {
       h2 {
         font-size: 1.6rem;
       }
-      h3 {
+      p {
         font-weight: 300;
       }
   }
 }
 
 @media screen and (min-width: 450px) and (max-width: 750px) {
-  html body .wrap .container {
+  html body  .container {
     padding: 40px 20px;
     margin-top: 0;
     h1 {
@@ -124,20 +126,20 @@ html {
     h2 {
       font-size: 1.8rem;
     }
-    h3 {
+    p {
       font-weight: 300;
     }
   }
 }
 
 @media screen and (max-height: 400px) {
-    html body .wrap .container {
+    html body  .container {
         padding: 20px 20px;
         margin: 0 auto;
     }
 }
 @media screen and (min-width: 750px) {
-    html body .wrap {
+    html body  {
       display: flex;
       justify-content: center;
       align-items: center;
