@@ -3,10 +3,10 @@ $white: #fff;
 $dark-grey: #34383e;
 
 html {
+  background: linear-gradient(to bottom, #ef8b5c, #ef6565);
   body {
     -webkit-font-smoothing: antialiased;
     font-family: 'Muli', sans-serif;
-    background: linear-gradient(to bottom, #ef8b5c, #ef6565);
     margin: 0;
     height: 100vh;
     background-repeat: no-repeat;
