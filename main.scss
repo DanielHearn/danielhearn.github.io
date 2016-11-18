@@ -2,88 +2,108 @@ $orange: #ef6565;
 $white: #fff;
 $dark-grey: #34383e;
 
-html {
-  body {
-    -webkit-font-smoothing: antialiased;
-    font-family: 'Muli', sans-serif;
-    margin: 0;
-    background: linear-gradient(to bottom, #ef8b5c, #ef6565);
-    height: 100vh;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    color: $white;
-    text-align: center;
-    main {
-        max-width: 650px;
-        h1 {
-          font-family: 'Raleway', sans-serif;
-          font-size: 5em;
-          text-transform: uppercase;
-          letter-spacing: 2px;
-          margin: 10px 0;
-        }
-        h2 {
-          font-size: 2em;
-          font-weight: 300;
-          margin: 8px 0;
-          padding-bottom: 8px;
-          padding-top: 8px;
-          border-bottom: thick solid #ffffff;
-          border-top: thick solid #ffffff;
-        }
-        p {
-          margin: 20px 0;
-          font-size: 1.2em;
-          font-weight: 200;
-        }
-        span {
-          width: 98%;
-          height: 5px;
-          background: $white;
-          display: block;
-          text-align: center;
-          margin: 0 auto;
-        }
-        button {
-          background-color: $white;
-          border: none;
-          border-radius: 0;
-          color: $orange;
-          font-size: 1.2rem;
-          height: 60px;
-          width: 144px;
-          padding: 0;
-          transition: all 0.5s;
-          cursor: pointer;
-          box-shadow: inset 0 0 $dark-grey;
-          &:hover {
-            box-shadow: inset 0 -65px $dark-grey;
-          }
-          img {
-            width: 32px;
-            height: 32px;
-            top: 2px;
-            position: relative;
-          }
+body {
+  -webkit-font-smoothing: antialiased;
+  font-family: 'Muli', sans-serif;
+  margin: 0;
+  background: linear-gradient(to bottom, #ef8b5c, #ef6565);
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  color: $white;
+  text-align: center;
+  main {
+      max-width: 650px;
+      padding: 20px 20px;
+      margin-top: 0;
+      h1 {
+        font-family: 'Raleway', sans-serif;
+        font-size: 5em;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+        margin: 10px 0;
       }
-      footer {
-        display: inline-block;
+      h2 {
+        font-size: 2em;
+        font-weight: 300;
+        margin: 8px 0;
+        padding-bottom: 8px;
+        padding-top: 8px;
+        border-bottom: thick solid #ffffff;
+        border-top: thick solid #ffffff;
       }
-      .btn-img {
+      p {
+        margin: 20px 0;
+        font-size: 1.2em;
+        font-weight: 200;
+      }
+      span {
+        width: 98%;
+        height: 5px;
+        background: $white;
+        display: block;
+        text-align: center;
+        margin: 0 auto;
+      }
+      button {
+        background-color: $white;
+        border: none;
+        border-radius: 0;
+        color: $orange;
+        font-size: 1.2rem;
         height: 60px;
-        width: 70px;
-        position: relative;
-        top: 7px;
+        width: 144px;
         padding: 0;
-      }
+        transition: all 0.5s;
+        cursor: pointer;
+        box-shadow: inset 0 0 $dark-grey;
+        &:hover {
+          box-shadow: inset 0 -65px $dark-grey;
+        }
+        img {
+          width: 32px;
+          height: 32px;
+          top: 2px;
+          position: relative;
+        }
     }
+    footer {
+      display: inline-block;
+    }
+    .btn-img {
+      height: 60px;
+      width: 70px;
+      position: relative;
+      top: 7px;
+      padding: 0;
+    }
+  }
+}
+
+@media screen and (max-width: 750px) {
+  html body main {
+    h1 {
+      font-size: 3.6em;
+    }
+    h2 {
+      font-size: 1.8em;
+    }
+  }
+}
+
+@media screen and (max-width: 450px) {
+  html body main {
+      h1 {
+        font-size: 2.5em;
+      }
+      h2 {
+        font-size: 1.6em;
+      }
   }
 }
 
 @media screen and (max-width: 350px) {
   html body main {
-    padding: 20px 20px;
-    margin-top: 0;
       h1 {
         font-size: 2em;
       }
@@ -96,46 +116,15 @@ html {
   }
 }
 
-@media screen and (min-width: 350px) and (max-width: 450px) {
-  html body  main {
-    padding: 20px 20px;
-    margin-top: 0;
-      h1 {
-        font-size: 2.5em;
-      }
-      h2 {
-        font-size: 1.6em;
-      }
-  }
-}
-
-@media screen and (min-width: 450px) and (max-width: 750px) {
-  html body  main {
-    padding: 40px 20px;
-    margin-top: 0;
-    h1 {
-      font-size: 3.6em;
-    }
-    h2 {
-      font-size: 1.8em;
-    }
-  }
-}
-
-@media screen and (max-height: 750px) {
-    html body  main {
-        padding: 20px 20px;
-        margin: 0 auto;
-    }
-}
 @media screen and (min-width: 750px) {
-    html body  {
+    html body {
       display: flex;
       justify-content: center;
       align-items: center;
       flex-direction: column;
     }
 }
+
 @-ms-viewport{
   width: device-width;
 }
