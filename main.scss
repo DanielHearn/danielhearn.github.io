@@ -18,14 +18,14 @@ html {
         max-width: 650px;
         h1 {
           font-family: 'Raleway', sans-serif;
-          font-size: 5rem;
+          font-size: 5em;
           text-transform: uppercase;
           letter-spacing: 2px;
           margin: 10px 0;
         }
         h2 {
-          font-size: 32px;
-          font-weight: 200;
+          font-size: 2em;
+          font-weight: 300;
           margin: 8px 0;
           padding-bottom: 8px;
           padding-top: 8px;
@@ -33,9 +33,9 @@ html {
           border-top: thick solid #ffffff;
         }
         p {
-          font-weight: 200;
           margin: 20px 0;
-          font-size: 20px;
+          font-size: 1.2em;
+          font-weight: 200;
         }
         span {
           width: 98%;
@@ -86,13 +86,10 @@ html {
     padding: 20px 20px;
     margin-top: 0;
       h1 {
-        font-size: 2rem;
+        font-size: 2em;
       }
       h2 {
-        font-size: 1.6rem;
-      }
-      p {
-        font-weight: 300;
+        font-size: 1.6em;
       }
       .btn-wrap {
       display: block;
@@ -105,13 +102,10 @@ html {
     padding: 20px 20px;
     margin-top: 0;
       h1 {
-        font-size: 2.5rem;
+        font-size: 2.5em;
       }
       h2 {
-        font-size: 1.6rem;
-      }
-      p {
-        font-weight: 300;
+        font-size: 1.6em;
       }
   }
 }
@@ -121,13 +115,10 @@ html {
     padding: 40px 20px;
     margin-top: 0;
     h1 {
-      font-size: 3.6rem;
+      font-size: 3.6em;
     }
     h2 {
-      font-size: 1.8rem;
-    }
-    p {
-      font-weight: 300;
+      font-size: 1.8em;
     }
   }
 }
@@ -143,7 +134,6 @@ html {
       display: flex;
       justify-content: center;
       align-items: center;
-      text-align: center;
       flex-direction: column;
       height: 100vh;
     }
