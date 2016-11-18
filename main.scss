@@ -3,12 +3,12 @@ $white: #fff;
 $dark-grey: #34383e;
 
 html {
-  background: linear-gradient(to bottom, #ef8b5c, #ef6565);
   body {
     -webkit-font-smoothing: antialiased;
     font-family: 'Muli', sans-serif;
     margin: 0;
-    height: 100vh;
+    background: linear-gradient(to bottom, #ef8b5c, #ef6565);
+    height: 100%;
     background-repeat: no-repeat;
     background-attachment: fixed;
     color: $white;
