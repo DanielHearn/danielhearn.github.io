@@ -36,13 +36,8 @@ body {
         font-size: 1.2em;
         font-weight: 200;
       }
-      span {
-        width: 98%;
-        height: 5px;
-        background: $white;
-        display: block;
-        text-align: center;
-        margin: 0 auto;
+      #email {
+        text-decoration: underline;
       }
       a {
         background-color: $white;
@@ -66,7 +61,7 @@ body {
           top: 12px;
           position: relative;
         }
-    }
+      }
     footer {
       display: inline-block;
     }
