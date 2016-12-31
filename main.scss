@@ -78,11 +78,17 @@ body {
 
 @media screen and (max-width: 450px) {
   html body main {
+      text-align: left;
       h1 {
         font-size: 2.5em;
       }
       h2 {
         font-size: 1.6em;
+      }
+      footer {
+        text-align: center;
+        display: block;
+        margin-top: 0.5em;
       }
   }
 }
@@ -95,21 +101,8 @@ body {
       h2 {
         font-size: 1.6em;
       }
-      footer {
-        display: block;
-        margin-top: 0.5em;
-      }
       .btn-img {
         top: 0;
       }
   }
-}
-
-@media screen and (min-width: 750px) {
-    html body {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      flex-direction: column;
-    }
 }
