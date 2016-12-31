@@ -1,6 +1,7 @@
 $accent: #668ab1;
 $white: #fff;
 $dark-grey: #404040;
+$light-grey: #4e4e4e;
 
 body {
   font-family: 'Muli', sans-serif;
@@ -21,6 +22,8 @@ body {
         text-transform: uppercase;
         letter-spacing: 2px;
         margin: 10px 0;
+        border-bottom: 0.1em solid $dark-grey;
+        border-top: 0.1em solid $dark-grey;
       }
       p {
         margin: 1.1em 0;
@@ -31,7 +34,7 @@ body {
         text-decoration: underline;
       }
       a {
-        background-color: $white;
+        background-color: $dark-grey;
         border: none;
         border-radius: 0;
         font-family: arial;
@@ -40,9 +43,9 @@ body {
         display: inline-block;
         cursor: pointer;
         text-decoration: none;
-        box-shadow: inset 0 0 $dark-grey;
+        box-shadow: inset 0 0 $light-grey;
         &:hover {
-          box-shadow: inset 0 -70px $dark-grey;
+          box-shadow: inset 0 -70px $light-grey;
         }
         img {
           width: 32px;
