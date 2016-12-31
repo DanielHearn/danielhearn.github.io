@@ -1,20 +1,20 @@
-$orange: #ef6565;
+$accent: #4b6177;
 $white: #fff;
 $dark-grey: #34383e;
 
 body {
   font-family: 'Muli', sans-serif;
   margin: 0;
-  background: linear-gradient(to bottom, #ef8b5c, #ef6565);
+  background: $accent;
   height: 100vh;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
   color: $white;
   text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   main {
       max-width: 650px;
-      padding: 20px 20px;
-      margin-top: 0;
+      padding: 1em 1em;
       h1 {
         font-family: 'Raleway', sans-serif;
         font-size: 5em;
@@ -22,18 +22,9 @@ body {
         letter-spacing: 2px;
         margin: 10px 0;
       }
-      h2 {
-        font-size: 2em;
-        font-weight: 300;
-        margin: 8px 0;
-        padding-bottom: 8px;
-        padding-top: 8px;
-        border-bottom: thick solid #ffffff;
-        border-top: thick solid #ffffff;
-      }
       p {
-        margin: 20px 0;
-        font-size: 1.2em;
+        margin: 1.1em 0;
+        font-size: 1.1em;
         font-weight: 200;
       }
       #email {
@@ -43,17 +34,15 @@ body {
         background-color: $white;
         border: none;
         border-radius: 0;
-        color: $orange;
         font-family: arial;
         font-size: 1.2rem;
-        padding: 19px 24px;
         transition: all 0.5s;
         display: inline-block;
         cursor: pointer;
         text-decoration: none;
         box-shadow: inset 0 0 $dark-grey;
         &:hover {
-          box-shadow: inset 0 -65px $dark-grey;
+          box-shadow: inset 0 -70px $dark-grey;
         }
         img {
           width: 32px;
@@ -86,9 +75,6 @@ body {
     }
   }
 }
-
-
-
 
 @media screen and (max-width: 450px) {
   html body main {
