@@ -1,6 +1,6 @@
 $accent: #f57563;
 $white: #fff;
-$dark-grey: #404040;
+$dark-grey: #4e4e4e;
 $light-grey: #4e4e4e;
 
 body {
@@ -21,7 +21,7 @@ body {
         font-size: 5em;
         text-transform: uppercase;
         letter-spacing: 2px;
-        margin: 10px 0;
+        margin:  0;
         border-bottom: 8px solid $dark-grey;
         border-top: 8px solid $dark-grey;
       }
@@ -75,6 +75,14 @@ body {
     }
     h2 {
       font-size: 1.8em;
+    }
+  }
+}
+
+@media screen and (max-height: 450px){
+  html body main {
+    h1 {
+      margin-top: 1em;
     }
   }
 }
