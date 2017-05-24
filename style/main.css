@@ -25,7 +25,7 @@ body {
       font-weight: 200; }
     body main #email {
       text-decoration: underline; }
-    body main a {
+    body main button {
       background-color: #404040;
       border: none;
       border-radius: 0;
@@ -36,13 +36,16 @@ body {
       cursor: pointer;
       text-decoration: none;
       box-shadow: inset 0 0 #4e4e4e; }
-      body main a:hover {
+      body main button:hover {
         box-shadow: inset 0 -70px #4e4e4e; }
-      body main a img {
+      body main button img {
         width: 32px;
         height: 32px;
         top: 12px;
         position: relative; }
+    body main a {
+      text-decoration: underline;
+      color: #fff; }
     body main footer {
       display: inline-block; }
     body main .btn-img {
