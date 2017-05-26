@@ -33,7 +33,13 @@ body {
       #email {
         text-decoration: underline;
       }
-      button {
+      a {
+        text-decoration: underline;
+        color: $white;
+      }
+    footer {
+      display: inline-block;
+      a {
         background-color: $dark-grey;
         border: none;
         border-radius: 0;
@@ -50,21 +56,15 @@ body {
         img {
           width: 32px;
           height: 32px;
+          top: 20%;
           position: relative;
         }
       }
-      a {
-        text-decoration: underline;
-        color: $white;
-      }
-    footer {
-      display: inline-block;
     }
     .btn-img {
       height: 60px;
       width: 70px;
       position: relative;
-      top: -4px;
       padding: 0;
       display: inline-block;
     }
