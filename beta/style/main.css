@@ -8,15 +8,15 @@ body {
   display: flex;
   justify-content: center; }
   body main {
-    max-width: 800px;
-    padding: 2em; }
+    max-width: 55em;
+    padding: 2em 1em; }
     body main h1, body main h2, body main p {
       font-weight: 300; }
     body main p {
       text-align: left; }
     body main h1 {
       color: #ff5235;
-      font-size: 1.8em;
+      font-size: 2em;
       margin: 0.1em; }
     body main h2 {
       font-size: 1.8em;
@@ -27,17 +27,19 @@ body {
       color: #ff5235;
       text-decoration: none; }
     body main section {
-      padding: 0.5em; }
+      padding: 1em; }
 
 #intro h1 {
   font-size: 4em;
   margin: 0.1em; }
 
 #intro #buttons {
-  display: inline-block; }
+  display: flex;
+  justify-content: center;
+  align-items: center; }
   #intro #buttons a {
     background-color: #21222c;
-    border: none;
+    border: solid 2px #e9edf0;
     border-radius: 0;
     font-family: arial;
     font-size: 1.2rem;
@@ -49,9 +51,11 @@ body {
     width: 70px;
     position: relative;
     padding: 0;
-    box-shadow: inset 0 0 #e9edf0; }
+    margin: 0 0.2em;
+    box-shadow: inset 0 0 #ff5235; }
     #intro #buttons a:hover {
-      box-shadow: inset 0 -70px #ff5235; }
+      box-shadow: inset 0 -70px #ff5235;
+      border: solid 2px #ff5235; }
     #intro #buttons a img {
       width: 32px;
       height: 32px;
@@ -62,13 +66,36 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  flex-wrap: wrap; }
+  flex-wrap: wrap;
+  padding: 0; }
   #skills #skills-container p {
     font-size: 1.4em;
     width: 50%;
     text-align: center; }
     #skills #skills-container p span {
       color: #c3c6c8; }
+
+#projects article {
+  text-align: left;
+  display: flex;
+  flex-wrap: nowrap;
+  margin-top: 1em; }
+  #projects article .main-info {
+    padding: 0;
+    flex: 1 1 auto; }
+    #projects article .main-info h2 {
+      margin: 0; }
+    #projects article .main-info a {
+      background: #ff5235;
+      letter-spacing: 0.1em;
+      color: #e9edf0;
+      padding: 1em 0.5em;
+      display: inline-block;
+      margin-top: 0.5em; }
+  #projects article img {
+    flex: 1 1 auto;
+    width: 40%;
+    height: 40%; }
 
 #contact p {
   text-align: center; }
@@ -79,7 +106,13 @@ body {
   html body main h2 {
     font-size: 1.8em; }
   html body main p {
-    font-size: 1em; } }
+    font-size: 1em; }
+  html body main #projects article {
+    flex-wrap: wrap; }
+    html body main #projects article img {
+      width: 60%;
+      height: 60%;
+      margin-top: 1em; } }
 
 @media screen and (max-width: 500px) {
   html body main #skills #skills-container p {
