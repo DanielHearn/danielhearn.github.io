@@ -99,10 +99,12 @@ body {
       margin-top: 0.5em; }
   #projects article .img-container {
     flex: 1 1 auto;
-    width: 120%; }
+    width: 120%;
+    height: 120%; }
     #projects article .img-container img {
       flex: 1 1 auto;
-      width: 100%; }
+      width: 100%;
+      height: 100%; }
 
 #contact p {
   text-align: center; }
