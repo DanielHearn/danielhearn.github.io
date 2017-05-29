@@ -6,8 +6,7 @@ body {
   color: #e9edf0;
   text-align: center;
   display: flex;
-  justify-content: center;
-  width: 100vw; }
+  justify-content: center; }
   body main {
     max-width: 55em;
     padding: 2em 0; }
