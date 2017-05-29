@@ -13,7 +13,8 @@ body {
     body main h1, body main h2, body main p {
       font-weight: 300; }
     body main p {
-      text-align: left; }
+      text-align: left;
+      font-size: 1.1em; }
     body main h1 {
       color: #ff5235;
       font-size: 2em;
@@ -21,8 +22,6 @@ body {
     body main h2 {
       font-size: 1.8em;
       margin: 0.1em; }
-    body main p {
-      font-size: 1.1em; }
     body main a {
       color: #ff5235;
       text-decoration: none; }
@@ -76,6 +75,9 @@ body {
     text-align: center; }
     #skills #skills-container p span {
       color: #c3c6c8; }
+
+#projects p {
+  margin-bottom: 1em; }
 
 #projects article {
   text-align: left;

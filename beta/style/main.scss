@@ -21,6 +21,7 @@ body {
     }
     p {
       text-align: left;
+      font-size: 1.1em;
     }
     h1 {
       color: $accent;
@@ -30,9 +31,6 @@ body {
     h2 {
       font-size: 1.8em;
       margin: 0.1em;
-    }
-    p {
-      font-size: 1.1em;
     }
     a {
       color: $accent;
@@ -105,6 +103,9 @@ body {
 }
 
 #projects {
+  p {
+    margin-bottom: 1em;
+  }
   article {
     text-align: left;
     display: flex;
