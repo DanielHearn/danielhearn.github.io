@@ -18,7 +18,9 @@ body {
     body main h1 {
       color: #db4c3f;
       font-size: 2em;
-      margin: 0.1em; }
+      margin: 0.1em;
+      letter-spacing: 0.04em;
+      text-transform: uppercase; }
     body main h2 {
       font-size: 1.8em;
       margin: 0.1em; }
@@ -50,10 +52,9 @@ body {
     width: 70px;
     position: relative;
     padding: 0;
-    margin: 0 0.2em;
-    box-shadow: inset 0 0 #db4c3f; }
+    margin: 0 0.2em; }
     #intro #buttons a:hover {
-      box-shadow: inset 0 -70px #db4c3f;
+      background: #db4c3f;
       border: solid 2px #db4c3f; }
     #intro #buttons a img {
       width: 32px;
@@ -70,7 +71,7 @@ body {
   padding: 0;
   width: 75%; }
   #skills #skills-container p {
-    font-size: 1.4em;
+    font-size: 1.3em;
     width: 50%;
     text-align: center; }
     #skills #skills-container p span {
@@ -87,6 +88,7 @@ body {
   #projects article .main-info {
     padding: 0;
     flex: 1 1 auto;
+    width: 60%;
     padding-right: 0.5em; }
     #projects article .main-info h2 {
       margin: 0; }
@@ -98,11 +100,9 @@ body {
       display: inline-block;
       margin-top: 0.5em; }
   #projects article .img-container {
-    flex: 1 1 auto;
-    width: 120%;
-    height: 120%; }
+    width: 30%;
+    height: 30%; }
     #projects article .img-container img {
-      flex: 1 1 auto;
       width: 100%;
       height: 100%; }
 
@@ -120,9 +120,10 @@ body {
     margin: 0.5em 0; }
   html body main #projects article {
     flex-wrap: wrap; }
+    html body main #projects article .img-container {
+      width: 100%;
+      height: 100%; }
     html body main #projects article img {
-      width: 60%;
-      height: 60%;
       margin-top: 1em; } }
 
 @media screen and (max-width: 500px) {

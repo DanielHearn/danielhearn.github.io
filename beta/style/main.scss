@@ -27,6 +27,8 @@ body {
       color: $accent;
       font-size: 2em;
       margin: 0.1em;
+      letter-spacing: 0.04em;
+      text-transform: uppercase;
     }
     h2 {
       font-size: 1.8em;
@@ -67,9 +69,10 @@ body {
       position: relative;
       padding: 0;
       margin: 0 0.2em;
-      box-shadow: inset 0 0 $accent;
+      //box-shadow: inset 0 0 $accent;
       &:hover {
-        box-shadow: inset 0 -70px $accent;
+        //box-shadow: inset 0 -70px $accent;
+        background: $accent;
         border: solid 2px $accent;
       }
       img {
@@ -92,7 +95,7 @@ body {
     padding: 0;
     width: 75%;
     p {
-      font-size: 1.4em;
+      font-size: 1.3em;
       width: 50%;
       text-align: center;
       span {
@@ -114,6 +117,7 @@ body {
     .main-info {
       padding: 0;
       flex: 1 1 auto;
+      width: 60%;
       padding-right: 0.5em;
       h2 {
         margin: 0;
@@ -128,11 +132,9 @@ body {
       }
     }
     .img-container {
-      flex: 1 1 auto;
-      width: 120%;
-      height: 120%;
+      width: 30%;
+      height: 30%;
       img {
-        flex: 1 1 auto;
         width: 100%;
         height: 100%;
       }
@@ -164,9 +166,11 @@ body {
       }
       #projects article {
         flex-wrap: wrap;
+        .img-container {
+          width: 100%;
+          height: 100%;
+        }
         img {
-          width: 60%;
-          height: 60%;
           margin-top: 1em;
         }
       }
