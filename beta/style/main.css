@@ -92,6 +92,7 @@ body {
     width: 60%;
     padding-right: 0.5em; }
     #projects article .main-info h2 {
+      text-decoration: underline;
       margin: 0; }
     #projects article .main-info a {
       background: #db4c3f;
