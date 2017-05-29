@@ -113,6 +113,7 @@ body {
     .main-info {
       padding: 0;
       flex: 1 1 auto;
+      padding-right: 0.5em;
       h2 {
         margin: 0;
       }
@@ -125,10 +126,15 @@ body {
         margin-top: 0.5em;
       }
     }
-    img {
+    .img-container {
       flex: 1 1 auto;
-      width: 40%;
-      height: 40%;
+      width: 120%;
+      //height: 100%;
+      img {
+        flex: 1 1 auto;
+        width: 100%;
+        //height: 100%;
+      }
     }
   }
 }
@@ -148,7 +154,12 @@ body {
         font-size: 1.8em;
       }
       p {
-        font-size: 1em;
+        font-size: 1.1em;
+      }
+      #skills #skills-container {
+        p {
+          margin: 0.5em 0;
+          }
       }
       #projects article {
         flex-wrap: wrap;

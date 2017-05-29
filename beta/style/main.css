@@ -84,7 +84,8 @@ body {
   margin-top: 1em; }
   #projects article .main-info {
     padding: 0;
-    flex: 1 1 auto; }
+    flex: 1 1 auto;
+    padding-right: 0.5em; }
     #projects article .main-info h2 {
       margin: 0; }
     #projects article .main-info a {
@@ -94,10 +95,12 @@ body {
       padding: 1em 0.5em;
       display: inline-block;
       margin-top: 0.5em; }
-  #projects article img {
+  #projects article .img-container {
     flex: 1 1 auto;
-    width: 40%;
-    height: 40%; }
+    width: 120%; }
+    #projects article .img-container img {
+      flex: 1 1 auto;
+      width: 100%; }
 
 #contact p {
   text-align: center; }
@@ -108,7 +111,9 @@ body {
   html body main h2 {
     font-size: 1.8em; }
   html body main p {
-    font-size: 1em; }
+    font-size: 1.1em; }
+  html body main #skills #skills-container p {
+    margin: 0.5em 0; }
   html body main #projects article {
     flex-wrap: wrap; }
     html body main #projects article img {
