@@ -40,7 +40,11 @@ body {
         display: inline-block;
         cursor: pointer;
         text-decoration: none;
-        box-shadow: inset 0 0 #4e4e4e; }
+        box-shadow: inset 0 0 #4e4e4e;
+        height: 60px;
+        width: 70px;
+        position: relative;
+        padding: 0; }
         body main footer a:hover {
           box-shadow: inset 0 -70px #4e4e4e; }
         body main footer a img {
@@ -48,12 +52,6 @@ body {
           height: 32px;
           top: 20%;
           position: relative; }
-    body main .btn-img {
-      height: 60px;
-      width: 70px;
-      position: relative;
-      padding: 0;
-      display: inline-block; }
 
 @media screen and (max-width: 750px) {
   html body main h1 {
