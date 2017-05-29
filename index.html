@@ -14,8 +14,6 @@
     <meta name="theme-color" content="#ffffff">
 
     <link href="style/main.css" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Raleway:700,900" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Muli:300,400" rel="stylesheet">
     <script>
      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -27,23 +25,72 @@
   </head>
   <body>
       <main>
-        <h1>Daniel Hearn</h1>
-        <p>I’m currently in my first year at the university of portsmouth
-        studying computer science where I’m learning new tech and
-        continuing to advance my existing skills.</p>
-        <p>Currently my skills include, <strong>CSS-SCSS</strong>, <strong>HTML</strong>, <strong>AngularJS</strong>, <strong>GIT</strong>, <strong>PHOTOSHOP</strong>, <strong>PYTHON</strong>.</p>
-        <p>Projects I have developed include, <strong><a href="/manytwitch">manyTwitch</a></strong> a multiple twitch stream viewer.</p>
-        <p>Email available at: <span id="email"></span></p>
-        <script>
-          var parts = ["daniel_", "&#64", ".com", "outlook", "hearn"];
-          var email = parts[0] + parts[4] + parts[1] + parts[3] + parts[2];
-          document.getElementById("email").innerHTML=email;
-        </script>
-        <footer>
-          <a href="http://codepen.io/danhearn/" class="btn-img"><img src="img/codepen.svg" alt="Codepen icon"></a>
-          <a href="https://github.com/DanielHearn" class="btn-img"><img src="img/github.svg" alt="Github icon"></a>
-          <a href="https://medium.com/@danhearn" class="btn-img"><img src="img/medium.svg" alt="Medium icon"></a>
-        </footer>
+        <section id="intro">
+          <h1>Daniel Hearn</h1>
+          <h2>Student interested in the web</h2>
+          <p>I’m currently in my first year at the university of portsmouth
+          studying computer science where I’m learning new tech and
+          continuing to advance my existing skills.</p>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+Etiam consectetur justo vitae finibus ornare. Proin ac dapibus mauris. Nulla ex massa, ornare id dapibus nec, posuere non sapien.
+Nulla facilisi. Proin lobortis tincidunt egestas. Aliquam mollis fringilla consequat. Ut et massa non augue mattis interdum et quis est.
+Curabitur ultricies ante non eros congue pellentesque. Mauris cursus est eget ligula fringilla efficitur. Quisque semper dignissim
+dolor vel dignissim. Pellentesque nibh lorem, fermentum at nibh vitae, molestie dignissim sapien. Nunc sit amet placerat arcu,
+et tempus neque. Maecenas pretium leo enim, vel maximus augue commodo et. Etiam fermentum suscipit mollis</p>
+          <section id="buttons">
+            <a href="http://codepen.io/danhearn/" class="btn-img"><img src="img/codepen.svg" alt="Codepen icon"></a>
+            <a href="https://github.com/DanielHearn" class="btn-img"><img src="img/github.svg" alt="Github icon"></a>
+            <a href="https://medium.com/@danhearn" class="btn-img"><img src="img/medium.svg" alt="Medium icon"></a>
+          </section>
+        </section>
+        <section id="skills">
+          <h1>Skills</h1>
+          <section id="skills-container">
+            <p>CSS3 <span>1+ year</span></p>
+            <p>HTML5 <span>1+ year</span></p>
+            <p>AngularJS <span>&lt;1 year</span></p>
+            <p>Python <span>1+ year</span></p>
+            <p>Git <span>1+ year</span></p>
+            <p>Photoshop <span>1+ year</span></p>
+          </section>
+        </section>
+        <section id="projects">
+          <h1>Projects</h1>
+          <p>These are the larger projects I have developed, to view my smaller projects and code experiments visit my <a href="http://codepen.io/danhearn">codepen</a>.</p>
+          <article>
+            <section class="main-info">
+              <h2>ManyTwitch</h2>
+              <p>Multiple Twitch stream viewer developed using AngularJS and CSS variables. The aim of this project was combine the wealth of features and customisability available on other multi-stream viewers with a modern and user-friendly interface.</p>
+              <a href="/manytwitch">VIEW PROJECT</a>
+            </section>
+            <a href="/manytwitch" class="img-container"><img src="img/manytwitch.png" alt="Image of the manytwitch website."></a>
+          </article>
+          <article>
+            <section class="main-info">
+              <h2>Link Style Collection</h2>
+              <p>A collection CSS link styles focusing on being minimalist and suitable across a range of themes and colours.</p>
+              <a href="/linkCollection/linkCollection.html">VIEW PROJECT</a>
+            </section>
+            <a href="/linkCollection/linkCollection.html" class="img-container"><img src="img/manytwitch.png" alt="Image of my link collection."></a>
+          </article>
+          <article>
+            <section class="main-info">
+              <h2>Button Style Collection</h2>
+              <p>A collection CSS button styles focusing on being minimalist and suitable across a range of themes and colours.</p>
+              <a href="/manytwitch">VIEW PROJECT</a>
+            </section>
+            <a href="/manytwitch" class="img-container"><img src="img/manytwitch.png" alt="Image of the manytwitch website."></a>
+          </article>
+        </section>
+        <section id="contact">
+          <h1>Contact Me</h1>
+          <p>You can contact me at <a id="email"></a></p>
+          <script>
+            var parts = ["daniel_", "&#64", ".com", "outlook", "hearn"];
+            var email = parts[0] + parts[4] + parts[1] + parts[3] + parts[2];
+            document.getElementById("email").innerHTML=email;
+          </script>
+        </section>
       </main>
   </body>
 </html>
