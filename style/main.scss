@@ -39,16 +39,21 @@ body {
       text-decoration: none;
     }
     section {
-      padding: 1em;
+      padding: 1.5em;
     }
   }
 }
+
 
 #intro {
   h1 {
     font-size: 4em;
     margin: 0.1em;
   }
+  h2 {
+    margin-bottom: 1em;
+  }
+  /* OLD BUTTON STYLING
   #buttons {
     display: flex;
     justify-content: center;
@@ -81,6 +86,7 @@ body {
       }
     }
   }
+  */
 }
 
 #skills {

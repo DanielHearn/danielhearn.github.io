@@ -28,39 +28,48 @@ body {
       color: #db4c3f;
       text-decoration: none; }
     body main section {
-      padding: 1em; }
+      padding: 1.5em; }
 
-#intro h1 {
-  font-size: 4em;
-  margin: 0.1em; }
+#intro {
+  /* OLD BUTTON STYLING
+  #buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
-#intro #buttons {
-  display: flex;
-  justify-content: center;
-  align-items: center; }
-  #intro #buttons a {
-    background-color: #21222c;
-    border: solid 2px #e9edf0;
-    border-radius: 0;
-    font-family: arial;
-    font-size: 1.2rem;
-    transition: all 0.5s;
-    display: inline-block;
-    cursor: pointer;
-    text-decoration: none;
-    height: 60px;
-    width: 70px;
-    position: relative;
-    padding: 0;
-    margin: 0 0.2em; }
-    #intro #buttons a:hover {
-      background: #db4c3f;
-      border: solid 2px #db4c3f; }
-    #intro #buttons a img {
-      width: 32px;
-      height: 32px;
-      top: 20%;
-      position: relative; }
+    a {
+      background-color: $bg;
+      border: solid 2px $primary-text;
+      border-radius: 0;
+      font-family: arial;
+      font-size: 1.2rem;
+      transition: all 0.5s;
+      display: inline-block;
+      cursor: pointer;
+      text-decoration: none;
+      height: 60px;
+      width: 70px;
+      position: relative;
+      padding: 0;
+      margin: 0 0.2em;
+      &:hover {
+        background: $accent;
+        border: solid 2px $accent;
+      }
+      img {
+        width: 32px;
+        height: 32px;
+        top: 20%;
+        position: relative;
+      }
+    }
+  }
+  */ }
+  #intro h1 {
+    font-size: 4em;
+    margin: 0.1em; }
+  #intro h2 {
+    margin-bottom: 1em; }
 
 #skills #skills-container {
   display: flex;
