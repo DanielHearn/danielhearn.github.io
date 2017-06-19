@@ -26,7 +26,8 @@ body {
       margin: 0.1em; }
     body main a {
       color: #db4c3f;
-      text-decoration: none; }
+      text-decoration: none;
+      cursor: pointer; }
     body main section {
       padding: 1.5em; }
 

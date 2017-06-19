@@ -14,6 +14,7 @@
     <meta name="theme-color" content="#ffffff">
 
     <link href="style/main.css" rel="stylesheet">
+    <script src="scripts/clipboard.min.js"></script>
     <script>
      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -32,7 +33,7 @@
           studying computer science where I’m learning new tech and
           continuing to advance my existing skills. During the summer im focusing my time on learning NodeJS and developing a short game using Unity the details of which can be found on my <a href="https://danhearn.tumblr.com/">development blog</a>.</p>
           <p>In my spare time I'm continuing to develop my main project <a href="/manytwitch">ManyTwitch</a>, while also creating new pens on my <a href="http://codepen.io/danhearn/">Codepen</a> weekly. The source code for all my projects can be found on <a href="https://github.com/DanielHearn">Github</a>. I am also periodically writing articles about web development and gaming on <a href="https://medium.com/@danhearn">Medium</a>.</p>
-          <p>You can contact me at <a class="email"></a></p>
+          <p>You can contact me at <a class="email" data-clipboard-text="daniel_hearn@outlook.com"></a></p>
           <!--
           <section id="buttons">
             <a href="http://codepen.io/danhearn/" class="btn-img"><img src="img/codepen.svg" alt="Codepen icon"></a>
@@ -84,14 +85,18 @@
         </section>
         <section id="contact">
           <h1>Contact Me</h1>
-          <p>You can contact me at <a class="email"></a></p>
+          <p>You can contact me at <a class="email" data-clipboard-text="daniel_hearn@outlook.com"></a></p>
           <script>
             var parts = ["daniel_", "&#64", ".com", "outlook", "hearn"];
             var email = parts[0] + parts[4] + parts[1] + parts[3] + parts[2];
             var emailList = document.getElementsByClassName("email");
-            for (var i = 0; i < (emailList.length+1); i++) {
+            for (var i = 0; i <= (emailList.length); i++) {
               emailList[i].innerHTML = email;
             }
+          </script>
+          <script>
+            var emailBtns = document.querySelectorAll('.email')
+            var clipboard = new Clipboard(emailBtns);
           </script>
         </section>
       </main>
