@@ -14,7 +14,7 @@ body {
   display: flex;
   justify-content: center;
   main {
-    max-width: 55em;
+    max-width: 60em;
     padding: 2em 0;
     h1, h2, p {
       font-weight: 300;
@@ -114,35 +114,43 @@ body {
   p {
     margin-bottom: 1em;
   }
-  article {
-    text-align: left;
+  #projects-list {
+    padding: 0;
+    flex-wrap: wrap;
     display: flex;
-    flex-wrap: nowrap;
-    margin-top: 3em;
-    .main-info {
-      padding: 0;
-      flex: 1 1 auto;
-      width: 60%;
-      padding-right: 0.5em;
-      h2 {
-        text-decoration: underline;
-        margin: 0;
-      }
-      a {
-        background: $accent;
-        letter-spacing: 0.1em;
-        color: $primary-text;
-        padding: 1em;
-        display: inline-block;
-        margin-top: 0.5em;
-      }
-    }
-    .img-container {
-      width: 30%;
-      height: 30%;
-      img {
+    article {
+      text-align: left;
+      //display: flex;
+      //flex-wrap: nowrap;
+      margin-top: 3em;
+      margin-right: 2%;
+      width: 48%;
+      .main-info {
+        padding: 0;
+        flex: 1 1 auto;
         width: 100%;
-        height: 100%;
+        //padding-right: 0.5em;
+        h2 {
+          text-decoration: underline;
+          margin: 0;
+        }
+        a {
+          background: $accent;
+          letter-spacing: 0.1em;
+          color: $primary-text;
+          padding: 1em;
+          display: inline-block;
+          margin-top: 0.5em;
+        }
+      }
+      .img-container {
+        display: block;
+        width: 100%;
+        //height: 100%;
+        img {
+          width: 100%;
+          //height: 100%;
+        }
       }
     }
   }
@@ -170,12 +178,14 @@ body {
           margin: 0.5em 0;
           }
       }
-      #projects article {
-        flex-wrap: wrap;
+      #projects #projects-list article {
+        //flex-wrap: wrap;
         //margin: 2em 0;
+        width: 100%;
+        margin-right: 0;
         .img-container {
-          width: 100%;
-          height: 100%;
+          //width: 100%;
+          //height: 100%;
         }
         img {
           margin-top: 1em;

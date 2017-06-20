@@ -33,7 +33,6 @@
           studying computer science where I’m learning new tech and
           continuing to advance my existing skills. During the summer im focusing my time on learning NodeJS, digital art and 3d modelling.</p>
           <p>In my spare time I'm continuing to develop my main project <a href="/manytwitch">ManyTwitch</a>, while also creating new pens on my <a href="http://codepen.io/danhearn/">Codepen</a> weekly. The source code for all my projects can be found on <a href="https://github.com/DanielHearn">Github</a>. I am also periodically writing articles about web development and gaming on <a href="https://medium.com/@danhearn">Medium</a>.</p>
-          <p>You can contact me at <a class="email" data-clipboard-text="daniel_hearn@outlook.com"></a></p>
           <!--
           <section id="buttons">
             <a href="http://codepen.io/danhearn/" class="btn-img"><img src="img/codepen.svg" alt="Codepen icon"></a>
@@ -58,40 +57,46 @@
         <section id="projects">
           <h1>Projects</h1>
           <p>These are the larger projects I have developed, to view my smaller projects and code experiments visit my <a href="http://codepen.io/danhearn">codepen</a>.</p>
-          <article>
-            <section class="main-info">
-              <h2>ManyTwitch</h2>
-              <p>Multiple Twitch stream viewer developed using AngularJS and CSS variables. The aim of this project was combine the wealth of features and customisability available on other multi-stream viewers with a modern and user-friendly interface.</p>
-              <a href="/manytwitch">VIEW PROJECT</a>
-            </section>
-            <a href="/manytwitch" class="img-container"><img src="img/manyTwitch.png" alt="Image of the manytwitch website."></a>
-          </article>
-          <article>
-            <section class="main-info">
-              <h2>Link Hover Animation Collection</h2>
-              <p>A collection on CSS link hover animations, these minimalist animations have been designed for a range of themes and colours.</p>
-              <a href="/csslinkcollection">VIEW PROJECT</a>
-            </section>
-            <a href="/csslinkcollection" class="img-container"><img src="img/linkCollection.png" alt="Image of the link collection."></a>
-          </article>
-          <article>
-            <section class="main-info">
-              <h2>Button Hover Animation Collection</h2>
-              <p>A collection on CSS button hover animations, these minimalist animations have been designed for a range of themes and colours.</p>
-              <a href="/cssbuttoncollection">VIEW PROJECT</a>
-            </section>
-            <a href="/cssbuttoncollection" class="img-container"><img src="img/buttonCollection.png" alt="Image of the button collection."></a>
-          </article>
+          <section id="projects-list">
+            <article>
+              <a href="/manytwitch" class="img-container"><img src="img/manyTwitch.png" alt="Image of the manytwitch website."></a>
+              <section class="main-info">
+                <h2>ManyTwitch</h2>
+                <p>Multiple Twitch stream viewer developed using AngularJS and CSS variables. The aim of this project was combine the wealth of features and customisability available on other multi-stream viewers with a modern and user-friendly interface.</p>
+                <a href="/manytwitch">VIEW PROJECT</a>
+              </section>
+            </article>
+            <article>
+              <a href="/csslinkcollection" class="img-container"><img src="img/linkCollection.png" alt="Image of the link collection."></a>
+              <section class="main-info">
+                <h2>Link Hover Animation Collection</h2>
+                <p>A collection on CSS link hover animations, these minimalist animations have been designed for a range of themes and colours.</p>
+                <a href="/csslinkcollection">VIEW PROJECT</a>
+              </section>
+            </article>
+            <article>
+              <a href="/cssbuttoncollection" class="img-container"><img src="img/buttonCollection.png" alt="Image of the button collection."></a>
+              <section class="main-info">
+                <h2>Button Hover Animation Collection</h2>
+                <p>A collection on CSS button hover animations, these minimalist animations have been designed for a range of themes and colours.</p>
+                <a href="/cssbuttoncollection">VIEW PROJECT</a>
+              </section>
+            </article>
+          </section>
         </section>
         <section id="contact">
           <h1>Contact Me</h1>
-          <p>You can contact me at <a class="email" data-clipboard-text="daniel_hearn@outlook.com"></a></p>
+          <p>You can contact me at <a class="email" data-clipboard-text="daniel_hearn@outlook.com" onclick="emailAlert()"></a>, <span id="email-copy">click to copy.</span></p>
           <script>
             var parts = ["daniel_", "&#64", ".com", "outlook", "hearn"];
             var email = parts[0] + parts[4] + parts[1] + parts[3] + parts[2];
             var emailList = document.getElementsByClassName("email");
             for (var i = 0; i <= (emailList.length); i++) {
               emailList[i].innerHTML = email;
+            }
+            function emailAlert(myMessage) {
+                var copyAlert = document.getElementById("email-copy");
+                copyAlert.innerHTML = "email copied!"
             }
           </script>
           <script>
