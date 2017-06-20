@@ -44,7 +44,7 @@ body {
       }
     }
     section {
-      padding: 1.5em;
+      padding: 2em;
     }
   }
 }
@@ -133,6 +133,7 @@ body {
         padding: 0;
         flex: 1 1 auto;
         width: 100%;
+        margin-top: 2em;
         //padding-right: 0.5em;
         h2 {
           text-decoration: underline;
@@ -193,6 +194,9 @@ body {
 
 @media screen and (max-width: 48em) {
   html body main {
+      section {
+        padding: 1.5em;
+      }
       #intro h1 {
         font-size: 2.5em;
       }
