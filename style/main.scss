@@ -151,13 +151,15 @@ body {
       .img-container {
         display: block;
         width: 100%;
+        height: 16em;
         overflow: hidden;
         &:hover > img {
-          transform: scale(1.05);
+          transform: scale(1.1);
         }
         //height: 100%;
         img {
           width: 100%;
+          height: 100%;
           transition: transform 1s;
           //height: 100%;
         }
@@ -172,7 +174,24 @@ body {
   }
 }
 
-@media screen and (max-width: 750px) {
+@media screen and (max-width: 64em) {
+  html body main {
+      #projects #projects-list article {
+        //flex-wrap: wrap;
+        //margin: 2em 0;
+        width: 100%;
+        margin-right: 0;
+        .img-container {
+          height: initial;
+          img {
+            height: initial;
+          }
+        }
+      }
+  }
+}
+
+@media screen and (max-width: 48em) {
   html body main {
       #intro h1 {
         font-size: 2.5em;
@@ -204,7 +223,7 @@ body {
   }
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 32em) {
   html body main {
       #skills #skills-container {
         p {
