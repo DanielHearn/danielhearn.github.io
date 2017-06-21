@@ -1,15 +1,17 @@
-$accent: #db4c3f;
-$bg: #21222c;
-$primary-text: #e9edf0;
-$secondary-text: #c3c6c8;
+$colour-accent: #db4c3f;
+$colour-bg: #fefefe;
+$colour-text-primary: #212121;
+$colour-text-secondary: #9E9E9E;
+$colour-button-text: white;
+$fontsize-text-primary: 1.2em;
 
 @import url('https://fonts.googleapis.com/css?family=Nunito');
 
 body {
   font-family: 'Nunito', sans-serif;
   margin: 0;
-  background: $bg;
-  color: $primary-text;
+  background: $colour-bg;
+  color: $colour-text-primary;
   text-align: center;
   display: flex;
   justify-content: center;
@@ -21,10 +23,10 @@ body {
     }
     p {
       text-align: left;
-      font-size: 1.1em;
+      font-size: $fontsize-text-primary;
     }
     h1 {
-      color: $accent;
+      color: $colour-accent;
       font-size: 2em;
       margin: 0.1em;
       letter-spacing: 0.04em;
@@ -35,10 +37,10 @@ body {
       margin: 0.1em;
     }
     a {
-      color: $accent;
+      color: $colour-accent;
       text-decoration: none;
       cursor: pointer;
-      font-weight: bold;
+      //font-weight: bold;
       &:hover {
         text-decoration: underline;
       }
@@ -57,41 +59,8 @@ body {
   }
   h2 {
     margin-bottom: 1em;
+    color: $colour-text-secondary;
   }
-  /* OLD BUTTON STYLING
-  #buttons {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
-    a {
-      background-color: $bg;
-      border: solid 2px $primary-text;
-      border-radius: 0;
-      font-family: arial;
-      font-size: 1.2rem;
-      transition: all 0.5s;
-      display: inline-block;
-      cursor: pointer;
-      text-decoration: none;
-      height: 60px;
-      width: 70px;
-      position: relative;
-      padding: 0;
-      margin: 0 0.2em;
-      &:hover {
-        background: $accent;
-        border: solid 2px $accent;
-      }
-      img {
-        width: 32px;
-        height: 32px;
-        top: 20%;
-        position: relative;
-      }
-    }
-  }
-  */
 }
 
 #skills {
@@ -102,13 +71,18 @@ body {
     flex-wrap: wrap;
     margin: auto;
     padding: 0;
-    width: 75%;
-    p {
-      font-size: 1.3em;
+    width: 50%;
+    padding-left: 10%;
+    section {
+      padding: 0;
       width: 50%;
-      text-align: center;
-      span {
-        color: $secondary-text;
+      p {
+        font-size: $fontsize-text-primary;
+        width: 100%;
+        text-align: left;
+        span {
+          color: $colour-text-secondary;
+        }
       }
     }
   }
@@ -140,9 +114,9 @@ body {
           margin: 0;
         }
         a {
-          background: $accent;
+          background: $colour-accent;
           letter-spacing: 0.1em;
-          color: $primary-text;
+          color: $colour-button-text;
           padding: 1em;
           display: inline-block;
           margin-top: 0.5em;
@@ -177,6 +151,9 @@ body {
 
 @media screen and (max-width: 64em) {
   html body main {
+      #skills #skills-container {
+        padding: 0;
+      }
       #projects #projects-list article {
         //flex-wrap: wrap;
         //margin: 2em 0;
@@ -207,6 +184,10 @@ body {
         font-size: 1.1em;
       }
       #skills #skills-container {
+        width: 100%;
+        section {
+          width: 35%;
+        }
         p {
           margin: 0.5em 0;
           }
@@ -230,6 +211,9 @@ body {
 @media screen and (max-width: 32em) {
   html body main {
       #skills #skills-container {
+        section {
+          width: 75%;
+        }
         p {
           width: 100%;
         }
