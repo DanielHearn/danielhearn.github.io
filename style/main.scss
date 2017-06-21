@@ -1,7 +1,7 @@
 $colour-accent: #db4c3f;
 $colour-bg: #fefefe;
-$colour-text-primary: #212121;
-$colour-text-secondary: #9E9E9E;
+$colour-text-primary: #555;
+$colour-text-secondary: #999;
 $colour-button-text: white;
 $fontsize-text-primary: 1.2em;
 
@@ -18,29 +18,33 @@ body {
   main {
     max-width: 60em;
     padding: 2em 0;
-    h1, h2, p {
+    h1, h2, h3, p {
       font-weight: 300;
     }
     p {
       text-align: left;
       font-size: $fontsize-text-primary;
     }
-    h1 {
+    h1, h3 {
       color: $colour-accent;
-      font-size: 2em;
       margin: 0.1em;
       letter-spacing: 0.04em;
       text-transform: uppercase;
+    }
+    h1 {
+      font-size: 4em;
     }
     h2 {
       font-size: 1.8em;
       margin: 0.1em;
     }
+    h3 {
+      font-size: 2em;
+    }
     a {
       color: $colour-accent;
       text-decoration: none;
       cursor: pointer;
-      //font-weight: bold;
       &:hover {
         text-decoration: underline;
       }
@@ -51,14 +55,8 @@ body {
   }
 }
 
-
 #intro {
-  h1 {
-    font-size: 4em;
-    margin: 0.1em;
-  }
   h2 {
-    margin-bottom: 1em;
     color: $colour-text-secondary;
   }
 }
