@@ -5,10 +5,8 @@ $colour-text-secondary: #999;
 $colour-button-text: white;
 $fontsize-text-primary: 1.2em;
 
-@import url('https://fonts.googleapis.com/css?family=Nunito');
-
 body {
-  font-family: 'Nunito', sans-serif;
+  font-family: 'Nunito Sans', sans-serif;
   margin: 0;
   background: $colour-bg;
   color: $colour-text-primary;
@@ -24,6 +22,7 @@ body {
     p {
       text-align: left;
       font-size: $fontsize-text-primary;
+      font-weight: 400;
     }
     h1, h3 {
       color: $colour-accent;
@@ -33,13 +32,16 @@ body {
     }
     h1 {
       font-size: 4em;
+      font-weight: 700;
     }
     h2 {
       font-size: 1.8em;
       margin: 0.1em;
+      font-weight: 600;
     }
     h3 {
       font-size: 2em;
+      font-weight: 600;
     }
     a {
       color: $colour-accent;
@@ -96,9 +98,8 @@ body {
     display: flex;
     article {
       text-align: left;
-      //display: flex;
-      //flex-wrap: nowrap;
       margin-top: 3em;
+      margin-bottom: 1em;
       margin-right: 2%;
       width: 48%;
       .main-info {
@@ -106,7 +107,6 @@ body {
         flex: 1 1 auto;
         width: 100%;
         margin-top: 2em;
-        //padding-right: 0.5em;
         h2 {
           text-decoration: underline;
           margin: 0;
