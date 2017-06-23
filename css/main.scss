@@ -1,0 +1,231 @@
+$colour-accent: #db4c3f;
+$colour-bg: #fefefe;
+$colour-text-primary: #555;
+$colour-text-secondary: #999;
+$colour-button-text: white;
+$fontsize-text-primary: 1.2em;
+
+body {
+  font-family: 'Nunito Sans', sans-serif;
+  margin: 0;
+  background: $colour-bg;
+  color: $colour-text-primary;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  main {
+    max-width: 60em;
+    padding: 2em 0;
+    h1, h2, h3, p {
+      font-weight: 300;
+    }
+    p {
+      text-align: left;
+      font-size: $fontsize-text-primary;
+      font-weight: 400;
+    }
+    h1, h3 {
+      color: $colour-accent;
+      margin: 0.1em;
+      letter-spacing: 0.04em;
+      text-transform: uppercase;
+    }
+    h1 {
+      font-size: 4em;
+      font-weight: 700;
+    }
+    h2 {
+      font-size: 1.8em;
+      margin: 0.1em;
+      font-weight: 600;
+    }
+    h3 {
+      font-size: 2em;
+      font-weight: 600;
+    }
+    a {
+      color: $colour-accent;
+      text-decoration: none;
+      cursor: pointer;
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+    section {
+      padding: 2em;
+    }
+  }
+}
+
+#intro {
+  h2 {
+    color: $colour-text-secondary;
+  }
+}
+
+#skills {
+  #skills-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: auto;
+    padding: 0;
+    width: 50%;
+    padding-left: 10%;
+    section {
+      padding: 0;
+      width: 50%;
+      p {
+        font-size: $fontsize-text-primary;
+        width: 100%;
+        text-align: left;
+        span {
+          color: $colour-text-secondary;
+        }
+      }
+    }
+  }
+}
+
+#projects {
+  p {
+    margin-bottom: 1em;
+  }
+  #projects-list {
+    padding: 0;
+    flex-wrap: wrap;
+    display: flex;
+    article {
+      text-align: left;
+      margin-top: 3em;
+      margin-bottom: 1em;
+      margin-right: 2%;
+      width: 48%;
+      .main-info {
+        padding: 0;
+        flex: 1 1 auto;
+        width: 100%;
+        margin-top: 2em;
+        h2 {
+          text-decoration: underline;
+          margin: 0;
+        }
+        a {
+          background: $colour-accent;
+          letter-spacing: 0.1em;
+          color: $colour-button-text;
+          padding: 1em;
+          display: inline-block;
+          margin-top: 0.5em;
+          font-weight: 300;
+        }
+      }
+      .img-container {
+        display: block;
+        width: 100%;
+        height: 16em;
+        overflow: hidden;
+        &:hover > img {
+          transform: scale(1.1);
+        }
+        //height: 100%;
+        img {
+          width: 100%;
+          height: 100%;
+          transition: transform 1s;
+          //height: 100%;
+        }
+      }
+    }
+  }
+}
+
+#contact {
+  p {
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 64em) {
+  html body main {
+      #skills #skills-container {
+        padding: 0;
+      }
+      #projects #projects-list article {
+        //flex-wrap: wrap;
+        //margin: 2em 0;
+        width: 100%;
+        margin-right: 0;
+        .img-container {
+          height: initial;
+          img {
+            height: initial;
+          }
+        }
+      }
+  }
+}
+
+@media screen and (max-width: 48em) {
+  html body main {
+      section {
+        padding: 1.5em;
+      }
+      #intro h1 {
+        font-size: 2.5em;
+      }
+      h2 {
+        font-size: 1.8em;
+      }
+      p {
+        font-size: 1.1em;
+      }
+      #skills #skills-container {
+        width: 100%;
+        section {
+          width: 35%;
+        }
+        p {
+          margin: 0.5em 0;
+          }
+      }
+      #projects #projects-list article {
+        //flex-wrap: wrap;
+        //margin: 2em 0;
+        width: 100%;
+        margin-right: 0;
+        .img-container {
+          //width: 100%;
+          //height: 100%;
+        }
+        img {
+          margin-top: 1em;
+        }
+      }
+  }
+}
+
+@media screen and (max-width: 32em) {
+  html body main {
+      #skills #skills-container {
+        section {
+          width: 75%;
+        }
+        p {
+          width: 100%;
+        }
+      }
+  }
+}
+
+@media screen and (max-width: 24em) {
+  html body main #intro {
+      h1 {
+        font-size: 2.2em;
+      }
+      h2 {
+        font-size: 1.5em;
+      }
+  }
+}
