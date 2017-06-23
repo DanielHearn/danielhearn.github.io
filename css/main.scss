@@ -33,9 +33,6 @@ body {
     h1 {
       font-size: 4em;
       font-weight: 700;
-      &:hover {
-        text-decoration: none;
-      }
     }
     h2 {
       font-size: 1.8em;
@@ -67,6 +64,9 @@ body {
 }
 
 #intro {
+  h1:hover {
+    text-decoration: none;
+  }
   h2 {
     color: $colour-text-secondary;
   }
