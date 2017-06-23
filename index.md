@@ -40,10 +40,10 @@ layout: default
 </section>
 <section id="blog">
 	<h3>Blog</h3>
-	<p>I <a href="blog.html">blog</a> on various topics including web development, gaming, digital art.<p>
+	<p>I <a href="blog.html">blog</a> on various topics including front end web development, gaming, digital art.<p>
 	<ul id="posts">
 		{% for post in site.posts limit:5 %}
-			<li><span>{{ post.date | date_to_string }}</span> » <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></li>
+			<li><span>{{ post.date | date_to_string }}</span>  <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></li>
 		{% endfor %}
 	</ul>
 <section id="projects">
@@ -61,5 +61,4 @@ layout: default
 			</article>
 		{% endfor %}
 	</section>
-</section>
 </section>
