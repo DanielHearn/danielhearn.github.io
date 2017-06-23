@@ -46,7 +46,6 @@ layout: default
 			<li><span>{{ post.date | date_to_string }}</span> » <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></li>
 		{% endfor %}
 	</ul>
-</section>
 <section id="projects">
 	<h3>Projects</h3>
 	<p>These are the larger projects I have developed, to view my smaller projects and code experiments visit my <a href="{{ site.codepen }}">codepen</a>.</p>
@@ -62,4 +61,5 @@ layout: default
 			</article>
 		{% endfor %}
 	</section>
+</section>
 </section>
