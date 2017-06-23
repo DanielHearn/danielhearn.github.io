@@ -40,7 +40,7 @@ layout: default
 </section>
 <section id="blog">
 	<h3>Blog</h3>
-	<a href="blog.html">My Blog</a>
+	<p>I <a href="blog.html">blog</a> on various topics including web development, gaming, digital art.<p>
 	<ul id="posts">
 		{% for post in site.posts %}
 			<li><span>{{ post.date | date_to_string }}</span> » <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></li>
