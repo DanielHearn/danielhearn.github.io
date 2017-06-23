@@ -40,23 +40,24 @@ layout: default
 </section>
 <section id="blog">
 	<h3>Blog</h3>
-	<p>I <a href="blog.html">blog</a> on various topics including front end web development, gaming, digital art.<p>
+	<p>I <a href="blog.html">blog</a> on various topics including front end web development, gaming, digital art.</p>
 	<ul id="posts">
 		{% for post in site.posts limit:5 %}
 			<li><span>{{ post.date | date_to_string }}</span>  <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></li>
 		{% endfor %}
 	</ul>
+</section>
 <section id="projects">
 	<h3>Projects</h3>
 	<p>These are the larger projects I have developed, to view my smaller projects and code experiments visit my <a href="{{ site.codepen }}">codepen</a>.</p>
 	<section id="projects-list">
 		{% for project in site.projects %}
 			<article>
-				<a href="{{ project.url }}" class="img-container"><img src="{{ project.img }}" alt="Image of the manytwitch website."></a>
+				<a href="{{ project.link }}" class="img-container"><img src="{{ project.img }}" alt="Image of the manytwitch website."></a>
 				<section class="main-info">
 					<h2>{{ project.title }}</h2>
 					<p>{{ project.description }}</p>
-					<a href="{{ project.url }}">VIEW PROJECT</a>
+					<a href="{{ project.link }}">VIEW PROJECT</a>
 				</section>
 			</article>
 		{% endfor %}
