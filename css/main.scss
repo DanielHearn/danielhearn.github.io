@@ -76,7 +76,7 @@ body {
     padding: 0;
     width: 50%;
     padding-left: 10%;
-    section {
+    li {
       padding: 0;
       width: 50%;
       p {
@@ -186,7 +186,7 @@ body {
       }
       #skills #skills-container {
         width: 100%;
-        section {
+        li {
           width: 35%;
         }
         p {
@@ -212,7 +212,7 @@ body {
 @media screen and (max-width: 32em) {
   html body main {
       #skills #skills-container {
-        section {
+        li {
           width: 75%;
         }
         p {

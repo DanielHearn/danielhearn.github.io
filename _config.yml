@@ -3,5 +3,12 @@ catchphrase: Student interested in the web
 markdown: kramdown
 permalink: /blog/:year/:month/:day/:title
 
+collections:
+  - skills
+    - skill: "CSS"
+      length: "1+ year"
+    - skill: "HTML5"
+      length: "1+ year"
+
 plugins:
   - jekyll-sitemap
