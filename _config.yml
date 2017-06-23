@@ -1,14 +1,13 @@
-name: Daniel Hearn
+title: Daniel Hearn
 catchphrase: Student interested in the web
 markdown: kramdown
 permalink: /blog/:year/:month/:day/:title
+github: https://github.com/DanielHearn
+codepen: https://codepen.io/danhearn/
+#repository: DanielHearn/danielhearn.github.io
 
 collections:
-  - skills
-    - skill: "CSS"
-      length: "1+ year"
-    - skill: "HTML5"
-      length: "1+ year"
+  - projects
 
-plugins:
+plugins_dir:
   - jekyll-sitemap
