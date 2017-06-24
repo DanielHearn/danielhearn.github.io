@@ -224,6 +224,10 @@ body {
           }
       }
       #posts {
+        svg {
+          position: relative;
+          top: 0.2em;
+        }
         li {
           font-size: 1.1em;
         }
