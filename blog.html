@@ -6,7 +6,7 @@ title: Daniel Hearn's Blog
 <section>
 	<h2>{{ page.title }}</h2>
 	<p>I blog on various topics including front end web development, gaming, digital art.</p>
-	<h2>My Posts</h2>
+	<h4>My Posts</h4>
 	<ul id="posts">
 	  {% for post in site.posts %}
 	    <li><span>{{ post.date | date_to_string }}</span> » <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></li>

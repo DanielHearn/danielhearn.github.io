@@ -24,7 +24,7 @@ body {
       font-size: $fontsize-text-primary;
       font-weight: 400;
     }
-    h1, h3 {
+    h1, h3, h4 {
       color: $colour-accent;
       margin: 0.1em;
       letter-spacing: 0.04em;
@@ -41,6 +41,10 @@ body {
     }
     h3 {
       font-size: 2em;
+      font-weight: 600;
+    }
+    h4 {
+      font-size: 1.4em;
       font-weight: 600;
     }
     pre {
