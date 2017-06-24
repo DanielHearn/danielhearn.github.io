@@ -46,7 +46,7 @@ body {
     h4 {
       font-size: 1.4em;
       font-weight: 600;
-      color: $colour-text-secondary;
+      color: $colour-text-primary;
     }
     pre {
       text-align: left;
@@ -162,9 +162,13 @@ body {
   }
 }
 
-#posts {
+#post {
   h2 {
     text-align: left;
+  }
+  svg {
+    position: relative;
+    top: 0.2em;
   }
   li {
     padding-top: 1em;
@@ -224,10 +228,6 @@ body {
           }
       }
       #post {
-        svg {
-          position: relative;
-          top: 0.2em;
-        }
         li {
           font-size: 1.1em;
         }
