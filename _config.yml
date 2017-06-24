@@ -2,7 +2,7 @@ title: Daniel Hearn
 catchphrase: Student interested in the web
 markdown: kramdown
 blog: /blog.html
-permalink: /blog/:year/:month/:day/:title
+permalink: /blog/:title
 github: https://github.com/DanielHearn
 codepen: https://codepen.io/danhearn/
 #repository: DanielHearn/danielhearn.github.io

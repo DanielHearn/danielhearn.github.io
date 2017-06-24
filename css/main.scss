@@ -158,10 +158,20 @@ body {
 }
 
 #posts {
+  h2 {
+    text-align: left;
+  }
   li {
     padding-top: 1em;
     list-style: none;
+    font-size: $fontsize-text-primary;
     text-align: left;
+    span {
+      text-decoration: underline;
+    }
+    a {
+      font-weight: bold;
+    }
   }
 }
 
@@ -207,6 +217,11 @@ body {
         p {
           margin: 0.5em 0;
           }
+      }
+      #posts {
+        li {
+          font-size: 1.1em;
+        }
       }
       #projects #projects-list article {
         //flex-wrap: wrap;
