@@ -5,6 +5,7 @@ blog: /blog.html
 permalink: /blog/:title
 github: https://github.com/DanielHearn
 codepen: https://codepen.io/danhearn/
+manytwich: http://danielhearn.co.uk/manytwitch
 #repository: DanielHearn/danielhearn.github.io
 
 collections:
