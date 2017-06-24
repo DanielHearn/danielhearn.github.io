@@ -164,24 +164,28 @@ body {
 }
 
 #post {
-  h2 {
+  h4 {
     text-align: left;
   }
   svg {
     position: relative;
     top: 0.2em;
   }
-  li {
-    padding-top: 1em;
-    list-style: none;
-    font-size: $fontsize-text-primary;
-    text-align: left;
-    span {
-      text-decoration: underline;
+  ul {
+    padding-left: 0;
+    li {
+      padding-top: 1em;
+      list-style: none;
+      font-size: $fontsize-text-primary;
+      text-align: left;
+      span {
+        text-decoration: underline;
+      }
+      a {
+        font-weight: bold;
+      }
     }
-    a {
-      font-weight: bold;
-    }
+
   }
 }
 
