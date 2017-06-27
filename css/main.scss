@@ -55,6 +55,7 @@ body {
       color: $colour-accent;
       text-decoration: none;
       cursor: pointer;
+      font-weight: bold;
       &:hover {
         text-decoration: underline;
       }
@@ -127,14 +128,22 @@ body {
           margin: 0;
         }
         a {
-          background: $colour-accent;
+          //background: $colour-accent;
+          border: 2px solid $colour-accent;
           letter-spacing: 0.1em;
-          color: $colour-button-text;
+          //color: $colour-button-text;
+          color: $colour-accent;
           text-transform: uppercase;
           padding: 1em;
           display: inline-block;
           margin-top: 0.5em;
-          font-weight: 300;
+          font-weight: 800;
+          transition: all 0.2s;
+          &:hover {
+            text-decoration: none;
+            background-color: $colour-accent;
+            color: white;
+          }
         }
       }
       .img-container {
