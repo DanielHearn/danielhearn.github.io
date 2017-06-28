@@ -40,9 +40,9 @@ layout: default
 </section>
 <section id="blog">
 	<h3>Blog</h3>
-	<p>I <a href="blog.html">blog</a> on various topics including front end web development, gaming, digital art.</p>
+	<p>I <a href="{{ site.blog }}">blog</a> on various topics including front end web development, gaming, digital art.</p>
 	<h4>My Recent Posts</h4>
-	<ul id="post">
+	<ul id="posts-list">
 		{% for post in site.posts limit:5 %}
 			<li><span>{{ post.date | date_to_string }}</span>  <a href="{{ post.url }}" title="{{ post.title }}" data-proofer-ignore>{{ post.title }}</a></li>
 		{% endfor %}

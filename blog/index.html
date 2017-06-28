@@ -7,7 +7,7 @@ title: Daniel Hearn's Blog
 	<h2>{{ page.title }}</h2>
 	<p>I blog on various topics including front end web development, gaming, digital art.</p>
 	<h4>My Posts</h4>
-	<ul id="posts">
+	<ul id="posts-list">
 	  {% for post in site.posts %}
 	    <li><span>{{ post.date | date_to_string }}</span>  <a href="{{ post.url }}" title="{{ post.title }}" data-proofer-ignore>{{ post.title }}</a></li>
 	  {% endfor %}

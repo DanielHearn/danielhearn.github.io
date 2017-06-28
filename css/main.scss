@@ -41,7 +41,7 @@ body {
     }
     h3 {
       font-size: 2em;
-      font-weight: 600;
+      font-weight: 700;
     }
     h4 {
       font-size: 1.4em;
@@ -106,7 +106,7 @@ body {
 
 #projects {
   p {
-    margin-bottom: 1em;
+    margin-bottom: 0;
   }
   #projects-list {
     padding: 0;
@@ -136,7 +136,7 @@ body {
           text-transform: uppercase;
           padding: 1em;
           display: inline-block;
-          margin-top: 0.5em;
+          margin-top: 1em;
           font-weight: 800;
           font-size: 1em;
           transition: all 0.25s;
@@ -173,14 +173,10 @@ body {
   }
 }
 
-#post {
+#posts-list {
   padding-left: 0;
   h4 {
     text-align: left;
-  }
-  svg {
-    position: relative;
-    top: 0.2em;
   }
   li {
     padding-top: 1em;
@@ -192,6 +188,50 @@ body {
     }
     a {
       font-weight: bold;
+    }
+  }
+}
+
+#post {
+  svg {
+    position: relative;
+    top: 0.2em;
+  }
+  #meta {
+    text-align: left;
+    padding-left: 0;
+    p, li {
+      display: inline-block;
+      list-style: none;
+      font-weight: 600;
+    }
+    li {
+      background: $colour-accent;
+      color: $colour-button-text;
+      padding: 0.2em 0.4em;
+    }
+  }
+}
+
+footer {
+  color: $colour-button-text;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  ul {
+    padding-left: 0;
+    li {
+        display: inline-block;
+        list-style: none;
+      a {
+        color: $colour-button-text;
+        padding: 0.5em 1em;
+        margin-left: 0.1em;
+        margin-right: 0.1em;
+        font-weight: 600;
+        background: $colour-accent;
+      }
     }
   }
 }

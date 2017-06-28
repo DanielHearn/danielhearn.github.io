@@ -1,8 +1,9 @@
 title: Daniel Hearn
 catchphrase: Student interested in the web
 markdown: kramdown
-blog: /blog.html
+blog: /blog
 permalink: /blog/:title
+email: mailto:daniel_hearn@outlook.com
 github: https://github.com/DanielHearn
 codepen: https://codepen.io/danhearn/
 manytwich: http://danielhearn.co.uk/manytwitch
