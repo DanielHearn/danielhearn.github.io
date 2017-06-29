@@ -1,0 +1,38 @@
+---
+layout: post
+---
+
+{% assign project = site.projects | where: 'name', page.project %} {% assign project = project[0] %}
+
+<ul id="design-meta">
+  <ul id="languages">
+    <p>Languages: </p>
+    {% for language in project.languages limit:5 %}
+      <li>{{ language }}</li>
+    {% endfor %}
+  </ul>
+  <ul id="colours">
+    <p>Colours: </p>
+    {% for colour in project.colours limit:5 %}
+      <li style="background: #{{ colour }};">{{ colour }}</li>
+    {% endfor %}
+  </ul>
+</ul>
+
+<section id="slider">
+  <div class="bss-slides slideshow" tabindex="1" autofocus="autofocus">
+    <figure>
+      <img src="{{ project.img }}"/>
+    </figure>
+    <figure>
+      <img src="{{ project.img2 }}"/>
+    </figure>
+    <figure>
+      <img src="{{ project.img3 }}"/>
+    </figure>
+  </div>
+</section>
+<script src="https://leemark.github.io/better-simple-slideshow/demo/js/hammer.min.js"></script>
+<script src="/js/slideshow.js"></script>
+
+{{ content }}
