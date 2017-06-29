@@ -164,7 +164,7 @@ var opts = {
         speed : 5000,
         pauseOnHover : true
     },
-    fullScreen : true,
+    fullScreen : false,
     swipe : true
 };
 makeBSS('.slideshow', opts);
