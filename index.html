@@ -62,8 +62,8 @@ redirect_from: /projects/
 					<h2>{{ project.title }}</h2>
 					<p>{{ project.description }}</p>
 					<a href="{{ project.link }}">View {{ project.type }}</a>
-					{% if project.has-about == true %}
-						<a href="/projects/{{ project.title }}">{{ project.about-button }}</a>
+					{% if project.design-post != null %}
+						<a href="{{ project.design-post }}">About Project</a>
 					{% endif %}
 				</section>
 			</article>

@@ -2,6 +2,7 @@ title: Daniel Hearn
 catchphrase: Student interested in the web
 markdown: kramdown
 blog: /blog
+site.url: http://danielhearn.co.uk
 permalink: /blog/:title
 email-url: mailto:daniel_hearn@outlook.com
 email: daniel_hearn@outlook.com
@@ -12,7 +13,6 @@ manytwich: http://danielhearn.co.uk/manytwitch
 
 collections:
   projects:
-    output: true
 
 
 plugins_dir:
