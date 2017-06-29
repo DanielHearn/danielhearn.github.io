@@ -4,6 +4,9 @@ $colour-text-primary: #555;
 $colour-text-secondary: #999;
 $colour-button-text: white;
 $fontsize-text-primary: 1.2em;
+$colours: #00A6ED, #FFD966, #F71735, #89da59, #9881F5, #19191a, #ECECEC;
+
+//import 'slideshow';
 
 html {
   height: 100%;
@@ -22,6 +25,7 @@ body {
   min-height: 100%;
   main {
     max-width: 60em;
+    width: 100%;
     padding: 2em 0;
     padding-bottom: 4em;
     h1, h2, h3, p {
@@ -201,13 +205,19 @@ body {
 }
 
 #post {
+  h2 {
+    font-size: 2em;
+  }
   svg {
     position: relative;
     top: 0.2em;
   }
-  #meta {
+  #meta, #design-meta {
     text-align: left;
     padding-left: 0;
+    ul {
+      padding-left: 0;
+    }
     p, li {
       display: inline-block;
       list-style: none;
@@ -218,6 +228,14 @@ body {
       color: $colour-button-text;
       padding: 0.2em 0.4em;
     }
+    #languages, #colours {
+      p {
+        padding-right: 0.4em;
+      }
+    }
+  }
+  #slider {
+    padding: 1em 0;
   }
 }
 
