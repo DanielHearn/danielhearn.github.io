@@ -5,6 +5,7 @@ $colour-text-secondary: #999;
 $colour-button-text: white;
 $fontsize-text-primary: 1.2em;
 $colours: #00A6ED, #FFD966, #F71735, #89da59, #9881F5, #19191a, #ECECEC;
+$padding-small-button: 0.4em 0.6em;
 
 //import 'slideshow';
 
@@ -218,15 +219,35 @@ body {
     ul {
       padding-left: 0;
     }
+    p {
+      width: 100%;
+    }
     p, li {
       display: inline-block;
       list-style: none;
       font-weight: 600;
+      font-size: 1.2em;
     }
     li {
       background: $colour-accent;
       color: $colour-button-text;
-      padding: 0.2em 0.4em;
+      padding: $padding-small-button;
+      font-weight: 500;
+      margin-bottom: 0.5em;
+    }
+    #colours {
+      li {
+        padding: 0 0.2em;
+        background: transparent;
+      }
+      span {
+        padding: 0.2em;
+        width: 1.5em;
+        height: 1.5em;
+        border-radius: 50%;
+        display: block;
+        border: 0.1em #5a5a5a solid;
+      }
     }
     #languages, #colours {
       p {
@@ -263,7 +284,7 @@ footer {
         margin-right: 0.1em;
       a {
         color: $colour-button-text;
-        padding: 0.5em 1em;
+        padding: $padding-small-button;
         font-weight: 600;
         background: $colour-accent;
       }
@@ -350,6 +371,11 @@ footer {
           width: 100%;
         }
       }
+      footer {
+        li {
+          margin-bottom: 1.5em;
+        }
+      }
   }
 }
 
@@ -361,11 +387,6 @@ footer {
         }
         h2 {
           font-size: 1.5em;
-        }
-      }
-      footer {
-        li {
-          margin-bottom: 1.5em;
         }
       }
   }
