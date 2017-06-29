@@ -14,7 +14,6 @@ manytwich: http://danielhearn.co.uk/manytwitch
 collections:
   projects:
 
-
 plugins_dir:
   - jekyll-sitemap
   - jekyll-redirect-from
