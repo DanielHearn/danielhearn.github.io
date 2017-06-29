@@ -1,6 +1,5 @@
 ---
 layout: default
-redirect_from: "/projects"
 ---
 
 <section id="about">
@@ -55,6 +54,7 @@ redirect_from: "/projects"
 	<p>These are the larger projects I have developed, to view my smaller projects and code experiments visit my <a href="{{ site.codepen }}">codepen</a>.</p>
 	<section id="projects-list">
 		{% for project in site.projects %}
+			{% if project.type != null %}
 			<article>
 				<a href="{{ project.link }}" class="img-container"><img src="{{ project.img }}" alt="Image of the manytwitch website."></a>
 				<section class="main-info">
@@ -66,6 +66,7 @@ redirect_from: "/projects"
 					{% endif %}
 				</section>
 			</article>
+			{% endif %}
 		{% endfor %}
 	</section>
 </section>
