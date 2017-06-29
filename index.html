@@ -1,5 +1,6 @@
 ---
 layout: default
+redirect_from: "/projects"
 ---
 
 <section id="about">
@@ -60,6 +61,9 @@ layout: default
 					<h2>{{ project.title }}</h2>
 					<p>{{ project.description }}</p>
 					<a href="{{ project.link }}">View {{ project.type }}</a>
+					{% if project.has-about == true %}
+						<a href="/projects/{{ project.title }}">{{ project.about-button }}</a>
+					{% endif %}
 				</section>
 			</article>
 		{% endfor %}

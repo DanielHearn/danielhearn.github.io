@@ -235,14 +235,17 @@ footer {
   padding-bottom: 0;
   ul {
     padding-left: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
     li {
         display: inline-block;
         list-style: none;
+        margin-left: 0.1em;
+        margin-right: 0.1em;
       a {
         color: $colour-button-text;
         padding: 0.5em 1em;
-        margin-left: 0.1em;
-        margin-right: 0.1em;
         font-weight: 600;
         background: $colour-accent;
       }
@@ -333,12 +336,19 @@ footer {
 }
 
 @media screen and (max-width: 24em) {
-  html body main #intro {
-      h1 {
-        font-size: 2.2em;
+  html body main {
+      #intro {
+        h1 {
+          font-size: 2.2em;
+        }
+        h2 {
+          font-size: 1.5em;
+        }
       }
-      h2 {
-        font-size: 1.5em;
+      footer {
+        li {
+          margin-bottom: 1.5em;
+        }
       }
   }
 }

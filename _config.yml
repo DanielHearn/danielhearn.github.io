@@ -11,7 +11,9 @@ manytwich: http://danielhearn.co.uk/manytwitch
 #repository: DanielHearn/danielhearn.github.io
 
 collections:
-  - projects
+  projects:
+
 
 plugins_dir:
   - jekyll-sitemap
+  - jekyll-redirect-from
