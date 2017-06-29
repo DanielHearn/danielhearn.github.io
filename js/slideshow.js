@@ -162,7 +162,7 @@ var makeBSS = function (el, options) {
 var opts = {
     auto : {
         speed : 5000,
-        pauseOnHover : true
+        pauseOnHover : false
     },
     fullScreen : false,
     swipe : true
