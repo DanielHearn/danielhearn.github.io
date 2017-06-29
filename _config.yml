@@ -12,6 +12,7 @@ manytwich: http://danielhearn.co.uk/manytwitch
 
 collections:
   projects:
+    output: true
 
 
 plugins_dir:
