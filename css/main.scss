@@ -256,7 +256,29 @@ body {
     }
   }
   #slider {
-    padding: 1em 0;
+    padding: 0;
+    padding-top: 1.5em;
+    padding-bottom: 0.5em;
+  }
+}
+
+.design-button {
+  //background: $colour-accent;
+  border: 2px solid $colour-accent;
+  letter-spacing: 0.1em;
+  //color: $colour-button-text;
+  color: $colour-accent;
+  text-transform: uppercase;
+  padding: 1em;
+  display: inline-block;
+  margin-top: 1em;
+  font-weight: 800;
+  font-size: 1em;
+  transition: all 0.25s;
+  &:hover {
+    text-decoration: none;
+    background-color: $colour-accent;
+    color: white;
   }
 }
 
@@ -269,7 +291,7 @@ footer {
   right: 0;
   bottom: 0;
   left: 0;
-  height: 4em;
+  height: 3em;
   padding: 2.5em 1em;
   padding-bottom: 0;
   ul {
