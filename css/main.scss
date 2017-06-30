@@ -82,7 +82,7 @@ body {
   }
 }
 
-#intro {
+#intro, #intro-post {
   a:hover {
     text-decoration: none;
   }
@@ -90,6 +90,11 @@ body {
     color: $colour-text-secondary;
   }
 }
+
+#intro-post {
+  padding: 1em 1em;
+}
+
 
 #skills {
   #skills-container {
@@ -278,9 +283,9 @@ body {
     background: $colour-bg;
   }
   .carousel-cell {
-    width: 60%;
-    //height: 22.9em;
-    margin-right: 10px;
+    width: 66%;
+    height: initial;
+    //margin-right: 10px;
     background: $colour-bg;
   }
   .carousel-cell-image {
