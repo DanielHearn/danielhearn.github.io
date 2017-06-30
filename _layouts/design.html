@@ -4,7 +4,7 @@ layout: post
 {% assign project = site.projects | where: 'name', page.project %} {% assign project = project[0] %}
 
 <section id="slider">
-  <div class="carousel" data-flickity='{ "wrapAround": true,  "setGallerySize": true}'>
+  <div class="carousel" data-flickity='{ "wrapAround": true }'>
     <div class="carousel-cell">
       <img class="carousel-cell-image" src="{{ project.img }}" alt="Image of {{ project.title }}"/>
     </div>
@@ -16,6 +16,7 @@ layout: post
     </div>
   </div>
 </section>
+
 
 <ul id="design-meta">
   <ul id="languages">
