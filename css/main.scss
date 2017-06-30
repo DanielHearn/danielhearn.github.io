@@ -83,6 +83,7 @@ body {
 }
 
 #intro, #intro-post {
+  padding: 1.5em 1em;
   a:hover {
     text-decoration: none;
   }
@@ -90,11 +91,6 @@ body {
     color: $colour-text-secondary;
   }
 }
-
-#intro-post {
-  padding: 1em 1em;
-}
-
 
 #skills {
   #skills-container {
@@ -297,11 +293,17 @@ body {
     margin: 0 auto;
     max-width: 100%;
   }
+  .flickity-prev-next-button {
+    background: $colour-accent;
+  }
   .flickity-prev-next-button.next {
     right: 1.5em;
   }
   .flickity-prev-next-button.previous {
     left: 1.5em;
+  }
+  .flickity-prev-next-button .arrow {
+    fill: $colour-button-text;
   }
 }
 
