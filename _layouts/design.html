@@ -4,19 +4,17 @@ layout: post
 {% assign project = site.projects | where: 'name', page.project %} {% assign project = project[0] %}
 
 <section id="slider">
-  <div class="bss-slides slideshow" tabindex="1" autofocus="autofocus">
-    <figure>
-      <img src="{{ project.img }}" alt="Image of {{ project.title }}"/>
-    </figure>
-    <figure>
-      <img src="{{ project.img2 }}" alt="Image of {{ project.title }}"/>
-    </figure>
-    <figure>
-      <img src="{{ project.img3 }}" alt="Image of {{ project.title }}"/>
-    </figure>
+  <div class="carousel" data-flickity='{ "wrapAround": true,  "setGallerySize": true}'>
+    <div class="carousel-cell">
+      <img class="carousel-cell-image" src="{{ project.img }}" alt="Image of {{ project.title }}"/>
+    </div>
+    <div class="carousel-cell">
+      <img class="carousel-cell-image" src="{{ project.img2 }}" alt="Image of {{ project.title }}"/>
+    </div>
+    <div class="carousel-cell">
+      <img class="carousel-cell-image" src="{{ project.img3 }}" alt="Image of {{ project.title }}"/>
+    </div>
   </div>
-  <script src="https://leemark.github.io/better-simple-slideshow/demo/js/hammer.min.js"></script>
-  <script src="/js/slideshow.js"></script>
 </section>
 
 <ul id="design-meta">

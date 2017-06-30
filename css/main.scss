@@ -109,6 +109,7 @@ body {
         font-size: $fontsize-text-primary;
         width: 100%;
         text-align: left;
+        font-weight: 600;
         span {
           color: $colour-text-secondary;
         }
@@ -188,6 +189,7 @@ body {
 
 #posts-list {
   padding-left: 0;
+  margin: 0;
   h4 {
     text-align: left;
   }
@@ -209,15 +211,20 @@ body {
   h2 {
     font-size: 2em;
   }
-  svg {
-    position: relative;
-    top: 0.2em;
+  #meta {
+    svg {
+      position: relative;
+      top: 0.2em;
+    }
   }
   #meta, #design-meta {
     text-align: left;
     padding-left: 0;
+    display: flex;
+    flex-wrap: wrap;
     ul {
       padding-left: 0;
+      width: 50%;
     }
     p {
       width: 100%;
@@ -258,7 +265,23 @@ body {
   #slider {
     padding: 0;
     padding-top: 1.5em;
-    padding-bottom: 0.5em;
+    padding-bottom: 1.5em;
+    .carousel {
+      background: $colour-bg;
+    }
+    .carousel-cell {
+      width: 70%;
+      height: 22.9em;
+      margin-right: 10px;
+      background: #333;
+    }
+    .carousel-cell-image {
+      display: block;
+      max-height: 100%;
+      margin: 0 auto;
+      max-width: 100%;
+      opacity: 1;
+    }
   }
 }
 
@@ -314,6 +337,7 @@ footer {
   }
 }
 
+
 @media screen and (max-width: 64em) {
   html body main {
       #skills #skills-container {
@@ -343,6 +367,9 @@ footer {
         font-size: 2.5em;
       }
       h2 {
+        font-size: 1.8em;
+      }
+      h3 {
         font-size: 1.8em;
       }
       p {
@@ -391,6 +418,13 @@ footer {
         }
         p {
           width: 100%;
+        }
+      }
+      #post {
+        #meta, #design-meta {
+          ul {
+            width: 100%;
+          }
         }
       }
       footer {

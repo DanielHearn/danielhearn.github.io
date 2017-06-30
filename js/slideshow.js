@@ -1,4 +1,12 @@
-var makeBSS = function (el, options) {
+/*var elem = document.querySelector('.main-carousel');
+var flkty = new Flickity( elem, {
+  // options
+  cellAlign: 'left',
+  contain: true
+});
+*/
+
+/*var makeBSS = function (el, options) {
     var $slideshows = document.querySelectorAll(el), // a collection of all of the slideshow
         $slideshow = {},
         Slideshow = {
@@ -168,3 +176,4 @@ var opts = {
     swipe : true
 };
 makeBSS('.slideshow', opts);
+*/

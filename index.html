@@ -27,7 +27,7 @@ redirect_from: /projects/
 <section id="blog">
 	<h3>Blog</h3>
 	<p>I <a href="{{ site.blog }}">blog</a> on various topics including front end web development, gaming, digital art.</p>
-	<h4>My Recent Posts</h4>
+	<!--<h4>My Recent Posts</h4>-->
 	<ul id="posts-list">
 		{% for post in site.posts limit:5 %}
 			<li><span>{{ post.date | date_to_string }}</span>  <a href="{{ post.url }}" title="{{ post.title }}" data-proofer-ignore>{{ post.title }}</a></li>
