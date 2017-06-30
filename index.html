@@ -46,7 +46,7 @@ redirect_from: /projects/
 		{% for project in site.projects %}
 			{% if project.type != null %}
 			<article>
-				<a href="{{ project.link }}" class="img-container"><img src="{{ project.img }}" alt="Image of the manytwitch website."></a>
+				<a href="{{ project.link }}" class="img-container"><img src="{{ project.imgs[0] }}" alt="Image of the manytwitch website."></a>
 				<section class="main-info">
 					<h2>{{ project.title }}</h2>
 					<p>{{ project.description }}</p>

@@ -283,17 +283,22 @@ body {
     background: $colour-bg;
   }
   .carousel-cell {
-    width: 66%;
+    width: 50%;
     height: initial;
-    //margin-right: 10px;
     background: $colour-bg;
+    padding: 0 1em;
   }
   .carousel-cell-image {
     display: block;
     max-height: 100%;
     margin: 0 auto;
     max-width: 100%;
-    //opacity: 1;
+  }
+  .flickity-prev-next-button.next {
+    right: 1.5em;
+  }
+  .flickity-prev-next-button.previous {
+    left: 1.5em;
   }
 }
 
@@ -375,7 +380,7 @@ footer {
       section {
         padding: 1.2em;
       }
-      #intro h1 {
+      #intro h1, #intro-post h1 {
         font-size: 2.5em;
       }
       h2 {
@@ -400,6 +405,9 @@ footer {
         li {
           font-size: 1.1em;
         }
+      }
+      #slider .carousel-cell {
+        width: 100%;
       }
       #projects #projects-list {
         article {
@@ -449,7 +457,7 @@ footer {
 
 @media screen and (max-width: 24em) {
   html body main {
-      #intro {
+      #intro, #intro-post {
         h1 {
           font-size: 2.2em;
         }

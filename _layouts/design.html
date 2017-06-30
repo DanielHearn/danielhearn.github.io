@@ -5,15 +5,11 @@ layout: post
 
 <section id="slider">
   <div class="carousel" data-flickity='{ "wrapAround": true, "imagesLoaded": true }'>
-    <div class="carousel-cell">
-      <img class="carousel-cell-image" src="{{ project.img }}" alt="Image of {{ project.title }}"/>
-    </div>
-    <div class="carousel-cell">
-      <img class="carousel-cell-image" src="{{ project.img2 }}" alt="Image of {{ project.title }}"/>
-    </div>
-    <div class="carousel-cell">
-      <img class="carousel-cell-image" src="{{ project.img3 }}" alt="Image of {{ project.title }}"/>
-    </div>
+    {% for img in project.imgs %}
+      <div class="carousel-cell">
+        <img class="carousel-cell-image" src="{{ img }}" alt="Image of {{ project.title }}"/>
+      </div>
+    {% endfor %}
   </div>
 </section>
 
