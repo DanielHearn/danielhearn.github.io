@@ -44,7 +44,7 @@ body {
     h2 {
       font-size: 1.8em;
       margin: 0.1em;
-      font-weight: 600;
+      font-weight: 700;
     }
     h3 {
       font-size: 2em;
@@ -89,6 +89,7 @@ body {
   }
   h2 {
     color: $colour-text-secondary;
+    font-weight: 600;
   }
 }
 
@@ -106,14 +107,16 @@ body {
       padding: 0;
       width: 50%;
       list-style: none;
-      p {
-        font-size: $fontsize-text-primary;
+      p, span {
         width: 100%;
         text-align: left;
         font-weight: 600;
-        span {
-          color: $colour-text-secondary;
-        }
+      }
+      p {
+        font-size: $fontsize-text-primary;
+      }
+      span {
+        color: $colour-text-secondary;
       }
     }
   }
@@ -127,6 +130,7 @@ body {
     padding: 0;
     flex-wrap: wrap;
     display: flex;
+    padding-bottom: 2em;
     article {
       text-align: left;
       margin: 3em 1% 1em 1%;
@@ -137,7 +141,7 @@ body {
         width: 100%;
         margin-top: 2em;
         h2 {
-          text-decoration: underline;
+          //text-decoration: underline;
           margin: 0;
         }
         a {
@@ -334,7 +338,6 @@ footer {
   right: 0;
   bottom: 0;
   left: 0;
-  height: 3em;
   padding: 2.5em 1em;
   padding-bottom: 0;
   p {
@@ -467,8 +470,11 @@ footer {
 @media screen and (max-width: 24em) {
   html body main {
     #skills #skills-container {
-      li {
-        width: 100%;
+      p {
+        //width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        padding-right: 0.1em;
       }
     }
     #intro, #intro-post {
