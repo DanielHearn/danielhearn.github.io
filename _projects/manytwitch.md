@@ -5,9 +5,10 @@ type: project
 link: http://danielhearn.co.uk/manytwitch
 description: Multiple Twitch stream viewer developed using AngularJS and CSS variables.
 imgs:
-  - /img/manyTwitch.png
-  - /img/manyTwitch2.png
-  - /img/manyTwitch3.png
+  - /img/manytwitch/manyTwitch.png
+  - /img/manytwitch/manyTwitch2.png
+  - /img/manytwitch/manyTwitch3.png
+  - /img/manytwitch/manyTwitch4.png
 design-post: /blog/manytwitch-design
 development:
   -  HTML5

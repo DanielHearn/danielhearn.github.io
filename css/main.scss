@@ -1,4 +1,5 @@
 $colour-accent: #db4c3f;
+$colour-accent-secondary: #f39c12;
 $colour-bg: #fefefe;
 $colour-text-primary: #555;
 $colour-text-secondary: #999;
@@ -6,8 +7,6 @@ $colour-button-text: white;
 $fontsize-text-primary: 1.2em;
 $colours: #00A6ED, #FFD966, #F71735, #89da59, #9881F5, #19191a, #ECECEC;
 $padding-small-button: 0.4em 0.6em;
-
-//import 'slideshow';
 
 html {
   height: 100%;
@@ -29,13 +28,8 @@ body {
     width: 100%;
     padding: 2em 0;
     padding-bottom: 4em;
-    h1, h2, h3, p {
+    h1, h2, h3 {
       font-weight: 300;
-    }
-    p {
-      text-align: left;
-      font-size: $fontsize-text-primary;
-      font-weight: 400;
     }
     h1, h3, h4 {
       color: $colour-accent;
@@ -75,6 +69,11 @@ body {
     }
     section {
       padding: 2.5em 1em;
+      p {
+        text-align: left;
+        font-size: $fontsize-text-primary;
+        font-weight: 400;
+      }
     }
     #content {
       padding: 0;
@@ -84,6 +83,7 @@ body {
 
 #intro, #intro-post {
   padding: 1.5em 1em;
+  overflow: hidden;
   a:hover {
     text-decoration: none;
   }
@@ -240,7 +240,7 @@ body {
       font-size: 1.2em;
     }
     li {
-      background: $colour-accent;
+      background: $colour-accent-secondary;
       color: $colour-button-text;
       padding: $padding-small-button;
       font-weight: 500;
@@ -339,6 +339,12 @@ footer {
   height: 3em;
   padding: 2.5em 1em;
   padding-bottom: 0;
+  p {
+    color: $colour-text-primary;
+    text-align: center;
+    font-size: 1em;
+    font-weight: 500;
+  }
   ul {
     padding-left: 0;
     display: flex;
@@ -350,10 +356,10 @@ footer {
         margin-left: 0.1em;
         margin-right: 0.1em;
       a {
-        color: $colour-button-text;
         padding: $padding-small-button;
-        font-weight: 600;
+        color: $colour-button-text;
         background: $colour-accent;
+        font-weight: 500;
       }
     }
   }
