@@ -129,9 +129,7 @@ body {
     display: flex;
     article {
       text-align: left;
-      margin-top: 3em;
-      margin-bottom: 1em;
-      margin-right: 2%;
+      margin: 3em 1% 1em 1%;
       width: 48%;
       .main-info {
         padding: 0;
@@ -445,7 +443,7 @@ footer {
   html body main {
     #skills #skills-container {
       li {
-        width: 75%;
+        width: 50%;
       }
       p {
         width: 100%;
@@ -468,13 +466,18 @@ footer {
 
 @media screen and (max-width: 24em) {
   html body main {
-      #intro, #intro-post {
-        h1 {
-          font-size: 2.2em;
-        }
-        h2 {
-          font-size: 1.5em;
-        }
+    #skills #skills-container {
+      li {
+        width: 100%;
       }
+    }
+    #intro, #intro-post {
+      h1 {
+        font-size: 2.2em;
+      }
+      h2 {
+        font-size: 1.5em;
+      }
+    }
   }
 }
