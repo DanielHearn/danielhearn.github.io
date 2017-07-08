@@ -17,9 +17,9 @@ sub-dir: blog
       {% for category in site.categories %}
         {% capture category_name %}{{ category | first }}{% endcapture %}
         {% if page.category == category_name %}
-          <li><a class="underline" href="/blog/{{ category_name }}">{{ category_name }}</a></li>
+          <li><a class="underline" href="/blog/{{ category_name }}" data-proofer-ignore>{{ category_name }}</a></li>
         {% else %}
-          <li><a href="/blog/{{ category_name }}">{{ category_name }}</a></li>
+          <li><a href="/blog/{{ category_name }}" data-proofer-ignore>{{ category_name }}</a></li>
         {% endif %}
       {% endfor %}
 		</ul>
