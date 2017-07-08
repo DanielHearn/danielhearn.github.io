@@ -1,13 +1,15 @@
 title: Daniel Hearn
-catchphrase: Student interested in the web
+catchphrase: Student interested in front-end web development
 markdown: kramdown
+highlighter: rouge
 blog: /blog
-site.url: http://danielhearn.co.uk
+url: http://danielhearn.co.uk
 permalink: /blog/:title
 email-url: mailto:daniel_hearn@outlook.com
 email: daniel_hearn@outlook.com
 github: https://github.com/DanielHearn
 codepen: https://codepen.io/danhearn/
+linkedin: https://www.linkedin.com/in/daniel-hearn-440372144/
 manytwitch: http://danielhearn.co.uk/manytwitch
 #repository: DanielHearn/danielhearn.github.io
 

@@ -1,0 +1,29 @@
+---
+layout: main
+permalink: /blog/design/
+title: Blog
+sub-dir: blog
+---
+
+
+<section class="section-light">
+	<section class="content-container">
+		<ul id="category-filter">
+      {% if page.category == null %}
+        <li><a class="underline" href="/blog/">All posts</a></li>
+      {% else %}
+        <li><a href="/blog/">All posts</a></li>
+      {% endif %}
+      {% for category in site.categories %}
+        {% capture category_name %}{{ category | first }}{% endcapture %}
+        {% if page.category == category_name %}
+          <li><a class="underline" href="/blog/{{ category_name }}">{{ category_name }}</a></li>
+        {% else %}
+          <li><a href="/blog/{{ category_name }}">{{ category_name }}</a></li>
+        {% endif %}
+      {% endfor %}
+		</ul>
+		<p>I blog on various topics including front end web development, gaming, digital art.</p>
+		{% include blog-list.html %}
+	</section>
+</section>

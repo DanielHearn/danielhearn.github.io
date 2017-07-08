@@ -1,0 +1,19 @@
+<section id="blog-list">
+  {% for post in site.posts %}
+    {% if post.published != false %}
+      {% if page.category == null or post.categories contains page.category %}
+        <article>
+          <section class="main-info">
+            <h2>{{ post.title }}</h2>
+            <ul id="meta">
+              <p>{{ post.date | date_to_string }} </p>
+            </ul>
+            <p>{{ post.content | markdownify | strip_html | truncatewords: 50 }}</p>
+            <a class="border-button" href="{{ post.url }}">View Post</a>
+          </section>
+          <a href="{{ post.url }}" class="img-container" style="background: #{{  post.thumbnail-colour }}"><img class="fadeIn animated" src="/img/posts/{{ post.thumbnail }}" alt="Image of the {{ post.title }}"></a>
+        </article>
+      {% endif %}
+    {% endif %}
+  {% endfor %}
+</section>

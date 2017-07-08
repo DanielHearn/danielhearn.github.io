@@ -1,41 +1,59 @@
 ---
-layout: post
+layout: side
 ---
+
 {% assign project = site.projects | where: 'name', page.project %} {% assign project = project[0] %}
 
-<section id="slider">
-  <div class="carousel" data-flickity='{ "wrapAround": true, "imagesLoaded": true }'>
-    {% for img in project.imgs %}
-      <div class="carousel-cell">
-        <img class="carousel-cell-image" src="{{ img }}" alt="Image of {{ project.title }}"/>
-      </div>
-    {% endfor %}
-  </div>
+<section class="section-light medium">
+  <section class="content-container">
+    <section id="goal">
+        <p><span>Goal:</span> {{ page.goal }} </p>
+    </section>
+  </section>
+</section>
+
+<section id="slider-container">
+  <section id="slider">
+    <div class="carousel" data-flickity='{ "wrapAround": true, "imagesLoaded": true }'>
+      {% for img in project.imgs %}
+        <div class="carousel-cell">
+          <img class="carousel-cell-image" src="{{ img }}" alt="Image of {{ project.title }}"/>
+        </div>
+      {% endfor %}
+    </div>
+  </section>
+</section>
+
+<section class="section-dark short">
+  <section class="content-container meta-design">
+    <ul id="design-meta">
+      <ul id="languages">
+        <p>Development: </p>
+        {% for development in project.development %}
+          <li>{{ development }}</li>
+        {% endfor %}
+      </ul>
+      <ul>
+        <p>Tools: </p>
+        {% for tool in project.tools %}
+          <li>{{ tool }}</li>
+        {% endfor %}
+      </ul>
+      <ul id="colours">
+        <p>Colours: </p>
+        {% for colour in project.colours %}
+          <li><span style="background: #{{ colour }};"></span></li>
+        {% endfor %}
+      </ul>
+    </ul>
+  </section>
 </section>
 
 
-<ul id="design-meta">
-  <ul id="languages">
-    <p>Development: </p>
-    {% for development in project.development %}
-      <li>{{ development }}</li>
-    {% endfor %}
-  </ul>
-  <ul>
-    <p>Tools: </p>
-    {% for tool in project.tools %}
-      <li>{{ tool }}</li>
-    {% endfor %}
-  </ul>
-  <ul id="colours">
-    <p>Colours: </p>
-    {% for colour in project.colours %}
-      <li><span style="background: #{{ colour }};"></span></li>
-    {% endfor %}
-  </ul>
-</ul>
-
-{{ content }}
-
-<a class="design-button" href="{{ project.link }}">Visit</a>
-<a class="design-button" href="/">Back To Portfolio</a>
+<section class="section-light design">
+  <section class="content-container">
+    {{ content }}
+    <a class="border-button" href="{{ project.link }}">View</a>
+    <a class="border-button" href="/projects">Back to Projects</a>
+  </section>
+</section>

@@ -1,0 +1,78 @@
+$colour-bg-dark: #38485b;
+$colour-bg-light: #fefefe;
+$colour-button-text: white;
+$colour-text-light: #fefefe;
+$colour-text-dark: #555;
+$colour-accent: #e69045;
+
+#slider-container {
+  width: 100%;
+  padding: 0;
+  overflow: hidden;
+  background: transparent;
+  section {
+    background: transparent;
+  }
+}
+
+#slider {
+  padding: 2em 0;
+  //width: 100vw;
+  //position: relative;
+  //left: 50%;
+  //right: 50%;
+  //margin-left: -50vw;
+  //margin-right: -50vw;
+  background: transparent;
+  .carousel {
+  //  background: #38485b;
+    background: transparent;
+  }
+  .carousel-cell {
+    width: 50%;
+    height: initial;
+    //background: #38485b;
+    background: transparent;
+    padding: 0 1em;
+  }
+  .carousel-cell-image {
+    display: block;
+    max-height: 100%;
+    margin: 0 auto;
+    max-width: 100%;
+  }
+  .flickity-prev-next-button {
+    background: #e69045;
+  }
+  .flickity-prev-next-button.next {
+    right: 1.5em;
+  }
+  .flickity-prev-next-button.previous {
+    left: 1.5em;
+  }
+  .flickity-prev-next-button .arrow {
+    fill: #fefefe;
+  }
+  .flickity-page-dots .dot {
+    background: #fefefe;
+  }
+}
+.design-button {
+  //background: $colour-accent;
+  border: 2px solid #e69045;
+  letter-spacing: 0.1em;
+  //color: $colour-button-text;
+  color: #e69045;
+  text-transform: uppercase;
+  padding: 1em;
+  display: inline-block;
+  margin-top: 1em;
+  font-weight: 800;
+  font-size: 1em;
+  transition: all 0.25s;
+  &:hover {
+    text-decoration: none;
+    background-color: #e69045;
+    color: white;
+  }
+}
