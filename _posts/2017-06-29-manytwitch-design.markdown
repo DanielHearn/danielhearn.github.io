@@ -18,7 +18,7 @@ The top menu bar allows the user to add a new stream, change their current layou
 
 Both the menu bar and the chat windows can have their visibility toggled via their corresponding arrow buttons, this is for users that want to maximise their screen space to the streams.
 
-![Manytwitch grid layout with four Twitch streams](/img/manytwitch/manytwitch3.png)
+![Manytwitch grid layout with four Twitch streams](/img/manytwitch/manyTwitch3.png)
 
 {% highlight html %}
   <code>section</code>
