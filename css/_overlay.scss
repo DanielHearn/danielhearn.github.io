@@ -1,9 +1,9 @@
-$colour-bg-dark: #38485b;
+$colour-bg-dark: #47586d;
 $colour-bg-light: #fefefe;
 $colour-button-text: white;
 $colour-text-light: #fefefe;
 $colour-text-dark: #555;
-$colour-accent: #e69045;
+$colour-accent: #faa443;
 
 $button-width: 2em;
 $button-height: 0.2em;
@@ -79,11 +79,11 @@ $font-size-h2: 2em;
     align-items: center;
     flex-direction: column;
     text-align: center;
-    height: 100vh;
+    height: 100%;
     padding-left: 0;
     list-style-type: none;
     h3 {
-      font-size: 2.4em;
+      font-size: 1.8em;
       border-bottom: 0.2em solid $colour-text-dark;
     }
     li {
