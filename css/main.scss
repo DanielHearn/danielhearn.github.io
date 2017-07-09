@@ -404,7 +404,8 @@ section {
   padding-left: 0;
   li {
     display: inline-block;
-    margin: 0 0.5em;
+    margin-top: 0.5em;
+    margin-bottom: 1em;
     a {
       font-size: $font-size-p;
       color: $colour-text-dark;
