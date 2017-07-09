@@ -2,10 +2,11 @@
 layout: post
 title:  "Introduction to CSS variables"
 date:   2017-07-09 11:25:00 +0100
-published: true
+categories:
+  - front-end
 sub-dir: blog
 thumbnail-colour: c44736
-thumbnail: manytwitch-thumbnail.svg
+thumbnail: css.svg
 ---
 
 Link to <a href="https://codepen.io/danhearn/pen/QpPjrK">codepen demo</a>, demonstrating CSS variables for colours and padding b

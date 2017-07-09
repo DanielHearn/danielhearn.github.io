@@ -1,10 +1,10 @@
 ---
 layout: design
 title:  "Design: ManyTwitch"
+date:   2017-06-28 13:00:00 +0100
 categories:
   - front-end
   - design
-date:   2017-06-28 13:00:00 +0100
 project: manytwitch
 goal: To develop a multiple Twitch stream viewer with a modern interface
 sub-dir: blog

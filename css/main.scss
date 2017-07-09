@@ -4,7 +4,7 @@ $colour-button-text: white;
 $colour-text-light: #fefefe;
 $colour-text-dark: #555;
 $colour-accent: #faa443;
-$colout-bg-dark-lighter: #475766;
+$colout-bg-dark-lighter: #5b6d7e;
 $colour-bg-light-grey: #f8f8f8;
 
 $font-size-h1: 4em;
@@ -386,16 +386,16 @@ section {
   }
 }
 
-#goal {
-  padding: 0;
-  display: flex;
-  span {
-    font-weight: bold;
-    padding-right: 0.25em;
-    font-size: $font-size-h4;
-  }
-  p {
-    font-style: italic;
+#goal-section {
+  padding-bottom: 0em;
+  #goal {
+    padding: 0;
+    display: flex;
+    span {
+      font-weight: bold;
+      padding-right: 0.25em;
+      font-size: $font-size-h4;
+    }
   }
 }
 
@@ -405,6 +405,7 @@ section {
   li {
     display: inline-block;
     margin-top: 0.5em;
+    margin-right: 0.5em;
     margin-bottom: 1em;
     a {
       font-size: $font-size-p;

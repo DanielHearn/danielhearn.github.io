@@ -5,13 +5,28 @@ $colour-text-light: #fefefe;
 $colour-text-dark: #555;
 $colour-accent: #faa443;
 
+.dark-slider {
+  background: $colour-text-light;
+  #slider {
+    padding-bottom: 4em;
+  }
+  .flickity-page-dots .dot {
+    background: $colour-bg-dark;
+  }
+}
+
+.light-slider {
+  .flickity-page-dots .dot {
+    background: #fefefe;
+  }
+}
+
 #slider-container {
   width: 100%;
   padding: 0;
   overflow: hidden;
-  background: transparent;
   section {
-    background: transparent;
+    //background: transparent;
   }
 }
 
@@ -53,10 +68,8 @@ $colour-accent: #faa443;
   .flickity-prev-next-button .arrow {
     fill: #fefefe;
   }
-  .flickity-page-dots .dot {
-    background: #fefefe;
-  }
 }
+
 .design-button {
   //background: $colour-accent;
   border: 2px solid #e69045;
