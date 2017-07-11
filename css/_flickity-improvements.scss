@@ -3,7 +3,7 @@ $colour-bg-light: #fefefe;
 $colour-button-text: white;
 $colour-text-light: #fefefe;
 $colour-text-dark: #555;
-$colour-accent: #faa443;
+$colour-accent: #e66f6c;
 
 .dark-slider {
   background: $colour-text-light;
@@ -57,7 +57,7 @@ $colour-accent: #faa443;
     max-width: 100%;
   }
   .flickity-prev-next-button {
-    background: #e69045;
+    background: $colour-accent;
   }
   .flickity-prev-next-button.next {
     right: 1.5em;
@@ -72,7 +72,7 @@ $colour-accent: #faa443;
 
 .design-button {
   //background: $colour-accent;
-  border: 2px solid #e69045;
+  border: 2px solid $colour-accent;
   letter-spacing: 0.1em;
   //color: $colour-button-text;
   color: #e69045;
@@ -85,7 +85,7 @@ $colour-accent: #faa443;
   transition: all 0.25s;
   &:hover {
     text-decoration: none;
-    background-color: #e69045;
+    background-color: $colour-accent;
     color: white;
   }
 }
