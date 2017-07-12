@@ -67,6 +67,9 @@
 @media screen and (max-width: 32em) {
   html body {
     main {
+      #skills #skills-container #skills-list li {
+        padding-bottom: 0.75em;
+      }
       #category-filter li {
         width: 100%;
       }
