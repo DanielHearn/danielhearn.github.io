@@ -67,6 +67,14 @@
 @media screen and (max-width: 32em) {
   html body {
     main {
+      #main-page {
+        padding-top: 20%;
+        padding-bottom: 15%;
+        #bold-title {
+          display: inline;
+          line-height: 1.5em;
+        }
+      }
       #skills #skills-container #skills-list li {
         padding-bottom: 0.75em;
       }

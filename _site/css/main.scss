@@ -3,9 +3,9 @@ $colour-bg-light: #fefefe;
 $colour-button-text: white;
 $colour-text-light: #fefefe;
 $colour-text-dark: #555;
-$colour-accent: #e66f6c;
+$colour-accent: #f16967;
 $colout-bg-dark-lighter: #5b6d7e;
-$colour-bg-light-grey: #f8f8f8;
+$colour-bg-light-grey: #f7f7f7;
 
 $font-size-h1: 4em;
 $font-size-h2: 2em;
@@ -48,7 +48,7 @@ main {
   }
   h2 {
     font-size: $font-size-h2;
-    font-weight: normal;
+    font-weight: 600;
   }
   h3 {
     font-size: $font-size-h3;
