@@ -17,6 +17,19 @@
 @media screen and (max-width: 48em) {
   html body {
     main {
+      #blog-list {
+        article {
+          flex-wrap: wrap-reverse;
+          flex-direction: row-reverse;
+          .main-info {
+            width: 100%;
+          }
+          .img-container {
+            height: 15em;
+            width: 100%;
+          }
+        }
+      }
       #intro {
         padding-bottom: 2em;
         #bold-title {
@@ -38,19 +51,6 @@
               margin-top: 1em;
             }
           }
-      }
-    }
-    #blog-list {
-      article {
-        flex-wrap: wrap-reverse;
-        flex-direction: row-reverse;
-        .main-info {
-          width: 100%;
-        }
-        .img-container {
-          height: 15em;
-          width: 100%;
-        }
       }
     }
     footer {
