@@ -10,19 +10,6 @@
           }
         }
       }
-      #blog-list {
-        article {
-          flex-wrap: wrap-reverse;
-          flex-direction: row-reverse;
-          .main-info {
-            width: 100%;
-          }
-          .img-container {
-            height: 15em;
-            width: 100%;
-          }
-        }
-      }
   }
 }
 
@@ -51,6 +38,19 @@
               margin-top: 1em;
             }
           }
+      }
+    }
+    #blog-list {
+      article {
+        flex-wrap: wrap-reverse;
+        flex-direction: row-reverse;
+        .main-info {
+          width: 100%;
+        }
+        .img-container {
+          height: 15em;
+          width: 100%;
+        }
       }
     }
     footer {
