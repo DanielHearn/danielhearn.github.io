@@ -15,7 +15,7 @@ layout: side
 
 <section id="slider-container" class="dark-slider">
   <section id="slider">
-    <div class="carousel" data-flickity='{ "wrapAround": true, "imagesLoaded": true }'>
+    <div class="carousel fadeIn animated" data-flickity='{ "wrapAround": true, "imagesLoaded": true }'>
       {% for img in project.imgs %}
         <div class="carousel-cell">
           <img class="carousel-cell-image" src="{{ img }}" alt="Image of {{ project.title }}"/>

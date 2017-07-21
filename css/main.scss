@@ -3,7 +3,7 @@ $colour-bg-light: #fefefe;
 $colour-button-text: white;
 $colour-text-light: #fefefe;
 $colour-text-dark: #555;
-$colour-accent: #f16967;
+$colour-accent: #F97864;
 $colout-bg-dark-lighter: #5b6d7e;
 $colour-bg-light-grey: #f7f7f7;
 
@@ -14,7 +14,7 @@ $font-size-h4: 1.5em;
 $font-size-p: 1.25em;
 $font-size-logo: 2.25em;
 
-$padding-small-button: 0.3em 0.6em;
+$padding-small-button: 0.4em 0.8em;
 $margin-small-button: 0.2em;
 
 @import 'flickity-improvements';
@@ -57,7 +57,6 @@ main {
     display: inline-block;
     margin-top: 0;
     margin-bottom: 0.4em;
-    border-bottom: 0.1em $colour-accent solid;
   }
   h4 {
     font-size: $font-size-h4;
@@ -222,6 +221,9 @@ section {
 .section-light {
   background: $colour-bg-light;
   color: $colour-text-dark;
+  h3 {
+    border-bottom: 0.1em $colour-accent solid;
+  }
 }
 
 .section-dark {
