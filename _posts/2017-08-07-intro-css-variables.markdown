@@ -7,6 +7,7 @@ categories:
 sub-dir: blog
 thumbnail-colour: c44736
 thumbnail: css.svg
+published: false
 ---
 
 Link to <a href="https://codepen.io/danhearn/pen/QpPjrK">codepen demo</a>, demonstrating CSS variables for colours and padding b
