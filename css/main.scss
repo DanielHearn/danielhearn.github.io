@@ -13,6 +13,7 @@ $font-size-h3: 1.875em;
 $font-size-h4: 1.5em;
 $font-size-p: 1.25em;
 $font-size-logo: 2.25em;
+$font-size-footer: 1.1em;
 
 $padding-small-button: 0.4em 0.8em;
 $margin-small-button: 0.2em;
@@ -569,7 +570,7 @@ footer {
   p {
     color: $colour-text-light;
     text-align: center;
-    font-size: $font-size-p;
+    font-size: $font-size-footer;
     font-weight: normal;
   }
   ul {
@@ -582,7 +583,7 @@ footer {
       list-style: none;
       margin: $margin-small-button;
       a {
-        font-size: 1.1em;
+        font-size: $font-size-footer;
         padding: $padding-small-button;
         color: $colour-text-light;
         background: $colour-accent;
