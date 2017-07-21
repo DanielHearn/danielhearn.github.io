@@ -92,8 +92,18 @@ $font-size-h2: 1.875em;
         color: white;
         text-decoration: none;
         font-size: $font-size-h2;
-        &:hover {
-          color: $colour-text-dark;
+        &:before {
+          content: "";
+          position: absolute;
+          width: 100%;
+          bottom: -5px;
+          left: 1px;
+          border-bottom: 0.1em solid $colour-bg-dark;
+          transform: scale(0, 1);
+          transition: transform 0.2s;
+        }
+        &:hover:before {
+          transform: scale(1);
         }
       }
     }
