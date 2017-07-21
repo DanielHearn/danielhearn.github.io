@@ -79,7 +79,10 @@ $font-size-h2: 1.875em;
     opacity: 1;
   }
   #overlay-ul {
-    //height: 100%;
+    border-top: 0.2em solid;
+    border-bottom: 0.2em solid;
+    padding-top: 4%;
+    padding-bottom: 4%;
     padding-left: 0;
     list-style-type: none;
     h3 {
@@ -89,6 +92,7 @@ $font-size-h2: 1.875em;
     li {
       padding: 1em;
       a {
+        position: relative;
         color: white;
         text-decoration: none;
         font-size: $font-size-h2;
