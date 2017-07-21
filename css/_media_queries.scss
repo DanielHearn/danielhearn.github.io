@@ -1,15 +1,28 @@
-@media screen and (max-width: 64em) {
+@media screen and (max-width: 54em) {
   html body main {
-      #projects #projects-list article {
-        width: 100%;
-        margin-right: 0;
-        .img-container {
+    #projects #projects-list article {
+    //  width: 100%;
+      //margin-right: 0;
+      .img-container {
+        height: initial;
+        img {
           height: initial;
-          img {
-            height: initial;
-          }
         }
       }
+    }
+    #blog-list {
+      article {
+        flex-wrap: wrap-reverse;
+        flex-direction: row-reverse;
+        .main-info {
+          width: 100%;
+        }
+        .img-container {
+          height: 15em;
+          width: 100%;
+        }
+      }
+    }
   }
 }
 
@@ -17,19 +30,6 @@
 @media screen and (max-width: 48em) {
   html body {
     main {
-      #blog-list {
-        article {
-          flex-wrap: wrap-reverse;
-          flex-direction: row-reverse;
-          .main-info {
-            width: 100%;
-          }
-          .img-container {
-            height: 15em;
-            width: 100%;
-          }
-        }
-      }
       #intro {
         padding-bottom: 2em;
         #bold-title {
