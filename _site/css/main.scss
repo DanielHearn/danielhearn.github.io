@@ -13,6 +13,7 @@ $font-size-h3: 1.875em;
 $font-size-h4: 1.5em;
 $font-size-p: 1.25em;
 $font-size-logo: 2.25em;
+$font-size-footer: 1.1em;
 
 $padding-small-button: 0.4em 0.8em;
 $margin-small-button: 0.2em;
@@ -96,6 +97,7 @@ main {
   padding: 0 1em;
   h2 {
     padding-bottom: 5%;
+    padding-top: 5%;
   }
   #top #logo {
     span, #sub-dir  {
@@ -104,20 +106,24 @@ main {
   }
 }
 .border-button {
-  border: 2px solid $colour-accent;
+  //border: 2px solid $colour-accent;
   letter-spacing: 0.1em;
-  color: $colour-accent;
+  //color: $colour-accent;
+  color: $colour-text-light;
+  background: $colour-accent;
   text-transform: uppercase;
   padding: 1em;
   display: inline-block;
   margin-top: 1em;
   font-weight: 800;
   font-size: 1em;
+  margin-right: 0.5em;
   transition: all 0.25s;
   &:hover {
     text-decoration: none;
-    background-color: $colour-accent;
-    color: white;
+    //background-color: $colour-accent;
+    background-color: $colour-bg-dark;
+    //color: white;
   }
 }
 .short {
@@ -565,11 +571,11 @@ footer {
   right: 0;
   bottom: 0;
   left: 0;
-  padding: 2em;
+  padding: 1em;
   p {
     color: $colour-text-light;
     text-align: center;
-    font-size: $font-size-p;
+    font-size: $font-size-footer;
     font-weight: normal;
   }
   ul {
@@ -582,7 +588,7 @@ footer {
       list-style: none;
       margin: $margin-small-button;
       a {
-        font-size: 1.1em;
+        font-size: $font-size-footer;
         padding: $padding-small-button;
         color: $colour-text-light;
         background: $colour-accent;
