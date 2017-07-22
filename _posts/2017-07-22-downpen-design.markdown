@@ -10,7 +10,7 @@ goal: To develop a web app that downloads all of a user's pens from CodePen.
 sub-dir: blog
 thumbnail-colour: 2b2f3c
 thumbnail: manytwitch-thumbnail.svg
-published: false;
+published: false
 ---
 
 --Work in progress--
