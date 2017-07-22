@@ -406,6 +406,15 @@ section {
 }
 
 #goal-section {
+  margin-bottom: 2.5em;
+  #goal {
+    font-weight: bold;
+    font-size: $font-size-h4;
+  }
+}
+
+/*
+#goal-section {
   padding-bottom: 0em;
   #goal {
     padding: 0;
@@ -417,7 +426,7 @@ section {
       font-size: $font-size-h4;
     }
   }
-}
+}*/
 
 #category-filter {
   list-style: none;

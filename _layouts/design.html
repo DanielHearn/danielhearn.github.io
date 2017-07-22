@@ -4,14 +4,12 @@ layout: side
 
 {% assign project = site.projects | where: 'name', page.project %} {% assign project = project[0] %}
 
-
+<!--
 <section id="goal-section" class="section-light medium">
   <section class="content-container">
-    <section id="goal">
-        <p><span>Goal:</span> {{ page.goal }} </p>
-    </section>
+
   </section>
-</section>
+</section>-->
 
 <section id="slider-container" class="dark-slider">
   <section id="slider">
@@ -53,6 +51,7 @@ layout: side
 
 <section class="section-light design">
   <section class="content-container">
+    <p id="goal-section"><span id="goal">Goal: </span> {{ page.goal }}</p>
     {{ content }}
     <a class="border-button" href="{{ project.link }}" data-proofer-ignore>View</a>
     <a class="border-button" href="/projects" data-proofer-ignore>Back to Projects</a>

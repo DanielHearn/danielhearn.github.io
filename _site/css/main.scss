@@ -3,7 +3,7 @@ $colour-bg-light: #fefefe;
 $colour-button-text: white;
 $colour-text-light: #fefefe;
 $colour-text-dark: #555;
-$colour-accent: #F97864;
+$colour-accent: #de6e5c;
 $colout-bg-dark-lighter: #5b6d7e;
 $colour-bg-light-grey: #f7f7f7;
 
@@ -11,7 +11,7 @@ $font-size-h1: 4em;
 $font-size-h2: 1.875em;
 $font-size-h3: 1.875em;
 $font-size-h4: 1.5em;
-$font-size-p: 1.25em;
+$font-size-p: 1.2em;
 $font-size-logo: 2.25em;
 $font-size-footer: 1.1em;
 
@@ -406,6 +406,15 @@ section {
 }
 
 #goal-section {
+  margin-bottom: 2.5em;
+  #goal {
+    font-weight: bold;
+    font-size: $font-size-h4;
+  }
+}
+
+/*
+#goal-section {
   padding-bottom: 0em;
   #goal {
     padding: 0;
@@ -417,7 +426,7 @@ section {
       font-size: $font-size-h4;
     }
   }
-}
+}*/
 
 #category-filter {
   list-style: none;
@@ -534,7 +543,7 @@ section {
     display: inline-block;
     list-style: none;
     font-weight: 600;
-    font-size: 1.2em;
+    font-size: $font-size-p;
   }
   li {
     background: $colout-bg-dark-lighter;
