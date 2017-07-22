@@ -11,7 +11,7 @@ $font-size-h1: 4em;
 $font-size-h2: 1.875em;
 $font-size-h3: 1.875em;
 $font-size-h4: 1.5em;
-$font-size-p: 1.25em;
+$font-size-p: 1.2em;
 $font-size-logo: 2.25em;
 $font-size-footer: 1.1em;
 
@@ -534,7 +534,7 @@ section {
     display: inline-block;
     list-style: none;
     font-weight: 600;
-    font-size: 1.2em;
+    font-size: $font-size-p;
   }
   li {
     background: $colout-bg-dark-lighter;
