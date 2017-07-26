@@ -5,10 +5,7 @@ type: project
 link: https://downpen.herokuapp.com/
 description: Codepen downloader/backup tool using NodeJS and AngularJS.
 imgs:
-  - /img/manytwitch/manyTwitch.png
-  - /img/manytwitch/manyTwitch2.png
-  - /img/manytwitch/manyTwitch3.png
-  - /img/manytwitch/manyTwitch4.png
+  - /img/downpen.png
 design-post: /blog/manytwitch-design
 development:
   -  HTML5
