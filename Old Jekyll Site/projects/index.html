@@ -1,0 +1,28 @@
+---
+layout: main
+title: Projects
+sub-dir: projects
+---
+
+<section id="projects" class="section-light">
+  <section class="content-container">
+    <p>These are the larger projects I have developed, to view my smaller projects and code experiments visit my <a href="{{ site.codepen }}">codepen</a>.</p>
+    <section id="projects-list">
+  		{% for project in site.projects %}
+  			{% if project.type != null %}
+  			<article>
+  				<a href="{{ project.link }}" class="img-container"><img src="{{ project.imgs[0] }}" alt="Image of the manytwitch website."></a>
+  				<section class="main-info">
+  					<h2>{{ project.title }}</h2>
+  					<p>{{ project.description }}</p>
+  					<a class="border-button" href="{{ project.link }}">View {{ project.type }}</a>
+  					{% if project.design-post != null %}
+  					<a class="border-button" href="{{ project.design-post }}" data-proofer-ignore>About Project</a>
+  					{% endif %}
+  				</section>
+  			</article>
+  			{% endif %}
+  		{% endfor %}
+  	</section>
+  </section>
+</section>

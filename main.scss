@@ -1,0 +1,123 @@
+$colour-bg: #fefefe;
+$colour-text-dark: #222;
+$colour-accent: #6852CC;
+$colour-selection: #c8c5cc;
+
+$font-size-h1: 3.25em;
+$font-size-h2: 2em;
+$font-size-p: 1.1em;
+
+html {
+  height: 100%;
+  box-sizing: border-box;
+}
+
+::-moz-selection { background: $colour-selection; }
+::selection { background: $colour-selection; }
+
+body {
+  font-family: 'Raleway', sans-serif;
+  margin: 0;
+  background: $colour-bg;
+  color: $colour-text-dark;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  margin: 0;
+}
+
+main {
+  text-align: left;
+  max-width: 38em;
+  padding: 1em;
+  h1 {
+    font-size: $font-size-h1;
+    font-weight: 600;
+    margin: 0.05em 0;
+  }
+  h2 {
+    font-size: $font-size-h2;
+    font-weight: 300;
+    margin: 0.05em 0;
+    margin-bottom: 12%;
+  }
+  p {
+    font-size: $font-size-p;
+    font-weight: 400;
+    line-height: 1.5em;
+    font-family: 'Open Sans', sans-serif;
+  }
+  a {
+    color: $colour-accent;
+    text-decoration: none;
+    font-weight: 500;
+    line-height: 1.5em;
+    font-family: 'Open Sans', sans-serif;
+    &:visited {
+      color: $colour-accent;
+    }
+  }
+}
+
+a {
+  backface-visibility: hidden;
+  text-decoration: none;
+  position: relative;
+  display: inline-block;
+  &:before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    bottom: -0px;
+    height: 2px;
+    left: 0;
+    background: $colour-accent;
+    transform: scaleX(0);
+    transition: transform 0.18s;
+  }
+  &:hover:before {
+    visibility: visible;
+    transform: scaleX(1);
+  }
+}
+
+@media screen and (max-height: 30em) {
+  html body {
+    main {
+        h2 {
+          margin-bottom: 5%;
+        }
+      }
+    }
+}
+
+@media screen and (max-width: 36em) {
+  html body {
+    min-height: 90vh;
+    main {
+      h1 {
+        font-size: 2.75em;
+      }
+      h2 {
+        font-size: 1.5em;
+        margin-bottom: 10%;
+      }
+    }
+  }
+}
+
+
+@media screen and (max-width: 28em) {
+  html body {
+    main {
+      h1 {
+        font-size: 2.25em;
+      }
+      h2 {
+        font-size: 1.35em;
+      }
+    }
+  }
+}

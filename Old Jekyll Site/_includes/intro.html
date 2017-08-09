@@ -1,0 +1,26 @@
+{% include overlay.html %}
+<section id="intro" class="section-dark {% if page.categories != null %} post-intro {% endif %}" >
+  <a id="overlay-button" href="#" onclick="nav()" data-proofer-ignore><span></span></a>
+  <div id="top">
+    <div id="logo" class="fadeIn animated">
+      <a href="/" id="dh">dh </a>
+      {% if page.sub-dir != null %}
+        <span>/</span>
+        <a href="/{{ page.sub-dir }}" id="sub-dir">
+          {{ page.sub-dir }}
+        </a>
+      {% endif %}
+    </div>
+  </div>
+  <section id="side-page" class="content-container">
+    <h2 id="catchphrase" class="fadeInUp animated">{{ page.title }}</h2>
+    {% if page.categories != null %}
+      <ul id="meta">
+        {{ page.date | date_to_string }} </p>
+        {% for category in page.categories limit:5 %}
+        <li><a href="/blog/{{ category }}">{{ category }}</a></li>
+        {% endfor %}
+      </ul>
+    {% endif %}
+  </section>
+</section>
