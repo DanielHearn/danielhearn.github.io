@@ -28,6 +28,15 @@ body {
   margin: 0;
 }
 
+canvas {
+  position:fixed;
+  top:0;
+  right:0;
+  bottom:0;
+  left:0;
+  z-index:0;
+}
+
 main {
   text-align: left;
   max-width: 38em;
@@ -52,34 +61,30 @@ main {
   a {
     color: $colour-accent;
     text-decoration: none;
+    backface-visibility: hidden;
+    position: relative;
+    display: inline-block;
     font-weight: 500;
     line-height: 1.5em;
     font-family: 'Open Sans', sans-serif;
     &:visited {
       color: $colour-accent;
     }
-  }
-}
-
-a {
-  backface-visibility: hidden;
-  text-decoration: none;
-  position: relative;
-  display: inline-block;
-  &:before {
-    content: "";
-    position: absolute;
-    width: 100%;
-    bottom: -0px;
-    height: 2px;
-    left: 0;
-    background: $colour-accent;
-    transform: scaleX(0);
-    transition: transform 0.18s;
-  }
-  &:hover:before {
-    visibility: visible;
-    transform: scaleX(1);
+    &:before {
+      content: "";
+      position: absolute;
+      width: 100%;
+      bottom: -0px;
+      height: 2px;
+      left: 0;
+      background: $colour-accent;
+      transform: scaleX(0);
+      transition: transform 0.18s;
+    }
+    &:hover:before {
+      visibility: visible;
+      transform: scaleX(1);
+    }
   }
 }
 
