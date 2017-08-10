@@ -91,6 +91,8 @@ main {
 @media screen and (max-height: 30em) {
   html body {
     main {
+      padding-top: 2em;
+      padding-bottom: 2em;
         h2 {
           margin-bottom: 5%;
         }
@@ -117,6 +119,7 @@ main {
 @media screen and (max-width: 28em) {
   html body {
     main {
+      padding-top: 5em;
       h1 {
         font-size: 2.25em;
       }
