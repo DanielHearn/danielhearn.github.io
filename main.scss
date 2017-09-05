@@ -1,6 +1,7 @@
 $colour-bg: #fefefe;
 $colour-text-dark: #222;
 $colour-accent: #6852CC;
+$colour-accent-light: #bcb3e8;
 $colour-selection: #c8c5cc;
 
 $font-size-h1: 3.25em;
@@ -51,6 +52,7 @@ main {
   h1 {
     font-size: $font-size-h1;
     font-weight: 600;
+    text-shadow: 4px 4px 0 $colour-accent-light;
     margin: 0.05em 0;
   }
   h2 {
