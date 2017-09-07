@@ -60,12 +60,16 @@ main {
     font-weight: 300;
     margin: 0.05em 0;
     margin-bottom: 12%;
+    animation-delay: 0.3s;
   }
   p {
     font-size: $font-size-p;
     font-weight: 400;
     line-height: 1.5em;
     font-family: 'Open Sans', sans-serif;
+  }
+  #content {
+    animation-delay: 0.75s;
   }
   a {
     color: $colour-accent;
