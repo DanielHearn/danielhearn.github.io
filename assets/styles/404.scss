@@ -221,3 +221,21 @@ section {
     transform: scaleY(0);
   }
 }
+
+@media screen and (max-width: 35em) {
+  #title {
+    font-size: $font-size-h1*0.8;
+  }
+}
+
+@media screen and (max-width: 25em) {
+  #title {
+    font-size: $font-size-h1*0.63;
+  }
+}
+
+@media screen and (max-width: 15em) {
+  #title {
+    font-size: $font-size-h1*0.50;
+  }
+}
