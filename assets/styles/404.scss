@@ -1,5 +1,6 @@
 $colour-bg: #fefefe;
 $colour-dark: #222;
+$colour-accent: #6852CC;
 $colour-accent-light: #bcb3e8;
 $colour-selection: #c8c5cc;
 
@@ -31,12 +32,12 @@ section {
     font-size: $font-size-h1;
     font-weight: 700;
     text-shadow: 0.06em 0.06em 0 $colour-accent-light;
-    margin: 0 0;
+    margin: 0;
   }
   #title {
     animation-name: fadeInLeft, scaredMovement, scaredWobbleRight, fadeOut;
     animation-duration: 1s, 2.5s, 0.3s, 0.5s;
-    animation-delay: 0.2s, 3s, 2.9s, 5.5s;
+    animation-delay: 0s, 3s, 2.9s, 5.5s;
     animation-iteration-count: 1, 1, 8, 1;
     animation-fill-mode: forwards;
     position: relative;
@@ -69,6 +70,7 @@ section {
     opacity: 0;
     position: absolute;
     padding: 0;
+    width: 100%;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
@@ -82,8 +84,35 @@ section {
     }
     h2 {
       font-family: 'Open Sans', sans-serif;
-      padding-bottom: 60%;
+      padding-bottom: 20%;
       font-weight: 300;
+    }
+    a {
+      color: $colour-accent;
+      text-decoration: none;
+      backface-visibility: hidden;
+      position: relative;
+      display: inline-block;
+      font-weight: 600;
+      line-height: 1.5em;
+      &:visited {
+        color: $colour-accent;
+      }
+      &:before {
+        content: "";
+        position: absolute;
+        width: 100%;
+        bottom: -0px;
+        height: 2px;
+        left: 0;
+        background: $colour-accent;
+        transform: scaleX(0);
+        transition: transform 0.18s;
+      }
+      &:hover:before {
+        visibility: visible;
+        transform: scaleX(1);
+      }
     }
   }
 }
