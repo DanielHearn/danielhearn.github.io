@@ -45,8 +45,12 @@ section {
   }
   span {
     content: "";
-    position: relative;
+    position: absolute;
+    padding: 0;
     width: 100%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
     height: 1em;
     background: $colour-dark;
     display: block;
@@ -58,13 +62,13 @@ section {
     animation-name: dropInTop, crushInTop;
     animation-duration: 1s, 0.75s;
     animation-delay: 1.2s, 5.2s;
-    bottom: 6.5em;
+    top: 0%;
   }
   #bottomBorder {
     animation-name: dropInBottom, crushInBottom;
     animation-duration: 1s, 0.75s;
     animation-delay: 0.8s, 5.2s;
-    bottom: 0.25em;
+    top: 89%;
   }
   #info {
     opacity: 0;
@@ -79,12 +83,12 @@ section {
     animation-delay: 5.5s;
     animation-fill-mode: forwards;
     h1 {
-      padding-bottom: 0.4em;
+      padding-bottom: 0.2em;
       font-size: $font-size-h1*1.5;
     }
     h2 {
       font-family: 'Open Sans', sans-serif;
-      padding-bottom: 20%;
+      padding-bottom: 15%;
       font-weight: 300;
     }
     a {
@@ -163,40 +167,42 @@ section {
 @keyframes dropInTop {
   from {
     opacity: 0;
-    transform: translate3d(0, -100vh, 0);
+    transform: translate3d(-50%, -100vh, 0);
   }
   to {
     opacity: 1;
-    transform: none;
+    transform: translate3d(-50%, 0, 0);
   }
 }
 
 @keyframes dropInBottom {
   from {
     opacity: 0;
-    transform: translate3d(0, 100vh, 0);
+    transform: translate3d(-50%, 100vh, 0);
   }
   to {
     opacity: 1;
-    transform: none;
+    transform: translate3d(-50%, 0, 0);
   }
 }
 
 @keyframes crushInBottom {
   from {
-    transform: none;
+    transform: translate3d(-50%, 0, 0);
   }
   to {
-    bottom: 4em;
+    transform: translate3d(-50%, -50%, 0);
+    top: 50%;
   }
 }
 
 @keyframes crushInTop {
   from {
-    transform: none;
+    transform: translate3d(-50%, 0, 0);
   }
   to {
-    bottom: 3em;
+    transform: translate3d(-50%, -50%, 0);
+    top: 50%;
   }
 }
 
