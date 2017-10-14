@@ -33,7 +33,8 @@ canvas {
 img {
   width: 100%;
   border-radius: 0.15em;
-  margin-bottom: 2em; }
+  margin-top: 1.5em;
+  margin-bottom: 1.5em; }
 
 @keyframes fadeIn {
   from {
@@ -63,7 +64,7 @@ main {
     font-family: 'Open Sans', sans-serif; }
   main #content {
     animation-delay: 0.75s; }
-  main a {
+  main .link--text {
     color: #b14360;
     text-decoration: none;
     backface-visibility: hidden;
@@ -72,9 +73,9 @@ main {
     font-weight: 600;
     line-height: 1.5em;
     font-family: 'Open Sans', sans-serif; }
-    main a:visited {
+    main .link--text:visited {
       color: #b14360; }
-    main a:before {
+    main .link--text:before {
       content: "";
       position: absolute;
       width: 100%;
@@ -84,7 +85,7 @@ main {
       background: #b14360;
       transform: scaleX(0);
       transition: transform 0.18s; }
-    main a:hover:before {
+    main .link--text:hover:before {
       visibility: visible;
       transform: scaleX(1); }
 
