@@ -40,6 +40,12 @@ canvas {
   animation: fadeIn 0.3s ease-in;
 }
 
+img {
+  width: 100%;
+  border-radius: 0.15em;
+  margin-bottom: 2em;
+}
+
 @keyframes fadeIn {
   from { opacity: 0;}
   to { opacity: 1;}
@@ -111,6 +117,14 @@ main {
         }
       }
     }
+}
+
+@media screen and (min-height: 40em) {
+  html body {
+    main {
+      padding-top: 8em;
+    }
+  }
 }
 
 @media screen and (max-width: 36em) {
