@@ -24,9 +24,16 @@
   }
 }
 
-
 @mixin project {
-  @include flex-container;
-  @include content-container;
+  max-width: 50em;
+  padding: 4em 2em;
   justify-content: flex-start;
+}
+
+@mixin browser-dot {
+  width: 0.75em;
+  height: 0.75em;
+  border-radius: 1em;
+  margin-left: 0.25em;
+  margin-right: 0.25em;
 }

@@ -1046,16 +1046,8 @@
   background: #F1A535;
   width: 100%;
   color: #fefefe;
-  position: relative; }
-
-.manytwitch__project {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-wrap: wrap;
-  max-width: 50em;
-  padding: 4em 2em;
-  justify-content: flex-start; }
+  position: relative;
+  flex-wrap: wrap; }
 
 .korean {
   display: flex;
@@ -1067,14 +1059,60 @@
   color: #fefefe;
   position: relative; }
 
-.korean__project {
+.project {
+  max-width: 50em;
+  padding: 4em 2em;
+  justify-content: flex-start; }
+
+.project__details {
+  display: flex;
+  justify-content: left;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  flex: 1;
+  text-align: left;
+  padding-left: 0.5em;
+  padding-right: 0.5em; }
+
+.project__images {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
-  max-width: 50em;
-  padding: 4em 2em;
-  justify-content: flex-start; }
+  padding-left: 0.5em;
+  padding-right: 0.5em;
+  flex: 1; }
+  .project__images .container__image {
+    width: 100%;
+    border-bottom-left-radius: 0.5em;
+    border-bottom-right-radius: 0.5em;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23); }
+  .project__images .container__browser {
+    display: flex;
+    flex-direction: row;
+    box-sizing: border-box;
+    padding-left: 0.5em;
+    padding-top: 0.4em;
+    width: 100%;
+    height: 1.5em;
+    background: #e9e9e9;
+    border-top-left-radius: 0.5em;
+    border-top-right-radius: 0.5em;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23); }
+    .project__images .container__browser .browser__dot {
+      width: 0.75em;
+      height: 0.75em;
+      border-radius: 1em;
+      margin-left: 0.25em;
+      margin-right: 0.25em;
+      background: #d6d4d4; }
+    .project__images .container__browser .browser__dot--red {
+      width: 0.75em;
+      height: 0.75em;
+      border-radius: 1em;
+      margin-left: 0.25em;
+      margin-right: 0.25em;
+      background: #e7969f; }
 
 .project__heading {
   font-size: 2em;
@@ -1101,7 +1139,8 @@
   font-weight: 600;
   line-height: 1.5em;
   color: #fefefe;
-  margin-top: 1em; }
+  margin-top: 1em;
+  margin-bottom: 1.5em; }
   .project__link:visited {
     color: #fefefe; }
   .project__link:before {
@@ -1249,6 +1288,10 @@
   html body main .intro__heading {
     width: 100%;
     font-size: 1.5em; } }
+
+@media screen and (min-width: 50em) {
+  .project {
+    display: flex; } }
 
 html {
   height: 100%;

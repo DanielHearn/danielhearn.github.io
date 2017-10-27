@@ -33,7 +33,7 @@ html
       div.border-top--manytwitch
         include includes/border-top.pug
       section.manytwitch
-        section.manytwitch__project
+        section.project
           section.project__details
             h3.project__heading Manytwitch
             p.project__subheading Open Source Personal Project
@@ -43,11 +43,16 @@ html
               | even on mobile. 
             a.project__link(href="http://danielhearn.co.uk/manytwitch") View Project
           section.project__images
-            img.images__image
+            a.image__container(href="http://danielhearn.co.uk/manytwitch") 
+              div.container__browser
+                div.browser__dot--red
+                div.browser__dot
+                div.browser__dot
+              img.container__image(src="img/manytwitch.png")
       div.border-bottom--manytwitch
         include includes/border-bottom.pug
       section.korean
-        section.korean__project
+        section.project
           section.project__details
             h3.project__heading The Korean Handbook
             p.project__subheading Open Source Personal Project
@@ -57,7 +62,12 @@ html
               | even on mobile. 
             a.project__link(href="http://thekoreanhandbook.com") View Project
           section.project__images
-            img.images__image
+            a.image__container(href="http://thekoreanhandbook.com")
+              div.container__browser
+                div.browser__dot--red
+                div.browser__dot
+                div.browser__dot
+              img.container__image(src="img/korean-handbook.png")
       div.border-bottom--korean
         include includes/border-bottom.pug
       section.contact
