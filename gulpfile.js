@@ -14,7 +14,7 @@ var ghpages = require('gh-pages');
 var path = require('path');
 
 const scssSource = 'src/scss/*.scss';
-const cssDest = 'src/css';
+const cssDest = 'css';
 
 gulp.task('browserSync', function() {
   browserSync.init({
@@ -28,8 +28,8 @@ gulp.task('sass', function() {
   return gulp.src(scssSource)
     .pipe(sass().on('error', sass.logError))
     .pipe(gulp.dest(cssDest))
-    .pipe(browserSync.stream())
     .pipe(cssnano({zindex: false}))
+    .pipe(browserSync.stream())
 })
 
 gulp.task('useref', function(){
@@ -37,29 +37,29 @@ gulp.task('useref', function(){
     .pipe(useref())
     //.pipe(gulpIf('src/js/*.js', gulp.dest('dist')))
     //.pipe(gulpIf('*.css', cssnano({zindex: false})))
-    .pipe(gulp.dest('dist'))
+    .pipe(gulp.dest(''))
 });
 
 gulp.task('js', function(){
   return gulp.src('src/js/*.js')
-    .pipe(gulp.dest('dist/js'))
+    .pipe(gulp.dest('js'))
 });
 
 gulp.task('css', function(){
   return gulp.src('src/css/*.css')
-    .pipe(gulp.dest('dist/css'))
+    .pipe(gulp.dest('css'))
 });
 
 gulp.task('images', function(){
   return gulp.src('src/img/*.+(png|jpg|jpeg|gif|svg)')
     .pipe(cache(imagemin()))
-    .pipe(gulp.dest('dist/img'))
+    .pipe(gulp.dest('img'))
 });
 
 gulp.task('favicons', function(){
   return gulp.src('src/favicons/*.+(png|jpg|jpeg|gif|svg|ico|xml|json)')
   .pipe(gulpIf('*.+(png|jpg|jpeg|gif|svg)', cache(imagemin())))
-  .pipe(gulp.dest('dist/favicons'))
+  .pipe(gulp.dest('favicons'))
 });
 
 gulp.task('pug', function buildHTML() {
@@ -70,14 +70,15 @@ gulp.task('pug', function buildHTML() {
     .pipe(gulp.dest("src/"))
 });
 
+
 gulp.task('clean:dist', function() {
   return del.sync(['dist/**/*']);
 });
 
-gulp.task('CNAME', function(){
+/*gulp.task('CNAME', function(){
   return gulp.src('CNAME')
   .pipe(gulp.dest('dist/'))
-});
+});*/
 
 
 gulp.task('watch', ['browserSync', 'pug', 'sass'], function (callback){
@@ -88,8 +89,8 @@ gulp.task('watch', ['browserSync', 'pug', 'sass'], function (callback){
 })
 
 gulp.task('build', function (callback) {
-  runSequence('clean:dist',
-    ['pug', 'sass', 'images', 'favicons', 'js', 'css', 'CNAME'], 'useref',
+  runSequence(
+    ['pug', 'sass', 'images', 'favicons', 'js', 'css'], 'useref',
     callback
   )
 })
@@ -99,7 +100,7 @@ gulp.task('default', function(callback) {
     callback
   )
 })
-
+/*
 gulp.task('deploytopages', function() {
   ghpages.publish('dist', function(err) {});
 });
@@ -108,4 +109,4 @@ gulp.task('deploy', function(callback) {
   runSequence(['build'], 'deploytopages',
     callback
   )
-});
+});*/
