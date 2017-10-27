@@ -1,0 +1,42 @@
+.manytwitch {
+  @include flex-container;
+  background: $manytwitch-colour;
+  width: 100%;
+  color: $text-colour-light;
+  position: relative;
+}
+
+.manytwitch__project {
+  @include project;
+}
+
+.korean {
+  @include flex-container;
+  background: $korean-colour;
+  width: 100%;
+  color: $text-colour-light;
+  position: relative;
+}
+
+.korean__project {
+  @include project;
+}
+
+.project__heading {
+  font-size: $content__heading-font-size;
+  font-weight: $content__heading-font-weight;
+  width: 100%;
+  margin-bottom: 0.1em;
+  opacity: 0.8;
+}
+
+.project__subheading {
+  margin-top: 0.1em;
+  font-size: $project__subheading-font-size;
+  font-weight: $project__subheading-font-weight;
+}
+
+.project__text {
+  font-size: $content__text-font-size;
+  font-weight: $content__text-font-weight;
+}

@@ -1,21 +1,70 @@
-$colour-bg: #fefefe;
-$colour-text-dark: #222;
-$colour-accent: #b14360;
-$colour-accent-light: #bf5974;
-$colour-selection: #c8c5cc;
+$bg-colour: #fefefe;
+$text-colour-light: #fefefe;
+$text-colour-dark: #222;
+$accent-colour: #B14360;
+$selection-colour: #c8c5cc;
+$manytwitch-colour: #F1A535;
+$korean-colour: #595EE6;
 
-$font-size-h1: 4em;
-$font-size-h2: 2em;
-$font-size-p: 1.05em;
+$intro__title-font-size: 3.5em;
+$intro__heading-font-size: 2em;
+
+$content-padding: 4em 2em;
+$content__heading-font-size: 2em;
+$content__heading-font-weight: 600;
+$content__text-font-size: 1.1em;
+$content__text-font-weight: 600;
+$project__subheading-font-size: 1.3em;
+$project__subheading-font-weight: 600;
+
+@import 'animate.scss';
+@import 'partials/mixins.scss';
+@import 'partials/projects.scss';
+@import 'partials/content.scss';
+@import 'partials/media-queries.scss';
 
 html {
   height: 100%;
   box-sizing: border-box;
+  margin: 0;
 }
 
-::-moz-selection { background: $colour-selection; }
-::selection { background: $colour-selection; }
+::-moz-selection { background: $selection-colour; }
+::selection { background: $selection-colour; }
 
+body {
+  font-family: 'Nunito', sans-serif;
+  margin: 0;
+  background: $bg-colour;
+  color: $text-colour-dark;
+}
+
+main {
+  height: 100%;
+  width: 100%;
+}
+
+.border-bottom--accent {
+  @include border-bottom($bg-colour, $accent-colour);
+}
+
+.border-top--manytwitch {
+  @include border-top($manytwitch-colour, $bg-colour);
+}
+
+.border-bottom--manytwitch {
+  @include border-bottom($korean-colour, $manytwitch-colour);
+}
+
+.border-top--korean {
+  @include border-top($korean-colour, $bg-colour);
+}
+
+.border-bottom--korean {
+  @include border-bottom($bg-colour, $korean-colour);
+}
+
+/*
 body {
   font-family: 'Raleway', sans-serif;
   margin: 0;
@@ -158,3 +207,4 @@ main {
     }
   }
 }
+*/

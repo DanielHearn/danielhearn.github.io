@@ -1,0 +1,32 @@
+@mixin flex-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+@mixin content-container {
+  max-width: 50em;
+  padding: $content-padding;
+}
+
+@mixin border-bottom($colour1, $colour2) {
+  background-image: linear-gradient(0deg, $colour1 99%, $colour2 99%, $colour2 100%);
+  .border-bottom {
+    fill: $colour2;
+  }
+}
+
+@mixin border-top($colour1, $colour2) {
+  background-image: linear-gradient(0deg, $colour1 99%, $colour2 99%, $colour2 100%);
+  .border-top {
+    fill: $colour2;
+  }
+}
+
+
+@mixin project {
+  @include flex-container;
+  @include content-container;
+  justify-content: flex-start;
+}

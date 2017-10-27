@@ -1,7 +1,5 @@
-_site
-_/site
-_site\
-_site/
+dist
+node_modules
 
 # Windows image file caches
 Thumbs.db

@@ -1,0 +1,30 @@
+@media screen and (max-width: 40em) {
+  html body {
+    main {
+      .intro__content {
+        .intro__title {
+          font-size: 3em;
+        }
+        .intro__heading {
+          width: 100%;
+          font-size: 1.75em;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 30em) {
+  html body {
+    main {
+      .intro__content
+        .intro__title {
+          font-size: 2.75em;
+        }
+        .intro__heading {
+          width: 100%;
+          font-size: 1.5em;
+        }
+    }
+  }
+}
