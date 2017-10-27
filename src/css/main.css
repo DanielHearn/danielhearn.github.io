@@ -1092,6 +1092,27 @@
   font-size: 1.1em;
   font-weight: 600; }
 
+.project__link {
+  text-decoration: none;
+  backface-visibility: hidden;
+  position: relative;
+  display: inline-block;
+  font-size: 1.3em;
+  font-weight: 600;
+  line-height: 1.5em;
+  color: #fefefe; }
+  .project__link:visited {
+    color: #fefefe; }
+  .project__link:before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    bottom: -0px;
+    height: 2px;
+    left: 0;
+    background: #fefefe;
+    transition: transform 0.18s; }
+
 .intro {
   display: flex;
   justify-content: center;
@@ -1101,7 +1122,8 @@
   width: 100%;
   min-height: 80vh;
   color: #fefefe;
-  position: relative; }
+  position: relative;
+  text-align: center; }
 
 .intro__content {
   display: flex;
@@ -1110,7 +1132,8 @@
   flex-wrap: wrap;
   max-width: 50em;
   padding: 4em 2em;
-  justify-content: flex-start; }
+  justify-content: flex-start;
+  text-align: left; }
   .intro__content .intro__title {
     font-size: 3.5em;
     font-weight: 700;
@@ -1191,6 +1214,22 @@
     visibility: visible;
     transform: scaleX(1); }
 
+.intro__arrow {
+  box-sizing: border-box;
+  position: absolute;
+  bottom: 5vh;
+  padding: 1em;
+  margin: 0 auto;
+  left: 0;
+  right: 0; }
+  .intro__arrow .icon--arrow {
+    border: solid #fefefe;
+    border-width: 0 0.2em 0.2em 0;
+    display: inline-block;
+    padding: 1em;
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg); }
+
 @media screen and (max-width: 40em) {
   html body main .intro__content .intro__title {
     font-size: 3em; }
@@ -1251,148 +1290,3 @@ main {
   background-image: linear-gradient(0deg, #fefefe 99%, #595EE6 99%, #595EE6 100%); }
   .border-bottom--korean .border-bottom {
     fill: #595EE6; }
-
-/*
-body {
-  font-family: 'Raleway', sans-serif;
-  margin: 0;
-  background: $colour-bg;
-  color: $colour-text-dark;
-  text-align: center;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  min-height: 100vh;
-  margin: 0;
-}
-
-canvas {
-  position: absolute;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  z-index: -5;
-  opacity: 1;
-  animation: fadeIn 0.3s ease-in;
-}
-
-img {
-  width: 100%;
-  border-radius: 0.15em;
-  margin-top: 1.5em;
-  margin-bottom: 1.5em;
-}
-
-@keyframes fadeIn {
-  from { opacity: 0;}
-  to { opacity: 1;}
-}
-
-main {
-  text-align: left;
-  max-width: 38em;
-  padding: 1em;
-  h1 {
-    font-size: $font-size-h1;
-    font-weight: 700;
-    text-shadow: 0.06em 0.06em 0 $colour-accent-light;
-    margin: 0.05em 0;
-  }
-  h2 {
-    font-size: $font-size-h2;
-    font-weight: 300;
-    margin: 0.05em 0;
-    margin-bottom: 12%;
-    animation-delay: 0.3s;
-  }
-  p {
-    font-size: $font-size-p;
-    font-weight: 400;
-    line-height: 1.5em;
-    font-family: 'Open Sans', sans-serif;
-  }
-  #content {
-    animation-delay: 0.75s;
-  }
-  .link--text {
-    color: $colour-accent;
-    text-decoration: none;
-    backface-visibility: hidden;
-    position: relative;
-    display: inline-block;
-    font-weight: 600;
-    line-height: 1.5em;
-    font-family: 'Open Sans', sans-serif;
-    &:visited {
-      color: $colour-accent;
-    }
-    &:before {
-      content: "";
-      position: absolute;
-      width: 100%;
-      bottom: -0px;
-      height: 2px;
-      left: 0;
-      background: $colour-accent;
-      transform: scaleX(0);
-      transition: transform 0.18s;
-    }
-    &:hover:before {
-      visibility: visible;
-      transform: scaleX(1);
-    }
-  }
-}
-
-@media screen and (max-height: 30em) {
-  html body {
-    main {
-      padding-top: 2em;
-      padding-bottom: 2em;
-        h2 {
-          margin-bottom: 5%;
-        }
-      }
-    }
-}
-
-@media screen and (min-height: 40em) {
-  html body {
-    main {
-      padding-top: 8em;
-    }
-  }
-}
-
-@media screen and (max-width: 36em) {
-  html body {
-    min-height: 90vh;
-    main {
-      h1 {
-        font-size: 3.25em;
-      }
-      h2 {
-        font-size: 1.75em;
-        margin-bottom: 10%;
-      }
-    }
-  }
-}
-
-
-@media screen and (max-width: 28em) {
-  html body {
-    main {
-      padding-top: 5em;
-      padding-bottom: 5em;
-      h1 {
-        font-size: 3em;
-      }
-      h2 {
-        font-size: 1.6em;
-      }
-    }
-  }
-}
-*/

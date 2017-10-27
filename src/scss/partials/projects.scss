@@ -40,3 +40,27 @@
   font-size: $content__text-font-size;
   font-weight: $content__text-font-weight;
 }
+
+.project__link {
+  text-decoration: none;
+  backface-visibility: hidden;
+  position: relative;
+  display: inline-block;
+  font-size: $project__link-font-size;
+  font-weight: $project__link-font-weight;
+  line-height: 1.5em;
+  color: $text-colour-light;
+  &:visited {
+    color: $text-colour-light;
+  }
+  &:before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    bottom: -0px;
+    height: 2px;
+    left: 0;
+    background: $text-colour-light;
+    transition: transform 0.18s;
+  }
+}

@@ -14,7 +14,6 @@ var ghpages = require('gh-pages');
 var path = require('path');
 
 const scssSource = 'src/scss/*.scss';
-const cssDest = 'css';
 
 gulp.task('browserSync', function() {
   browserSync.init({
@@ -27,7 +26,8 @@ gulp.task('browserSync', function() {
 gulp.task('sass', function() {
   return gulp.src(scssSource)
     .pipe(sass().on('error', sass.logError))
-    .pipe(gulp.dest(cssDest))
+    .pipe(gulp.dest('css'))
+    .pipe(gulp.dest('src/css'))
     .pipe(cssnano({zindex: false}))
     .pipe(browserSync.stream())
 })
@@ -48,6 +48,7 @@ gulp.task('js', function(){
 gulp.task('css', function(){
   return gulp.src('src/css/*.css')
     .pipe(gulp.dest('css'))
+    .pipe(gulp.dest('src/css'))
 });
 
 gulp.task('images', function(){
