@@ -22,16 +22,24 @@
   @include project;
 }
 
+.project__details {
+
+}
+
+.project__images {
+
+}
+
 .project__heading {
   font-size: $content__heading-font-size;
   font-weight: $content__heading-font-weight;
   width: 100%;
   margin-bottom: 0.1em;
-  opacity: 0.8;
 }
 
 .project__subheading {
   margin-top: 0.1em;
+  opacity: 0.85;
   font-size: $project__subheading-font-size;
   font-weight: $project__subheading-font-weight;
 }
@@ -50,6 +58,7 @@
   font-weight: $project__link-font-weight;
   line-height: 1.5em;
   color: $text-colour-light;
+  margin-top: 1em;
   &:visited {
     color: $text-colour-light;
   }
@@ -62,5 +71,11 @@
     left: 0;
     background: $text-colour-light;
     transition: transform 0.18s;
+  }
+  &:hover {
+    opacity: 0.85;
+  }
+  &:hover &:before {
+    opacity: 0.85;
   }
 }

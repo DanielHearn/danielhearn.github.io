@@ -1080,11 +1080,11 @@
   font-size: 2em;
   font-weight: 600;
   width: 100%;
-  margin-bottom: 0.1em;
-  opacity: 0.8; }
+  margin-bottom: 0.1em; }
 
 .project__subheading {
   margin-top: 0.1em;
+  opacity: 0.85;
   font-size: 1.3em;
   font-weight: 600; }
 
@@ -1100,7 +1100,8 @@
   font-size: 1.3em;
   font-weight: 600;
   line-height: 1.5em;
-  color: #fefefe; }
+  color: #fefefe;
+  margin-top: 1em; }
   .project__link:visited {
     color: #fefefe; }
   .project__link:before {
@@ -1112,6 +1113,10 @@
     left: 0;
     background: #fefefe;
     transition: transform 0.18s; }
+  .project__link:hover {
+    opacity: 0.85; }
+  .project__link:hover .project__link:before {
+    opacity: 0.85; }
 
 .intro {
   display: flex;
