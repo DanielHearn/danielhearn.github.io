@@ -34,3 +34,22 @@
     display: flex;
   }
 }
+
+@media screen and (max-height: 45em) {
+  .intro__content {
+    padding-top: 1em;
+  }
+  .project {
+    padding: 2.5em 2em;
+  }
+}
+
+
+@media screen and (max-height: 30em) {
+  .intro__content {
+    padding-top: 0;
+  }
+  .project {
+    padding: 1.75em;
+  }
+}
