@@ -1163,7 +1163,7 @@
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
-  background: #B14360;
+  background: #f1533a;
   width: 100%;
   min-height: 80vh;
   color: #fefefe;
@@ -1236,7 +1236,7 @@
   font-weight: 600; }
 
 .content__link {
-  color: #B14360;
+  color: #f1533a;
   text-decoration: none;
   backface-visibility: hidden;
   position: relative;
@@ -1244,7 +1244,7 @@
   font-weight: 700;
   line-height: 1.5em; }
   .content__link:visited {
-    color: #B14360; }
+    color: #f1533a; }
   .content__link:before {
     content: "";
     position: absolute;
@@ -1252,7 +1252,7 @@
     bottom: -0px;
     height: 2px;
     left: 0;
-    background: #B14360;
+    background: #f1533a;
     transform: scaleX(0);
     transition: transform 0.18s; }
   .content__link:hover:before {
@@ -1316,9 +1316,9 @@ main {
   width: 100%; }
 
 .border-bottom--accent {
-  background-image: linear-gradient(0deg, #fefefe 99%, #B14360 99%, #B14360 100%); }
+  background-image: linear-gradient(0deg, #fefefe 99%, #f1533a 99%, #f1533a 100%); }
   .border-bottom--accent .border-bottom {
-    fill: #B14360; }
+    fill: #f1533a; }
 
 .border-top--manytwitch {
   background-image: linear-gradient(0deg, #F1A535 99%, #fefefe 99%, #fefefe 100%); }
