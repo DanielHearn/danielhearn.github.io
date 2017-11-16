@@ -15,6 +15,14 @@
   position: relative;
 }
 
+.interiors {
+  @include flex-container;
+  background: $interiors-colour;
+  width: 100%;
+  color: $text-colour-light;
+  position: relative;
+}
+
 .project {
   @include project;
 }

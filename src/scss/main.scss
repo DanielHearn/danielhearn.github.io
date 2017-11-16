@@ -4,6 +4,7 @@ $text-colour-dark: #222;
 $accent-colour: #e0533d;
 $selection-colour: #c8c5cc;
 $manytwitch-colour: #F1A535;
+$interiors-colour: #4564DF;
 $korean-colour: #595EE6;
 
 $intro__title-font-size: 3.5em;
@@ -63,5 +64,9 @@ main {
 }
 
 .border-bottom--korean {
-  @include border-bottom($bg-colour, $korean-colour);
+  @include border-bottom($interiors-colour, $korean-colour);
+}
+
+.border-bottom--interiors {
+  @include border-bottom($bg-colour, $interiors-colour);
 }

@@ -1059,6 +1059,16 @@
   color: #fefefe;
   position: relative; }
 
+.interiors {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  background: #4564DF;
+  width: 100%;
+  color: #fefefe;
+  position: relative; }
+
 .project {
   max-width: 50em;
   padding: 4em 2em;
@@ -1349,6 +1359,11 @@ main {
     fill: #fefefe; }
 
 .border-bottom--korean {
-  background-image: linear-gradient(0deg, #fefefe 99%, #595EE6 99%, #595EE6 100%); }
+  background-image: linear-gradient(0deg, #4564DF 99%, #595EE6 99%, #595EE6 100%); }
   .border-bottom--korean .border-bottom {
     fill: #595EE6; }
+
+.border-bottom--interiors {
+  background-image: linear-gradient(0deg, #fefefe 99%, #4564DF 99%, #4564DF 100%); }
+  .border-bottom--interiors .border-bottom {
+    fill: #4564DF; }
