@@ -32,8 +32,26 @@ html
           p.content__text
             | I have working knowledge and some experience with PHP, Node and Angular 2. I can also code in Python
             | and Java, and database with MYSQL.
-      div.border-top--manytwitch
+      div.border-top--interiors
         include includes/border-top.pug
+      section.interiors
+        section.project
+          section.project__details
+            h3.project__heading Interiors of Aylesbury
+            p.project__subheading Freelance WordPress Theme Development
+            p.project__text
+              | Designed, developed and implemented a custom WordPress theme to suit
+              | the client's requirements and brand style.
+            a.project__link(href="https://interiorsofaylesbury.com") View Project
+          section.project__images
+            a.image__container(href="https://interiorsofaylesbury.com")
+              div.container__browser
+                div.browser__dot--red
+                div.browser__dot
+                div.browser__dot
+              img.container__image(src="img/interiors.png")
+      div.border-bottom--interiors
+        include includes/border-bottom.pug
       section.manytwitch
         section.project
           section.project__details
@@ -70,24 +88,6 @@ html
                 div.browser__dot
               img.container__image(src="img/korean-handbook.png")
       div.border-bottom--korean
-        include includes/border-bottom.pug
-      section.interiors
-        section.project
-          section.project__details
-            h3.project__heading Interiors of Aylesbury
-            p.project__subheading Freelance WordPress Theme Development
-            p.project__text
-              | Designed, developed and implemented a custom WordPress theme to suit
-              | the client's requirements and brand style.
-            a.project__link(href="https://interiorsofaylesbury.com") View Project
-          section.project__images
-            a.image__container(href="https://interiorsofaylesbury.com")
-              div.container__browser
-                div.browser__dot--red
-                div.browser__dot
-                div.browser__dot
-              img.container__image(src="img/interiors.png")
-      div.border-bottom--interiors
         include includes/border-bottom.pug
       section.contact
         section.contact__content

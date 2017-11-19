@@ -51,22 +51,18 @@ main {
   @include border-bottom($bg-colour, $accent-colour);
 }
 
-.border-top--manytwitch {
-  @include border-top($manytwitch-colour, $bg-colour);
+.border-top--interiors {
+  @include border-top($interiors-colour, $bg-colour);
+}
+
+.border-bottom--interiors {
+  @include border-bottom($manytwitch-colour, $interiors-colour);
 }
 
 .border-bottom--manytwitch {
   @include border-bottom($korean-colour, $manytwitch-colour);
 }
 
-.border-top--korean {
-  @include border-top($korean-colour, $bg-colour);
-}
-
 .border-bottom--korean {
-  @include border-bottom($interiors-colour, $korean-colour);
-}
-
-.border-bottom--interiors {
-  @include border-bottom($bg-colour, $interiors-colour);
+  @include border-bottom($bg-colour, $korean-colour);
 }
