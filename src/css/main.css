@@ -1236,7 +1236,8 @@
   flex-wrap: wrap;
   max-width: 50em;
   padding: 4em 2em;
-  justify-content: flex-start; }
+  justify-content: flex-start;
+  margin-bottom: 8em; }
 
 .content__heading {
   font-size: 2em;

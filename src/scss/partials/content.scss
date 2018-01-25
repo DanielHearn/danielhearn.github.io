@@ -53,6 +53,7 @@
   @include flex-container;
   @include content-container;
   justify-content: flex-start;
+  margin-bottom: 8em;
 }
 
 .content__heading {
