@@ -1287,6 +1287,10 @@
     transform: rotate(45deg);
     -webkit-transform: rotate(45deg); }
 
+@media screen and (min-width: 40em) {
+  html body main .content__text, html body main .project__text {
+    font-size: 1.15em; } }
+
 @media screen and (max-width: 40em) {
   html body main .intro__content .intro__title {
     font-size: 3em; }
