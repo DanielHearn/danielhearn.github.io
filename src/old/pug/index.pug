@@ -1,0 +1,104 @@
+//- index.pug
+doctype html
+html
+  include includes/head.pug
+  body
+    main
+      section.intro
+        section.intro__content
+          h1.intro__title.fadeIn.animated Daniel Hearn
+          h2.intro__heading.fadeIn.animated  Computer Science student in the 2nd year at the University of Portsmouth 💻
+        a.intro__arrow.scroll(href="#about")
+          div.icon--arrow 
+      div.border-bottom--accent
+        include includes/border-bottom.pug
+      section.about#about
+        section.about__content
+          h3.content__heading I experiment with the web
+          p.content__text
+            | I experiment with code on 
+            a.content__link(href="https://codepen.io/danhearn/") Codepen
+            | , the source code for all my projects can be found on 
+            a.content__link(href="https://github.com/DanielHearn") Github
+            |  as well as their designs on 
+            a.content__link(href="https://www.behance.net/Danielhearn") Behance
+            |  and 
+            a.content__link(href="https://dribbble.com/danhearn") Dribble
+            | , you can also connect with me on 
+            a.content__link(href="https://www.linkedin.com/in/daniel-hearn-440372144/") LinkedIn
+            | . My 3D modelling work is available on 
+            a.content__link(href="https://sketchfab.com/danhearn") Sketchfab
+            | .
+          p.content__text
+            | I'm proficient in HTML5 (Pug, Haml) and CSS3 (SCSS, BEM), working to improve my Javascript (ES6, ES7), using AngularJS and React frameworks
+            | and using Experience Design, Photoshop, Gulp and Git to enhance my workflow. 
+          p.content__text
+            | I have working knowledge and some experience with Node. I can also code in Python
+            | and Java, and database with MYSQL.
+      div.border-top--interiors
+        include includes/border-top.pug
+      section.interiors
+        section.project
+          section.project__details
+            h3.project__heading Interiors of Aylesbury
+            p.project__subheading Freelance WordPress Theme Development
+            p.project__text
+              | Designed, developed and implemented a custom WordPress theme to suit
+              | the client's requirements and brand style.
+            a.project__link(href="https://interiorsofaylesbury.com") View Project
+          section.project__images
+            a.image__container(href="https://interiorsofaylesbury.com")
+              div.container__browser
+                div.browser__dot--red
+                div.browser__dot
+                div.browser__dot
+              img.container__image(src="img/interiors.png")
+      div.border-bottom--interiors
+        include includes/border-bottom.pug
+      section.manytwitch
+        section.project
+          section.project__details
+            h3.project__heading Manytwitch
+            p.project__subheading Open Source Personal Project
+            p.project__text
+              | View multiple Twitch.tv streams at once with Manytwitch, have full control over you stream
+              | experience and choose from multiple layouts, interface options and full responsive design
+              | even on mobile. 
+            a.project__link(href="http://danielhearn.co.uk/manytwitch") View Project
+          section.project__images
+            a.image__container(href="http://danielhearn.co.uk/manytwitch") 
+              div.container__browser
+                div.browser__dot--red
+                div.browser__dot
+                div.browser__dot
+              img.container__image(src="img/manytwitch.png")
+      div.border-bottom--manytwitch
+        include includes/border-bottom.pug
+      section.korean
+        section.project
+          section.project__details
+            h3.project__heading The Korean Handbook
+            p.project__subheading Open Source Personal Project
+            p.project__text
+              | Learn the basics of the Korean language and alphabet through a modern website. The site 
+              | teaches the consonants, vowels and basic rules and words of the language.
+            a.project__link(href="http://thekoreanhandbook.com") View Project
+          section.project__images
+            a.image__container(href="http://thekoreanhandbook.com")
+              div.container__browser
+                div.browser__dot--red
+                div.browser__dot
+                div.browser__dot
+              img.container__image(src="img/korean-handbook.png")
+      div.border-bottom--korean
+        include includes/border-bottom.pug
+      section.contact
+        section.contact__content
+          h3.content__heading Feel free to contact me
+          p.content__text
+            | Feel free to 
+            a.content__link(href="mailto:dan@danielhearn.co.uk") email
+            |  me about freelance work, jobs or just
+            |  chat about front-end development. You can also 
+            a.content__link(href="assets/CV_Daniel_Hearn.pdf") download my CV.
+  include includes/footer.pug

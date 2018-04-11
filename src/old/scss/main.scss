@@ -1,0 +1,68 @@
+$bg-colour: #fefefe;
+$text-colour-light: #fefefe;
+$text-colour-dark: #222;
+$accent-colour: #e0533d;
+$selection-colour: #c8c5cc;
+$manytwitch-colour: #F1A535;
+$interiors-colour: #4564DF;
+$korean-colour: #595EE6;
+
+$intro__title-font-size: 3.5em;
+$intro__heading-font-size: 2em;
+
+$content-padding: 4em 2em;
+$content__heading-font-size: 2em;
+$content__heading-font-weight: 600;
+$content__text-font-size: 1.1em;
+$content__text-font-weight: 600;
+$project__subheading-font-size: 1.3em;
+$project__subheading-font-weight: 600;
+$project__link-font-size: 1.3em;
+$project__link-font-weight: 600;
+
+@import 'animate.scss';
+@import 'partials/mixins.scss';
+@import 'partials/projects.scss';
+@import 'partials/content.scss';
+@import 'partials/media-queries.scss';
+
+html {
+  height: 100%;
+  box-sizing: border-box;
+  margin: 0;
+}
+
+::-moz-selection { background: $selection-colour; }
+::selection { background: $selection-colour; }
+
+body {
+  font-family: 'Nunito', sans-serif;
+  margin: 0;
+  background: $bg-colour;
+  color: $text-colour-dark;
+}
+
+main {
+  height: 100%;
+  width: 100%;
+}
+
+.border-bottom--accent {
+  @include border-bottom($bg-colour, $accent-colour);
+}
+
+.border-top--interiors {
+  @include border-top($interiors-colour, $bg-colour);
+}
+
+.border-bottom--interiors {
+  @include border-bottom($manytwitch-colour, $interiors-colour);
+}
+
+.border-bottom--manytwitch {
+  @include border-bottom($korean-colour, $manytwitch-colour);
+}
+
+.border-bottom--korean {
+  @include border-bottom($bg-colour, $korean-colour);
+}
