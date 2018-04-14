@@ -1066,52 +1066,106 @@ h3 {
   font-weight: 700; }
 
 h4 {
-  font-size: 1.75em;
+  font-size: 1.6em;
   font-weight: 700; }
 
 p {
   font-size: 1.2em;
   color: #555; }
-  p a {
-    backface-visibility: hidden;
-    letter-spacing: 0.05em;
-    cursor: pointer;
-    text-decoration: none;
-    position: relative;
-    display: inline-block; }
-    p a:before {
-      content: "";
-      position: absolute;
-      width: 100%;
-      height: 1px;
-      bottom: -1px;
-      border-bottom: 0.15em solid #8264ff;
-      transform: translateY(-1px);
-      opacity: 0;
-      transition: all 0.2s; }
-    p a:hover:before {
-      transform: translateY(1px);
-      opacity: 1; }
 
 a {
   text-decoration: none;
+  z-index: 0;
   color: #8264ff;
-  font-weight: 600; }
+  font-weight: 600;
+  backface-visibility: hidden;
+  letter-spacing: 0.02em;
+  cursor: pointer;
+  position: relative;
+  display: inline-block; }
+  a:hover {
+    color: #fefefe; }
+  a:before {
+    content: "";
+    position: absolute;
+    width: 110%;
+    left: -5%;
+    height: 2px;
+    bottom: -8px;
+    border-bottom: 1.4em solid #8264ff;
+    transform: translateY(0.15em);
+    opacity: 0;
+    transition: all 0.3s;
+    z-index: -1;
+    backface-visibility: hidden; }
+  a:hover:before {
+    transform: translateY(-0.32em);
+    opacity: 1; }
 
+/*
+a {
+  text-decoration: none;
+  color: $accent-colour;
+  font-weight: 600;
+  backface-visibility: hidden;
+  letter-spacing: 0.02em;
+  cursor: pointer;
+  position: relative;
+  display: inline-block;
+  &:before {
+   content: "";
+   position: absolute;
+   width: 100%;
+   height: 1px;
+   bottom: 0px;
+   border-bottom: 0.15em solid $accent-colour;
+   transform: translateY(0px);
+   opacity: 0;
+   transition: all 0.2s;
+  }
+  &:hover:before {
+   transform: translateY(1px) ;
+   opacity: 1;
+  }
+}*/
 #projects #projects_grid {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  grid-gap: 2em; }
+  grid-gap: 4em;
+  padding: 2em 0 2em 0; }
+
+.project #manytwitch_image {
+  background-image: url("/img/manytwitch.png"); }
+
+.project #interiors_image {
+  background-image: url("/img/interiors.png"); }
+
+.project #korean_image {
+  background-image: url("/img/korean-handbook.png"); }
 
 .project .project_image {
+  display: block;
   height: 15em;
-  background: #222; }
+  position: relative;
+  width: 100%;
+  background-repeat: no-repeat, repeat;
+  background-position: 50% 50%;
+  background-size: cover;
+  transition: all 140ms ease-in; }
 
-@media screen and (max-width: 40em) {
+.project .project_info .project_title {
+  margin: 1em 0 0.2em 0; }
+
+.project .project_info .project_desc {
+  margin: 0.5em 0 1em 0; }
+
+@media screen and (max-width: 45em) {
   html body main .content__text, html body main .project__text {
     font-size: 1.15em; }
-  html body main #title h2 {
-    font-size: 1.7em; }
+  html body main #content #title {
+    padding-top: 4em; }
+    html body main #content #title h2 {
+      font-size: 1.7em; }
   html body main #projects #projects_grid {
     grid-template-columns: repeat(1, 1fr); } }
 
