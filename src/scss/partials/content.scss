@@ -3,12 +3,12 @@
   margin-right: auto;
   padding-left: 2em;
   padding-right: 2em;
-  max-width: 50em;
+  max-width: 55em;
   #title {
     padding-top: 8em;
     padding-bottom: 2em;
   }
-  & section {
+  & .container {
     padding-top: 2em;
     padding-bottom: 2em;
   }
@@ -31,13 +31,64 @@ h3 {
   font-weight: 700;
 }
 
+h4 {
+  font-size: $subheading-size;
+  font-weight: 700;
+}
+
 p {
   font-size: $p-size;
   color: $text-colour-grey;
+  a {
+    backface-visibility: hidden;
+    letter-spacing: 0.05em;
+    cursor: pointer;
+    text-decoration: none;
+    position: relative;
+    display: inline-block;
+    &:before {
+     content: "";
+     position: absolute;
+     width: 100%;
+     height: 1px;
+     bottom: -1px;
+     border-bottom: 0.15em solid $accent-colour;
+     transform: translateY(-1px);
+     opacity: 0;
+     transition: all 0.2s;
+    }
+    &:hover:before {
+     transform: translateY(1px) ;
+     opacity: 1;
+    }
+  }
 }
 
 a {
   text-decoration: none;
   color: $accent-colour;
   font-weight: 600;
+}
+
+#projects {
+  #projects_grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 2em;
+  }
+}
+
+.project {
+  .project_image {
+    height: 15em;
+    background: $text-colour-dark;
+  }
+  .project_info {
+    .project_title {
+
+    }
+    .project_desc {
+
+    }
+  }
 }

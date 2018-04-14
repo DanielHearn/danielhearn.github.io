@@ -1,8 +1,18 @@
-@media screen and (min-width: 40em) {
+@media screen and (max-width: 40em) {
   html body {
     main {
       .content__text, .project__text {
         font-size: 1.15em;
+      }
+      #title {
+        h2 {
+          font-size: $heading-size*0.85;
+        }
+      }
+      #projects {
+        #projects_grid {
+          grid-template-columns: repeat(1, 1fr);
+        }
       }
     }
   }

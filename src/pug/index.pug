@@ -5,10 +5,10 @@ html
   body
     main
       section#content
-        section#title
+        section#title.container
           h1 Daniel Hearn
           h2 Computer Science student Computer Science student at the university of portsmouth 💻
-        section#about
+        section#about.container
           h3 I experiment with the web
           p
             | I experiment with code on 
@@ -19,6 +19,34 @@ html
             a(href="https://www.behance.net/Danielhearn") Behance
             |  and 
             a(href="https://dribbble.com/danhearn") Dribble
-        section#projects
-          h3 Check out my projects
-          
+            | . 
+          p
+            | I'm proficient in HTML5 (Pug, Haml) and CSS3 (SCSS), working to improve my Javascript (ES6, ES7), using AngularJS and Vue frameworks
+            | and using Experience Design, Photoshop, Gulp and Git to enhance my workflow. 
+          p.content__text
+            | I have experience with Django, Node. I can also code in Python
+            | and Java, and database with MYSQL.
+        section#projects.container
+          h3#projects_title Check out my projects
+          p Here is a selection of my projects
+          section#projects_grid
+            section.project
+              div.project_image
+                img
+              div.project_info
+                h4.project_title Manytwitch
+                p.project_desc Multiple twitch stream viewer
+            section.project
+              div.project_image
+                img
+              div.project_info
+                h4.project_title Interiors of Aylesbury
+                p.project_desc Website for interiors of aylesbury
+            section.project
+              div.project_image
+                img
+              div.project_info
+                h4.project_title Korean Handbook
+                p.project_desc Korean Language guidebook
+            
+  

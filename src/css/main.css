@@ -1043,11 +1043,11 @@
   margin-right: auto;
   padding-left: 2em;
   padding-right: 2em;
-  max-width: 50em; }
+  max-width: 55em; }
   #content #title {
     padding-top: 8em;
     padding-bottom: 2em; }
-  #content section {
+  #content .container {
     padding-top: 2em;
     padding-bottom: 2em; }
 
@@ -1059,24 +1059,61 @@ h1 {
 h2 {
   font-size: 2em;
   font-weight: 400;
-  color: #444; }
+  color: #555; }
 
 h3 {
   font-size: 2em;
   font-weight: 700; }
 
+h4 {
+  font-size: 1.75em;
+  font-weight: 700; }
+
 p {
   font-size: 1.2em;
-  color: #444; }
+  color: #555; }
+  p a {
+    backface-visibility: hidden;
+    letter-spacing: 0.05em;
+    cursor: pointer;
+    text-decoration: none;
+    position: relative;
+    display: inline-block; }
+    p a:before {
+      content: "";
+      position: absolute;
+      width: 100%;
+      height: 1px;
+      bottom: -1px;
+      border-bottom: 0.15em solid #8264ff;
+      transform: translateY(-1px);
+      opacity: 0;
+      transition: all 0.2s; }
+    p a:hover:before {
+      transform: translateY(1px);
+      opacity: 1; }
 
 a {
   text-decoration: none;
   color: #8264ff;
   font-weight: 600; }
 
-@media screen and (min-width: 40em) {
+#projects #projects_grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 2em; }
+
+.project .project_image {
+  height: 15em;
+  background: #222; }
+
+@media screen and (max-width: 40em) {
   html body main .content__text, html body main .project__text {
-    font-size: 1.15em; } }
+    font-size: 1.15em; }
+  html body main #title h2 {
+    font-size: 1.7em; }
+  html body main #projects #projects_grid {
+    grid-template-columns: repeat(1, 1fr); } }
 
 html {
   height: 100%;
