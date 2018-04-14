@@ -1071,13 +1071,16 @@ h4 {
 
 p {
   font-size: 1.2em;
-  color: #555; }
+  color: #555;
+  line-height: 1.5em; }
+  p span {
+    color: #777; }
 
 a {
   text-decoration: none;
   z-index: 0;
   color: #8264ff;
-  font-weight: 600;
+  font-weight: 700;
   backface-visibility: hidden;
   letter-spacing: 0.02em;
   cursor: pointer;
@@ -1102,32 +1105,6 @@ a {
     transform: translateY(-0.32em);
     opacity: 1; }
 
-/*
-a {
-  text-decoration: none;
-  color: $accent-colour;
-  font-weight: 600;
-  backface-visibility: hidden;
-  letter-spacing: 0.02em;
-  cursor: pointer;
-  position: relative;
-  display: inline-block;
-  &:before {
-   content: "";
-   position: absolute;
-   width: 100%;
-   height: 1px;
-   bottom: 0px;
-   border-bottom: 0.15em solid $accent-colour;
-   transform: translateY(0px);
-   opacity: 0;
-   transition: all 0.2s;
-  }
-  &:hover:before {
-   transform: translateY(1px) ;
-   opacity: 1;
-  }
-}*/
 #projects #projects_grid {
   display: grid;
   grid-template-columns: repeat(2, 1fr);

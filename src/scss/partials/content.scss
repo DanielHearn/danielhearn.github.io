@@ -39,13 +39,17 @@ h4 {
 p {
   font-size: $p-size;
   color: $text-colour-grey;
+  line-height: 1.5em;
+  span {
+    color: $text-colour-lightgrey;
+  }
 }
 
 a {
   text-decoration: none;
   z-index: 0;
   color: $accent-colour;
-  font-weight: 600;
+  font-weight: 700;
   backface-visibility: hidden;
   letter-spacing: 0.02em;
   cursor: pointer;
@@ -73,32 +77,6 @@ a {
     opacity: 1;
   }
 }
-/*
-a {
-  text-decoration: none;
-  color: $accent-colour;
-  font-weight: 600;
-  backface-visibility: hidden;
-  letter-spacing: 0.02em;
-  cursor: pointer;
-  position: relative;
-  display: inline-block;
-  &:before {
-   content: "";
-   position: absolute;
-   width: 100%;
-   height: 1px;
-   bottom: 0px;
-   border-bottom: 0.15em solid $accent-colour;
-   transform: translateY(0px);
-   opacity: 0;
-   transition: all 0.2s;
-  }
-  &:hover:before {
-   transform: translateY(1px) ;
-   opacity: 1;
-  }
-}*/
 
 #projects {
   #projects_grid {
