@@ -1057,12 +1057,12 @@ h1 {
   margin: 0.5em 0 0.5em 0; }
 
 h2 {
-  font-size: 2em;
+  font-size: 1.95em;
   font-weight: 400;
   color: #555; }
 
 h3 {
-  font-size: 2em;
+  font-size: 1.95em;
   font-weight: 700; }
 
 h4 {
@@ -1111,6 +1111,9 @@ p {
   grid-template-columns: repeat(2, 1fr);
   grid-gap: 4em;
   padding: 2em 0 2em 0; }
+
+.inline-icon {
+  height: 1em; }
 
 .project #manytwitch {
   background: #ffd473; }
@@ -1171,7 +1174,7 @@ p {
   html body main #content #title {
     padding-top: 4em; }
     html body main #content #title h2 {
-      font-size: 1.7em; }
+      font-size: 1.6575em; }
   html body main #projects #projects_grid {
     grid-template-columns: repeat(1, 1fr); } }
 

@@ -88,6 +88,10 @@ p {
   }
 }
 
+.inline-icon {
+  height: 1em;
+}
+
 .project {
   #manytwitch {
     background: #ffd473;
@@ -131,13 +135,8 @@ p {
     }
     .project_image {
       display: block;
-      //height: 15em;
       position: relative;
       width: 100%;
-      //background-repeat: no-repeat, repeat;
-      //background-position: 50% 50%;
-      //background-size: cover;
-    //  transition: all 140ms ease-in;
     }
   }
   .project_info {
