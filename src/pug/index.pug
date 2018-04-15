@@ -12,13 +12,13 @@ html
           h3 I experiment with the web
           p
             | I experiment with code on 
-            a(href="https://codepen.io/danhearn/") Codepen
+            a.text_link(href="https://codepen.io/danhearn/") Codepen
             | , the source code for all my projects can be found on 
-            a(href="https://github.com/DanielHearn") Github
+            a.text_link(href="https://github.com/DanielHearn") Github
             |  as well as their designs on 
-            a(href="https://www.behance.net/Danielhearn") Behance
+            a.text_link(href="https://www.behance.net/Danielhearn") Behance
             |  and 
-            a(href="https://dribbble.com/danhearn") Dribble
+            a.text_link(href="https://dribbble.com/danhearn") Dribble
             | . 
           p
             | I'm proficient in HTML5 (Pug, Haml) and CSS3 (SCSS), working to improve my Javascript (ES6, ES7), using AngularJS and Vue frameworks to build web apps
@@ -28,29 +28,44 @@ html
             | and Java, and database with MYSQL.
         section#projects.container
           h3#projects_title Check out my projects
-          p Here is a selection of my best open-source, personal and commercial projects.
+          p Here is a selection of my best open-source, personal, and commercial projects.
           section#projects_grid
             section.project
-              div.project_image#manytwitch_image
+              a.project_browser#manytwitch(href="http://danielhearn.co.uk/manytwitch") 
+                div.browser_nav
+                  div.browser__dot--red
+                  div.browser__dot
+                  div.browser__dot
+                img.project_image(src="img/manytwitch.png")
               div.project_info
                 h4.project_title Manytwitch
                 p.project_desc #[span Open Source - ] Multiple twitch stream viewer made with Angular JS.
                 p
-                  a.project_link(href="http://danielhearn.co.uk/manytwitch") View Project
+                  a.text_link(href="http://danielhearn.co.uk/manytwitch") View Project
             section.project
-              div.project_image#interiors_image
+              a.project_browser#interiors(href="https://interiorsofaylesbury.com") 
+                div.browser_nav
+                  div.browser__dot--red
+                  div.browser__dot
+                  div.browser__dot
+                img.project_image(src="img/interiors.png")
               div.project_info
                 h4.project_title Interiors of Aylesbury
                 p.project_desc #[span Commercial Client - ] Custom Wordpress theme developed for Interiors of Aylesbury.
                 p
-                  a.project_link(href="https://interiorsofaylesbury.com") View Project
+                  a.text_link(href="https://interiorsofaylesbury.com") View Project
             section.project
-              div.project_image#korean_image
+              a.project_browser#korean(href="http://thekoreanhandbook.com/") 
+                div.browser_nav
+                  div.browser__dot--red
+                  div.browser__dot
+                  div.browser__dot
+                img.project_image(src="img/korean.png")
               div.project_info
                 h4.project_title Korean Handbook
                 p.project_desc #[span Open Source - ] Web app providing various tools and information teaching the Korean language.
                 p
-                  a.project_link(href="http://thekoreanhandbook.com/") View Project
+                  a.text_link(href="http://thekoreanhandbook.com/") View Project
           section#contact.container
             h3 Feel free to contact me
-            p While im not currently open for freelance projects, feel free to #[a(href="mailto:dan@danielhearn.co.uk") email] about web development. My CV is also available on request.
+            p While im not currently open for freelance projects, feel free to #[a.text_link(href="mailto:dan@danielhearn.co.uk") email] about web development. My CV is also available on request.

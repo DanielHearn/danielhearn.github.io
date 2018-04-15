@@ -45,7 +45,7 @@ p {
   }
 }
 
-a {
+.text_link {
   text-decoration: none;
   z-index: 0;
   color: $accent-colour;
@@ -60,11 +60,12 @@ a {
   }
   &:before {
     content: "";
+    pointer-events: none;
     position: absolute;
     width: 110%;
     left: -5%;
     height: 2px;
-    bottom: -8px;
+    bottom: -2px;
     border-bottom: 1.4em solid $accent-colour;
     transform:  translateY(0.15em);
     opacity: 0;
@@ -73,7 +74,7 @@ a {
     backface-visibility: hidden;
   }
   &:hover:before {
-    transform: translateY(-0.32em);
+    transform: translateY(-0.16em);
     opacity: 1;
   }
 }
@@ -88,25 +89,56 @@ a {
 }
 
 .project {
-  #manytwitch_image {
-    background-image: url("/img/manytwitch.png");
+  #manytwitch {
+    background: #ffd473;
+    .project_image {
+      background: url("/img/manytwitch.png");
+    }
   }
-  #interiors_image {
-    background-image: url("/img/interiors.png");
+  #interiors {
+    background: #9193ff;
+    .project_image {
+      background: url("/img/interiors.png");
+    }
   }
-  #korean_image {
-    background-image: url("/img/korean-handbook.png");
+  #korean {
+    background: #7d82fb;
+    .project_image {
+      background: url("/img/korean.png");
+    }
   }
-  .project_image {
+  .project_browser {
     display: block;
-    height: 15em;
-    position: relative;
-    width: 100%;
-    //background: $text-colour-dark;
-    background-repeat: no-repeat, repeat;
-    background-position: 50% 50%;
-    background-size: cover;
-    transition: all 140ms ease-in;
+    padding: 1em;
+    box-sizing: border-box;
+    .browser_nav {
+      display: flex;
+      flex-direction: row;
+      box-sizing: border-box;
+      padding-left: 0.5em;
+      padding-top: 0.4em;
+      width: 100%;
+      height: 1.5em;
+      background: #e9e9e9;
+      .browser__dot {
+        @include browser-dot;
+        background: #d6d4d4;
+      }
+      .browser__dot--red {
+        @include browser-dot;
+        background: #e7969f;
+      }
+    }
+    .project_image {
+      display: block;
+      //height: 15em;
+      position: relative;
+      width: 100%;
+      //background-repeat: no-repeat, repeat;
+      //background-position: 50% 50%;
+      //background-size: cover;
+    //  transition: all 140ms ease-in;
+    }
   }
   .project_info {
     .project_title {

@@ -1076,7 +1076,7 @@ p {
   p span {
     color: #777; }
 
-a {
+.text_link {
   text-decoration: none;
   z-index: 0;
   color: #8264ff;
@@ -1086,23 +1086,24 @@ a {
   cursor: pointer;
   position: relative;
   display: inline-block; }
-  a:hover {
+  .text_link:hover {
     color: #fefefe; }
-  a:before {
+  .text_link:before {
     content: "";
+    pointer-events: none;
     position: absolute;
     width: 110%;
     left: -5%;
     height: 2px;
-    bottom: -8px;
+    bottom: -2px;
     border-bottom: 1.4em solid #8264ff;
     transform: translateY(0.15em);
     opacity: 0;
     transition: all 0.3s;
     z-index: -1;
     backface-visibility: hidden; }
-  a:hover:before {
-    transform: translateY(-0.32em);
+  .text_link:hover:before {
+    transform: translateY(-0.16em);
     opacity: 1; }
 
 #projects #projects_grid {
@@ -1111,24 +1112,52 @@ a {
   grid-gap: 4em;
   padding: 2em 0 2em 0; }
 
-.project #manytwitch_image {
-  background-image: url("/img/manytwitch.png"); }
+.project #manytwitch {
+  background: #ffd473; }
+  .project #manytwitch .project_image {
+    background: url("/img/manytwitch.png"); }
 
-.project #interiors_image {
-  background-image: url("/img/interiors.png"); }
+.project #interiors {
+  background: #9193ff; }
+  .project #interiors .project_image {
+    background: url("/img/interiors.png"); }
 
-.project #korean_image {
-  background-image: url("/img/korean-handbook.png"); }
+.project #korean {
+  background: #7d82fb; }
+  .project #korean .project_image {
+    background: url("/img/korean.png"); }
 
-.project .project_image {
+.project .project_browser {
   display: block;
-  height: 15em;
-  position: relative;
-  width: 100%;
-  background-repeat: no-repeat, repeat;
-  background-position: 50% 50%;
-  background-size: cover;
-  transition: all 140ms ease-in; }
+  padding: 1em;
+  box-sizing: border-box; }
+  .project .project_browser .browser_nav {
+    display: flex;
+    flex-direction: row;
+    box-sizing: border-box;
+    padding-left: 0.5em;
+    padding-top: 0.4em;
+    width: 100%;
+    height: 1.5em;
+    background: #e9e9e9; }
+    .project .project_browser .browser_nav .browser__dot {
+      width: 0.75em;
+      height: 0.75em;
+      border-radius: 1em;
+      margin-left: 0.25em;
+      margin-right: 0.25em;
+      background: #d6d4d4; }
+    .project .project_browser .browser_nav .browser__dot--red {
+      width: 0.75em;
+      height: 0.75em;
+      border-radius: 1em;
+      margin-left: 0.25em;
+      margin-right: 0.25em;
+      background: #e7969f; }
+  .project .project_browser .project_image {
+    display: block;
+    position: relative;
+    width: 100%; }
 
 .project .project_info .project_title {
   margin: 1em 0 0.2em 0; }
@@ -1162,7 +1191,7 @@ main {
   width: 100%; }
 
 ::-moz-selection {
-  background: #9079EE; }
+  background: #9e85ff; }
 
 ::selection {
-  background: #9079EE; }
+  background: #9e85ff; }
