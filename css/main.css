@@ -1047,6 +1047,12 @@
   #content #title {
     padding-top: 8em;
     padding-bottom: 2em; }
+    #content #title #logo {
+      width: 3em;
+      height: 3em;
+      padding-right: 1em; }
+    #content #title span, #content #title span * {
+      display: inline-block; }
   #content .container {
     padding-top: 2em;
     padding-bottom: 2em; }

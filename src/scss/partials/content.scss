@@ -7,6 +7,14 @@
   #title {
     padding-top: 8em;
     padding-bottom: 2em;
+    #logo {
+      width: 3em;
+      height: 3em;
+      padding-right: 1em;
+    }
+    span, span * {
+      display: inline-block;
+    }
   }
   & .container {
     padding-top: 2em;
