@@ -123,6 +123,12 @@ p {
     display: block;
     padding: 1em;
     box-sizing: border-box;
+    .project_container {
+      transition: all 0.3s ease-in-out;
+      &:hover {
+        transform: scale(0.8);
+      }
+    }
     .browser_nav {
       display: flex;
       flex-direction: row;

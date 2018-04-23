@@ -7,7 +7,7 @@ html
       section#content
         section#title.container
           span
-            img#logo(src="img/logo_small.png")
+            //img#logo(src="img/logo_small.png")
             h1 Daniel Hearn
           h2 Computer Science student at the University of portsmouth #[img.inline-icon( src="/img/computer.svg")]
         section#about.container
@@ -33,12 +33,14 @@ html
           p Here is a selection of my best open-source, personal, and commercial projects.
           section#projects_grid
             section.project
-              a.project_browser#manytwitch(href="http://danielhearn.co.uk/manytwitch") 
-                div.browser_nav
-                  div.browser__dot--red
-                  div.browser__dot
-                  div.browser__dot
-                img.project_image(src="img/manytwitch.png")
+              div.project_container
+                a.project_browser#manytwitch(href="http://danielhearn.co.uk/manytwitch") 
+                  div.project_container
+                    div.browser_nav
+                      div.browser__dot--red
+                      div.browser__dot
+                      div.browser__dot
+                    img.project_image(src="img/manytwitch.png")
               div.project_info
                 h4.project_title Manytwitch
                 p.project_desc #[span Open Source - ] Multiple twitch stream viewer made with Angular JS.
@@ -46,11 +48,12 @@ html
                   a.text_link(href="http://danielhearn.co.uk/manytwitch") View Project
             section.project
               a.project_browser#interiors(href="https://interiorsofaylesbury.com") 
-                div.browser_nav
-                  div.browser__dot--red
-                  div.browser__dot
-                  div.browser__dot
-                img.project_image(src="img/interiors.png")
+                div.project_container
+                  div.browser_nav
+                    div.browser__dot--red
+                    div.browser__dot
+                    div.browser__dot
+                  img.project_image(src="img/interiors.png")
               div.project_info
                 h4.project_title Interiors of Aylesbury
                 p.project_desc #[span Commercial Client - ] Custom Wordpress theme developed for Interiors of Aylesbury.
@@ -58,11 +61,12 @@ html
                   a.text_link(href="https://interiorsofaylesbury.com") View Project
             section.project
               a.project_browser#korean(href="http://thekoreanhandbook.com/") 
-                div.browser_nav
-                  div.browser__dot--red
-                  div.browser__dot
-                  div.browser__dot
-                img.project_image(src="img/korean.png")
+                div.project_container
+                  div.browser_nav
+                    div.browser__dot--red
+                    div.browser__dot
+                    div.browser__dot
+                  img.project_image(src="img/korean.png")
               div.project_info
                 h4.project_title Korean Handbook
                 p.project_desc #[span Open Source - ] Web app providing various tools and information teaching the Korean language.

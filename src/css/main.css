@@ -1140,6 +1140,10 @@ p {
   display: block;
   padding: 1em;
   box-sizing: border-box; }
+  .project .project_browser .project_container {
+    transition: all 0.3s ease-in-out; }
+    .project .project_browser .project_container:hover {
+      transform: scale(0.8); }
   .project .project_browser .browser_nav {
     display: flex;
     flex-direction: row;
