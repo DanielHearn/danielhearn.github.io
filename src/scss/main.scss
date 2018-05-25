@@ -4,15 +4,15 @@ $text-colour-dark: #222;
 $text-colour-grey: #555;
 $text-colour-lightgrey: #777;
 $accent-colour: #8264ff;
-$selection-colour: #9e85ff;
+$selection-colour: #b893ff;
 
 $title-size: 3.5em;
 $heading-size: 1.95em;
 $subheading-size: 1.6em;
 $p-size: 1.2em;
 
-@import 'animate.scss';
 @import 'partials/mixins.scss';
+@import 'partials/404.scss';
 @import 'partials/content.scss';
 @import 'partials/media-queries.scss';
 
@@ -27,6 +27,7 @@ body {
   margin: 0;
   background: $bg-colour;
   color: $text-colour-dark;
+  max-width: 100%;
 }
 
 main {

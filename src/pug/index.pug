@@ -28,10 +28,10 @@ html
           p.content__text
             | I have experience with Django, Node, I can also code in Python
             | and Java, and database with MYSQL.
-        section#projects.container
-          h3#projects_title Check out my projects
+        section.projects.container
+          h3.projects_title Check out my projects
           p Here is a selection of my best open-source, personal, and commercial projects.
-          section#projects_grid
+          section.projects_grid
             section.project
               div.project_container
                 a.project_browser#manytwitch(href="http://danielhearn.co.uk/manytwitch") 
@@ -69,9 +69,40 @@ html
                   img.project_image(src="img/korean.png")
               div.project_info
                 h4.project_title Korean Handbook
-                p.project_desc #[span Open Source - ] Web app providing various tools and information teaching the Korean language.
+                p.project_desc #[span Personal Project - ] Django Web app providing various tools and information teaching the Korean language.
                 p
                   a.text_link(href="http://thekoreanhandbook.com/") View Project
+          section.projects.container
+            h3.projects_title My Side Projects
+            p Here are my best side projects and codepens.
+            section.projects_grid
+              section.project
+                div.project_container
+                  a.project_browser#worldgen(href="https://codepen.io/danhearn/pen/mxQyXj") 
+                    div.project_container
+                      div.browser_nav
+                        div.browser__dot--red
+                        div.browser__dot
+                        div.browser__dot
+                      img.project_image(src="img/2dworldgen.png")
+                div.project_info
+                  h4.project_title Pixel World Generator
+                  p.project_desc #[span JavaScript - ] Generates a 2D pixel world.
+                  p
+                    a.text_link(href="https://codepen.io/danhearn/pen/mxQyXj") View Side Project
+              section.project
+                a.project_browser#snake(href="https://codepen.io/danhearn/pen/JvZvmX") 
+                  div.project_container
+                    div.browser_nav
+                      div.browser__dot--red
+                      div.browser__dot
+                      div.browser__dot
+                    img.project_image(src="img/snake.png")
+                div.project_info
+                  h4.project_title Snake Game
+                  p.project_desc #[span JavaScript - ] Recreation of snake.
+                  p
+                    a.text_link(href="https://codepen.io/danhearn/pen/JvZvmX") View Side Project
           section#contact.container
             h3 Feel free to contact me
             p While im not currently open for freelance projects, feel free to #[a.text_link(href="mailto:dan@danielhearn.co.uk") email] about web development. My CV is also available on request.

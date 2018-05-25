@@ -19,9 +19,22 @@
   & .container {
     padding-top: 2em;
     padding-bottom: 2em;
+    animation-duration: 1s;
+    animation-name: slidein;
   }
 }
 
+@keyframes slidein {
+  from {
+    margin-top: 6em;
+    opacity: 0;
+  }
+
+  to {
+    margin-top: 0;
+    opacity: 1;
+  }
+}
 h1 {
   font-size: $title-size;
   font-weight: 800;
@@ -87,8 +100,8 @@ p {
   }
 }
 
-#projects {
-  #projects_grid {
+.projects {
+  .projects_grid {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-gap: 4em;
@@ -103,21 +116,18 @@ p {
 .project {
   #manytwitch {
     background: #ffd473;
-    .project_image {
-      background: url("/img/manytwitch.png");
-    }
   }
   #interiors {
     background: #9193ff;
-    .project_image {
-      background: url("/img/interiors.png");
-    }
   }
   #korean {
     background: #7d82fb;
-    .project_image {
-      background: url("/img/korean.png");
-    }
+  }
+  #worldgen {
+    background: #97d272;
+  }
+  #snake {
+    background: #c1d0a2;
   }
   .project_browser {
     display: block;
@@ -126,7 +136,7 @@ p {
     .project_container {
       transition: all 0.3s ease-in-out;
       &:hover {
-        transform: scale(0.8);
+        transform: scale(0.9);
       }
     }
     .browser_nav {
