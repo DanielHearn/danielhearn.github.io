@@ -86,11 +86,11 @@ p {
     width: 110%;
     left: -5%;
     height: 2px;
-    bottom: -2px;
-    border-bottom: 1.4em solid $accent-colour;
+    bottom: -4px;
+    border-bottom: 1.6em solid $accent-colour;
     transform:  translateY(0.15em);
     opacity: 0;
-    transition: all 0.3s;
+    transition: transform 0.3s, opacity 0.3s;
     z-index: -1;
     backface-visibility: hidden;
   }
@@ -103,7 +103,7 @@ p {
 .projects {
   .projects_grid {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(1, 1fr);
     grid-gap: 4em;
     padding: 2em 0 2em 0;
   }
@@ -114,6 +114,12 @@ p {
 }
 
 .project {
+  .project_browser:hover .browser_container {
+    transform: scale(0.9);
+  }
+  .browser_container {
+    transition: transform 0.3s ease-in-out;
+  }
   #manytwitch {
     background: #ffd473;
   }
@@ -133,12 +139,6 @@ p {
     display: block;
     padding: 1em;
     box-sizing: border-box;
-    .project_container {
-      transition: all 0.3s ease-in-out;
-      &:hover {
-        transform: scale(0.9);
-      }
-    }
     .browser_nav {
       display: flex;
       flex-direction: row;
@@ -148,11 +148,11 @@ p {
       width: 100%;
       height: 1.5em;
       background: #e9e9e9;
-      .browser__dot {
+      .browser_dot {
         @include browser-dot;
         background: #d6d4d4;
       }
-      .browser__dot--red {
+      .browser_dot--red {
         @include browser-dot;
         background: #e7969f;
       }
