@@ -120,6 +120,9 @@ p {
 .project #snake {
   background: #c1d0a2; }
 
+.project #css_loaders {
+  background: #e65649; }
+
 .project .project_browser {
   display: block;
   padding: 1em;
