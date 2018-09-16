@@ -162,8 +162,11 @@ p {
   margin: 0.5em 0 1em 0; }
 
 @media screen and (max-width: 45em) {
-  html body main .content__text, html body main .project__text {
-    font-size: 1.15em; }
+  html body main #content {
+    padding-left: 1em;
+    padding-right: 1em; }
+    html body main #content .content__text, html body main #content .project__text {
+      font-size: 1.15em; }
   html body main #content #title {
     padding-top: 4em; }
     html body main #content #title h2 {
