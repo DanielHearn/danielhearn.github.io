@@ -39,6 +39,16 @@ h1 {
   font-size: $title-size;
   font-weight: 800;
   margin: 0.5em 0 0.5em 0;
+  line-height: 1.2em;
+  &:after {
+    display: flex;
+    content: '';
+    background: $accent-light-colour;
+    width: 4em;
+    height: 2em;
+    margin-top: -1.75em;
+    margin-left: -0.4em;
+  }
 }
 
 h2 {
