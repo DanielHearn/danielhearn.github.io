@@ -43,7 +43,7 @@ h1 {
   h1:after {
     display: flex;
     content: '';
-    background: #9981ff;
+    background: #b893ff;
     width: 4em;
     height: 2em;
     margin-top: -1.75em;
