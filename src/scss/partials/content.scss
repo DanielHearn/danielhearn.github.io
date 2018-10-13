@@ -43,7 +43,7 @@ h1 {
   &:after {
     display: flex;
     content: '';
-    background: $selection-colour;
+    background: $accent-light-colour;
     width: 4em;
     height: 2em;
     margin-top: -1.75em;
@@ -76,6 +76,14 @@ p {
   }
 }
 
+.uni {
+  margin-bottom: 0.25em;
+}
+
+.job {
+  margin-top: 0.25em;
+}
+
 .text_link {
   text-decoration: none;
   z-index: 0;
@@ -93,8 +101,8 @@ p {
     content: "";
     pointer-events: none;
     position: absolute;
-    width: 110%;
-    left: -5%;
+    width: 105%;
+    left: -2.5%;
     height: 2px;
     bottom: -4px;
     border-bottom: 1.6em solid $accent-colour;
@@ -105,7 +113,7 @@ p {
     backface-visibility: hidden;
   }
   &:hover:before {
-    transform: translateY(-0.16em);
+    transform: translateY(-0.1em);
     opacity: 1;
   }
 }

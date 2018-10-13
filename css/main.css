@@ -43,19 +43,19 @@ h1 {
   h1:after {
     display: flex;
     content: '';
-    background: #b893ff;
+    background: #9981ff;
     width: 4em;
     height: 2em;
     margin-top: -1.75em;
     margin-left: -0.4em; }
 
 h2 {
-  font-size: 1.95em;
+  font-size: 1.8em;
   font-weight: 400;
   color: #555; }
 
 h3 {
-  font-size: 1.95em;
+  font-size: 1.8em;
   font-weight: 700; }
 
 h4 {
@@ -68,6 +68,12 @@ p {
   line-height: 1.5em; }
   p span {
     color: #777; }
+
+.uni {
+  margin-bottom: 0.25em; }
+
+.job {
+  margin-top: 0.25em; }
 
 .text_link {
   text-decoration: none;
@@ -85,8 +91,8 @@ p {
     content: "";
     pointer-events: none;
     position: absolute;
-    width: 110%;
-    left: -5%;
+    width: 105%;
+    left: -2.5%;
     height: 2px;
     bottom: -4px;
     border-bottom: 1.6em solid #8264ff;
@@ -96,7 +102,7 @@ p {
     z-index: -1;
     backface-visibility: hidden; }
   .text_link:hover:before {
-    transform: translateY(-0.16em);
+    transform: translateY(-0.1em);
     opacity: 1; }
 
 .projects .projects_grid {
@@ -179,7 +185,7 @@ p {
   html body main #content #title {
     padding-top: 4em; }
     html body main #content #title h2 {
-      font-size: 1.6575em; }
+      font-size: 1.53em; }
   html body main .projects .projects_grid {
     grid-template-columns: repeat(1, 1fr); } }
 
@@ -200,7 +206,7 @@ main {
   width: 100%; }
 
 ::-moz-selection {
-  background: #b893ff; }
+  background: #d6d6d6; }
 
 ::selection {
-  background: #b893ff; }
+  background: #d6d6d6; }
