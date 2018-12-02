@@ -27,7 +27,7 @@
     "gulp-pug": "^3.3.0",
     "gulp-sass": "^3.2.1",
     "gulp-uglify": "^3.0.1",
-    "gulp-useref": "^3.1.4",
+    "gulp-useref": "^3.1.6",
     "run-sequence": "^2.2.1"
   }
 }
