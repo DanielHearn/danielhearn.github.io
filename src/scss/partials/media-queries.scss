@@ -15,7 +15,7 @@
         }
       }
       .projects {
-        .projects_grid {
+        .projects_grid, .projects_grid.projects_grid--2-column {
           grid-template-columns: repeat(1, 1fr);
         }
       }

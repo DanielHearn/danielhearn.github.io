@@ -170,7 +170,7 @@ p {
     padding-top: 4em; }
     html body main #content #title h2 {
       font-size: 1.53em; }
-  html body main .projects .projects_grid {
+  html body main .projects .projects_grid, html body main .projects .projects_grid.projects_grid--2-column {
     grid-template-columns: repeat(1, 1fr); } }
 
 html {
