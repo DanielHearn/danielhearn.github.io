@@ -8,7 +8,13 @@ $accent-light-colour: #9981ff;
 $selection-colour: #d6d6d6;
 
 //Project colours
-$manytwitch: #38d6a6;
+$manytwitch-colour: #38d6a6;
+$interiors-colour: #9193ff;
+$kh-colour: #7d82fb;
+$worldgen-colour: #97d272;
+$snake-colour: #c1d0a2;
+$css-loaders-colour: #e65649;
+$cssgridposters-colour: #ebb93e;
 
 $title-size: 3.5em;
 $heading-size: 1.8em;
@@ -38,6 +44,29 @@ main {
   height: 100%;
   width: 100%;
 }
+
+#manytwitch {
+  background: $manytwitch-colour;
+}
+#interiors {
+  background: $interiors-colour;
+}
+#korean {
+  background: $kh-colour;
+}
+#worldgen {
+  background: $worldgen-colour;
+}
+#snake {
+  background: $snake-colour;
+}
+#css_loaders {
+  background: $css-loaders-colour;
+}
+#css_grid_posters {
+  background: $cssgridposters-colour;
+}
+
 
 ::-moz-selection { background: $selection-colour; }
 ::selection { background: $selection-colour; }

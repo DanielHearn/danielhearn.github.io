@@ -124,6 +124,9 @@ p {
     grid-template-columns: repeat(1, 1fr);
     grid-gap: 4em;
     padding: 2em 0 2em 0;
+    &.projects_grid--2-column {
+      grid-template-columns: repeat(2, 1fr);
+    }
   }
 }
 
@@ -137,24 +140,6 @@ p {
   }
   .browser_container {
     transition: transform 0.3s ease-in-out;
-  }
-  #manytwitch {
-    background: $manytwitch;
-  }
-  #interiors {
-    background: #9193ff;
-  }
-  #korean {
-    background: #7d82fb;
-  }
-  #worldgen {
-    background: #97d272;
-  }
-  #snake {
-    background: #c1d0a2;
-  }
-  #css_loaders {
-    background: #e65649;
   }
   .project_browser {
     display: block;
