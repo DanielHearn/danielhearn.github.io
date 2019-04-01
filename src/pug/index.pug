@@ -1,4 +1,26 @@
 //- index.pug
+
+// Profile Links
+- var placementLink = "https://www.freshrelevance.com/";
+- var codepenLink = "https://codepen.io/danhearn/";
+- var githubLink = "https://github.com/DanielHearn";
+- var behanceLink = "https://www.behance.net/Danielhearn";
+- var dribbleLink = "https://dribbble.com/danhearn";
+
+// Project Links
+- var manytwitchLink = "https://danielhearn.co.uk/manytwitch";
+- var manytwitchGithub = "https://github.com/DanielHearn/manytwitch";
+
+- var interiorsLink = "https://interiorsofaylesbury.com";
+- var cssLoadersLink  = "https://danielhearn.co.uk/css-loaders"
+- var cssLoadersGithub = "https://github.com/DanielHearn/css-loaders";
+- var koreanHandbookLink = "http://thekoreanhandbook.com/";
+
+// Side Project Links
+- var worldGenLink = "https://codepen.io/danhearn/full/mxQyXj";
+- var snakeLink = "https://codepen.io/danhearn/full/LXWWrZ";
+- var posterLink = "https://codepen.io/collection/AKmKew/";
+
 doctype html
 html
   include includes/head.pug
@@ -9,18 +31,18 @@ html
           h1 Daniel Hearn
           h2.uni Computer Science student at the University of portsmouth
           h2.job Currently on my placement year with 
-            a.text_link(href="https://www.freshrelevance.com/") Fresh Relevance
+            a.text_link(href=placementLink) Fresh Relevance
         section#about.container
           h3 I experiment with the web
           p
             | I experiment with code on 
-            a.text_link(href="https://codepen.io/danhearn/") Codepen
+            a.text_link(href=codepenLink) Codepen
             | , the source code for all my projects can be found on 
-            a.text_link(href="https://github.com/DanielHearn") Github
+            a.text_link(href=githubLink) Github
             |  as well as their designs on 
-            a.text_link(href="https://www.behance.net/Danielhearn") Behance
+            a.text_link(href=behanceLink) Behance
             |  and 
-            a.text_link(href="https://dribbble.com/danhearn") Dribble
+            a.text_link(href=dribbleLink) Dribble
             | . 
           p
             | I'm proficient in HTML5 (Pug) and CSS3 (SCSS), working to improve my Javascript (ES6, ES7), using Vue to build web apps
@@ -33,80 +55,91 @@ html
           p Here is a selection of my best open-source, personal, and commercial projects.
           section.projects_grid
             section.project
-              a.project_browser#manytwitch(href="https://danielhearn.co.uk/manytwitch") 
+              a.project_browser#manytwitch(href=manytwitchLink) 
                 div.browser_container
                   include includes/browsernav.pug
                   img.project_image(src="img/manytwitch.png")
               div.project_info
                 h4.project_title Manytwitch
                 p.project_desc #[span Open Source - ] Multiple twitch stream viewer made with Vue.
+              div.project_links
                 p
-                  a.text_link(href="https://danielhearn.co.uk/manytwitch") View Project
+                  a.link_primary(href=manytwitchLink) View Project
+                p
+                  a.link_secondary(href=manytwitchGithub) View Github
             section.project
-              a.project_browser#interiors(href="https://interiorsofaylesbury.com") 
+              a.project_browser#interiors(href=interiorsLink) 
                 div.browser_container
                   include includes/browsernav.pug
                   img.project_image(src="img/interiors.png")
               div.project_info
                 h4.project_title Interiors of Aylesbury
                 p.project_desc #[span Commercial Client - ] Custom Wordpress theme developed for Interiors of Aylesbury.
+              div.project_links
                 p
-                  a.text_link(href="https://interiorsofaylesbury.com") View Project
+                  a.link_primary(href=interiorsLink) View Project
             section.project
-              a.project_browser#css_loaders(href="https://danielhearn.co.uk/css-loaders") 
+              a.project_browser#css_loaders(href=cssLoadersLink) 
                 div.browser_container
                   include includes/browsernav.pug
                   img.project_image(src="img/css_loaders.png")
               div.project_info
                 h4.project_title CSS Loaders
                 p.project_desc #[span Open Source - ] Collection of CSS loaders.
+              div.project_links
                 p
-                  a.text_link(href="https://danielhearn.co.uk/css-loaders") View Project  
+                  a.link_primary(href=cssLoadersLink) View Project  
+                p
+                  a.link_secondary(href=cssLoadersGithub) View Github
             section.project
-              a.project_browser#korean(href="http://thekoreanhandbook.com/") 
+              a.project_browser#korean(href=koreanHandbookLink) 
                 div.browser_container
                   include includes/browsernav.pug
                   img.project_image(src="img/korean.png")
               div.project_info
                 h4.project_title Korean Handbook
                 p.project_desc #[span Personal Project - ] Django Web app providing various tools and information teaching the Korean language.
+              div.project_links
                 p
-                  a.text_link(href="http://thekoreanhandbook.com/") View Project
+                  a.link_primary(href=koreanHandbookLink) View Project
           section.projects.container
             h3.projects_title My Side Projects
             p Here are my best side projects and codepens.
             section.projects_grid.projects_grid--2-column
               section.project
                 div.project_container
-                  a.project_browser#worldgen(href="https://codepen.io/danhearn/full/mxQyXj") 
+                  a.project_browser#worldgen(href=worldGenLink) 
                     div.browser_container
                       include includes/browsernav.pug
                       img.project_image(src="img/2dworldgen.png")
                 div.project_info
                   h4.project_title Pixel World Generator
                   p.project_desc #[span JavaScript - ] Generates a 2D pixel world.
+                div.project_links
                   p
-                    a.text_link(href="https://codepen.io/danhearn/full/mxQyXj") View Project
+                    a.link_primary(href=worldGenLink) View Project
               section.project
-                a.project_browser#snake(href="https://codepen.io/danhearn/full/LXWWrZ") 
+                a.project_browser#snake(href=snakeLink) 
                   div.browser_container
                     include includes/browsernav.pug
                     img.project_image(src="img/snake.png")
                 div.project_info
                   h4.project_title Snake Game
                   p.project_desc #[span JavaScript - ] Recreation of snake.
+                div.project_links
                   p
-                    a.text_link(href="https://codepen.io/danhearn/full/LXWWrZ") View Project
+                    a.link_primary(href=snakeLink) View Project
               section.project
-                a.project_browser#css_grid_posters(href="https://codepen.io/collection/AKmKew/") 
+                a.project_browser#css_grid_posters(href=posterLink) 
                   div.browser_container
                     include includes/browsernav.pug
                     img.project_image(src="img/cssgridposters.png")
                 div.project_info
                   h4.project_title CSS Grid Posters
                   p.project_desc #[span CSS - ] Recreation of posters using CSS grid.
+                div.project_links
                   p
-                    a.text_link(href="https://codepen.io/collection/AKmKew/") View Project
+                    a.link_primary(href=posterLink) View Project
           section#contact.container
             h3 Feel free to contact me
             p While im not currently open for freelance projects, feel free to #[a.text_link(href="mailto:dan@danielhearn.co.uk") email] about web development. My CV is also available on request.

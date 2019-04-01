@@ -75,16 +75,38 @@ p {
 .job {
   margin-top: 0.25em; }
 
-.text_link {
+.link_primary {
+  color: #fefefe;
+  background: #8264ff;
+  padding: 0.25em 0.4em;
+  transition: border-color 0.15s, color 0.15s; }
+  .link_primary:hover {
+    background: #9981ff; }
+
+.link_secondary {
   text-decoration: none;
   z-index: 0;
-  color: #8264ff;
+  border-bottom: 3px solid #777;
+  color: #777;
   font-weight: 700;
+  letter-spacing: 0.02em;
+  transition: border-color 0.15s, color 0.15s; }
+  .link_secondary:hover {
+    border-color: #8264ff;
+    color: #8264ff; }
+
+a {
+  font-weight: 700;
+  text-decoration: none;
+  z-index: 0;
   backface-visibility: hidden;
   letter-spacing: 0.02em;
   cursor: pointer;
   position: relative;
   display: inline-block; }
+
+.text_link {
+  color: #8264ff; }
   .text_link:hover {
     color: #fefefe; }
   .text_link:before {
@@ -159,6 +181,15 @@ p {
 
 .project .project_info .project_desc {
   margin: 0.5em 0 1em 0; }
+
+.project .project_links {
+  display: flex;
+  flex-direction: row;
+  align-items: center; }
+  .project .project_links p {
+    margin-top: 0.5em; }
+  .project .project_links p:not(:last-of-type) a {
+    margin-right: 1em; }
 
 @media screen and (max-width: 45em) {
   html body main #content {
