@@ -88,7 +88,7 @@ p {
   color: $text-colour-light;
   background: $accent-colour;
   padding: 0.25em 0.4em;
-  transition: border-color 0.15s, color 0.15s;
+  transition: border-color 0.15s, background 0.15s;
   &:hover {
     background: $accent-light-colour;
   }
@@ -97,8 +97,8 @@ p {
 .link_secondary {
   text-decoration: none;
   z-index: 0;
-  border-bottom: 3px solid $text-colour-lightgrey;
-  color: $text-colour-lightgrey;
+  border-bottom: 3px solid $text-colour-grey;
+  color: $text-colour-grey;
   font-weight: 700;
   letter-spacing: 0.02em;
   transition: border-color 0.15s, color 0.15s;

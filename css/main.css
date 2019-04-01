@@ -79,15 +79,15 @@ p {
   color: #fefefe;
   background: #8264ff;
   padding: 0.25em 0.4em;
-  transition: border-color 0.15s, color 0.15s; }
+  transition: border-color 0.15s, background 0.15s; }
   .link_primary:hover {
     background: #9981ff; }
 
 .link_secondary {
   text-decoration: none;
   z-index: 0;
-  border-bottom: 3px solid #777;
-  color: #777;
+  border-bottom: 3px solid #555;
+  color: #555;
   font-weight: 700;
   letter-spacing: 0.02em;
   transition: border-color 0.15s, color 0.15s; }
