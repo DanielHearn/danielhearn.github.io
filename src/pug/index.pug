@@ -20,6 +20,7 @@
 - var worldGenLink = "https://codepen.io/danhearn/full/mxQyXj";
 - var snakeLink = "https://codepen.io/danhearn/full/LXWWrZ";
 - var posterLink = "https://codepen.io/collection/AKmKew/";
+- var mazeLink = "https://codepen.io/danhearn/full/ZZjjeM";
 
 doctype html
 html
@@ -140,6 +141,17 @@ html
                 div.project_links
                   p
                     a.link_primary(href=posterLink) View Project
+              section.project
+                a.project_browser#maze_gen(href=mazeLink) 
+                  div.browser_container
+                    include includes/browsernav.pug
+                    img.project_image(src="img/mazegen.png")
+                div.project_info
+                  h4.project_title Maze Generator
+                  p.project_desc #[span JS - ] Maze generator
+                div.project_links
+                  p
+                    a.link_primary(href=mazeLink) View Project
           section#contact.container
             h3 Feel free to contact me
             p While im not currently open for freelance projects, feel free to #[a.text_link(href="mailto:dan@danielhearn.co.uk") email] about web development. My CV is also available on request.

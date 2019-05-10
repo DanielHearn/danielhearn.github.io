@@ -15,6 +15,7 @@ $worldgen-colour: #97d272;
 $snake-colour: #c1d0a2;
 $css-loaders-colour: #e65649;
 $cssgridposters-colour: #ebb93e;
+$mazegen-colour: #4b75da;
 
 $title-size: 3.5em;
 $heading-size: 1.8em;
@@ -65,6 +66,9 @@ main {
 }
 #css_grid_posters {
   background: $cssgridposters-colour;
+}
+#maze_gen {
+  background: $mazegen-colour;
 }
 
 
