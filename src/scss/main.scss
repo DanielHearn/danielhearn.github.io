@@ -16,6 +16,7 @@ $snake-colour: #c1d0a2;
 $css-loaders-colour: #e65649;
 $cssgridposters-colour: #ebb93e;
 $mazegen-colour: #4b75da;
+$kielframpton-colour: #2e363c;
 
 $title-size: 3.5em;
 $heading-size: 1.8em;
@@ -70,6 +71,10 @@ main {
 #maze_gen {
   background: $mazegen-colour;
 }
+#kielframpton {
+  background: $kielframpton-colour;
+}
+
 
 
 ::-moz-selection { background: $selection-colour; }

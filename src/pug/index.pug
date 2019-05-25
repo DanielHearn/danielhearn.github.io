@@ -11,6 +11,7 @@
 - var manytwitchLink = "https://danielhearn.co.uk/manytwitch";
 - var manytwitchGithub = "https://github.com/DanielHearn/manytwitch";
 
+- var kielframptonLink = "https://www.kielframpton.com/";
 - var interiorsLink = "https://interiorsofaylesbury.com";
 - var cssLoadersLink  = "https://danielhearn.co.uk/css-loaders"
 - var cssLoadersGithub = "https://github.com/DanielHearn/css-loaders";
@@ -69,13 +70,24 @@ html
                 p
                   a.link_secondary(href=manytwitchGithub) View Github
             section.project
+              a.project_browser#kielframpton(href=kielframptonLink) 
+                div.browser_container
+                  include includes/browsernav.pug
+                  img.project_image(src="img/kielframpton.png")
+              div.project_info
+                h4.project_title Kiel Frampton
+                p.project_desc #[span Commercial Client - ] Portfolio site developed with Jekyll and Netlify CMS.
+              div.project_links
+                p
+                  a.link_primary(href=kielframptonLink) View Project
+            section.project
               a.project_browser#interiors(href=interiorsLink) 
                 div.browser_container
                   include includes/browsernav.pug
                   img.project_image(src="img/interiors.png")
               div.project_info
                 h4.project_title Interiors of Aylesbury
-                p.project_desc #[span Commercial Client - ] Custom Wordpress theme developed for Interiors of Aylesbury.
+                p.project_desc #[span Commercial Client - ] Custom Wordpress theme design and developed for Interiors of Aylesbury.
               div.project_links
                 p
                   a.link_primary(href=interiorsLink) View Project
