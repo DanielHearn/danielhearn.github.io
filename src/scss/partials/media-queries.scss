@@ -1,4 +1,6 @@
-@media screen and (max-width: 45em) {
+@import 'variables.scss';
+
+@media screen and (max-width: 50em) {
   html body {
     main {
       #content {
@@ -11,11 +13,11 @@
       #content #title {
         padding-top: 4em;
         h2 {
-          font-size: $heading-size*0.85;
+          font-size: $l-size*0.85;
         }
       }
       .projects {
-        .projects_grid, .projects_grid.projects_grid--2-column {
+        .projects_grid {
           grid-template-columns: repeat(1, 1fr);
         }
       }

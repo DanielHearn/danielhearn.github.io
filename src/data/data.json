@@ -1,0 +1,88 @@
+{
+  "links": {
+    "freshrelevance": "https://www.freshrelevance.com/",
+    "codepen": "https://codepen.io/danhearn/",
+    "github": "https://github.com/DanielHearn",
+    "behance": "https://www.behance.net/Danielhearn",
+    "dribble": "https://dribbble.com/danhearn",
+    "email": "mailto:dan@danielhearn.co.uk"
+  },
+  "projects": [
+    {
+      "title": "Manytwitch",
+      "type": "Open-source",
+      "desc": "Multiple twitch stream viewer made with Vue.",
+      "image": "img/manytwitch.png",
+      "link": "https://danielhearn.co.uk/manytwitch",
+      "github": "https://github.com/DanielHearn/manytwitch",
+      "color": "#38d6a6"
+    },
+    {
+      "title": "Kiel Frampton",
+      "type": "Client",
+      "desc": "Portfolio site built with Jekyll and Netlify CMS",
+      "image": "img/kielframpton.png",
+      "link": "https://www.kielframpton.com/",
+      "color": "#2e363c"
+    },
+    {
+      "title": "Interiors",
+      "type": "Client",
+      "desc": "Custom Wordpress theme and installation.",
+      "image": "img/interiors.png",
+      "link": "https://interiorsofaylesbury.com",
+      "color": "#5977ef"
+    },
+    {
+      "title": "CSS Loaders",
+      "type": "Open-source",
+      "desc": "Collection of CSS loading animations.",
+      "image": "img/css_loaders.png",
+      "link": "https://danielhearn.co.uk/css-loaders",
+      "github": "https://github.com/DanielHearn/css-loaders",
+      "color": "#e65649"
+    },
+    {
+      "title": "Korean Handbook",
+      "type": "Open-source",
+      "desc": "Web app providing various tools and information teaching the Korean language.",
+      "image": "img/korean.png",
+      "link": "http://thekoreanhandbook.com/",
+      "color": "#7d82fb"
+    }
+  ],
+  "side_projects": [
+    {
+      "title": "Pixel World Generator",
+      "type": "JavaScript",
+      "desc": "Generates a 2D pixel world.",
+      "image": "img/2dworldgen.png",
+      "link": "https://codepen.io/danhearn/full/mxQyXj",
+      "color": "#97d272"
+    },
+    {
+      "title": "Snake Game",
+      "type": "JavaScript",
+      "desc": "Recreation of the classic snake game.",
+      "image": "img/snake.png",
+      "link": "https://codepen.io/danhearn/full/LXWWrZ",
+      "color": "#c1d0a2"
+    },
+    {
+      "title": "CSS Grid Posters",
+      "type": "CSS",
+      "desc": "Recreation of posters using CSS grid.",
+      "image": "img/cssgridposters.png",
+      "link": "https://codepen.io/collection/AKmKew/",
+      "color": "#ebb93e"
+    },
+    {
+      "title": "Maze Generator",
+      "type": "JavaScript",
+      "desc": "Generates 2D mazes",
+      "image": "img/mazegen.png",
+      "link": "https://codepen.io/danhearn/full/ZZjjeM",
+      "color": "#4b75da"
+    }
+  ]
+}

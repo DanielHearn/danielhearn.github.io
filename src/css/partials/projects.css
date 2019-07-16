@@ -1,0 +1,43 @@
+.projects .projects_grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  row-gap: 6em;
+  column-gap: 4em;
+  padding: 1em 0; }
+
+.project .project_image {
+  display: block;
+  padding: 1em;
+  box-sizing: border-box;
+  transition: transform 0.2s ease-in-out; }
+
+.project .project_background {
+  margin-bottom: 1em; }
+  .project .project_background .project_image:hover {
+    transform: scale(0.9); }
+
+.project .project_info .project_title {
+  margin: 0.2em 0 0.2em 0; }
+
+.project .project_info .project_desc {
+  margin: 0.5em 0 1em 0; }
+
+.project .project_image {
+  display: block;
+  position: relative;
+  width: 100%; }
+
+.project .project_type {
+  color: rgba(34, 34, 34, 0.6);
+  margin: 0.5em 0;
+  text-transform: uppercase;
+  letter-spacing: 0.025em; }
+
+.project .project_links {
+  display: flex;
+  flex-direction: row;
+  align-items: center; }
+  .project .project_links p {
+    margin-top: 0; }
+  .project .project_links p:not(:last-of-type) a {
+    margin-right: 1em; }

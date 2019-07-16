@@ -1,28 +1,4 @@
 //- index.pug
-
-// Profile Links
-- var placementLink = "https://www.freshrelevance.com/";
-- var codepenLink = "https://codepen.io/danhearn/";
-- var githubLink = "https://github.com/DanielHearn";
-- var behanceLink = "https://www.behance.net/Danielhearn";
-- var dribbleLink = "https://dribbble.com/danhearn";
-
-// Project Links
-- var manytwitchLink = "https://danielhearn.co.uk/manytwitch";
-- var manytwitchGithub = "https://github.com/DanielHearn/manytwitch";
-
-- var kielframptonLink = "https://www.kielframpton.com/";
-- var interiorsLink = "https://interiorsofaylesbury.com";
-- var cssLoadersLink  = "https://danielhearn.co.uk/css-loaders"
-- var cssLoadersGithub = "https://github.com/DanielHearn/css-loaders";
-- var koreanHandbookLink = "http://thekoreanhandbook.com/";
-
-// Side Project Links
-- var worldGenLink = "https://codepen.io/danhearn/full/mxQyXj";
-- var snakeLink = "https://codepen.io/danhearn/full/LXWWrZ";
-- var posterLink = "https://codepen.io/collection/AKmKew/";
-- var mazeLink = "https://codepen.io/danhearn/full/ZZjjeM";
-
 doctype html
 html
   include includes/head.pug
@@ -31,143 +7,43 @@ html
       section#content
         section#title.container
           h1 Daniel Hearn
-          h2.uni Computer Science undergraduate at the University of portsmouth with a year of industry experience
+          h2.uni Computer Science undergraduate at the University of portsmouth with a year of industry experience.
         section.container
           h3 I experiment with the web
           p
             | I experiment with code on 
-            a.text_link(href=codepenLink) Codepen
+            a.text_link(href=links.codepen) Codepen
             | , the source code for all my projects are on 
-            a.text_link(href=githubLink) Github
+            a.text_link(href=links.github) Github
             |  with their designs on 
-            a.text_link(href=behanceLink) Behance
+            a.text_link(href=links.behance) Behance
             |  and 
-            a.text_link(href=dribbleLink) Dribble
+            a.text_link(href=links.dribble) Dribble
             | . 
           p
             | I'm proficient in HTML5 (Pug), CSS3 (SCSS), Javascript (ES6, ES7), Vue.js,
-            | while using Experience Design, Photoshop, Webpack, Gulp, and Git to enhance my workflow. 
+            | while using Experience Design, Webpack, Gulp, and Git to enhance my workflow. 
           p
-            | I also have experience with Python, Node, React, and Django, as well as working knowledge of  Java, and SQL.
+            | I also have experience with Python, Node, React, and Django, as well as working knowledge of Java, and SQL.
         section.container
           h3 A year of industry experience
           p
             | During my year long placement at 
-            a.text_link(href=placementLink) Fresh Relevance
+            a.text_link(href=links.freshrelevance) Fresh Relevance
             | , I was responsible for integrating Fresh Relevance's system with their client's e-commerce sites. 
-            | I also took on additional roles to improve the processing of data in the back-end and developing user interfaces on the front-end.
+            | I also took on additional roles to improve the processing of data in the back-end and developing React based user interfaces on the front-end.
+        section#contact.container
+          h3 Feel free to contact me
+          p While im not currently open for freelance projects, feel free to #[a.text_link(href=links.email) email] about web development. My CV is also available on request.
         section.projects.container
           h3.projects_title Check out my projects
-          p Here is a selection of my best open-source, personal, and commercial projects.
+          //p Here is a selection of my best open-source, personal, and commercial projects.
           section.projects_grid
-            section.project
-              a.project_browser#manytwitch(href=manytwitchLink) 
-                div.browser_container
-                  include includes/browsernav.pug
-                  img.project_image(src="img/manytwitch.png")
-              div.project_info
-                h4.project_title Manytwitch
-                p.project_desc #[span Open Source - ] Multiple twitch stream viewer made with Vue.
-              div.project_links
-                p
-                  a.link_primary(href=manytwitchLink) View Project
-                p
-                  a.link_secondary(href=manytwitchGithub) View Github
-            section.project
-              a.project_browser#kielframpton(href=kielframptonLink) 
-                div.browser_container
-                  include includes/browsernav.pug
-                  img.project_image(src="img/kielframpton.png")
-              div.project_info
-                h4.project_title Kiel Frampton
-                p.project_desc #[span Commercial Client - ] Portfolio site developed with Jekyll and Netlify CMS.
-              div.project_links
-                p
-                  a.link_primary(href=kielframptonLink) View Project
-            section.project
-              a.project_browser#interiors(href=interiorsLink) 
-                div.browser_container
-                  include includes/browsernav.pug
-                  img.project_image(src="img/interiors.png")
-              div.project_info
-                h4.project_title Interiors of Aylesbury
-                p.project_desc #[span Commercial Client - ] Custom Wordpress theme design and developed for Interiors of Aylesbury.
-              div.project_links
-                p
-                  a.link_primary(href=interiorsLink) View Project
-            section.project
-              a.project_browser#css_loaders(href=cssLoadersLink) 
-                div.browser_container
-                  include includes/browsernav.pug
-                  img.project_image(src="img/css_loaders.png")
-              div.project_info
-                h4.project_title CSS Loaders
-                p.project_desc #[span Open Source - ] Collection of CSS loaders.
-              div.project_links
-                p
-                  a.link_primary(href=cssLoadersLink) View Project  
-                p
-                  a.link_secondary(href=cssLoadersGithub) View Github
-            section.project
-              a.project_browser#korean(href=koreanHandbookLink) 
-                div.browser_container
-                  include includes/browsernav.pug
-                  img.project_image(src="img/korean.png")
-              div.project_info
-                h4.project_title Korean Handbook
-                p.project_desc #[span Personal Project - ] Django Web app providing various tools and information teaching the Korean language.
-              div.project_links
-                p
-                  a.link_primary(href=koreanHandbookLink) View Project
+            each project in projects
+              include includes/project.pug
           section.projects.container
             h3.projects_title My Side Projects
-            p Here are my best side projects and codepens.
-            section.projects_grid.projects_grid--2-column
-              section.project
-                div.project_container
-                  a.project_browser#worldgen(href=worldGenLink) 
-                    div.browser_container
-                      include includes/browsernav.pug
-                      img.project_image(src="img/2dworldgen.png")
-                div.project_info
-                  h4.project_title Pixel World Generator
-                  p.project_desc #[span JavaScript - ] Generates a 2D pixel world.
-                div.project_links
-                  p
-                    a.link_primary(href=worldGenLink) View Project
-              section.project
-                a.project_browser#snake(href=snakeLink) 
-                  div.browser_container
-                    include includes/browsernav.pug
-                    img.project_image(src="img/snake.png")
-                div.project_info
-                  h4.project_title Snake Game
-                  p.project_desc #[span JavaScript - ] Recreation of snake.
-                div.project_links
-                  p
-                    a.link_primary(href=snakeLink) View Project
-              section.project
-                a.project_browser#css_grid_posters(href=posterLink) 
-                  div.browser_container
-                    include includes/browsernav.pug
-                    img.project_image(src="img/cssgridposters.png")
-                div.project_info
-                  h4.project_title CSS Grid Posters
-                  p.project_desc #[span CSS - ] Recreation of posters using CSS grid.
-                div.project_links
-                  p
-                    a.link_primary(href=posterLink) View Project
-              section.project
-                a.project_browser#maze_gen(href=mazeLink) 
-                  div.browser_container
-                    include includes/browsernav.pug
-                    img.project_image(src="img/mazegen.png")
-                div.project_info
-                  h4.project_title Maze Generator
-                  p.project_desc #[span JS - ] Maze generator
-                div.project_links
-                  p
-                    a.link_primary(href=mazeLink) View Project
-          section#contact.container
-            h3 Feel free to contact me
-            p While im not currently open for freelance projects, feel free to #[a.text_link(href="mailto:dan@danielhearn.co.uk") email] about web development. My CV is also available on request.
+            //p Here are my best side projects and codepens.
+            section.projects_grid
+              each project in side_projects
+                include includes/project.pug

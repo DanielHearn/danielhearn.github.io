@@ -1,32 +1,10 @@
-$bg-colour: #fefefe;
-$text-colour-light: #fefefe;
-$text-colour-dark: #222;
-$text-colour-grey: #555;
-$text-colour-lightgrey: #777;
-$accent-colour: #8264ff;
-$accent-light-colour: #9981ff;
-$selection-colour: #d6d6d6;
-
-//Project colours
-$manytwitch-colour: #38d6a6;
-$interiors-colour: #9193ff;
-$kh-colour: #7d82fb;
-$worldgen-colour: #97d272;
-$snake-colour: #c1d0a2;
-$css-loaders-colour: #e65649;
-$cssgridposters-colour: #ebb93e;
-$mazegen-colour: #4b75da;
-$kielframpton-colour: #2e363c;
-
-$title-size: 3.5em;
-$heading-size: 1.8em;
-$subheading-size: 1.6em;
-$p-size: 1.2em;
-
+@import 'partials/variables.scss';
 @import 'partials/mixins.scss';
 @import 'partials/404.scss';
 @import 'partials/content.scss';
 @import 'partials/media-queries.scss';
+@import 'partials/keyframes.scss';
+@import 'partials/projects.scss';
 
 html {
   height: 100%;
@@ -46,36 +24,6 @@ main {
   height: 100%;
   width: 100%;
 }
-
-#manytwitch {
-  background: $manytwitch-colour;
-}
-#interiors {
-  background: $interiors-colour;
-}
-#korean {
-  background: $kh-colour;
-}
-#worldgen {
-  background: $worldgen-colour;
-}
-#snake {
-  background: $snake-colour;
-}
-#css_loaders {
-  background: $css-loaders-colour;
-}
-#css_grid_posters {
-  background: $cssgridposters-colour;
-}
-#maze_gen {
-  background: $mazegen-colour;
-}
-#kielframpton {
-  background: $kielframpton-colour;
-}
-
-
 
 ::-moz-selection { background: $selection-colour; }
 ::selection { background: $selection-colour; }
