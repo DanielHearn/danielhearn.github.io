@@ -3,12 +3,14 @@ section.project
   a.project_background(href=project.link, style="background: "+project.color+';') 
     img.project_image(src=project.image)
   div.project_info
-    h5.project_type #{project.type}
+    if project.type
+      h5.project_type #{project.type}
     h4.project_title #{project.title}
     p.project_desc #{project.desc}
   div.project_links
-    p
-      a.link_primary(href=project.link) View Project
+    if project.link
+      p
+        a.link_primary(href=project.link) View Project
     if project.github
       p
         a.link_secondary(href=project.github) View Github

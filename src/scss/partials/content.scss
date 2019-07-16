@@ -144,3 +144,15 @@ a {
 .inline-icon {
   height: 1em;
 }
+
+.footer {
+  display: flex;
+  margin-bottom: 1em;
+  a {
+    font-size: $s-size;
+    line-height: 1.5em;
+  }
+  a:not(:last-of-type) {
+    margin-right: 2em;
+  }
+}

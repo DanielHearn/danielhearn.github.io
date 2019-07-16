@@ -54,7 +54,6 @@
   "side_projects": [
     {
       "title": "Pixel World Generator",
-      "type": "JavaScript",
       "desc": "Generates a 2D pixel world.",
       "image": "img/2dworldgen.png",
       "link": "https://codepen.io/danhearn/full/mxQyXj",
@@ -62,7 +61,6 @@
     },
     {
       "title": "Snake Game",
-      "type": "JavaScript",
       "desc": "Recreation of the classic snake game.",
       "image": "img/snake.png",
       "link": "https://codepen.io/danhearn/full/LXWWrZ",
@@ -70,7 +68,6 @@
     },
     {
       "title": "CSS Grid Posters",
-      "type": "CSS",
       "desc": "Recreation of posters using CSS grid.",
       "image": "img/cssgridposters.png",
       "link": "https://codepen.io/collection/AKmKew/",
@@ -78,7 +75,6 @@
     },
     {
       "title": "Maze Generator",
-      "type": "JavaScript",
       "desc": "Generates and solves 2D mazes.",
       "image": "img/mazegen.png",
       "link": "https://codepen.io/danhearn/full/ZZjjeM",
