@@ -20,7 +20,7 @@
     {
       "title": "Kiel Frampton",
       "type": "Client",
-      "desc": "Portfolio site built with Jekyll and Netlify CMS",
+      "desc": "Portfolio site built with Jekyll and Netlify CMS.",
       "image": "img/kielframpton.png",
       "link": "https://www.kielframpton.com/",
       "color": "#2e363c"
