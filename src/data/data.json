@@ -11,7 +11,7 @@
     {
       "title": "Manytwitch",
       "type": "Open-source",
-      "desc": "Multiple twitch stream viewer made with Vue.",
+      "desc": "Multiple Twitch stream viewer made with Vue.",
       "image": "img/manytwitch.png",
       "link": "https://danielhearn.co.uk/manytwitch",
       "github": "https://github.com/DanielHearn/manytwitch",
@@ -26,7 +26,7 @@
       "color": "#2e363c"
     },
     {
-      "title": "Interiors",
+      "title": "Interiors of Aylesbury",
       "type": "Client",
       "desc": "Custom Wordpress theme and installation.",
       "image": "img/interiors.png",
