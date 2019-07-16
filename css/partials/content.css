@@ -120,9 +120,11 @@ a {
 
 .footer {
   display: flex;
-  margin-bottom: 1em; }
+  flex-wrap: wrap; }
   .footer a {
     font-size: 1.1em;
-    line-height: 1.5em; }
+    line-height: 1.5em;
+    margin-right: 2em;
+    margin-bottom: 1em; }
   .footer a:not(:last-of-type) {
     margin-right: 2em; }

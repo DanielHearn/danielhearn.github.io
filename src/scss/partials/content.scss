@@ -147,10 +147,12 @@ a {
 
 .footer {
   display: flex;
-  margin-bottom: 1em;
+  flex-wrap: wrap;
   a {
     font-size: $s-size;
     line-height: 1.5em;
+    margin-right: 2em;
+    margin-bottom: 1em;
   }
   a:not(:last-of-type) {
     margin-right: 2em;
