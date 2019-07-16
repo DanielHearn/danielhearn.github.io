@@ -148,6 +148,7 @@ a {
     html body main #content #title h2 {
       font-size: 1.53em; }
   html body main .projects .projects_grid {
+    grid-template-columns: repeat(1, 1fr);
     row-gap: 4em; } }
 
 @keyframes slidein {
