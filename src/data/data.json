@@ -79,7 +79,7 @@
     {
       "title": "Maze Generator",
       "type": "JavaScript",
-      "desc": "Generates 2D mazes",
+      "desc": "Generates and solves 2D mazes.",
       "image": "img/mazegen.png",
       "link": "https://codepen.io/danhearn/full/ZZjjeM",
       "color": "#4b75da"
