@@ -1,7 +1,7 @@
 .projects .projects_grid {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  row-gap: 6em;
+  row-gap: 4em;
   column-gap: 4em;
   padding: 1em 0; }
 
@@ -13,11 +13,11 @@
 
 .project .project_background {
   margin-bottom: 1em; }
-  .project .project_background .project_image:hover {
+  .project .project_background:hover .project_image {
     transform: scale(0.9); }
 
 .project .project_info .project_title {
-  margin: 0.2em 0 0.2em 0; }
+  margin: 0; }
 
 .project .project_info .project_desc {
   margin: 0.5em 0 1em 0; }

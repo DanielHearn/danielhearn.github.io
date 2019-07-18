@@ -11,7 +11,7 @@
     {
       "title": "Manytwitch",
       "type": "Open-source",
-      "desc": "Multiple Twitch stream viewer made with Vue.",
+      "desc": "Multiple Twitch stream viewer built with Vue.",
       "image": "img/manytwitch.png",
       "link": "https://danielhearn.co.uk/manytwitch",
       "github": "https://github.com/DanielHearn/manytwitch",
@@ -45,7 +45,7 @@
     {
       "title": "Korean Handbook",
       "type": "Open-source",
-      "desc": "Web app providing various tools and information teaching the Korean language.",
+      "desc": "Web-app teaching basics of the Korean language.",
       "image": "img/korean.png",
       "link": "http://thekoreanhandbook.com/",
       "color": "#7d82fb"
@@ -54,7 +54,7 @@
   "side_projects": [
     {
       "title": "Pixel World Generator",
-      "desc": "Generates a 2D pixel world.",
+      "desc": "Generates 2D pixel worlds.",
       "image": "img/2dworldgen.png",
       "link": "https://codepen.io/danhearn/full/mxQyXj",
       "color": "#97d272"

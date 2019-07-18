@@ -18,12 +18,12 @@
       display: inline-block;
     }
   }
-  & .container {
-    padding-top: 1em;
-    padding-bottom: 1em;
-    animation-duration: 1s;
-    animation-name: slidein;
-  }
+}
+
+.container {
+  padding: 1.5em 0;
+  animation-duration: 1s;
+  animation-name: slidein;
 }
 
 h1 {
@@ -43,7 +43,7 @@ h1 {
 }
 
 h2 {
-  font-size: $l-size;
+  font-size: $m-size;
   font-weight: 400;
   color: $text-colour-grey;
 }
@@ -83,7 +83,7 @@ p {
 .link_primary {
   color: $text-colour-light;
   background: $accent-colour;
-  padding: 0.25em 0.4em;
+  padding: 0.25em 0.6em;
   transition: border-color 0.15s, background 0.15s;
   &:hover {
     background: $accent-light-colour;
@@ -93,9 +93,9 @@ p {
 .link_secondary {
   text-decoration: none;
   z-index: 0;
-  border-bottom: 3px solid $text-colour-grey;
+  border-bottom: 2px solid $text-colour-grey;
   color: $text-colour-grey;
-  font-weight: 700;
+  font-weight: 600;
   letter-spacing: 0.02em;
   transition: border-color 0.15s, color 0.15s;
   &:hover {
@@ -104,8 +104,17 @@ p {
   }
 }
 
+.link_tertiary {
+  text-decoration: none;
+  transition: color 0.15s;
+  color: $text-colour-dark;
+  &:hover {
+    color: $accent-colour;
+  }
+}
+
 a {
-  font-weight: 700;
+  font-weight: 600;
   text-decoration: none;
   z-index: 0;
   backface-visibility: hidden;
@@ -113,32 +122,6 @@ a {
   cursor: pointer;
   position: relative;
   display: inline-block;
-}
-
-.text_link {
-  color: $accent-colour;
-  &:hover {
-    color: $text-colour-light;
-  }
-  &:before {
-    content: "";
-    pointer-events: none;
-    position: absolute;
-    width: 105%;
-    left: -2.5%;
-    height: 2px;
-    bottom: -4px;
-    border-bottom: 1.6em solid $accent-colour;
-    transform:  translateY(0.15em);
-    opacity: 0;
-    transition: transform 0.3s, opacity 0.3s;
-    z-index: -1;
-    backface-visibility: hidden;
-  }
-  &:hover:before {
-    transform: translateY(-0.1em);
-    opacity: 1;
-  }
 }
 
 .inline-icon {
@@ -155,6 +138,6 @@ a {
     margin-bottom: 1em;
   }
   a:not(:last-of-type) {
-    margin-right: 2em;
+    margin-right: 1.5em;
   }
 }

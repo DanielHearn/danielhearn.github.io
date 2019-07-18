@@ -5,7 +5,8 @@ section.project
   div.project_info
     if project.type
       h5.project_type #{project.type}
-    h4.project_title #{project.title}
+    a.link_tertiary(href=project.link)
+      h4.project_title #{project.title}
     p.project_desc #{project.desc}
   div.project_links
     if project.link

@@ -97,7 +97,7 @@ gulp.task('clean:dist', function () {
 })
 
 gulp.task('watch', ['browserSync', 'pug', 'sass'], function (callback) {
-  gulp.watch('src/pug/*.pug', ['pug'])
+  gulp.watch('src/pug/**', ['pug'])
   gulp.watch('src/data/*.json', ['pug'])
   gulp.watch(scssSource, ['sass'])
   gulp.watch('src/*.html').on('change', browserSync.reload)

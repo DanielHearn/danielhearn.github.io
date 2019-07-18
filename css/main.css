@@ -21,11 +21,11 @@
       padding-right: 1em; }
     #content #title span, #content #title span * {
       display: inline-block; }
-  #content .container {
-    padding-top: 1em;
-    padding-bottom: 1em;
-    animation-duration: 1s;
-    animation-name: slidein; }
+
+.container {
+  padding: 1.5em 0;
+  animation-duration: 1s;
+  animation-name: slidein; }
 
 h1 {
   font-size: 3.5em;
@@ -42,12 +42,12 @@ h1 {
     margin-left: -0.4em; }
 
 h2 {
-  font-size: 1.8em;
+  font-size: 1.6em;
   font-weight: 400;
-  color: #555; }
+  color: #444; }
 
 h3 {
-  font-size: 1.8em;
+  font-size: 1.7em;
   font-weight: 700; }
 
 h4 {
@@ -60,7 +60,7 @@ h5 {
 
 p {
   font-size: 1.1em;
-  color: #555;
+  color: #444;
   line-height: 1.5em; }
   p span {
     color: #777; }
@@ -74,7 +74,7 @@ p {
 .link_primary {
   color: #fefefe;
   background: #8264ff;
-  padding: 0.25em 0.4em;
+  padding: 0.25em 0.6em;
   transition: border-color 0.15s, background 0.15s; }
   .link_primary:hover {
     background: #9981ff; }
@@ -82,17 +82,24 @@ p {
 .link_secondary {
   text-decoration: none;
   z-index: 0;
-  border-bottom: 3px solid #555;
-  color: #555;
-  font-weight: 700;
+  border-bottom: 2px solid #444;
+  color: #444;
+  font-weight: 600;
   letter-spacing: 0.02em;
   transition: border-color 0.15s, color 0.15s; }
   .link_secondary:hover {
     border-color: #8264ff;
     color: #8264ff; }
 
+.link_tertiary {
+  text-decoration: none;
+  transition: color 0.15s;
+  color: #222; }
+  .link_tertiary:hover {
+    color: #8264ff; }
+
 a {
-  font-weight: 700;
+  font-weight: 600;
   text-decoration: none;
   z-index: 0;
   backface-visibility: hidden;
@@ -100,28 +107,6 @@ a {
   cursor: pointer;
   position: relative;
   display: inline-block; }
-
-.text_link {
-  color: #8264ff; }
-  .text_link:hover {
-    color: #fefefe; }
-  .text_link:before {
-    content: "";
-    pointer-events: none;
-    position: absolute;
-    width: 105%;
-    left: -2.5%;
-    height: 2px;
-    bottom: -4px;
-    border-bottom: 1.6em solid #8264ff;
-    transform: translateY(0.15em);
-    opacity: 0;
-    transition: transform 0.3s, opacity 0.3s;
-    z-index: -1;
-    backface-visibility: hidden; }
-  .text_link:hover:before {
-    transform: translateY(-0.1em);
-    opacity: 1; }
 
 .inline-icon {
   height: 1em; }
@@ -135,7 +120,7 @@ a {
     margin-right: 2em;
     margin-bottom: 1em; }
   .footer a:not(:last-of-type) {
-    margin-right: 2em; }
+    margin-right: 1.5em; }
 
 @media screen and (max-width: 50em) {
   html body main #content {
@@ -143,10 +128,12 @@ a {
     padding-right: 1em; }
     html body main #content .content__text, html body main #content .project__text {
       font-size: 1.15em; }
+  html body main .container {
+    padding: 1em 0; }
   html body main #content #title {
     padding-top: 4em; }
     html body main #content #title h2 {
-      font-size: 1.53em; }
+      font-size: 1.445em; }
   html body main .projects .projects_grid {
     grid-template-columns: repeat(1, 1fr);
     row-gap: 4em; } }
@@ -162,7 +149,7 @@ a {
 .projects .projects_grid {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  row-gap: 6em;
+  row-gap: 4em;
   column-gap: 4em;
   padding: 1em 0; }
 
@@ -174,11 +161,11 @@ a {
 
 .project .project_background {
   margin-bottom: 1em; }
-  .project .project_background .project_image:hover {
+  .project .project_background:hover .project_image {
     transform: scale(0.9); }
 
 .project .project_info .project_title {
-  margin: 0.2em 0 0.2em 0; }
+  margin: 0; }
 
 .project .project_info .project_desc {
   margin: 0.5em 0 1em 0; }
