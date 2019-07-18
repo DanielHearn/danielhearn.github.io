@@ -61,7 +61,7 @@ h5 {
 p {
   font-size: 1.1em;
   color: #444;
-  line-height: 1.5em; }
+  line-height: 1.5; }
   p span {
     color: #777; }
 
@@ -106,7 +106,8 @@ a {
   letter-spacing: 0.02em;
   cursor: pointer;
   position: relative;
-  display: inline-block; }
+  display: inline-block;
+  line-height: 1.2; }
 
 .inline-icon {
   height: 1em; }

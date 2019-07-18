@@ -66,7 +66,7 @@ h5 {
 p {
   font-size: $s-size;
   color: $text-colour-grey;
-  line-height: 1.5em;
+  line-height: 1.5;
   span {
     color: $text-colour-lightgrey;
   }
@@ -122,6 +122,7 @@ a {
   cursor: pointer;
   position: relative;
   display: inline-block;
+  line-height: 1.2;
 }
 
 .inline-icon {
