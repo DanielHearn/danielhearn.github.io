@@ -74,7 +74,7 @@ p {
 .link_primary {
   color: #fefefe;
   background: #8264ff;
-  padding: 0.25em 0.6em;
+  padding: 0.4em 0.6em;
   transition: border-color 0.15s, background 0.15s; }
   .link_primary:hover {
     background: #9981ff; }
@@ -82,8 +82,8 @@ p {
 .link_secondary {
   text-decoration: none;
   z-index: 0;
-  border-bottom: 2px solid #444;
-  color: #444;
+  border-bottom: 2px solid #333;
+  color: #333;
   font-weight: 600;
   letter-spacing: 0.02em;
   transition: border-color 0.15s, color 0.15s; }
@@ -94,7 +94,7 @@ p {
 .link_tertiary {
   text-decoration: none;
   transition: color 0.15s;
-  color: #222; }
+  color: #333; }
   .link_tertiary:hover {
     color: #8264ff; }
 
@@ -200,7 +200,7 @@ body {
   font-family: 'Nunito Sans', sans-serif;
   margin: 0;
   background: #fefefe;
-  color: #222;
+  color: #333;
   max-width: 100%; }
 
 main {
