@@ -3,7 +3,7 @@
   margin-right: auto;
   padding-left: 2em;
   padding-right: 2em;
-  max-width: 70em; }
+  max-width: 65em; }
   #content #title {
     padding-top: 8em;
     padding-bottom: 2em; }
@@ -74,8 +74,8 @@ p {
 .link_secondary {
   text-decoration: none;
   z-index: 0;
-  border-bottom: 2px solid #333;
-  color: #333;
+  border-bottom: 2px solid #222;
+  color: #222;
   font-weight: 600;
   letter-spacing: 0.02em;
   transition: border-color 0.15s, color 0.15s; }
@@ -86,7 +86,7 @@ p {
 .link_tertiary {
   text-decoration: none;
   transition: color 0.15s;
-  color: #333; }
+  color: #222; }
   .link_tertiary:hover {
     color: #8264ff; }
 
@@ -99,7 +99,7 @@ a {
   cursor: pointer;
   position: relative;
   display: inline-block;
-  line-height: 1.2; }
+  line-height: 1; }
 
 .inline-icon {
   height: 1em; }
