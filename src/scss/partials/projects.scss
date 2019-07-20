@@ -1,3 +1,5 @@
+@import 'variables.scss';
+
 .projects {
   .projects_grid {
     display: grid;
@@ -39,6 +41,7 @@
     margin: 0.5em 0;
     text-transform: uppercase;
     letter-spacing: 0.025em;
+    font-size: $s-size;
   }
   .project_links {
     display: flex;
@@ -48,7 +51,10 @@
       margin-top: 0;
     }
     p:not(:last-of-type) a {
-      margin-right: 1em;
+      margin-right: 0.75em;
+    }
+    .github_link {
+      padding: 0.25em 0.4em;
     }
   }
 }

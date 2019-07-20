@@ -180,7 +180,8 @@ a {
   color: rgba(34, 34, 34, 0.6);
   margin: 0.5em 0;
   text-transform: uppercase;
-  letter-spacing: 0.025em; }
+  letter-spacing: 0.025em;
+  font-size: 1.1em; }
 
 .project .project_links {
   display: flex;
@@ -189,7 +190,9 @@ a {
   .project .project_links p {
     margin-top: 0; }
   .project .project_links p:not(:last-of-type) a {
-    margin-right: 1em; }
+    margin-right: 0.75em; }
+  .project .project_links .github_link {
+    padding: 0.25em 0.4em; }
 
 html {
   height: 100%;
