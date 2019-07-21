@@ -74,7 +74,7 @@ p {
 .link_primary {
   color: #fefefe;
   background: #8264ff;
-  padding: 0.4em 0.6em;
+  padding: 0.5em 0.6em;
   transition: border-color 0.15s, background 0.15s; }
   .link_primary:hover {
     background: #9981ff; }
@@ -111,17 +111,6 @@ a {
 
 .inline-icon {
   height: 1em; }
-
-.footer {
-  display: flex;
-  flex-wrap: wrap; }
-  .footer a {
-    font-size: 1.1em;
-    line-height: 1.5em;
-    margin-right: 2em;
-    margin-bottom: 1em; }
-  .footer a:not(:last-of-type) {
-    margin-right: 1.5em; }
 
 @media screen and (max-width: 50em) {
   html body main #content {
@@ -193,6 +182,16 @@ a {
     margin-right: 0.75em; }
   .project .project_links .github_link {
     padding: 0.25em 0.4em; }
+
+.footer {
+  display: flex;
+  flex-wrap: wrap; }
+  .footer a {
+    font-size: 1.1em;
+    line-height: 1.5em;
+    padding: 0.6em 1em 0.6em 0; }
+  .footer a:not(:last-of-type) {
+    margin-right: 1.5em; }
 
 html {
   height: 100%;
