@@ -28,6 +28,7 @@ nav {
         padding-left: 1.5em;
         &.active {
           color: $accent-colour;
+          text-decoration: underline;
         }
         &:hover {
           color: $accent-colour;
