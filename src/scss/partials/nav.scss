@@ -1,0 +1,38 @@
+@import 'variables.scss';
+
+.nav__title {
+  font-weight: $extra-bold-weight;
+  text-transform: uppercase;
+  margin: 0;
+}
+
+nav {
+  width: 100%;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  box-sizing: border-box;
+  background: $nav-colour;
+  z-index: 20;
+  .nav__content {
+    max-width: $content-width;
+    padding: 1.25em 2em;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-end;
+    .nav__links {
+      font-weight: $bold-weight;
+      a {
+        padding-left: 1.5em;
+        &.active {
+          color: $accent-colour;
+        }
+        &:hover {
+          color: $accent-colour;
+        }
+      }
+    }
+  }
+}

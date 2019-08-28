@@ -3,103 +3,24 @@
   margin-right: auto;
   padding-left: 2em;
   padding-right: 2em;
-  max-width: 65em; }
-  #content #title {
-    padding-top: 8em;
-    padding-bottom: 2em; }
-    #content #title #logo {
-      width: 3em;
-      height: 3em;
-      padding-right: 1em; }
-    #content #title span, #content #title span * {
-      display: inline-block; }
+  max-width: 70em; }
 
 .container {
-  padding: 1.5em 0;
   animation-duration: 1s;
-  animation-name: slidein; }
+  animation-name: slidein;
+  padding: 3.25em 0; }
 
-h1 {
-  font-size: 3.5em;
-  font-weight: 800;
-  margin: 0.5em 0 0.5em 0;
-  line-height: 1.2em; }
-  h1:after {
-    display: flex;
-    content: '';
-    background: #9981ff;
-    max-width: 7em;
-    height: 2em;
-    margin-top: -1.75em;
-    margin-left: -0.4em; }
+.intro {
+  margin-top: 22vh;
+  width: 66%; }
+  .intro h1 {
+    font-weight: 400; }
+  .intro a {
+    font-weight: 600;
+    color: #9981FF; }
 
-h2 {
-  font-size: 1.6em;
-  font-weight: 400;
-  color: #444; }
-
-h3 {
-  font-size: 1.7em;
-  font-weight: 700; }
-
-h4 {
-  font-size: 1.6em;
-  font-weight: 700; }
-
-h5 {
-  font-size: 1em;
-  font-weight: 700; }
-
-p {
-  font-size: 1.1em;
-  color: #444;
-  line-height: 1.5; }
-  p span {
-    color: #777; }
-
-.uni {
-  margin-bottom: 0.25em; }
-
-.job {
-  margin-top: 0.25em; }
-
-.link_primary {
-  color: #fefefe;
-  background: #8264ff;
-  padding: 0.5em 0.6em;
-  transition: border-color 0.15s, background 0.15s; }
-  .link_primary:hover {
-    background: #9981ff; }
-
-.link_secondary {
-  text-decoration: none;
-  z-index: 0;
-  border-bottom: 2px solid #222;
-  color: #222;
-  font-weight: 600;
-  letter-spacing: 0.02em;
-  transition: border-color 0.15s, color 0.15s; }
-  .link_secondary:hover {
-    border-color: #8264ff;
-    color: #8264ff; }
-
-.link_tertiary {
-  text-decoration: none;
-  transition: color 0.15s;
-  color: #222; }
-  .link_tertiary:hover {
-    color: #8264ff; }
-
-a {
-  font-weight: 600;
-  text-decoration: none;
-  z-index: 0;
-  backface-visibility: hidden;
-  letter-spacing: 0.02em;
-  cursor: pointer;
-  position: relative;
-  display: inline-block;
-  line-height: 1; }
-
-.inline-icon {
-  height: 1em; }
+.side-project__content {
+  display: flex;
+  flex-direction: column; }
+  .side-project__content a {
+    margin: 0.15em 0; }

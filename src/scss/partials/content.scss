@@ -5,126 +5,31 @@
   margin-right: auto;
   padding-left: 2em;
   padding-right: 2em;
-  max-width: 65em;
-  #title {
-    padding-top: 8em;
-    padding-bottom: 2em;
-    #logo {
-      width: 3em;
-      height: 3em;
-      padding-right: 1em;
-    }
-    span, span * {
-      display: inline-block;
-    }
-  }
+  max-width: $content-width;
 }
 
 .container {
-  padding: 1.5em 0;
   animation-duration: 1s;
   animation-name: slidein;
+  padding: 3.25em 0;
 }
 
-h1 {
-  font-size: $xl-size;
-  font-weight: 800;
-  margin: 0.5em 0 0.5em 0;
-  line-height: 1.2em;
-  &:after {
-    display: flex;
-    content: '';
-    background: $accent-light-colour;
-    max-width: 7em;
-    height: 2em;
-    margin-top: -1.75em;
-    margin-left: -0.4em;
+.intro {
+  margin-top: 22vh;
+  width: 66%;
+  h1 {
+    font-weight: $regular-weight;
   }
-}
-
-h2 {
-  font-size: $m-size;
-  font-weight: 400;
-  color: $text-colour-grey;
-}
-
-h3 {
-  font-size: $l-size;
-  font-weight: 700;
-}
-
-h4 {
-  font-size: $m-size;
-  font-weight: 700;
-}
-
-h5 {
-  font-size: $xs-size;
-  font-weight: 700;
-}
-
-p {
-  font-size: $s-size;
-  color: $text-colour-grey;
-  line-height: 1.5;
-  span {
-    color: $text-colour-lightgrey;
-  }
-}
-
-.uni {
-  margin-bottom: 0.25em;
-}
-
-.job {
-  margin-top: 0.25em;
-}
-
-.link_primary {
-  color: $text-colour-light;
-  background: $accent-colour;
-  padding: 0.5em 0.6em;
-  transition: border-color 0.15s, background 0.15s;
-  &:hover {
-    background: $accent-light-colour;
-  }
-}
-
-.link_secondary {
-  text-decoration: none;
-  z-index: 0;
-  border-bottom: 2px solid $text-colour-dark;
-  color: $text-colour-dark;
-  font-weight: 600;
-  letter-spacing: 0.02em;
-  transition: border-color 0.15s, color 0.15s;
-  &:hover {
-    border-color: $accent-colour;
+  a {
+    font-weight: $semi-bold-weight;
     color: $accent-colour;
   }
 }
 
-.link_tertiary {
-  text-decoration: none;
-  transition: color 0.15s;
-  color: $text-colour-dark;
-  &:hover {
-    color: $accent-colour;
+.side-project__content {
+  display: flex;
+  flex-direction: column;
+  a {
+    margin: 0.15em 0;
   }
-}
-
-a {
-  font-weight: 600;
-  text-decoration: none;
-  z-index: 0;
-  backface-visibility: hidden;
-  letter-spacing: 0.02em;
-  cursor: pointer;
-  position: relative;
-  display: inline-block;
-  line-height: 1;
-}
-
-.inline-icon {
-  height: 1em;
 }

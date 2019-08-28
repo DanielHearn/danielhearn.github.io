@@ -1,11 +1,14 @@
 @import 'partials/variables.scss';
 @import 'partials/mixins.scss';
 @import 'partials/404.scss';
-@import 'partials/content.scss';
 @import 'partials/media-queries.scss';
 @import 'partials/keyframes.scss';
-@import 'partials/projects.scss';
+@import 'partials/content.scss';
 @import 'partials/footer.scss';
+@import 'partials/grid.scss';
+@import 'partials/projects.scss';
+@import 'partials/text.scss';
+@import 'partials/nav.scss';
 
 html {
   height: 100%;
@@ -14,10 +17,10 @@ html {
 }
 
 body {
-  font-family: 'Nunito Sans', sans-serif;
+  font-family: 'Poppins', sans-serif;
   margin: 0;
   background: $bg-colour;
-  color: $text-colour-dark;
+  color: $dark-text-colour;
   max-width: 100%;
 }
 

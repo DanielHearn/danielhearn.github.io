@@ -5,10 +5,11 @@
   flex-wrap: wrap;
   a {
     font-size: $s-size;
+    font-weight: $semi-bold-weight;
     line-height: 1.5em;
     padding: 0.6em 1em 0.6em 0;
-  }
-  a:not(:last-of-type) {
-    margin-right: 1.5em;
+    &:not(:last-of-type) {
+      margin-right: 0.75em;
+    }
   }
 }

@@ -1,8 +1,24 @@
 //- includes/footer.pug
 footer
+  script(src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll/dist/smooth-scroll.polyfills.min.js")
   script.
-    var scroll = new SmoothScroll('a[href*="#"]', {
-      speed: 750, // Integer. How fast to complete the scroll in milliseconds
-      offset: 0, // Integer or Function returning an integer. How far to offset the scrolling anchor location in pixels
-      easing: 'easeInOutCubic', // Easing pattern to use
-    });
+    document.addEventListener('DOMContentLoaded', function() {
+      var scroll = new SmoothScroll('a[href*="#"]', {
+        speed: 600, // Integer. How fast to complete the scroll in milliseconds
+        offset: 0, // Integer or Function returning an integer. How far to offset the scrolling anchor location in pixels
+        easing: 'easeInOutCubic', // Easing pattern to use
+      });
+
+      var navLinks = document.querySelectorAll('nav a')
+      for (var i = 0, len = navLinks.length; i < len; i++) {
+          var link = navLinks[i]
+          link.addEventListener('click', function(e) {
+            for (var j = 0, otherlen = navLinks.length; j < otherlen; j++) {
+              var otherLink = navLinks[j]
+              otherLink.classList.remove('active');
+            }
+            e.target.classList.add('active');
+          })
+      }
+    }, false);
+

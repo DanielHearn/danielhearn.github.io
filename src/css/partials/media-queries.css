@@ -1,15 +1,24 @@
 @media screen and (max-width: 50em) {
+  html body .nav__content {
+    padding-left: 1em;
+    padding-right: 1em; }
+    html body .nav__content .nav__title {
+      font-size: 1.5em; }
+    html body .nav__content .nav__links a {
+      padding-left: 1em; }
+  html body main .intro {
+    width: 100%; }
   html body main #content {
     padding-left: 1em;
     padding-right: 1em; }
-    html body main #content .content__text, html body main #content .project__text {
-      font-size: 1.15em; }
   html body main .container {
-    padding: 1em 0; }
-  html body main #content #title {
-    padding-top: 4em; }
-    html body main #content #title h2 {
-      font-size: 1.445em; }
-  html body main .projects .projects_grid {
+    padding: 2em 0; }
+  html body main .projects .grid {
     grid-template-columns: repeat(1, 1fr);
-    row-gap: 4em; } }
+    row-gap: 4em; }
+  html body main .grid--2-1 {
+    grid-template-columns: repeat(1, 1fr); }
+  html body main .about .about__content {
+    grid-row: 2; }
+  html body main .about .side-project__content {
+    grid-row: 1; } }
