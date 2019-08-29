@@ -11,31 +11,31 @@
     {
       "title": "Streamist",
       "desc": "Multiple Twitch stream viewer.",
-      "image": "img/streamist.png",
+      "image": "img/streamist.jpeg",
       "link": "https://danielhearn.co.uk/streamist"
     },
     {
       "title": "Kiel Frampton",
       "desc": "Portfolio site built with Jekyll and Netlify CMS.",
-      "image": "img/kielframpton.png",
+      "image": "img/kielframpton.jpeg",
       "link": "https://www.kielframpton.com/"
     },
     {
       "title": "Interiors of Aylesbury",
       "desc": "Custom Wordpress theme design and development.",
-      "image": "img/interiors.png",
+      "image": "img/interiors.jpeg",
       "link": "https://interiorsofaylesbury.com"
     },
     {
       "title": "CSS Loaders",
       "desc": "Collection of CSS loading animations.",
-      "image": "img/css_loaders.png",
+      "image": "img/css_loaders.jpeg",
       "link": "https://danielhearn.co.uk/css-loaders"
     },
     {
       "title": "Korean Handbook",
       "desc": "Web-app teaching basics of the Korean language.",
-      "image": "img/korean.png",
+      "image": "img/korean.jpeg",
       "link": "http://thekoreanhandbook.com/"
     }
   ],
