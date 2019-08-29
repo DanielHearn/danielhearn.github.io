@@ -6,3 +6,10 @@
   justify-content: center;
   align-items: center;
 }
+
+#subtitle {
+  font-weight: $medium-weight;
+  a {
+    font-weight: $semi-bold-weight;
+  }
+}
