@@ -14,6 +14,17 @@
         }
       }
     }
+    .text--large {
+      font-size: $l-size*0.75;
+    }
+    
+    .text--medium {
+      font-size: $m-size*0.75;
+    }
+    
+    .text--small {
+      font-size: $s-size*0.75;
+    }
     main {
       .intro {
         width: 100%;

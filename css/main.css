@@ -14,6 +14,12 @@
       font-size: 1.5em; }
     html body .nav__content .nav__links a {
       padding-left: 1em; }
+  html body .text--large {
+    font-size: 1.5em; }
+  html body .text--medium {
+    font-size: 1.125em; }
+  html body .text--small {
+    font-size: 0.9375em; }
   html body main .intro {
     width: 100%; }
   html body main #content {
