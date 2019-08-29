@@ -1,14 +1,18 @@
 $bg-colour: #fefefe;
-$text-colour-light: #fefefe;
-$text-colour-dark: #222;
-$text-colour-grey: #444;
-$text-colour-lightgrey: #777;
-$accent-colour: #8264ff;
-$accent-light-colour: #9981ff;
+$nav-colour: rgba(254, 254, 254, 0.95);
+$dark-text-colour: #020202;
+$light-text-colour: rgba(2, 2, 2, 0.8);
+$accent-colour: #9981FF;
 $selection-colour: #d6d6d6;
 
-$xl-size: 3.5em;
-$l-size: 1.7em;
-$m-size: 1.6em;
-$s-size: 1.1em;
-$xs-size: 1em;
+$l-size: 2em;
+$m-size: 1.5em;
+$s-size: 1.25em;
+
+$extra-bold-weight: 800;
+$bold-weight: 700;
+$semi-bold-weight: 600;
+$medium-weight: 500;
+$regular-weight: 400;
+
+$content-width: 70em;

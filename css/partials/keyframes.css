@@ -1,7 +1,5 @@
-@keyframes slidein {
+@keyframes fadein {
   from {
-    margin-top: 4em;
     opacity: 0; }
   to {
-    margin-top: 0;
     opacity: 1; } }

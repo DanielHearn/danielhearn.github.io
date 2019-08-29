@@ -2,27 +2,44 @@
 
 @media screen and (max-width: 50em) {
   html body {
+    .nav__content {
+      padding-left: 1em;
+      padding-right: 1em;
+      .nav__title {
+        font-size: 1.5em;
+      }
+      .nav__links {
+        a {
+          padding-left: 1em;
+        }
+      }
+    }
     main {
+      .intro {
+        width: 100%;
+      }
       #content {
         padding-left: 1em;
         padding-right: 1em;
-        .content__text, .project__text {
-          font-size: 1.15em;
-        }
       }
       .container {
-        padding: 1em 0;
-      }
-      #content #title {
-        padding-top: 4em;
-        h2 {
-          font-size: $l-size*0.85;
-        }
+        padding: 2em 0;
       }
       .projects {
-        .projects_grid {
+        .grid {
           grid-template-columns: repeat(1, 1fr);
           row-gap: 4em;
+        }
+      }
+      .grid--2-1 {
+        grid-template-columns: repeat(1, 1fr);
+      }
+      .about {
+        .about__content {
+          grid-row: 2;
+        }
+        .side-project__content {
+          grid-row: 1;
         }
       }
     }

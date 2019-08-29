@@ -10,75 +10,51 @@
   "projects": [
     {
       "title": "Streamist",
-      "type": "Open-source",
-      "desc": "Multiple Twitch stream viewer built with Vue.",
+      "desc": "Multiple Twitch stream viewer.",
       "image": "img/streamist.png",
-      "link": "https://danielhearn.co.uk/streamist",
-      "github": "https://github.com/DanielHearn/streamist",
-      "color": "#38d6a6"
+      "link": "https://danielhearn.co.uk/streamist"
     },
     {
       "title": "Kiel Frampton",
-      "type": "Client",
       "desc": "Portfolio site built with Jekyll and Netlify CMS.",
       "image": "img/kielframpton.png",
-      "link": "https://www.kielframpton.com/",
-      "color": "#2e363c"
+      "link": "https://www.kielframpton.com/"
     },
     {
       "title": "Interiors of Aylesbury",
-      "type": "Client",
       "desc": "Custom Wordpress theme design and development.",
       "image": "img/interiors.png",
-      "link": "https://interiorsofaylesbury.com",
-      "color": "#5977ef"
+      "link": "https://interiorsofaylesbury.com"
     },
     {
       "title": "CSS Loaders",
-      "type": "Open-source",
       "desc": "Collection of CSS loading animations.",
       "image": "img/css_loaders.png",
-      "link": "https://danielhearn.co.uk/css-loaders",
-      "github": "https://github.com/DanielHearn/css-loaders",
-      "color": "#e65649"
+      "link": "https://danielhearn.co.uk/css-loaders"
     },
     {
       "title": "Korean Handbook",
-      "type": "Open-source",
       "desc": "Web-app teaching basics of the Korean language.",
       "image": "img/korean.png",
-      "link": "http://thekoreanhandbook.com/",
-      "color": "#7d82fb"
+      "link": "http://thekoreanhandbook.com/"
     }
   ],
   "side_projects": [
     {
       "title": "Pixel World Generator",
-      "desc": "Generates 2D pixel worlds.",
-      "image": "img/2dworldgen.png",
-      "link": "https://codepen.io/danhearn/full/mxQyXj",
-      "color": "#97d272"
+      "link": "https://codepen.io/danhearn/full/mxQyXj"
     },
     {
       "title": "Snake Game",
-      "desc": "Recreation of the classic snake game.",
-      "image": "img/snake.png",
-      "link": "https://codepen.io/danhearn/full/LXWWrZ",
-      "color": "#c1d0a2"
+      "link": "https://codepen.io/danhearn/full/LXWWrZ"
     },
     {
       "title": "CSS Grid Posters",
-      "desc": "Recreation of posters using CSS grid.",
-      "image": "img/cssgridposters.png",
-      "link": "https://codepen.io/collection/AKmKew/",
-      "color": "#ebb93e"
+      "link": "https://codepen.io/collection/AKmKew/"
     },
     {
       "title": "Maze Generator",
-      "desc": "Generates and solves 2D mazes.",
-      "image": "img/mazegen.png",
-      "link": "https://codepen.io/danhearn/full/ZZjjeM",
-      "color": "#4b75da"
+      "link": "https://codepen.io/danhearn/full/ZZjjeM"
     }
   ]
 }

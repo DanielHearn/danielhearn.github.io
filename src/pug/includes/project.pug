@@ -1,17 +1,7 @@
 //- includes/project.pug
-section.project
-  a.project_background(href=project.link, style="background: "+project.color+';') 
-    img.project_image(src=project.image)
-  div.project_info
-    a.link_tertiary(href=project.link)
-      h4.project_title #{project.title}
-    if project.type
-      h5.project_type #{project.type}
-    p.project_desc #{project.desc}
-  div.project_links
-    if project.link
-      p
-        a.link_primary(href=project.link) View Project
-    if project.github
-      p.github_link
-        a.link_secondary(href=project.github) View Github
+a.project(href=project.link)
+  div.project__image-container
+    img.project__image(src=project.image)
+  div.project__info
+    p.project__title.text--medium #{project.title}
+    p.project__desc.text--small #{project.desc}

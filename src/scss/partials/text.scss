@@ -1,0 +1,47 @@
+@import 'variables.scss';
+
+.text--large {
+  font-size: $l-size;
+}
+
+.text--medium {
+  font-size: $m-size;
+}
+
+.text--small {
+  font-size: $s-size;
+}
+
+h3 {
+  font-weight: $bold-weight;
+}
+
+p {
+  color: $light-text-colour;
+}
+
+a {
+  text-decoration: none;
+  cursor: pointer;
+  color: initial;
+  &:visited {
+    text-decoration: none;
+    color: $dark-text-colour;
+  }
+  &:hover {
+    text-decoration: underline;
+    color: $dark-text-colour;
+  }
+}
+
+.link {
+  color: $accent-colour;
+  font-weight: $medium-weight;
+  &:visited {
+    color: $accent-colour;
+  }
+  &:hover {
+    text-decoration: underline;
+    color: $accent-colour;
+  }
+}
