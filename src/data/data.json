@@ -10,9 +10,15 @@
   "projects": [
     {
       "title": "Streamist",
-      "desc": "Multiple Twitch stream viewer.",
+      "desc": "Web-app for viewing multiple Twitch.tv streams.",
       "image": "img/streamist.jpeg",
       "link": "https://danielhearn.co.uk/streamist"
+    },
+    {
+      "title": "Korean Handbook",
+      "desc": "Web-app teaching basics of the Korean language.",
+      "image": "img/korean.jpeg",
+      "link": "http://thekoreanhandbook.com/"
     },
     {
       "title": "Kiel Frampton",
@@ -31,12 +37,6 @@
       "desc": "Collection of CSS loading animations.",
       "image": "img/css_loaders.jpeg",
       "link": "https://danielhearn.co.uk/css-loaders"
-    },
-    {
-      "title": "Korean Handbook",
-      "desc": "Web-app teaching basics of the Korean language.",
-      "image": "img/korean.jpeg",
-      "link": "http://thekoreanhandbook.com/"
     }
   ],
   "side_projects": [
