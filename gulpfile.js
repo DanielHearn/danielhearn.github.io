@@ -24,19 +24,16 @@
   }
 
   function sass() {
-    return gulp.src(scssSource)
+    return gulp.src('src/scss/main.scss')
       .pipe(gulpSass().on('error', gulpSass.logError))
-      .pipe(gulp.dest('css'))
-      .pipe(gulp.dest('src/css'))
       .pipe(gulpCssnano({ zindex: false }))
+      .pipe(gulp.dest('css'))
   }
 
   function useref() {
     return gulp.src('src/*.html')
       .pipe(gulpUseref())
-      // .pipe(gulpIf('src/js/*.js', gulp.dest('dist')))
-      // .pipe(gulpIf('*.css', cssnano({zindex: false})))
-      .pipe(gulp.dest('src/'))
+      .pipe(gulpIf('src/js/*.js', gulp.dest('dist')))
   }
 
   function js() {
@@ -47,7 +44,6 @@
   function css() {
     return gulp.src('src/css/*.css')
       .pipe(gulp.dest('css'))
-      .pipe(gulp.dest('src/css'))
   }
 
   function images() {
@@ -82,7 +78,7 @@
             console.log(err)
           })
         )
-        .pipe(gulp.dest('src/'))
+        .pipe(gulp.dest('./'))
     })
     done()
   }
