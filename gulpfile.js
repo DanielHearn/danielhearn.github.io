@@ -17,7 +17,7 @@
   function server(done) {
     browserSync.init({
       server: {
-        baseDir: 'src'
+        baseDir: './'
       }
     })
     done()
@@ -26,14 +26,7 @@
   function sass() {
     return gulp.src('src/scss/main.scss')
       .pipe(gulpSass().on('error', gulpSass.logError))
-      .pipe(gulpCssnano({ zindex: false }))
       .pipe(gulp.dest('css'))
-  }
-
-  function useref() {
-    return gulp.src('src/*.html')
-      .pipe(gulpUseref())
-      .pipe(gulpIf('src/js/*.js', gulp.dest('dist')))
   }
 
   function js() {
@@ -83,8 +76,9 @@
     done()
   }
 
-  function cleanDist() {
-    return del.sync(['dist/**/*'])
+  function cleanDist(done) {
+    del.sync(['./js', './css', './favicons', './img', './index.html', './404.html'])
+    done()
   }
 
   function watch(done) {
@@ -96,9 +90,11 @@
     done()
   }
 
+  exports.clean = gulp.series(cleanDist)
+
   exports.watch = gulp.series(watch, server)
 
-  exports.build = gulp.series(pug, sass, images, favicons, js, css, assets, useref)
+  exports.build = gulp.series(pug, sass, images, favicons, js, css, assets)
 
   exports.default = gulp.series(watch, server)
 })();
