@@ -13,17 +13,31 @@ html
       #content
         section.container.intro
           h1.text--medium
-            | Hi, I'm Dan—a final year student at the University of Portsmouth with a 
-            | year of industry experience. Currently looking for a graduate 
-            | job. 
-            a.link(href=links.email) Feel free to get in touch!
-        section.container.placement
-          h3.text--large My Placement at Fresh Relevance
+            | Hi, I'm Dan—a software developer at 
+            a.link(href=links.freshrelevance) Fresh Relevance.
+        section.container.experience
+          h3.text--large.heading Software Developer at Fresh Relevance
+          h2.text--medium.sub-heading July 2020 - Current
           p.text--small
-            | During placement at Fresh Relevance, I was responsible for 
-            | integrating Fresh Relevance's system with their 
+            | At Fresh Relevance I develop user interfaces with
+            | React, Redux, and Flow
+        section.container.experience
+          h3.text--large.heading My Placement at Fresh Relevance
+          h2.text--medium.sub-heading July 2018 - May 2019
+          p.text--small
+            | I was responsible for integrating Fresh Relevance's system with their 
             | client's e-commerce sites. Additionally, I developed React-based 
-            | user interfaces and improved the processing of data in the back-end.
+            | user interfaces and improved the processing of user data in the back-end.
+        section.container.experience
+          h3.text--large.heading University of Portsmouth
+          h2.text--medium.sub-heading Sept 2016 - May 2020
+          p.text--small
+            | I recieved a First in BSc Computer Science along with the British Computer Society Prize 
+            | for Best Final Year Student.
+          p.text--small
+            | As my final year project I built a internet-of-things
+            | climate monitoring system that provides a web-app letting users understand 
+            | information about the climates around them.
         section.container.projects#work
           h3.text--large Projects
           section.grid.grid--2
@@ -37,24 +51,15 @@ html
               a.link(href=links.codepen) Codepen
               | , host my source code on 
               a.link(href=links.github) Github
-              | , and present my designs on 
+              | , and showcase my designs on 
               a.link(href=links.behance) Behance
               |  and 
               a.link(href=links.dribble) Dribble
               | . 
             p.text--small
-              | I'm proficient in Javascript (ES6, ES7), Vue.js, HTML (Pug), and CSS3 (SASS),
-              | while using Webpack, Gulp, Git, and Experience Design to enhance my workflow. 
-              |  Additionally, I have experience with Python (Django, Flask), Node, React, as well as working knowledge of Java and SQL.
-            p.text--small
-              | I studied Computer Science at the University of Portsmouth.
-              | This course included topics such as software engineering, databases, networking, functional programming, internet-of-things, web-development,
-              | and computer architecture.
-            p.text--small
-              | Within my final year I created a internet-of-things
-              | climate monitoring system that provides a web-based interface so users can view information about the climates around them.
-              | This project has given me experience in working with a Raspberry Pi, microcontrollers, and radio communication as well as practice in building
-              | an API, database, and website.
+              | I'm proficient in Javascript (ES6, ES7), Vue.js, HTML (Pug), and CSS3 (SASS, LESS),
+              | while using Webpack, Gulp, Git, and Experience Design in my workflow. 
+              | Additionally, I have experience with Python (Django, Flask), Node, React, along with working knowledge of Java and SQL.
           .side-project__content
             h3.text--large Side Projects
             each project in side_projects

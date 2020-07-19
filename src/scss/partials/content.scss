@@ -11,14 +11,32 @@
 .container {
   animation-duration: 1s;
   animation-name: slidein;
-  padding: 3.25em 0;
+  padding: 2em 0;
+}
+
+.experience {
+  padding: 1em 0;
+  .heading {
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+  .sub-heading {
+    margin-top: 0;
+    margin-bottom: 0;
+    color: $lighter-text-colour;
+    font-weight: $semi-bold-weight;
+  }
+  p {
+    margin-top: 0.5em;
+  }
 }
 
 .intro {
   margin-top: 22vh;
-  width: 66%;
+  margin-bottom: 5em;
   h1 {
     font-weight: $regular-weight;
+    font-size: $xl-size;
   }
   a {
     font-weight: $semi-bold-weight;

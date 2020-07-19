@@ -10,13 +10,13 @@
   "projects": [
     {
       "title": "Streamist",
-      "desc": "Web-app for viewing multiple Twitch.tv streams.",
+      "desc": "Vue web-app for viewing multiple Twitch.tv streams.",
       "image": "img/streamist.jpeg",
       "link": "https://danielhearn.co.uk/streamist"
     },
     {
       "title": "Korean Handbook",
-      "desc": "Web-app teaching basics of the Korean language.",
+      "desc": "Vue web-app teaching basics of the Korean language.",
       "image": "img/korean.jpeg",
       "link": "http://thekoreanhandbook.com/"
     },
@@ -34,7 +34,7 @@
     },
     {
       "title": "CSS Loaders",
-      "desc": "Collection of CSS loading animations.",
+      "desc": "React web-app showcasing a collection of CSS loading animations.",
       "image": "img/css_loaders.jpeg",
       "link": "https://css-loaders.netlify.app/"
     }

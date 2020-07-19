@@ -15,11 +15,11 @@
       }
     }
     .text--large {
-      font-size: $l-size*0.85;
+      font-size: $l-size*0.8;
     }
     
     .text--medium {
-      font-size: $m-size*0.85;
+      font-size: $m-size*0.7;
     }
     
     .text--small {
@@ -28,13 +28,17 @@
     main {
       .intro {
         width: 100%;
+        margin-bottom: 0;
+        h1 {
+          font-size: $xl-size*0.7;
+        }
       }
       #content {
         padding-left: 1em;
         padding-right: 1em;
       }
       .container {
-        padding: 2em 0;
+        padding: 1em 0;
       }
       .projects {
         .grid {

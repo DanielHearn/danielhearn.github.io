@@ -1,5 +1,11 @@
 @import 'variables.scss';
 
+.projects {
+  h3 {
+    padding-top: 1em;
+  }
+}
+
 .project {
   cursor: pointer;
   .project__image-container {
@@ -18,6 +24,7 @@
       display: block;
       margin: 0.5em 0 0 0;
       font-weight: $bold-weight;
+      color: $dark-text-colour;
     }
     .project__desc {
       margin: 0.5em 0;
