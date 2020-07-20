@@ -34,11 +34,6 @@
       .pipe(gulp.dest('js'))
   }
 
-  function css() {
-    return gulp.src('src/css/*.css')
-      .pipe(gulp.dest('css'))
-  }
-
   function images() {
     return gulp
       .src('src/img/*.+(png|jpg|jpeg|gif|svg)')
@@ -94,7 +89,7 @@
 
   exports.watch = gulp.series(watch, server)
 
-  exports.build = gulp.series(pug, sass, images, favicons, js, css, assets)
+  exports.build = gulp.series(pug, sass, images, favicons, js, assets)
 
   exports.default = gulp.series(watch, server)
 })();

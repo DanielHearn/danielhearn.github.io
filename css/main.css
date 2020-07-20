@@ -20,18 +20,21 @@
     html body .nav__content .nav__links a {
       padding-left: 1em; }
   html body .text--large {
-    font-size: 1.7em; }
+    font-size: 1.48em; }
   html body .text--medium {
-    font-size: 1.275em; }
+    font-size: 1.05em; }
   html body .text--small {
     font-size: 1.0625em; }
   html body main .intro {
-    width: 100%; }
+    width: 100%;
+    margin-bottom: 0; }
+    html body main .intro h1 {
+      font-size: 1.47em; }
   html body main #content {
     padding-left: 1em;
     padding-right: 1em; }
   html body main .container {
-    padding: 2em 0; }
+    padding: 1em 0; }
   html body main .projects .grid {
     grid-template-columns: repeat(1, 1fr);
     row-gap: 4em; }
@@ -58,13 +61,27 @@
 .container {
   animation-duration: 1s;
   animation-name: slidein;
-  padding: 3.25em 0; }
+  padding: 2em 0; }
+
+.experience {
+  padding: 1em 0; }
+  .experience .heading {
+    margin-top: 0;
+    margin-bottom: 0; }
+  .experience .sub-heading {
+    margin-top: 0;
+    margin-bottom: 0;
+    color: #505050;
+    font-weight: 600; }
+  .experience p {
+    margin-top: 0.5em; }
 
 .intro {
   margin-top: 22vh;
-  width: 66%; }
+  margin-bottom: 5em; }
   .intro h1 {
-    font-weight: 400; }
+    font-weight: 400;
+    font-size: 2.1em; }
   .intro a {
     font-weight: 600;
     color: #9981FF; }
@@ -98,6 +115,9 @@
   row-gap: 2.75em;
   column-gap: 2.75em; }
 
+.projects h3 {
+  padding-top: 1em; }
+
 .project {
   cursor: pointer; }
   .project .project__image-container {
@@ -112,7 +132,8 @@
   .project .project__info .project__title {
     display: block;
     margin: 0.5em 0 0 0;
-    font-weight: 700; }
+    font-weight: 700;
+    color: #020202; }
   .project .project__info .project__desc {
     margin: 0.5em 0;
     font-weight: 400; }
@@ -120,7 +141,7 @@
     transform: scale(1.075); }
 
 .text--large {
-  font-size: 2em; }
+  font-size: 1.85em; }
 
 .text--medium {
   font-size: 1.5em; }
@@ -129,10 +150,10 @@
   font-size: 1.25em; }
 
 h3 {
-  font-weight: 700; }
+  font-weight: 600; }
 
 p {
-  color: rgba(2, 2, 2, 0.8); }
+  color: #343434; }
 
 a {
   text-decoration: none;
