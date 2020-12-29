@@ -2,43 +2,35 @@
 footer
   script(src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll/dist/smooth-scroll.polyfills.min.js")
   script.
-    document.addEventListener('DOMContentLoaded', function() {
-      var scrollActive = false;
+      let scrollActive = false;
 
-      var scroll = new SmoothScroll('a[href*="#"]', {
-        speed: 600, // Integer. How fast to complete the scroll in milliseconds
-        offset: 0, // Integer or Function returning an integer. How far to offset the scrolling anchor location in pixels
-        easing: 'easeInOutCubic', // Easing pattern to use
-      });
-
-      // Nav active styling
-      function setNavActiveEvents () {
-        var navLinks = document.querySelectorAll('nav a')
-        for (var i = 0, len = navLinks.length; i < len; i++) {
-            var link = navLinks[i]
+      const setNavActiveEvents = () => {
+        const navLinks = document.querySelectorAll('nav a')
+        for (let i = 0, len = navLinks.length; i < len; i++) {
+            const link = navLinks[i]
             link.addEventListener('click', function(e) {
               scrollActive = true;
-              for (var j = 0, otherlen = navLinks.length; j < otherlen; j++) {
-                var otherLink = navLinks[j]
+              for (let j = 0, otherlen = navLinks.length; j < otherlen; j++) {
+                const otherLink = navLinks[j]
                 otherLink.classList.remove('active');
               }
               e.target.classList.add('active');
             })
         }
       }
-      // Nav scroll
-      function navScroll () {
+
+      const navScroll = () => {
         if(scrollActive) {
           return false;
         }
-        var workHeading = document.querySelector('#work');
-        var aboutHeading = document.querySelector('#about');
+        const workHeading = document.querySelector('#work');
+        const aboutHeading = document.querySelector('#about');
 
-        var workLink = document.querySelector('[href="#work"]');
-        var aboutLink = document.querySelector('[href="#about"]');
+        const workLink = document.querySelector('[href="#work"]');
+        const aboutLink = document.querySelector('[href="#about"]');
 
-        var workHeadingPos = workHeading.getBoundingClientRect();
-        var aboutHeadingPos = aboutHeading.getBoundingClientRect();
+        const workHeadingPos = workHeading.getBoundingClientRect();
+        const aboutHeadingPos = aboutHeading.getBoundingClientRect();
 
         workLink.classList.remove('active');
         aboutLink.classList.remove('active');
@@ -54,10 +46,19 @@ footer
         }
       }
 
+    const initialisePage = () => {
+      const scroll = new SmoothScroll('a[href*="#"]', {
+        speed: 600, // Integer. How fast to complete the scroll in milliseconds
+        offset: 0, // Integer or Function returning an integer. How far to offset the scrolling anchor location in pixels
+        easing: 'easeInOutCubic', // Easing pattern to use
+      });
+
       window.addEventListener('scroll', navScroll); 
-      document.addEventListener('scrollStop', function() {
+      document.addEventListener('scrollStop', () => {
         scrollActive = false;
       }, false);
       setNavActiveEvents();
-    }, false);
+    }
+
+    document.addEventListener('DOMContentLoaded', initialisePage, false);
 
