@@ -43,7 +43,9 @@
   html body main .about .about__content {
     grid-row: 2; }
   html body main .about .side-project__content {
-    grid-row: 1; } }
+    grid-row: 1; }
+  html body main .grid-item--col-1-3, html body main .grid-item--col-2-3 {
+    grid-column: initial; } }
 
 @keyframes fadein {
   from {
@@ -106,14 +108,26 @@
 .grid--2 {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  row-gap: 3.75em;
-  column-gap: 2.75em; }
+  row-gap: 2em;
+  column-gap: 2em; }
+
+.grid--3 {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  row-gap: 2em;
+  column-gap: 2em; }
+
+.grid-item--col-2-3 {
+  grid-column: 2 / 4; }
+
+.grid-item--col-1-3 {
+  grid-column: 1 / 4; }
 
 .grid--2-1 {
   display: grid;
   grid-template-columns: 2fr 1fr;
   row-gap: 2.75em;
-  column-gap: 2.75em; }
+  column-gap: 2em; }
 
 .projects h3 {
   padding-top: 1em; }

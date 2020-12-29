@@ -43,6 +43,11 @@ html
           section.grid.grid--2
             each project in projects
               include includes/project.pug
+        section.container.projects#models
+          h3.text--large 3D Models
+          section.grid.grid--3
+            each model in models
+              include includes/model.pug
         section.container.about.grid--2-1#about
           .about__content
             h3.text--large About Me
