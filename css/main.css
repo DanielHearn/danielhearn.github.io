@@ -211,7 +211,8 @@ nav {
     justify-content: space-between;
     align-items: flex-end; }
     nav .nav__content .nav__links {
-      font-weight: 700; }
+      font-weight: 700;
+      padding-bottom: 0.2em; }
       nav .nav__content .nav__links a {
         padding-left: 1.5em; }
         nav .nav__content .nav__links a.active {
