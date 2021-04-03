@@ -29,5 +29,9 @@ main {
   width: 100%;
 }
 
+h3 {
+  font-weight: $bold-weight;
+}
+
 ::-moz-selection { background: $selection-colour; }
 ::selection { background: $selection-colour; }
