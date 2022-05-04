@@ -2,7 +2,7 @@
 
   const
     gulp = require('gulp'),
-    gulpSass = require('gulp-sass'),
+    gulpSass = require('gulp-sass')(require('sass')),
     gulpUseref = require('gulp-useref'),
     gulpCache = require('gulp-cache'),
     del = require('del'),
