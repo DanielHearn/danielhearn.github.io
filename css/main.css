@@ -55,6 +55,9 @@
   html body main .grid--2-1 {
     grid-template-columns: repeat(1, 1fr);
   }
+  html body main .about {
+    grid-template-columns: 1fr;
+  }
   html body main .about .about__content {
     grid-row: 2;
   }
