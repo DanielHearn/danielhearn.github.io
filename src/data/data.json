@@ -92,13 +92,17 @@
     {
       "title": "Donut",
       "image": "img/donut.jpeg",
-      "link": "https://www.artstation.com/artwork/LeJbgK",
-      "class": "grid-item--col-1-3"
+      "link": "https://www.artstation.com/artwork/LeJbgK"
     },
     {
       "title": "A Lonely Drive",
       "image": "img/a_lonely_drive.jpeg",
       "link": "https://sketchfab.com/3d-models/a-lonely-drive-217f12dc55c6403eaacadb249aa9dc05"
+    },
+    {
+      "title": "Barrels",
+      "image": "img/barrels.jpeg",
+      "link": "https://www.artstation.com/artwork/yJe2an"
     }
   ]
 }
