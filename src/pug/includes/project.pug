@@ -1,5 +1,5 @@
 //- includes/project.pug
-a.project(href=project.link, class=project.class || '')
+a.project(href=project.link || '', class=project.class || '')
   div.project__image-container
     img.project__image(src=project.image)
   div.project__info
