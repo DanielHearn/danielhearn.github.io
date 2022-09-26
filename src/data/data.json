@@ -40,8 +40,9 @@
     },
     {
       "title": "Downpen",
-      "desc": "Node program to export all of a Codepen User's pens. Currently private due to terms of service concerns.",
-      "image": "img/downpen.jpeg"
+      "desc": "Node program to export all of a Codepen User's pens.",
+      "image": "img/downpen.jpeg",
+      "link": "https://github.com/DanielHearn/downpen"
     }
   ],
   "side_projects": [
