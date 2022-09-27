@@ -32,11 +32,22 @@
 }
 
 .intro {
-  margin-top: 22vh;
+  margin-top: 85px;
   margin-bottom: 5em;
+  background: #1d1e24;
+  color: $bg-colour;
+  height: 30vh;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
   h1 {
     font-weight: $regular-weight;
     font-size: $xl-size;
+    padding-left: 2em;
+    padding-right: 2em;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 70em;
   }
   a {
     font-weight: $semi-bold-weight;

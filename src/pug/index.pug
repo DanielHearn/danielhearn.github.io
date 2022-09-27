@@ -10,11 +10,11 @@ html
           a.text--small(href="#work") work
           a.text--small(href="#about") about
     main
+      section.container.intro
+        h1.text--medium
+          | Hi, I'm Dan—a software developer at 
+          a.link(href=links.freshrelevance) Fresh Relevance.
       #content
-        section.container.intro
-          h1.text--medium
-            | Hi, I'm Dan—a software developer at 
-            a.link(href=links.freshrelevance) Fresh Relevance.
         section.container.experience
           h3.text--large.heading Software Developer at Fresh Relevance
           h2.text--medium.sub-heading July 2020 - Current
@@ -71,7 +71,8 @@ html
             h3.text--large Side Projects
             each project in side_projects
               a.text--small.link(href=project.link) #{project.title}
-        section.container.footer
+      section.container.footer
+        div
           a.text--small(href=links.codepen) Codepen
           a.text--small(href=links.github) Github
           a.text--small(href=links.behance) Behance
