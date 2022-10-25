@@ -26,23 +26,20 @@
     padding-left: 1em;
   }
   html body .text--large {
-    font-size: 1.48em;
-  }
-  html body .text--large.heading {
-    font-size: 1.295em;
+    font-size: 24px;
   }
   html body .text--medium {
-    font-size: 1.275em;
+    font-size: 20px;
   }
   html body .text--small, html body .text--medium.sub-heading {
-    font-size: 1.0625em;
+    font-size: 16px;
   }
   html body main .intro {
     margin-bottom: 0;
     padding: 0 1em !important;
   }
   html body main .intro h1 {
-    font-size: 1.47em;
+    font-size: 26px;
     padding: 0;
   }
   html body main #content {

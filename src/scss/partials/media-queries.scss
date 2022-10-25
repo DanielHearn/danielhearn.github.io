@@ -15,25 +15,22 @@
       }
     }
     .text--large {
-      font-size: $l-size*0.8;
-      &.heading {
-        font-size: $l-size*0.7;
-      }
+      font-size: 24px;
     }
     
     .text--medium {
-      font-size: $m-size*0.85;
+      font-size: 20px;
     }
     
     .text--small, .text--medium.sub-heading {
-      font-size: $s-size*0.85;
+      font-size: 16px;
     }
     main {
       .intro {
         margin-bottom: 0;
         padding: 0 1em !important;
         h1 {
-          font-size: $xl-size*0.7;
+          font-size: 26px;
           padding: 0
         }
       }
