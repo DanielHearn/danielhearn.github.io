@@ -28,18 +28,22 @@
   html body .text--large {
     font-size: 1.48em;
   }
-  html body .text--medium {
-    font-size: 1.05em;
+  html body .text--large.heading {
+    font-size: 1.295em;
   }
-  html body .text--small {
+  html body .text--medium {
+    font-size: 1.275em;
+  }
+  html body .text--small, html body .text--medium.sub-heading {
     font-size: 1.0625em;
   }
   html body main .intro {
-    width: 100%;
     margin-bottom: 0;
+    padding: 0 1em !important;
   }
   html body main .intro h1 {
     font-size: 1.47em;
+    padding: 0;
   }
   html body main #content {
     padding-left: 1em;
