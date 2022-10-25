@@ -16,8 +16,7 @@
 
 @media screen and (max-width: 50em) {
   html body .nav__content {
-    padding-left: 1em;
-    padding-right: 1em;
+    padding: 0.5em 1em;
   }
   html body .nav__content .nav__title {
     font-size: 1.5em;
@@ -28,6 +27,9 @@
   html body .text--large {
     font-size: 24px;
   }
+  html body .text--large.heading {
+    font-size: 20px;
+  }
   html body .text--medium {
     font-size: 20px;
   }
@@ -35,11 +37,12 @@
     font-size: 16px;
   }
   html body main .intro {
+    margin-top: 50px;
     margin-bottom: 0;
     padding: 0 1em !important;
   }
   html body main .intro h1 {
-    font-size: 26px;
+    font-size: 20px;
     padding: 0;
   }
   html body main #content {
