@@ -19,22 +19,22 @@
     padding: 0.5em 1em;
   }
   html body .nav__content .nav__title {
-    font-size: 1.5em;
+    font-size: 1.5rem;
   }
   html body .nav__content .nav__links a {
     padding-left: 1em;
   }
   html body .text--large {
-    font-size: 24px;
+    font-size: 1.5rem;
   }
   html body .text--large.heading {
-    font-size: 20px;
+    font-size: 1.25rem;
   }
   html body .text--medium {
-    font-size: 20px;
+    font-size: 1.25rem;
   }
   html body .text--small, html body .text--medium.sub-heading {
-    font-size: 16px;
+    font-size: 1rem;
   }
   html body main .intro {
     height: 50vh;
@@ -44,7 +44,7 @@
     padding: 0 1em !important;
   }
   html body main .intro h1 {
-    font-size: 20px;
+    font-size: 1.25rem;
     padding: 0;
   }
   html body main #content {
@@ -125,7 +125,7 @@
 }
 .intro h1 {
   font-weight: 400;
-  font-size: 2.1em;
+  font-size: 2.125rem;
   padding-left: 2em;
   padding-right: 2em;
   margin-left: auto;
@@ -162,7 +162,7 @@
   flex-wrap: wrap;
 }
 .footer a {
-  font-size: 1.25em;
+  font-size: 1.125rem;
   font-weight: 600;
   line-height: 1.5em;
   padding: 0.6em 1em 0.6em 0;
@@ -244,15 +244,15 @@
 }
 
 .text--large {
-  font-size: 1.85em;
+  font-size: 1.625rem;
 }
 
 .text--medium {
-  font-size: 1.5em;
+  font-size: 1.375rem;
 }
 
 .text--small {
-  font-size: 1.25em;
+  font-size: 1.125rem;
 }
 
 h3 {
