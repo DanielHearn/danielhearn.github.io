@@ -25,18 +25,6 @@
       "link": "https://koreanhandbook.netlify.app/"
     },
     {
-      "title": "Kiel Frampton",
-      "desc": "Portfolio site built with Jekyll and Netlify CMS.",
-      "image": "img/kielframpton.jpeg",
-      "link": "https://www.kielframpton.com/"
-    },
-    {
-      "title": "Interiors of Aylesbury",
-      "desc": "Custom Wordpress theme design and development.",
-      "image": "img/interiors.jpeg",
-      "link": "https://interiorsofaylesbury.com"
-    },
-    {
       "title": "CSS Loaders",
       "desc": "React web-app showcasing a collection of my CSS loading animations.",
       "image": "img/css_loaders.jpeg",
@@ -47,6 +35,18 @@
       "desc": "Node program to export all of a Codepen User's pens.",
       "image": "img/downpen.jpeg",
       "link": "https://github.com/DanielHearn/downpen"
+    },
+    {
+      "title": "Kiel Frampton",
+      "desc": "Portfolio site built with Jekyll and Netlify CMS.",
+      "image": "img/kielframpton.jpeg",
+      "link": "https://www.kielframpton.com/"
+    },
+    {
+      "title": "Interiors of Aylesbury",
+      "desc": "Custom Wordpress theme design and development.",
+      "image": "img/interiors.jpeg",
+      "link": "https://interiorsofaylesbury.com"
     }
   ],
   "side_projects": [
