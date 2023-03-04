@@ -37,6 +37,12 @@
       "link": "https://github.com/DanielHearn/downpen"
     },
     {
+      "title": "Maze Generator (WIP)",
+      "desc": "Work in progress maze generator built with React.",
+      "image": "img/maze.jpeg",
+      "link": "https://dan-h-maze-generator.netlify.app/"
+    },
+    {
       "title": "Kiel Frampton",
       "desc": "Portfolio site built with Jekyll and Netlify CMS.",
       "image": "img/kielframpton.jpeg",
