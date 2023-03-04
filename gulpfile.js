@@ -57,7 +57,12 @@
     fs.readFile('./src/data/data.json', 'utf-8', (err, data) => {
       if (err) throw err
 
-      data = JSON.parse(data)
+      try {
+        data = JSON.parse(data)
+      } catch(e) {
+        console.log(e)
+        data = {}
+      }
 
       return gulp
         .src('src/pug/*.pug')
