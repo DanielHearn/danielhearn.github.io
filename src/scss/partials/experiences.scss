@@ -1,0 +1,14 @@
+@import 'variables.scss';
+
+.experience {
+  .experience__image-container {
+    display: block;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    .experience__image {
+      display: block;
+      width: 100%;
+    }
+  }
+}

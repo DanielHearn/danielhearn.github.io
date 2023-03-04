@@ -32,6 +32,9 @@ html
             a.link(href=links.itemLevelReporting) Item Level Reporting
             | .
           p.text--small I also assist the client scripting team by owning time critical customer facing issues and teaching the current year's placement students.
+          section.grid.grid--2
+            each experience in fresh_experience
+              include includes/experience.pug
         section.container.experience
           h3.text--large.heading Placement at Fresh Relevance
           h2.text--medium.sub-heading July 2018 - May 2019

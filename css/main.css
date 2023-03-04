@@ -328,6 +328,17 @@ nav .nav__content .nav__links a:hover {
   color: #9981FF;
 }
 
+.experience .experience__image-container {
+  display: block;
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+}
+.experience .experience__image-container .experience__image {
+  display: block;
+  width: 100%;
+}
+
 html {
   height: 100%;
   box-sizing: border-box;

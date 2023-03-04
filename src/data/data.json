@@ -11,6 +11,16 @@
     "smartblockBuilder": "https://www.freshrelevance.com/blog/platform-enhancements/",
     "itemLevelReporting": "https://www.freshrelevance.com/blog/platform-enhancements/"
   },
+  "fresh_experience": [
+    {
+      "title": "Fresh Relevance Rules",
+      "image": "img/fr_rules.jpeg"
+    },
+    {
+      "title": "Fresh Relevance SmartBlock Editing",
+      "image": "img/fr_sb_edit_1.jpeg"
+    }
+  ],
   "projects": [
     {
       "title": "Streamist",
