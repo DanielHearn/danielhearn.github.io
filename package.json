@@ -6,6 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "watch": "gulp watch",
+    "watch_blog": "cd src/blog && npx gatsby develop",
     "build": "cd src/blog && npx gatsby build --prefix-paths && cd ../../ && gulp build"
   },
   "repository": {

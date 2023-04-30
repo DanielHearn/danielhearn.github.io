@@ -25,8 +25,7 @@ const Layout = ({ location, title, children }) => {
       <header className="global-header">{header}</header>
       <main>{children}</main>
       <footer>
-        By
-        <a href="https://www.danielhearn.co.uk">Daniel Hearn</a>
+        By <a href="https://www.danielhearn.co.uk">Daniel Hearn</a>
       </footer>
     </div>
   )
