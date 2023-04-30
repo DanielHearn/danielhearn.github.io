@@ -93,7 +93,7 @@
 
   exports.clean = gulp.series(cleanDist)
 
-  exports.watch = gulp.series(watch, server)
+  exports.watch = gulp.series(cleanDist, pug, sass, images, favicons, js, assets, watch, server)
 
   exports.build = gulp.series(cleanDist, pug, sass, images, favicons, js, assets, blog)
 
