@@ -1,7 +1,5 @@
-(() => {
-
-  const
-    gulp = require('gulp'),
+;(() => {
+  const gulp = require('gulp'),
     gulpSass = require('gulp-sass')(require('sass')),
     gulpUseref = require('gulp-useref'),
     gulpCache = require('gulp-cache'),
@@ -12,26 +10,26 @@
     gulpPug = require('gulp-pug'),
     browserSync = require('browser-sync').create(),
     fs = require('fs'),
-    scssSource = 'src/scss/**';
+    scssSource = 'src/scss/**'
 
   function server(done) {
     browserSync.init({
       server: {
-        baseDir: './'
-      }
+        baseDir: './',
+      },
     })
     done()
   }
 
   function sass() {
-    return gulp.src('src/scss/main.scss')
+    return gulp
+      .src('src/scss/main.scss')
       .pipe(gulpSass().on('error', gulpSass.logError))
       .pipe(gulp.dest('css'))
   }
 
   function js() {
-    return gulp.src('src/js/*.js')
-      .pipe(gulp.dest('js'))
+    return gulp.src('src/js/*.js').pipe(gulp.dest('js'))
   }
 
   function images() {
@@ -42,8 +40,11 @@
   }
 
   function assets() {
-    return gulp.src('src/assets/*')
-      .pipe(gulp.dest('assets'))
+    return gulp.src('src/assets/*').pipe(gulp.dest('assets'))
+  }
+
+  function blog() {
+    return gulp.src('src/blog/public/*').pipe(gulp.dest('blog'))
   }
 
   function favicons() {
@@ -59,7 +60,7 @@
 
       try {
         data = JSON.parse(data)
-      } catch(e) {
+      } catch (e) {
         console.log(e)
         data = {}
       }
@@ -69,7 +70,7 @@
         .pipe(
           gulpPug({ data: data }).on('error', function (err) {
             console.log(err)
-          })
+          }),
         )
         .pipe(gulp.dest('./'))
     })
@@ -77,7 +78,7 @@
   }
 
   function cleanDist(done) {
-    del.sync(['./js', './css', './favicons', './img', './index.html', './404.html'])
+    del.sync(['./js', './css', './favicons', './img', './index.html', './404.html', './blog/'])
     done()
   }
 
@@ -94,7 +95,7 @@
 
   exports.watch = gulp.series(watch, server)
 
-  exports.build = gulp.series(pug, sass, images, favicons, js, assets)
+  exports.build = gulp.series(cleanDist, pug, sass, images, favicons, js, assets, blog)
 
   exports.default = gulp.series(watch, server)
-})();
+})()

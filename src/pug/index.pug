@@ -9,6 +9,7 @@ html
         div.nav__links
           a.text--small(href="#work") work
           a.text--small(href="#about") about
+          a.text--small(href="/blog/") blog
     main
       section.container.intro
         h1.text--medium
@@ -76,6 +77,10 @@ html
               | Additionally, I have experience with Python (Django, Flask), Node, along with working knowledge of Java, SQL and MongoDB.
             p.text--small
               | Outside of tech, I like to cook, bake, run and play board games. I also occasionally do 3D modelling with Blender.
+            p.text--small
+              | I write about tech and board games on 
+              a.text--small.link(href="/blog/") my blog
+              | .
           .side-project__content
             h3.text--large Side Projects
             each project in side_projects
