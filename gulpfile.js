@@ -44,7 +44,7 @@
   }
 
   function blog() {
-    return gulp.src('src/blog/public/*').pipe(gulp.dest('blog'))
+    return gulp.src('src/blog/public/**/**').pipe(gulp.dest('blog'))
   }
 
   function favicons() {
