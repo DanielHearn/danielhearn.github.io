@@ -55,7 +55,9 @@ const BlogIndex = ({ data, location }) => {
       <p>
         While I use a an x out of 10 review system on BoardGameGeek, here I
         instead classify games as: Highly Recommended, Recommended, Pick up on
-        Sale, Do Not Recommend.
+        Sale, Do Not Recommend. I also print and play games so for games that I
+        have printed I will not review the quality of the components other than
+        the art.
       </p>
       <ul>
         <li>
