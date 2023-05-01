@@ -363,6 +363,14 @@ ul {
   margin-right: var(--spacing-6);
 }
 
+.table {
+  display: grid;
+}
+
+.table--2 {
+  grid-template-columns: 1fr 1fr;
+}
+
 /* Media queries */
 
 @media (max-width: 42rem) {
@@ -374,4 +382,7 @@ ul {
   ol {
     list-style-position: inside;
   }
+    .table--2 {
+      grid-template-columns: 1fr;
+    }
 }
