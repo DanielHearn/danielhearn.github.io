@@ -12,6 +12,37 @@ const BlogIndex = ({ data, location }) => {
   return (
     <Layout location={location} title={siteTitle}>
       <Bio />
+      <h2>Reviews</h2>
+      <div className="column-wrap">
+        <div>
+          <h3>
+            <Link to="/tags/highly-recommend/" itemProp="url">
+              <span itemProp="headline">Highly Recommended</span>
+            </Link>
+          </h3>
+        </div>
+        <div>
+          <h3>
+            <Link to="/tags/recommend/" itemProp="url">
+              <span itemProp="headline">Recommended</span>
+            </Link>
+          </h3>
+        </div>
+        <div>
+          <h3>
+            <Link to="/tags/pick-up-on-sale/" itemProp="url">
+              <span itemProp="headline">Pick up on Sale</span>
+            </Link>
+          </h3>
+        </div>
+        <div>
+          <h3>
+            <Link to="/tags/do-not-recommend/" itemProp="url">
+              <span itemProp="headline">Do Not Recommend</span>
+            </Link>
+          </h3>
+        </div>
+      </div>
       <h2>Recent Reviews</h2>
       <ol style={{ listStyle: `none` }}>
         {posts.slice(0, 5).map(post => {
