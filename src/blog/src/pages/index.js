@@ -9,19 +9,6 @@ const BlogIndex = ({ data, location }) => {
   const siteTitle = data.site.siteMetadata?.title || `Title`
   const posts = data.allMarkdownRemark.nodes
 
-  if (posts.length === 0) {
-    return (
-      <Layout location={location} title={siteTitle}>
-        <Bio />
-        <p>
-          No blog posts found. Add markdown posts to "content/blog" (or the
-          directory you specified for the "gatsby-source-filesystem" plugin in
-          gatsby-config.js).
-        </p>
-      </Layout>
-    )
-  }
-
   return (
     <Layout location={location} title={siteTitle}>
       <Bio />
@@ -58,6 +45,12 @@ const BlogIndex = ({ data, location }) => {
           )
         })}
       </ol>
+      <h2>Upcoming Reviews</h2>
+      <ul>
+        <li>Tussie Mussie (Solo)</li>
+        <li>Skulls of Sedlec (Solo)</li>
+        <li>One Deck Dungeon (Solo)</li>
+      </ul>
       <h2>My Review Methodology</h2>
       <p>
         While I use a an x out of 10 review system on BoardGameGeek, here I
