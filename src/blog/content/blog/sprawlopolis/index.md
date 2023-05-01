@@ -3,9 +3,12 @@ title: Sprawlopolis
 date: "2023-05-01T22:12:03.284Z"
 description: "I highly recommend Sprawlopolis as a highly replayable solo game."
 tags: ["Board Games", "Review", "Solo Review", "Highly Recommend"]
+thumbnail: "./sprawlopolis.png"
 ---
 
 WIP REVIEW
+
+![Sprawlopolis](./sprawlopolis.png)
 
 // SETUP PICK
 

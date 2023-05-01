@@ -47,30 +47,42 @@ const BlogIndex = ({ data, location }) => {
       <ol style={{ listStyle: `none` }}>
         {posts.slice(0, 5).map(post => {
           const title = post.frontmatter.title || post.fields.slug
-
+          console.log(post)
           return (
-            <li key={post.fields.slug}>
+            <li key={post.fields.slug} className="list-item">
               <article
                 className="post-list-item"
                 itemScope
                 itemType="http://schema.org/Article"
               >
-                <header>
-                  <h2>
-                    <Link to={post.fields.slug} itemProp="url">
-                      <span itemProp="headline">{title}</span>
-                    </Link>
-                  </h2>
-                  <small>{post.frontmatter.date}</small>
-                </header>
-                <section>
-                  <p
-                    dangerouslySetInnerHTML={{
-                      __html: post.frontmatter.description || post.excerpt,
-                    }}
-                    itemProp="description"
-                  />
-                </section>
+                <div>
+                  {post.frontmatter.thumbnail && (
+                    <img
+                      src={
+                        post.frontmatter.thumbnail.childImageSharp.resize.src
+                      }
+                      alt={`Cover of ${title}`}
+                    />
+                  )}
+                </div>
+                <div>
+                  <header>
+                    <h2>
+                      <Link to={post.fields.slug} itemProp="url">
+                        <span itemProp="headline">{title}</span>
+                      </Link>
+                    </h2>
+                    <small>{post.frontmatter.date}</small>
+                  </header>
+                  <section>
+                    <p
+                      dangerouslySetInnerHTML={{
+                        __html: post.frontmatter.description || post.excerpt,
+                      }}
+                      itemProp="description"
+                    />
+                  </section>
+                </div>
               </article>
             </li>
           )
@@ -155,6 +167,13 @@ export const pageQuery = graphql`
           date(formatString: "MMMM DD, YYYY")
           title
           description
+          thumbnail {
+            childImageSharp {
+              resize(width: 100, height: 100) {
+                src
+              }
+            }
+          }
         }
       }
     }

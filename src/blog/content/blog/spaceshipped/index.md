@@ -3,9 +3,12 @@ title: SpaceShipped
 date: "2023-04-30T22:12:03.284Z"
 description: "I recommend SpaceShipped as a great multi-use 18 card space merchant adventure."
 tags: ["Board Games", "Review", "Solo Review", "Recommend", "Solo Only"]
+thumbnail: "./spaceshipped.png"
 ---
 
 WIP REVIEW
+
+![SpaceShipped](./spaceshipped.png)
 
 // PNP VERSION
 // SOLO only

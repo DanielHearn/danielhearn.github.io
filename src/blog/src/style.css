@@ -354,6 +354,15 @@ ul {
   padding-left: var(--spacing-6);
 }
 
+.list-item article {
+  display: flex;
+  flex-direction: row;
+}
+
+.list-item article img {
+  margin-right: var(--spacing-6);
+}
+
 /* Media queries */
 
 @media (max-width: 42rem) {
