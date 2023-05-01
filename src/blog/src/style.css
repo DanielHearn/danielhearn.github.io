@@ -344,6 +344,13 @@ footer > div {
   margin-right: var(--spacing-2);
 }
 
+.column-wrap {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: var(--spacing-6);
+}
+
 /* Media queries */
 
 @media (max-width: 42rem) {

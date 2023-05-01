@@ -45,12 +45,24 @@ const BlogIndex = ({ data, location }) => {
           )
         })}
       </ol>
-      <h2>Upcoming Reviews</h2>
-      <ul>
-        <li>Tussie Mussie (Solo)</li>
-        <li>Skulls of Sedlec (Solo)</li>
-        <li>Galdor's Grip (Solo)</li>
-      </ul>
+      <div className="column-wrap">
+        <div>
+          <h2>Upcoming Reviews</h2>
+          <ul>
+            <li>Tussie Mussie (Solo)</li>
+            <li>Skulls of Sedlec (Solo)</li>
+            <li>Galdor's Grip (Solo)</li>
+          </ul>
+        </div>
+        <div>
+          <h2>Interested Games</h2>
+          <ul>
+            <li>Imperium: Horizons</li>
+            <li>One Deck Galaxy</li>
+          </ul>
+        </div>
+      </div>
+
       <h2>My Review Methodology</h2>
       <p>
         While I use a an x out of 10 review system on BoardGameGeek, here I
