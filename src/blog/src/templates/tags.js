@@ -3,29 +3,63 @@ import PropTypes from "prop-types"
 
 import Bio from "../components/bio"
 import Layout from "../components/layout"
-import Seo from "../components/seo"
 import { Link, graphql } from "gatsby"
 
 const Tags = ({ pageContext, data, location }) => {
   const { tag } = pageContext
-  const { edges, totalCount } = data.allMarkdownRemark
+  const { edges } = data.allMarkdownRemark
 
   return (
     <Layout location={location} title={tag}>
       <Bio />
       <div>
         <h1>{tag}</h1>
-        <ul>
+        <ol style={{ listStyle: `none` }}>
           {edges.map(({ node }) => {
-            const { slug } = node.fields
-            const { title } = node.frontmatter
+            const post = node
+
+            const { slug } = post.fields
+            const { title } = post.frontmatter
             return (
-              <li key={slug}>
-                <Link to={slug}>{title}</Link>
+              <li key={slug} className="list-item">
+                <article
+                  className="post-list-item"
+                  itemScope
+                  itemType="http://schema.org/Article"
+                >
+                  <div>
+                    {post.frontmatter.thumbnail && (
+                      <img
+                        src={
+                          post.frontmatter.thumbnail.childImageSharp.resize.src
+                        }
+                        alt={`Cover of ${title}`}
+                      />
+                    )}
+                  </div>
+                  <div>
+                    <header>
+                      <h2>
+                        <Link to={post.fields.slug} itemProp="url">
+                          <span itemProp="headline">{title}</span>
+                        </Link>
+                      </h2>
+                      <small>{post.frontmatter.date}</small>
+                    </header>
+                    <section>
+                      <p
+                        dangerouslySetInnerHTML={{
+                          __html: post.frontmatter.description || post.excerpt,
+                        }}
+                        itemProp="description"
+                      />
+                    </section>
+                  </div>
+                </article>
               </li>
             )
           })}
-        </ul>
+        </ol>
         <Link to="/">Back home</Link>
       </div>
     </Layout>
@@ -71,7 +105,16 @@ export const pageQuery = graphql`
             slug
           }
           frontmatter {
+            date(formatString: "MMMM DD, YYYY")
             title
+            description
+            thumbnail {
+              childImageSharp {
+                resize(width: 100, height: 100) {
+                  src
+                }
+              }
+            }
           }
         }
       }
