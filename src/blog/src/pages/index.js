@@ -130,6 +130,7 @@ const BlogIndex = ({ data, location }) => {
           <ul>
             <li>Imperium: Horizons</li>
             <li>One Deck Galaxy</li>
+            <li>Resist!</li>
           </ul>
         </div>
       </div>
