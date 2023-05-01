@@ -351,6 +351,10 @@ footer > div {
   gap: var(--spacing-6);
 }
 
+ul {
+  padding-left: var(--spacing-6);
+}
+
 /* Media queries */
 
 @media (max-width: 42rem) {
