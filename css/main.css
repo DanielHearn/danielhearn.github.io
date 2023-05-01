@@ -19,7 +19,13 @@
     padding: 0.5em 1em;
   }
   html body .nav__content .nav__title {
-    font-size: 1.5rem;
+    font-size: 1.4rem;
+  }
+  html body .nav__content .nav__title--mobile {
+    display: flex;
+  }
+  html body .nav__content .nav__title--desktop {
+    display: none;
   }
   html body .nav__content .nav__links a {
     padding-left: 1em;
@@ -293,6 +299,9 @@ a:hover {
   font-weight: 800;
   text-transform: uppercase;
   margin: 0;
+}
+.nav__title--mobile {
+  display: none;
 }
 
 nav {

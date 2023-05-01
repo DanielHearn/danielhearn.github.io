@@ -4,6 +4,9 @@
   font-weight: $extra-bold-weight;
   text-transform: uppercase;
   margin: 0;
+  &--mobile {
+    display: none;
+  }
 }
 
 nav {
