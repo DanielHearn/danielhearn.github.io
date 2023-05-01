@@ -16,6 +16,7 @@ module.exports = {
     },
     description: `Board game reviews and tech.`,
     siteUrl: `https://danielhearn.co.uk`,
+    bggUrl: `https://boardgamegeek.com/user/Averkon`,
   },
   pathPrefix: `/blog`,
   plugins: [

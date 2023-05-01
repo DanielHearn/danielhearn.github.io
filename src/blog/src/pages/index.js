@@ -49,7 +49,7 @@ const BlogIndex = ({ data, location }) => {
       <ul>
         <li>Tussie Mussie (Solo)</li>
         <li>Skulls of Sedlec (Solo)</li>
-        <li>One Deck Dungeon (Solo)</li>
+        <li>Galdor's Grip (Solo)</li>
       </ul>
       <h2>My Review Methodology</h2>
       <p>

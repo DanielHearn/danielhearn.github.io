@@ -18,9 +18,7 @@ const Bio = () => {
             name
             summary
           }
-          social {
-            twitter
-          }
+          bggUrl
         }
       }
     }
@@ -28,6 +26,7 @@ const Bio = () => {
 
   // Set these values by editing "siteMetadata" in gatsby-config.js
   const author = data.site.siteMetadata?.author
+  const bggUrl = data.site.siteMetadata?.bggUrl
 
   return (
     <div className="bio">
@@ -44,7 +43,7 @@ const Bio = () => {
       {author?.name && (
         <p>
           Written by <a href="https://www.danielhearn.co.uk">Daniel Hearn</a>{" "}
-          {author?.summary || null}
+          {author?.summary || null} My <a href={bggUrl}>BoardGameGeek</a>.
         </p>
       )}
     </div>
