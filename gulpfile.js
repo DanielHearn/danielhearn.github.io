@@ -43,8 +43,12 @@
     return gulp.src('src/assets/*').pipe(gulp.dest('assets'))
   }
 
-  function blog() {
+  function copyBlog() {
     return gulp.src('src/blog/public/**/**').pipe(gulp.dest('blog'))
+  }
+
+  function copyBlogStatic() {
+    return gulp.src('blog/static/**/**').pipe(gulp.dest('static'))
   }
 
   function favicons() {
@@ -78,7 +82,16 @@
   }
 
   function cleanDist(done) {
-    del.sync(['./js', './css', './favicons', './img', './index.html', './404.html', './blog/'])
+    del.sync([
+      './js',
+      './css',
+      './favicons',
+      './img',
+      './index.html',
+      './404.html',
+      './blog/',
+      './static/',
+    ])
     done()
   }
 
@@ -95,7 +108,17 @@
 
   exports.watch = gulp.series(cleanDist, pug, sass, images, favicons, js, assets, watch, server)
 
-  exports.build = gulp.series(cleanDist, pug, sass, images, favicons, js, assets, blog)
+  exports.build = gulp.series(
+    cleanDist,
+    pug,
+    sass,
+    images,
+    favicons,
+    js,
+    assets,
+    copyBlog,
+    copyBlogStatic,
+  )
 
   exports.default = gulp.series(watch, server)
 })()
