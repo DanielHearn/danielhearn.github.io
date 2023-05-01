@@ -1,32 +1,34 @@
 import React from "react"
 import PropTypes from "prop-types"
 
-// Components
+import Bio from "../components/bio"
+import Layout from "../components/layout"
+import Seo from "../components/seo"
 import { Link, graphql } from "gatsby"
 
-const Tags = ({ pageContext, data }) => {
+const Tags = ({ pageContext, data, location }) => {
   const { tag } = pageContext
   const { edges, totalCount } = data.allMarkdownRemark
-  const tagHeader = `${totalCount} post${
-    totalCount === 1 ? "" : "s"
-  } tagged with "${tag}"`
 
   return (
-    <div>
-      <h1>{tagHeader}</h1>
-      <ul>
-        {edges.map(({ node }) => {
-          const { slug } = node.fields
-          const { title } = node.frontmatter
-          return (
-            <li key={slug}>
-              <Link to={slug}>{title}</Link>
-            </li>
-          )
-        })}
-      </ul>
-      <Link to="/tags">All tags</Link>
-    </div>
+    <Layout location={location} title={tag}>
+      <Bio />
+      <div>
+        <h1>{tag}</h1>
+        <ul>
+          {edges.map(({ node }) => {
+            const { slug } = node.fields
+            const { title } = node.frontmatter
+            return (
+              <li key={slug}>
+                <Link to={slug}>{title}</Link>
+              </li>
+            )
+          })}
+        </ul>
+        <Link to="/">Back home</Link>
+      </div>
+    </Layout>
   )
 }
 
