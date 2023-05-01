@@ -25,8 +25,9 @@ const BlogIndex = ({ data, location }) => {
   return (
     <Layout location={location} title={siteTitle}>
       <Bio />
+      <h2>Recent Reviews</h2>
       <ol style={{ listStyle: `none` }}>
-        {posts.map(post => {
+        {posts.slice(0, 5).map(post => {
           const title = post.frontmatter.title || post.fields.slug
 
           return (
@@ -57,6 +58,35 @@ const BlogIndex = ({ data, location }) => {
           )
         })}
       </ol>
+      <h2>My Review Methodology</h2>
+      <p>
+        While I use a an x out of 10 review system on BoardGameGeek, here I
+        instead classify games as: Highly Recommended, Recommended, Pick up on
+        Sale, Do Not Recommend.
+      </p>
+      <ul>
+        <li>
+          <b>Highly Recommended:</b> These are games I would recommend to nearly
+          everyone regardless of price. Closest number rating would be 8-10/10.
+        </li>
+        <li>
+          <b>Recommended:</b> These are games I would recommend buying once you
+          are satisfied with the highly recommended games. This may include
+          games that I think are good but slightly overpriced. Closest number
+          rating would be 7-8/10.
+        </li>
+        <li>
+          <b>Pick up on Sale:</b> These are games I would recommend picking up
+          only on sale as they can be good experiences, but don't offer as good
+          value or fun as recommended or highly recommended games. Closest
+          number rating would be 6-7/10.
+        </li>
+        <li>
+          <b>Do Not Recommend:</b> These are games I would not recommend
+          regardless of price, due to unfun or broken gameplay. Closest number
+          rating would be 0-6/10.
+        </li>
+      </ul>
     </Layout>
   )
 }
@@ -68,7 +98,7 @@ export default BlogIndex
  *
  * See: https://www.gatsbyjs.com/docs/reference/built-in-components/gatsby-head/
  */
-export const Head = () => <Seo title="All posts" />
+export const Head = () => <Seo title="Home" />
 
 export const pageQuery = graphql`
   {
