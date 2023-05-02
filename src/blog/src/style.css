@@ -330,6 +330,7 @@ footer > div {
 .tag-list {
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
   margin: var(--spacing-0);
   text-transform: capitalize;
 }
