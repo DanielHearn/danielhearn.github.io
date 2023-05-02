@@ -372,6 +372,23 @@ ul {
   grid-template-columns: 1fr 1fr;
 }
 
+.RecommendationTable {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.RecommendationTable__column {
+  display: flex;
+  flex-direction: column;
+}
+
+.RecommendationTable__content {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
 /* Media queries */
 
 @media (max-width: 42rem) {

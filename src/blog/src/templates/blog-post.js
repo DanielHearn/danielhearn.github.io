@@ -4,6 +4,7 @@ import { Link, graphql } from "gatsby"
 import Bio from "../components/bio"
 import Layout from "../components/layout"
 import Seo from "../components/seo"
+import RecommendationTable from "../components/recommendationTable"
 
 import kebabCase from "lodash/kebabCase"
 
@@ -37,6 +38,12 @@ const BlogPostTemplate = ({
           dangerouslySetInnerHTML={{ __html: post.html }}
           itemProp="articleBody"
         />
+        {post.frontmatter.pros?.length && (
+          <RecommendationTable
+            pros={post.frontmatter.pros}
+            cons={post.frontmatter.cons}
+          />
+        )}
         <hr />
         <footer>
           <Bio />
@@ -103,6 +110,8 @@ export const pageQuery = graphql`
         date(formatString: "MMMM DD, YYYY")
         description
         tags
+        pros
+        cons
       }
     }
     previous: markdownRemark(id: { eq: $previousPostId }) {
