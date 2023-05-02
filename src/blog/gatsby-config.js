@@ -9,7 +9,7 @@
  */
 module.exports = {
   siteMetadata: {
-    title: `Daniel Hearn's Blog`,
+    title: `Gaming with Dan`,
     author: {
       name: `Daniel Hearn`,
       summary: `who develops software and plays board games.`,
@@ -109,8 +109,8 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Daniel Hearn's Blog`,
-        short_name: `Daniel Hearn's Blog`,
+        name: `Gaming with Dan`,
+        short_name: `Gaming with Dan`,
         start_url: `/`,
         background_color: `#ffffff`,
         // This will impact how browsers show your PWA/website

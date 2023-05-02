@@ -32,7 +32,7 @@ const Layout = ({ location, title, children }) => {
   if (isRootPath) {
     header = (
       <h1 className="main-heading">
-        <Link to="/">Daniel Hearn's Blog</Link>
+        <Link to="/">Gaming with Dan</Link>
       </h1>
     )
   } else {
@@ -40,7 +40,7 @@ const Layout = ({ location, title, children }) => {
       <>
         {" "}
         <h1 className="main-heading">
-          <Link to="/">Daniel Hearn's Blog</Link>
+          <Link to="/">Gaming with Dan</Link>
         </h1>{" "}
       </>
     )
