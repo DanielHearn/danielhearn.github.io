@@ -12,7 +12,7 @@ module.exports = {
     title: `Gaming with Dan`,
     author: {
       name: `Daniel Hearn`,
-      summary: `who develops software and plays board games.`,
+      summary: `, I develop software and play board games.`,
     },
     description: `Board game reviews and tech.`,
     siteUrl: `https://danielhearn.co.uk`,

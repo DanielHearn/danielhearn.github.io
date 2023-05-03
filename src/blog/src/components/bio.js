@@ -43,7 +43,7 @@ const Bio = () => {
       {author?.name && (
         <p>
           Written by <a href="https://www.danielhearn.co.uk">Daniel Hearn</a>{" "}
-          {author?.summary || null} My <a href={bggUrl}>BoardGameGeek</a>.
+          {author?.summary || null} I'm on <a href={bggUrl}>BoardGameGeek</a>.
         </p>
       )}
     </div>
