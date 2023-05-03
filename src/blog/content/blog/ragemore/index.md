@@ -13,6 +13,17 @@ tags:
   ]
 thumbnail: "./ragemore.png"
 review: "PICK_UP_ON_SALE"
+pros: ["Print and Plays well"]
+cons:
+  [
+    "Limited replayability as I felt finished with the game once I had won a few times",
+  ]
+buy_links:
+  [
+    "Print and Play: https://www.pnparcade.com/collections/solo-games/products/ragemore",
+    "Physical US: https://buttonshygames.com/products/ragemore",
+    "Physical UK: https://buttonshygames.com/products/ragemore-uk-only",
+  ]
 ---
 
 WIP REVIEW

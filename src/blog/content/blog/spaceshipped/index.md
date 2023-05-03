@@ -16,7 +16,7 @@ thumbnail: "./spaceshipped.png"
 pros:
   [
     "Achieves the theme's mechanics with only 18 cards",
-    "PNP well",
+    "Print and Plays well",
     "Choices for riskier plays or longer plays that might risk to losing to the enemy",
   ]
 cons:
@@ -25,6 +25,12 @@ cons:
     "Randomness can suddenly destroy your ship and end the game without any notice and time to prepare",
   ]
 review: "RECOMMENDED"
+buy_links:
+  [
+    "Print and Play: https://www.pnparcade.com/products/spaceshipped",
+    "Physical US: https://buttonshygames.com/products/spaceshipped",
+    "Physical UK: https://buttonshygames.com/products/spaceshipped-uk-only",
+  ]
 ---
 
 WIP REVIEW

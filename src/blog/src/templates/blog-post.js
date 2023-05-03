@@ -51,6 +51,21 @@ const BlogPostTemplate = ({
             review={post.frontmatter.review}
           />
         )}
+        {post.frontmatter.buy_links && (
+          <>
+            <h4>Available to Buy At</h4>{" "}
+            <ul>
+              {Object.keys(post.frontmatter.buy_links).map(key => {
+                const parts = post.frontmatter.buy_links[key].split(": ")
+                return (
+                  <li>
+                    {parts[0]}: <a href={parts[1]}>{parts[1]}</a>
+                  </li>
+                )
+              })}
+            </ul>
+          </>
+        )}
         <hr />
         <footer>
           <Bio />
@@ -120,6 +135,7 @@ export const pageQuery = graphql`
         pros
         cons
         review
+        buy_links
       }
     }
     previous: markdownRemark(id: { eq: $previousPostId }) {
