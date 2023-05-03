@@ -2,7 +2,15 @@
 title: Death Valley
 date: "2023-04-30T22:12:03.284Z"
 description: "I recommend Death Valley as a small fun tableau building game."
-tags: ["Board Games", "Review", "Solo Review", "Recommend"]
+tags:
+  [
+    "Board Games",
+    "Review",
+    "Solo Review",
+    "Recommend",
+    "Print and Play",
+    "Button Shy Games",
+  ]
 thumbnail: "./deathvalley.png"
 ---
 
