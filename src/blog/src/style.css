@@ -55,6 +55,11 @@
   --color-heading: #343434;
   --color-heading-black: 020202;
   --color-accent: #d1dce5;
+  --color-white: #ffffff;
+  --color-green: #89bc3f;
+  --color-light-green: #efffd7;
+  --color-light-red: #ffcccc;
+  --color-red: #bc3f3f;
 }
 
 /* HTML elements */
@@ -373,9 +378,39 @@ ul {
 }
 
 .RecommendationTable {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: var(--spacing-6);
+}
+
+.RecommendationTable ul {
+  list-style: none;
+  padding: var(--spacing-2);
+  margin: 0;
+}
+
+.RecommendationTable__header {
+  padding: var(--spacing-2);
+  background: var(--color-text);
+  color: var(--color-accent);
+}
+
+.RecommendationTable__column--left .RecommendationTable__header {
+  background: var(--color-green);
+  color: var(--color-white);
+}
+
+.RecommendationTable__column--left .RecommendationTable__content {
+  background: var(--color-light-green);
+}
+
+.RecommendationTable__column--right .RecommendationTable__header {
+  background: var(--color-red);
+  color: var(--color-white);
+}
+
+.RecommendationTable__column--right .RecommendationTable__content {
+  background: var(--color-light-red);
 }
 
 .RecommendationTable__column {
@@ -400,7 +435,10 @@ ul {
   ol {
     list-style-position: inside;
   }
-    .table--2 {
-      grid-template-columns: 1fr;
-    }
+  .table--2 {
+    grid-template-columns: 1fr;
+  }
+  .RecommendationTable {
+    grid-template-columns: 1fr;
+  }
 }
