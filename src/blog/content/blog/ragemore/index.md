@@ -12,6 +12,7 @@ tags:
     "Button Shy Games",
   ]
 thumbnail: "./ragemore.png"
+review: "PICK_UP_ON_SALE"
 ---
 
 WIP REVIEW

@@ -12,6 +12,7 @@ tags:
     "Button Shy Games",
   ]
 thumbnail: "./sprawlopolis.png"
+review: "HIGHLY_RECOMMENDED"
 ---
 
 WIP REVIEW
@@ -41,5 +42,3 @@ CONS:
 
 - Some scoring combinations are much easier or harder than others, making some combinations unfun
 - Co-op mode is not well designed as you just takes turns without showing your cards to avoid alpha gamers
-
-HIGHLY RECOMMENDED

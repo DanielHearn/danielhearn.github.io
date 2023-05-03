@@ -5,6 +5,7 @@ import Bio from "../components/bio"
 import Layout from "../components/layout"
 import Seo from "../components/seo"
 import RecommendationTable from "../components/recommendationTable"
+import ReviewResult from "../components/reviewResult"
 
 import kebabCase from "lodash/kebabCase"
 
@@ -42,6 +43,12 @@ const BlogPostTemplate = ({
           <RecommendationTable
             pros={post.frontmatter.pros}
             cons={post.frontmatter.cons}
+          />
+        )}
+        {post.frontmatter.review && (
+          <ReviewResult
+            game={post.frontmatter.title}
+            review={post.frontmatter.review}
           />
         )}
         <hr />
@@ -112,6 +119,7 @@ export const pageQuery = graphql`
         tags
         pros
         cons
+        review
       }
     }
     previous: markdownRemark(id: { eq: $previousPostId }) {

@@ -12,6 +12,7 @@ tags:
     "Button Shy Games",
   ]
 thumbnail: "./deathvalley.png"
+review: "RECOMMENDED"
 ---
 
 WIP REVIEW
