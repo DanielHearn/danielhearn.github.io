@@ -75,7 +75,6 @@ const BlogIndex = ({ data, location }) => {
       <ol style={{ listStyle: `none` }}>
         {posts.slice(0, 5).map(post => {
           const title = post.frontmatter.title || post.fields.slug
-          console.log(post)
           return (
             <li key={post.fields.slug} className="list-item">
               <article
