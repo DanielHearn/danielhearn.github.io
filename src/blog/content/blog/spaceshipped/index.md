@@ -33,11 +33,6 @@ buy_links:
   ]
 ---
 
-WIP REVIEW
-
 ![SpaceShipped](./spaceshipped.png)
 
-// PNP VERSION
-// SOLO only
-
-Randomness can suddenly destroy your ship and end the game without any notice and time to prepare. Orbital encounters have no warning but can cause 3 damage (your ship without shields only has 3 health). These can combo with planetside encounters to cause additional unavoidable damage without expert navigator
+I reviewed the print and play version from [PNP Arcade](https://www.pnparcade.com/products/spaceshipped) for $3.

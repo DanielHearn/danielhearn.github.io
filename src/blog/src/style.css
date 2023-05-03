@@ -375,6 +375,21 @@ ul {
 
 .table--2 {
   grid-template-columns: 1fr 1fr;
+  gap: var(--spacing-4)
+}
+
+.table--collection h3 {
+  margin: 0;
+  display: flex;
+  flex: 1;
+}
+
+.table--collection a {
+  padding: var(--spacing-4);
+  background: var(--color-primary);
+  color: var(--color-white);
+  border-radius: var(--spacing-4);
+  font-weight: 600;
 }
 
 .RecommendationTable {

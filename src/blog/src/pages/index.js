@@ -14,17 +14,8 @@ const BlogIndex = ({ data, location }) => {
     <Layout location={location} title={siteTitle}>
       <Bio />
       <h2>Reviews</h2>
-      <div className="table table--2">
+      <div className="table table--collection table--2">
         <div>
-          <StaticImage
-            layout="fixed"
-            formats={["auto", "webp", "avif"]}
-            src="../images/sprawlopolis.png"
-            width={50}
-            height={50}
-            quality={95}
-            alt="Sprawlopolis"
-          />
           <h3>
             <Link to="/tags/highly-recommend/" itemProp="url">
               <span itemProp="headline">Highly Recommended</span>
@@ -32,15 +23,6 @@ const BlogIndex = ({ data, location }) => {
           </h3>
         </div>
         <div>
-          <StaticImage
-            layout="fixed"
-            formats={["auto", "webp", "avif"]}
-            src="../images/deathvalley.png"
-            width={50}
-            height={50}
-            quality={95}
-            alt="Death Valley"
-          />
           <h3>
             <Link to="/tags/recommend/" itemProp="url">
               <span itemProp="headline">Recommended</span>
@@ -48,18 +30,16 @@ const BlogIndex = ({ data, location }) => {
           </h3>
         </div>
         <div>
-          <StaticImage
-            layout="fixed"
-            formats={["auto", "webp", "avif"]}
-            src="../images/ragemore.png"
-            width={50}
-            height={50}
-            quality={95}
-            alt="Ragemore"
-          />
           <h3>
             <Link to="/tags/pick-up-on-sale/" itemProp="url">
               <span itemProp="headline">Pick up on Sale</span>
+            </Link>
+          </h3>
+        </div>
+        <div>
+          <h3>
+            <Link to="/tags/print-and-play/" itemProp="url">
+              <span itemProp="headline">Print and Play</span>
             </Link>
           </h3>
         </div>

@@ -26,14 +26,6 @@ buy_links:
   ]
 ---
 
-WIP REVIEW
-
 ![Ragemore Valley](./ragemore.png)
 
-// PNP VERSION
-
-PROS:
-
-CONS:
-
-Pick up on Sale
+I reviewed the print and play version from [PNP Arcade](https://www.pnparcade.com/collections/solo-games/products/ragemore) for $3.

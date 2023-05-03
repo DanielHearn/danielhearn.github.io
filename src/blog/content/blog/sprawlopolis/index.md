@@ -35,16 +35,6 @@ buy_links:
   ]
 ---
 
-WIP REVIEW
-
 ![Sprawlopolis](./sprawlopolis.png)
 
-// SETUP PICK
-
-// PROGRESS PIC
-
-// END PIC
-
-// SOLO CHALLENGE EXAMPLE + DISCORD LINK
-
-// EXPANSIONS, NOT FULLY REVIEWED
+I reviewed the [Quined Games](http://xmedia.quined.nl/shop/sprawlopolis/) version that I bought from [Zatu Games](https://www.board-game.co.uk/product/sprawlopolis/).
