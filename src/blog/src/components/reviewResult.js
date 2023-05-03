@@ -6,7 +6,7 @@ const reviewDescription = {
   RECOMMENDED:
     "is a game I would recommend buying once you are satisfied with the highly recommended games.",
   PICK_UP_ON_SALE:
-    "is a game I would recommend picking up only on sale as they can be good experiences, but don't offer as good value or fun as recommended or highly recommended games.",
+    "is a game I would recommend only picking up on sale as it can be a good experience, but doesn't offer as good value or fun as recommended games.",
   DO_NOT_RECOMMEND:
     "is a game I would not recommend regardless of price, due to unfun or broken gameplay.",
 }
