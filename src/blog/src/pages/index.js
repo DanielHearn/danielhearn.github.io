@@ -16,32 +16,32 @@ const BlogIndex = ({ data, location }) => {
       <h2>Reviews</h2>
       <div className="table table--collection table--2">
         <div>
-          <h3>
+          <h4>
             <Link to="/tags/highly-recommend/" itemProp="url">
               <span itemProp="headline">Highly Recommended</span>
             </Link>
-          </h3>
+          </h4>
         </div>
         <div>
-          <h3>
+          <h4>
             <Link to="/tags/recommend/" itemProp="url">
               <span itemProp="headline">Recommended</span>
             </Link>
-          </h3>
+          </h4>
         </div>
         <div>
-          <h3>
+          <h4>
             <Link to="/tags/pick-up-on-sale/" itemProp="url">
               <span itemProp="headline">Pick up on Sale</span>
             </Link>
-          </h3>
+          </h4>
         </div>
         <div>
-          <h3>
+          <h4>
             <Link to="/tags/print-and-play/" itemProp="url">
               <span itemProp="headline">Print and Play</span>
             </Link>
-          </h3>
+          </h4>
         </div>
         {/*<div>
           <h3>

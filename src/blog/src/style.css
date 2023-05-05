@@ -246,11 +246,11 @@ a:focus {
 }
 
 .global-wrapper[data-is-root-path="true"] .bio {
-  margin-bottom: var(--spacing-20);
+  margin-bottom: var(--spacing-10);
 }
 
 .global-header {
-  margin-bottom: var(--spacing-12);
+  margin-bottom: var(--spacing-8);
 }
 
 footer {
@@ -296,7 +296,7 @@ footer > div {
 
 .bio {
   display: flex;
-  margin-bottom: var(--spacing-16);
+  margin-bottom: var(--spacing-10);
 }
 
 .bio p {
@@ -378,7 +378,7 @@ ul {
   gap: var(--spacing-4)
 }
 
-.table--collection h3 {
+.table--collection h4 {
   margin: 0;
   display: flex;
   flex: 1;
@@ -469,5 +469,8 @@ li a {
   }
   .RecommendationTable {
     grid-template-columns: 1fr;
+  }
+  .main-heading {
+    font-size: var(--fontSize-6);
   }
 }
