@@ -449,6 +449,10 @@ ul {
   margin: var(--spacing-6) 0;
 }
 
+li a {
+  word-break: break-word;
+}
+
 /* Media queries */
 
 @media (max-width: 42rem) {
