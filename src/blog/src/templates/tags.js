@@ -13,7 +13,7 @@ const Tags = ({ pageContext, data, location }) => {
     <Layout location={location} title={tag}>
       <Bio />
       <div>
-        <h1>{tag}</h1>
+        <h2>{tag}</h2>
         <ol style={{ listStyle: `none` }}>
           {edges.map(({ node }) => {
             const post = node
