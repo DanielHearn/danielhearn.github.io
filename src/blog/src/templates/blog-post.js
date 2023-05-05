@@ -6,8 +6,7 @@ import Layout from "../components/layout"
 import Seo from "../components/seo"
 import RecommendationTable from "../components/recommendationTable"
 import ReviewResult from "../components/reviewResult"
-
-import kebabCase from "lodash/kebabCase"
+import Tags from "../components/tags"
 
 const BlogPostTemplate = ({
   data: { previous, next, site, markdownRemark: post },
@@ -15,6 +14,8 @@ const BlogPostTemplate = ({
 }) => {
   const siteTitle = site.siteMetadata?.title || `Title`
   const tags = post.frontmatter.tags
+  const title = post.frontmatter.title
+  const date = post.frontmatter.date
 
   return (
     <Layout location={location} title={siteTitle}>
@@ -24,16 +25,9 @@ const BlogPostTemplate = ({
         itemType="http://schema.org/Article"
       >
         <header>
-          <h1 itemProp="headline">{post.frontmatter.title}</h1>
-          <p>{post.frontmatter.date}</p>
-          <div className="tag-list">
-            {tags.map((tag, i) => (
-              <div key={tag} className="tag">
-                <Link to={`/tags/${kebabCase(tag)}/`}>{tag}</Link>
-                {i !== tags.length - 1 && tags.length > 1 ? <span>,</span> : ""}
-              </div>
-            ))}
-          </div>
+          <h1 itemProp="headline">{title}</h1>
+          <p>{date}</p>
+          {tags?.length && <Tags tags={tags} />}
         </header>
         <section
           dangerouslySetInnerHTML={{ __html: post.html }}
