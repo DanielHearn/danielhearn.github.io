@@ -43,6 +43,7 @@ const BlogPostTemplate = ({
           <ReviewResult
             game={post.frontmatter.title}
             review={post.frontmatter.review}
+            conclusion={post.frontmatter.conclusion}
           />
         )}
         {post.frontmatter.buy_links && (
@@ -130,6 +131,7 @@ export const pageQuery = graphql`
         cons
         review
         buy_links
+        conclusion
       }
     }
     previous: markdownRemark(id: { eq: $previousPostId }) {

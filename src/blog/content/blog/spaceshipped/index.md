@@ -18,11 +18,13 @@ pros:
     "Achieves the theme's mechanics with only 18 cards",
     "Print and Plays well",
     "Choices for riskier plays or longer plays that might risk to losing to the enemy",
+    "Great multi use cards that packs lots of gameplay into very little",
   ]
 cons:
   [
-    "Balance, some upgrades seem worse than others even when considering different builds",
-    "Randomness can suddenly destroy your ship and end the game without any notice and time to prepare",
+    "Balance, some upgrades statistically worse than others",
+    "Randomness can suddenly end the game without any notice and time to prepare",
+    "Some games can drag on due to poor market cards, resulting in inconsistent game lengths",
   ]
 review: "RECOMMENDED"
 buy_links:
@@ -31,6 +33,7 @@ buy_links:
     "Physical US: https://buttonshygames.com/products/spaceshipped",
     "Physical UK: https://buttonshygames.com/products/spaceshipped-uk-only",
   ]
+conclusion: "Spaceshipped is great but flawed, the game feels like a space merchant adventure with very little. But the randomness really reduces the potential fun and could be easily improved with a few tweaks to the damage numbers."
 ---
 
 ![SpaceShipped](./spaceshipped.png)

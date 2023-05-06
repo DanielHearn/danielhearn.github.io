@@ -15,17 +15,17 @@ thumbnail: "./sprawlopolis.png"
 review: "HIGHLY_RECOMMENDED"
 pros:
   [
-    "Massively replayable 816 scoring combinations",
-    "Easy to pick up and clear away",
+    "Massively replayable with 816 scoring combinations",
+    "Easy to pick up and play",
     "Expansions are small but add additional complexity (not all are great though)",
-    "Active solo community challenges on the button shy discord",
+    "Active solo challenges on the Button Shy Games community discord",
     "Very good value",
-    "Can choose to play quicker or slower depending on how far you want to plan ahead",
+    "Simple mechanics but with surprising depth",
   ]
 cons:
   [
     "Some scoring combinations are much easier or harder than others, making some combinations unfun",
-    "Co-op mode is not well designed as you just takes turns without showing your cards to avoid alpha gamers",
+    "Co-op mode is not well designed as you just work together by taking turns without showing your cards",
   ]
 buy_links:
   [
@@ -33,6 +33,7 @@ buy_links:
     "Physical US: https://buttonshygames.com/products/sprawlopolis",
     "Physical UK: https://buttonshygames.com/products/sprawlopolis-uk-only",
   ]
+conclusion: "Sprawlopolis is fantastic as a solo game with simple gameplay that manages to have plenty of depth with very little. Random scoring goals adds so much replayability making it one of the best value Button Shy Games. Though the multiplayer is lackluster so I would recommend trying purpose built multiplayer Button Shy Games if you want it for that."
 ---
 
 ![Sprawlopolis](./sprawlopolis.png)

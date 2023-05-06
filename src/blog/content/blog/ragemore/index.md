@@ -13,10 +13,17 @@ tags:
   ]
 thumbnail: "./ragemore.png"
 review: "PICK_UP_ON_SALE"
-pros: ["Print and Plays well"]
+pros:
+  [
+    "Print and Plays well",
+    "Great art",
+    "Balancing avoiding the multiple loss conditions feels good",
+  ]
 cons:
   [
     "Limited replayability as I felt finished with the game once I had won a few times",
+    "Feels like it needed additional difficulty modes or mechanics",
+    "My strategy to win was consistently available even with random card draws",
   ]
 buy_links:
   [
@@ -24,6 +31,7 @@ buy_links:
     "Physical US: https://buttonshygames.com/products/ragemore",
     "Physical UK: https://buttonshygames.com/products/ragemore-uk-only",
   ]
+conclusion: "Rage feels underbaked, the amount of choices per turn in theory gives room for complexity but the strategy I found for winning ended up being consistently usable. The result is a game that feels like it needed an extra mechanic to feel fun after 5 games."
 ---
 
 ![Ragemore Valley](./ragemore.png)
