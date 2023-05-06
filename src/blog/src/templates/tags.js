@@ -3,12 +3,13 @@ import PropTypes from "prop-types"
 
 import Bio from "../components/bio"
 import Layout from "../components/layout"
+import Seo from "../components/seo"
 import { Link, graphql } from "gatsby"
 
 const Tags = ({ pageContext, data, location }) => {
   const { tag } = pageContext
   const { edges } = data.allMarkdownRemark
-
+  console.log(tag)
   return (
     <Layout location={location} title={tag}>
       <Bio />
@@ -63,6 +64,15 @@ const Tags = ({ pageContext, data, location }) => {
         <Link to="/">Back home</Link>
       </div>
     </Layout>
+  )
+}
+
+export const Head = ({ pageContext, data }) => {
+  return (
+    <Seo
+      title={pageContext.tag}
+      description={`All posts for the tag ${pageContext.tag}`}
+    />
   )
 }
 
