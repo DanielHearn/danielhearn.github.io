@@ -9,7 +9,7 @@ import { Link, graphql } from "gatsby"
 const Tags = ({ pageContext, data, location }) => {
   const { tag } = pageContext
   const { edges } = data.allMarkdownRemark
-  console.log(tag)
+
   return (
     <Layout location={location} title={tag}>
       <Bio />
