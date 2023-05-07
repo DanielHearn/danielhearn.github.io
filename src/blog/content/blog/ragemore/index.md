@@ -12,7 +12,7 @@ tags:
     "Button Shy Games",
   ]
 thumbnail: "./ragemore.png"
-review: "PICK_UP_ON_SALE"
+review: "Pick Up On Sale"
 pros:
   [
     "Print and Plays well",

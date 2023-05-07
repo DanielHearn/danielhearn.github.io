@@ -49,6 +49,7 @@
   --fontSize-5: 2.074rem;
   --fontSize-6: 2.488rem;
   --fontSize-7: 2.986rem;
+  --color-light-primary: #dfd7ff;
   --color-primary: #9981FF;
   --color-text: #020202;
   --color-text-light: #505050;
@@ -443,11 +444,23 @@ ul {
 .ReviewResult {
   display: flex;
   flex: 1;
+  flex-direction: column;
+  margin: var(--spacing-6) 0;
+}
+
+.ReviewResult__header {
+  display: flex;
+  flex: 1;
   padding: var(--spacing-4);
-  border-radius: var(--spacing-4);
   color: var(--color-white);
   background: var(--color-primary);
-  margin: var(--spacing-6) 0;
+}
+
+.ReviewResult__content {
+  display: flex;
+  flex: 1;
+  padding: var(--spacing-4);
+  background: var(--color-light-primary);
 }
 
 li a {

@@ -12,7 +12,7 @@ tags:
     "Button Shy Games",
   ]
 thumbnail: "./sprawlopolis.png"
-review: "HIGHLY_RECOMMENDED"
+review: "Highly Recommended"
 pros:
   [
     "Massively replayable with 816 scoring combinations",

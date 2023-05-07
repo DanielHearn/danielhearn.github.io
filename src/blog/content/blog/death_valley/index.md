@@ -12,7 +12,7 @@ tags:
     "Button Shy Games",
   ]
 thumbnail: "./deathvalley.png"
-review: "RECOMMENDED"
+review: "Recommended"
 pros:
   [
     "Print and Plays well",

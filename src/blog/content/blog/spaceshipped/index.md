@@ -26,7 +26,7 @@ cons:
     "Randomness can suddenly end the game without any notice and time to prepare",
     "Some games can drag on due to poor market cards, resulting in inconsistent game lengths",
   ]
-review: "RECOMMENDED"
+review: "Recommended"
 buy_links:
   [
     "Print and Play: https://www.pnparcade.com/products/spaceshipped",
