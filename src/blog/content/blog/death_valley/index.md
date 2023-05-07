@@ -19,7 +19,7 @@ pros:
     "Great art",
     "Unusual theme that works suprisingly well",
     "Tableau building with opportunity for good combos",
-    "Consistent playtime makes it great to fit in during lunch",
+    "Consistent playtime makes it great to fit in during breaks",
     "Panamint City expansion adds extra variety as you can swap out cards from the base game",
   ]
 cons:
@@ -41,6 +41,24 @@ conclusion: "Death Valley is great as a solo tableau builder, with push your luc
 
 I reviewed the print and play version from [PNP Arcade](https://www.pnparcade.com/products/death-valley) for $3.
 
-Death valley comes with 2 multiplayer modes and a solo mode that is the focus of this review. The bot in the solo mode is easy to use an helps give the game a very consistent play length making it a great choice for lunchtimes.
+### Components
 
-You shuffle and draw deck and play the top card as a faceup desert card. In each turn you can choose between playing the top facedown card from the deck or the desert card into your journey. Your journey contains cards you can score from but you have to be careful to avoid busting by having 3 cards of the same type, this causes you to clear your journey of cards and put the card that caused the bust into your discard pile. The other option is to rest by moving a card from your journey into your scrapbook to keep it safe as they cannot be lost due to busting with the downside of scrapbook cards not scoring for stars. This gives great push your luck where busting can cause huge consequences. You can also hide journey cards when resting while plays into certain combos while allowing you to avoid busting by hiding cards with duplicated types.
+Death valley like other Button Shy Games, consists of 18 cards with only one side with gameplay content. Each card has great art based on the real life aspect of Death Valley it represents along with the card name, tableau mechnic, card type, and details on the real aspect of the card.
+
+With the physical version it comes with a wallet to store the cards, while for my print and play version I assembled a tuckbox from BoardGameGeek.
+
+### Gameplay
+
+Death valley comes with 2 multiplayer modes and a solo mode that is the focus of this review. The bot in the solo mode is easy to use an helps give the game a very consistent play length making it a great choice during lunch breaks.
+
+You shuffle and draw deck and play the top card as a faceup desert card. In each turn you can choose between playing the top facedown card from the deck or the desert card into your journey. Your journey contains cards you can score from but you have to be careful to avoid busting by having 3 cards of the same type, this causes you to clear your journey of cards and put the card that caused the bust into your discard pile. The other option is to rest by moving a card from your journey into your scrapbook to keep it safe as they cannot be lost due to busting with the downside of scrapbook cards not scoring for stars. This gives great push your luck where busting can cause huge consequences. You can also hide journey cards when resting which plays into certain combos while allowing you to avoid busting by hiding cards with duplicated types.
+
+The bot has a few possible actions with simple criteria for which one it completes, making it very easy to use. The bot will attempt to bust you, so you need to keep track of the bot's journey cards to know how many of each card type it has which allows to work out how many cards of each type would still be available in the deck.
+
+The series of player and bot turns continues until one card is faceup in the desert. This triggers the end of the game and scoring begins. The bot doesn't use the tableau mechanics of it's card due to the potential placement issues it wouldn't be able to achieve, instead it gets points per star and the positive points listed in the tableau mechanics per cards.
+
+### Panamint City Expansion
+
+Sadly the only expansion for Death Valley, it includes 6 new cards across the card types in the base game. When using the expansion you switch out any number of base game cards with the expansion cards, this gives greater replayability than the base game as tableau combos are harder to predict. Some of these cards also work well with the scrapbook hiding mechanic which felt underutilised in the base game.
+
+### Conclusion
