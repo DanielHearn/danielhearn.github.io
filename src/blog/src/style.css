@@ -470,6 +470,15 @@ li a {
 /* Media queries */
 
 @media (max-width: 42rem) {
+  :root {
+    --fontSize-1: 1rem;
+    --fontSize-2: 1.125rem;
+    --fontSize-3: 1.2rem;
+    --fontSize-4: 1.44rem;
+    --fontSize-5: 1.728rem;
+    --fontSize-6: 2.074rem;
+    --fontSize-7: 2.488rem;
+  }
   blockquote {
     padding: var(--spacing-0) var(--spacing-0) var(--spacing-0) var(--spacing-4);
     margin-left: var(--spacing-0);
