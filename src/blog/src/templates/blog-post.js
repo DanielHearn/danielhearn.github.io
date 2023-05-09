@@ -77,35 +77,35 @@ const BlogPostTemplate = ({
               .map(post => {
                 const title = post.frontmatter.title || post.fields.slug
                 return (
-                  <li key={post.fields.slug} className="list-item">
-                    <article
-                      className="post-list-item"
-                      itemScope
-                      itemType="http://schema.org/Article"
-                    >
-                      <div>
-                        {post.frontmatter.thumbnail && (
-                          <img
-                            src={
-                              post.frontmatter.thumbnail.childImageSharp.resize
-                                .src
-                            }
-                            alt={`Cover of ${title}`}
-                          />
-                        )}
-                      </div>
-                      <div>
-                        <header>
-                          <h4>
-                            <Link to={post.fields.slug} itemProp="url">
+                  <Link to={post.fields.slug} itemProp="url">
+                    <li key={post.fields.slug} className="list-item">
+                      <article
+                        className="post-list-item"
+                        itemScope
+                        itemType="http://schema.org/Article"
+                      >
+                        <div className="related-content__header">
+                          {post.frontmatter.thumbnail && (
+                            <img
+                              src={
+                                post.frontmatter.thumbnail.childImageSharp
+                                  .resize.src
+                              }
+                              alt={`Cover of ${title}`}
+                            />
+                          )}
+                        </div>
+                        <div className="related-content__title">
+                          <header>
+                            <h4>
                               <span itemProp="headline">{title}</span>
-                            </Link>
-                          </h4>
-                          <small>{post.frontmatter.date}</small>
-                        </header>
-                      </div>
-                    </article>
-                  </li>
+                            </h4>
+                            <small>{post.frontmatter.date}</small>
+                          </header>
+                        </div>
+                      </article>
+                    </li>
+                  </Link>
                 )
               })}
           </ol>
@@ -161,6 +161,7 @@ export const pageQuery = graphql`
           id
           frontmatter {
             title
+            date(formatString: "MMMM DD, YYYY")
             thumbnail {
               childImageSharp {
                 resize(width: 200, height: 200) {
