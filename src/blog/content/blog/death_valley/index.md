@@ -35,7 +35,10 @@ buy_links:
     "Physical UK: https://buttonshygames.com/products/death-valley-uk-only",
   ]
 conclusion: "Death Valley is great as a solo tableau builder, with push your luck that gives tension when drawing from the deck. Pulling off combos feels satisying though the limited number of cards and mechanics impacts the replayability and possible options."
-relatedPosts: []
+relatedPosts:
+  - "/spaceshipped/"
+  - "/sprawlopolis/"
+  - "/ragemore/"
 ---
 
 ![Death Valley tuckbox and cards](./death_intro.jpg)
