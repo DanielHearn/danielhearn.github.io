@@ -16,7 +16,6 @@ const BlogPostTemplate = ({
   const tags = post.frontmatter.tags
   const title = post.frontmatter.title
   const date = post.frontmatter.date
-  console.log(relatedPosts)
 
   return (
     <Layout location={location} title={siteTitle}>

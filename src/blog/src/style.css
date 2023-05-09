@@ -329,6 +329,10 @@ footer > div {
   margin: var(--spacing-0);
 }
 
+.blog-post ol, .blog-post ul {
+  margin-left: var(--spacing-4)
+}
+
 .gatsby-highlight {
   margin-bottom: var(--spacing-8);
 }
@@ -509,6 +513,7 @@ li a {
 .related-content .post-list-item img {
   margin: 0;
 }
+
 
 /* Media queries */
 
