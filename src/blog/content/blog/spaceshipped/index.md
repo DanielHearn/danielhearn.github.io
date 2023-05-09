@@ -34,6 +34,7 @@ buy_links:
     "Physical UK: https://buttonshygames.com/products/spaceshipped-uk-only",
   ]
 conclusion: "Spaceshipped is great but flawed, the game feels like a space merchant adventure with very little. But the randomness really reduces the potential fun and could be easily improved with a few tweaks to the damage numbers."
+relatedPosts: []
 ---
 
 ![SpaceShipped](./spaceshipped.png)

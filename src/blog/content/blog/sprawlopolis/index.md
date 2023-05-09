@@ -34,6 +34,7 @@ buy_links:
     "Physical UK: https://buttonshygames.com/products/sprawlopolis-uk-only",
   ]
 conclusion: "Sprawlopolis is fantastic as a solo game with simple gameplay that manages to have plenty of depth with very little. Random scoring goals adds so much replayability making it one of the best value Button Shy Games. Though the multiplayer is lackluster so I would recommend trying purpose built multiplayer Button Shy Games if you want it for that."
+relatedPosts: []
 ---
 
 ![Sprawlopolis](./sprawlopolis.png)

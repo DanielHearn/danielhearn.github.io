@@ -32,6 +32,10 @@ buy_links:
     "Physical UK: https://buttonshygames.com/products/ragemore-uk-only",
   ]
 conclusion: "Rage feels underbaked, the amount of choices per turn in theory gives room for complexity but the strategy I found for winning ended up being consistently usable. The result is a game that feels like it needed an extra mechanic to feel fun after 5 games."
+relatedPosts:
+  - "/spaceshipped/"
+  - "/sprawlopolis/"
+  - "/death_valley/"
 ---
 
 ![Ragemore Valley](./ragemore.png)

@@ -9,13 +9,14 @@ import ReviewResult from "../components/reviewResult"
 import Tags from "../components/tags"
 
 const BlogPostTemplate = ({
-  data: { previous, next, site, markdownRemark: post },
+  data: { site, markdownRemark: post, relatedPosts, fields },
   location,
 }) => {
   const siteTitle = site.siteMetadata?.title || `Title`
   const tags = post.frontmatter.tags
   const title = post.frontmatter.title
   const date = post.frontmatter.date
+  console.log(relatedPosts)
 
   return (
     <Layout location={location} title={siteTitle}>
@@ -53,7 +54,7 @@ const BlogPostTemplate = ({
               {Object.keys(post.frontmatter.buy_links).map(key => {
                 const parts = post.frontmatter.buy_links[key].split(": ")
                 return (
-                  <li>
+                  <li key={key}>
                     {parts[0]}: <a href={parts[1]}>{parts[1]}</a>
                   </li>
                 )
@@ -66,32 +67,50 @@ const BlogPostTemplate = ({
           <Bio />
         </footer>
       </article>
-      <nav className="blog-post-nav">
-        <ul
-          style={{
-            display: `flex`,
-            flexWrap: `wrap`,
-            justifyContent: `space-between`,
-            listStyle: `none`,
-            padding: 0,
-          }}
-        >
-          <li>
-            {previous && (
-              <Link to={previous.fields.slug} rel="prev">
-                ← {previous.frontmatter.title}
-              </Link>
-            )}
-          </li>
-          <li>
-            {next && (
-              <Link to={next.fields.slug} rel="next">
-                {next.frontmatter.title} →
-              </Link>
-            )}
-          </li>
-        </ul>
-      </nav>
+      {relatedPosts?.edges?.length > 0 && (
+        <>
+          <h3>Related Content</h3>
+          <ol className="related-content" style={{ listStyle: `none` }}>
+            {relatedPosts.edges
+              .slice(0, 3)
+              .map(post => post.node)
+              .map(post => {
+                const title = post.frontmatter.title || post.fields.slug
+                return (
+                  <li key={post.fields.slug} className="list-item">
+                    <article
+                      className="post-list-item"
+                      itemScope
+                      itemType="http://schema.org/Article"
+                    >
+                      <div>
+                        {post.frontmatter.thumbnail && (
+                          <img
+                            src={
+                              post.frontmatter.thumbnail.childImageSharp.resize
+                                .src
+                            }
+                            alt={`Cover of ${title}`}
+                          />
+                        )}
+                      </div>
+                      <div>
+                        <header>
+                          <h4>
+                            <Link to={post.fields.slug} itemProp="url">
+                              <span itemProp="headline">{title}</span>
+                            </Link>
+                          </h4>
+                          <small>{post.frontmatter.date}</small>
+                        </header>
+                      </div>
+                    </article>
+                  </li>
+                )
+              })}
+          </ol>
+        </>
+      )}
     </Layout>
   )
 }
@@ -108,11 +127,7 @@ export const Head = ({ data: { markdownRemark: post } }) => {
 export default BlogPostTemplate
 
 export const pageQuery = graphql`
-  query BlogPostBySlug(
-    $id: String!
-    $previousPostId: String
-    $nextPostId: String
-  ) {
+  query BlogPostBySlug($id: String!, $relatedPosts: [String!]!) {
     site {
       siteMetadata {
         title
@@ -133,21 +148,31 @@ export const pageQuery = graphql`
         buy_links
         conclusion
       }
-    }
-    previous: markdownRemark(id: { eq: $previousPostId }) {
+
       fields {
         slug
       }
-      frontmatter {
-        title
-      }
     }
-    next: markdownRemark(id: { eq: $nextPostId }) {
-      fields {
-        slug
-      }
-      frontmatter {
-        title
+    relatedPosts: allMarkdownRemark(
+      filter: { fields: { slug: { in: $relatedPosts } } }
+    ) {
+      edges {
+        node {
+          id
+          frontmatter {
+            title
+            thumbnail {
+              childImageSharp {
+                resize(width: 200, height: 200) {
+                  src
+                }
+              }
+            }
+          }
+          fields {
+            slug
+          }
+        }
       }
     }
   }

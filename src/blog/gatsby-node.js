@@ -28,6 +28,9 @@ exports.createPages = async ({ graphql, actions, reporter }) => {
           fields {
             slug
           }
+          frontmatter {
+            relatedPosts
+          }
         }
       }
       tagsGroup: allMarkdownRemark(limit: 2000) {
@@ -56,12 +59,13 @@ exports.createPages = async ({ graphql, actions, reporter }) => {
     posts.forEach((post, index) => {
       const previousPostId = index === 0 ? null : posts[index - 1].id
       const nextPostId = index === posts.length - 1 ? null : posts[index + 1].id
-
       createPage({
         path: post.fields.slug,
         component: blogPost,
         context: {
           id: post.id,
+          slug: post.fields.slug,
+          relatedPosts: post.frontmatter.relatedPosts || [],
           previousPostId,
           nextPostId,
         },
@@ -137,6 +141,7 @@ exports.createSchemaCustomization = ({ actions }) => {
       description: String
       date: Date @dateformat
       result: String
+      relatedPosts: [String!]
     }
 
     type Fields {

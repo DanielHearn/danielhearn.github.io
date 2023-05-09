@@ -35,6 +35,7 @@ buy_links:
     "Physical UK: https://buttonshygames.com/products/death-valley-uk-only",
   ]
 conclusion: "Death Valley is great as a solo tableau builder, with push your luck that gives tension when drawing from the deck. Pulling off combos feels satisying though the limited number of cards and mechanics impacts the replayability and possible options."
+relatedPosts: []
 ---
 
 ![Death Valley tuckbox and cards](./death_intro.jpg)
@@ -43,7 +44,7 @@ I reviewed the print and play version from [PNP Arcade](https://www.pnparcade.co
 
 ### Components
 
-Death valley like other Button Shy Games, consists of 18 cards with only one side with gameplay content. Each card has great art based on the real life aspect of Death Valley it represents along with the card name, tableau mechnic, card type, and details on the real aspect of the card.
+Death valley like other Button Shy Games, consists of 18 cards with only one side with gameplay content. Each card has great art based on the real life aspect of Death Valley it represents along with the card name, number of stars (points), tableau mechnic, card type, and details on the real aspect of the card.
 
 ![Death Valley card example](./death_card.jpg)
 
@@ -51,17 +52,19 @@ With the physical version it comes with a wallet to store the cards, while for m
 
 ### Gameplay
 
-Death valley comes with 2 multiplayer modes and a solo mode that is the focus of this review. The bot in the solo mode is easy to use an helps give the game a very consistent play length making it a great choice during lunch breaks.
+Death valley comes with 2 multiplayer modes and a solo mode that is the focus of this review. The bot in the solo mode is easy to use and helps give the game a very consistent play length making it a great choice during lunch breaks.
 
 ![Death Valley middle way during a match against the solo bot](./death_mid.jpg)
 
-You shuffle and draw deck and play the top card as a faceup desert card. In each turn you can choose between playing the top facedown card from the deck or the desert card into your journey. Your journey contains cards you can score from but you have to be careful to avoid busting by having 3 cards of the same type, this causes you to clear your journey of cards and put the card that caused the bust into your discard pile. The other option is to rest by moving a card from your journey into your scrapbook to keep it safe as they cannot be lost due to busting with the downside of scrapbook cards not scoring for stars. This gives great push your luck where busting can cause huge consequences. You can also hide journey cards when resting which plays into certain combos while allowing you to avoid busting by hiding cards with duplicated types.
+You shuffle and draw deck and play the top card as a faceup desert card. In each turn you can choose between playing the top facedown card from the deck or the desert card into your journey. Your journey contains cards you can score from but you have to be careful to avoid busting by having 3 cards of the same type, this causes you to clear your journey of cards and put the card that caused the bust into your discard pile. The other option is to rest by moving a card from your journey into your scrapbook to keep it safe as they cannot be lost due to busting with the downside of scrapbook cards not scoring for stars. This gives great push your luck where busting can cause huge consequences. You can also hide journey cards when resting which plays into certain combos while allowing you to avoid busting by hiding cards with duplicated types. Though I found this mechanic to be underutilised with limited scoring impact using card mechanics or occasionally useful for busting but not much more.
 
 ![Death Valley hidden card example](./death_hidden.jpg)
 
-The bot has a few possible actions with simple criteria for which one it completes, making it very easy to use. The bot will attempt to bust you, so you need to keep track of the bot's journey cards to know how many of each card type it has which allows to work out how many cards of each type would still be available in the deck.
+The bot has a few possible actions with simple criteria for which one it completes, making it very easy to use. The bot will attempt to bust you, so you need to keep track of the bot's journey cards to know how many of each card type it has which allows to work out how many cards of each type would still be available in the deck. This works quite well as it's just smart enough to be engaging without being complicated to handle.
 
-The series of player and bot turns continues until one card is faceup in the desert. This triggers the end of the game and scoring begins. The bot doesn't use the tableau mechanics of it's card due to the potential placement issues it wouldn't be able to achieve, instead it gets points per star and the positive points listed in the tableau mechanics per cards.
+The series of player and bot turns continues until one card is faceup in the desert. This triggers the end of the game and scoring begins. The bot doesn't use the tableau mechanics of its card due to the potential placement issues that it wouldn't be able to achieve, instead it gets points per star and the positive points listed in the tableau mechanics per card. This is a problem I always have with these bots as it feels like a mechanic is being wasted though I understand it's a fundamental problem with adding bots onto multiplayer games.
+
+The player scores by adding up the stars from their journey but not from their scrapbook then calculates the scores from their tableau mechanics to get th final score. It also comes with two additional harder difficulty modifiers for the bot.
 
 ![Death Valley end of game example](./death_end.jpg)
 
