@@ -1,7 +1,7 @@
 ---
 title: SpaceShipped
 date: "2023-04-30T22:12:03.284Z"
-description: "I recommend SpaceShipped as a great multi-use 18 card space merchant adventure."
+description: "SpaceShipped is a great space merchant adventure that is let down by extreme randomness."
 tags:
   [
     "Board Games",

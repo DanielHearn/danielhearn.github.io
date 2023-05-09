@@ -1,7 +1,7 @@
 ---
 title: Death Valley (Solo Mode)
 date: "2023-04-30T22:12:03.284Z"
-description: "I recommend Death Valley as a small fun tableau building game."
+description: "Death Valley provides great tableau building in a small package but has limited replayability."
 tags:
   [
     "Board Games",
