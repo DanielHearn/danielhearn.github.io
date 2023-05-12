@@ -45,6 +45,8 @@ relatedPosts:
 
 I reviewed the print and play version from [PNP Arcade](https://www.pnparcade.com/products/death-valley) for $3.
 
+Official Description: Death Valley is a pocket-sized, push-your-luck, tableau-building game for 1-2 players, with each traveler striving to assemble the best mix of cards in their journey and scrapbook in order to win the game. Designed by Kevin Ellenburg.
+
 ### Components
 
 Death valley like other Button Shy Games, consists of 18 cards with only one side with gameplay content. Each card has great art based on the real life aspect of Death Valley it represents along with the card name, number of stars (points), tableau mechnic, card type, and details on the real aspect of the card.
