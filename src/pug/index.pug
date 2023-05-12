@@ -79,12 +79,15 @@ html
             p.text--small
               | Outside of tech, I like to cook, bake, run and play board games. I also occasionally do 3D modelling with Blender.
             p.text--small
-              | I write about tech and board games on 
+              | I write board game reviews and opinion on 
               a.text--small.link(href="/blog/") my blog
-              | .
+              | . That I built with Gatsby and my custom theme.
           .side-project__content
             h3.text--large Side Projects
             each project in side_projects
+              a.text--small.link(href=project.link) #{project.title}
+            h3.text--large Old Projects
+            each project in old_projects
               a.text--small.link(href=project.link) #{project.title}
         section.container.projects#models
           h3.text--large 3D Models

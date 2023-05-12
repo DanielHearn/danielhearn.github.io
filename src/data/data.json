@@ -47,22 +47,16 @@
       "link": "https://github.com/DanielHearn/downpen"
     },
     {
-      "title": "Maze Generator (WIP)",
-      "desc": "Work in progress maze generator built with React.",
+      "title": "Maze Generator",
+      "desc": "2D Maze Generator web-app built with React.",
       "image": "img/maze.jpeg",
       "link": "https://dan-h-maze-generator.netlify.app/"
     },
     {
-      "title": "Kiel Frampton",
-      "desc": "Portfolio site built with Jekyll and Netlify CMS.",
-      "image": "img/kielframpton.jpeg",
-      "link": "https://www.kielframpton.com/"
-    },
-    {
-      "title": "Interiors of Aylesbury",
-      "desc": "Custom Wordpress theme design and development.",
-      "image": "img/interiors.jpeg",
-      "link": "https://interiorsofaylesbury.com"
+      "title": "Gaming With Dan",
+      "desc": "My board game blog built with Gatsby.",
+      "image": "img/blog_thumbnail.png",
+      "link": "https://danielhearn.co.uk/blog"
     }
   ],
   "side_projects": [
@@ -101,6 +95,16 @@
     {
       "title": "CSS Animations",
       "link": "https://codepen.io/collection/nYWpom"
+    }
+  ],
+  "old_projects": [
+    {
+      "title": "Kiel Frampton",
+      "link": "https://www.kielframpton.com/"
+    },
+    {
+      "title": "Interiors of Aylesbury",
+      "link": "https://interiorsofaylesbury.com"
     }
   ],
   "models": [
