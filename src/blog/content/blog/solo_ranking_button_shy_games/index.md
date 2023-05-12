@@ -10,12 +10,12 @@ _This is my solo ranking of Button Shy Games I have played as of May 9th 2023_
 
 This list includes any expansions for the game where solo only or not as listing expansions would be too confusing. This includes solo only and solo mode games and does not consider the multiplayer modes in any way.
 
-1. Sprawlopolis
-2. Agropolis
-3. ROVE: Results-Oriented Versatile Explorer
-4. Skulls of Sedlec _(Requires expansion)_
-5. Death Valley
-6. SpaceShipped
-7. Tussie Mussie _(Requires expansion)_
-8. Food Chain Island
-9. Ragemore
+-9. (Ragemore)[https://danielhearn.co.uk/blog/ragemore]
+-8. Food Chain Island
+-7. Tussie Mussie _(Requires expansion)_
+-6. (SpaceShipped)[https://danielhearn.co.uk/blog/spaceshipped]
+-5. (Death Valley)[https://danielhearn.co.uk/blog/death_valley]
+-4. Skulls of Sedlec _(Requires expansion)_
+-3. ROVE: Results-Oriented Versatile Explorer
+-2. Agropolis
+-1. (Sprawlopolis)[https://danielhearn.co.uk/blog/sprawlopolis]
