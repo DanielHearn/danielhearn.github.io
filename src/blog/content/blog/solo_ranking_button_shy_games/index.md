@@ -3,7 +3,7 @@ title: My Solo Ranking of Button Shy Games
 date: "2023-05-09T19:00:00.00Z"
 description: "My solo ranking of their games as of May 9th 2023"
 tags: ["Board Games", "Opinion"]
-relatedPosts: ["/when_to_buy_new_games/"]
+relatedPosts: ["/when_to_buy_new_games/", "/review_methodology/"]
 ---
 
 _This is my solo ranking of Button Shy Games I have played as of May 9th 2023_

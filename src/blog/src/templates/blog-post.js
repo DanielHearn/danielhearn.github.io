@@ -46,6 +46,14 @@ const BlogPostTemplate = ({
             conclusion={post.frontmatter.conclusion}
           />
         )}
+        {post.frontmatter.review && (
+          <span>
+            My review methodology is explained{" "}
+            <Link to="/review_methodology" itemProp="url">
+              here
+            </Link>
+          </span>
+        )}
         {post.frontmatter.buy_links && (
           <>
             <h4>Available to Buy At</h4>{" "}
