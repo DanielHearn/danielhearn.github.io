@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Daniel Hearn's Blog RSS Feed]]></title><description><![CDATA[Board game reviews and tech.]]></description><link>https://danielhearn.co.uk</link><generator>GatsbyJS</generator><lastBuildDate>Fri, 12 May 2023 19:15:01 GMT</lastBuildDate><item><title><![CDATA[My Review Methodology]]></title><description><![CDATA[While I use a an x out of 10 review system on BoardGameGeek, here I
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Daniel Hearn's Blog RSS Feed]]></title><description><![CDATA[Board game reviews and tech.]]></description><link>https://danielhearn.co.uk</link><generator>GatsbyJS</generator><lastBuildDate>Sat, 13 May 2023 17:47:25 GMT</lastBuildDate><item><title><![CDATA[My Review Methodology]]></title><description><![CDATA[While I use a an x out of 10 review system on BoardGameGeek, here I
 instead classify games as: Highly Recommended, Recommended, Pick up on…]]></description><link>https://danielhearn.co.uk/review_methodology/</link><guid isPermaLink="false">https://danielhearn.co.uk/review_methodology/</guid><pubDate>Fri, 12 May 2023 19:00:00 GMT</pubDate><content:encoded>&lt;p&gt;While I use a an x out of 10 review system on BoardGameGeek, here I
 instead classify games as: Highly Recommended, Recommended, Pick up on
 Sale, Do Not Recommend. I also print and play games so for games that I
@@ -71,69 +71,7 @@ the art.&lt;/p&gt;
       /&gt;
   &lt;/a&gt;
     &lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;I reviewed the &lt;a href=&quot;http://xmedia.quined.nl/shop/sprawlopolis/&quot;&gt;Quined Games&lt;/a&gt; version that I bought from &lt;a href=&quot;https://www.board-game.co.uk/product/sprawlopolis/&quot;&gt;Zatu Games&lt;/a&gt;.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Ragemore]]></title><description><![CDATA[I reviewed the print and play version from PNP Arcade for $3.]]></description><link>https://danielhearn.co.uk/ragemore/</link><guid isPermaLink="false">https://danielhearn.co.uk/ragemore/</guid><pubDate>Sun, 30 Apr 2023 22:12:03 GMT</pubDate><content:encoded>&lt;p&gt;&lt;span
-      class=&quot;gatsby-resp-image-wrapper&quot;
-      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 630px; &quot;
-    &gt;
-      &lt;a
-    class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/blog/static/f0b67235030772dd73d5f4b033f382ef/b5bda/ragemore.png&quot;
-    style=&quot;display: block&quot;
-    target=&quot;_blank&quot;
-    rel=&quot;noopener&quot;
-  &gt;
-    &lt;span
-    class=&quot;gatsby-resp-image-background-image&quot;
-    style=&quot;padding-bottom: 139.873417721519%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,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&apos;); background-size: cover; display: block;&quot;
-  &gt;&lt;/span&gt;
-  &lt;img
-        class=&quot;gatsby-resp-image-image&quot;
-        alt=&quot;Ragemore Valley&quot;
-        title=&quot;&quot;
-        src=&quot;/blog/static/f0b67235030772dd73d5f4b033f382ef/f058b/ragemore.png&quot;
-        srcset=&quot;/blog/static/f0b67235030772dd73d5f4b033f382ef/c26ae/ragemore.png 158w,
-/blog/static/f0b67235030772dd73d5f4b033f382ef/6bdcf/ragemore.png 315w,
-/blog/static/f0b67235030772dd73d5f4b033f382ef/f058b/ragemore.png 630w,
-/blog/static/f0b67235030772dd73d5f4b033f382ef/b5bda/ragemore.png 643w&quot;
-        sizes=&quot;(max-width: 630px) 100vw, 630px&quot;
-        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
-        loading=&quot;lazy&quot;
-        decoding=&quot;async&quot;
-      /&gt;
-  &lt;/a&gt;
-    &lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;I reviewed the print and play version from &lt;a href=&quot;https://www.pnparcade.com/collections/solo-games/products/ragemore&quot;&gt;PNP Arcade&lt;/a&gt; for $3.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[SpaceShipped]]></title><description><![CDATA[I reviewed the print and play version from PNP Arcade for $3.]]></description><link>https://danielhearn.co.uk/spaceshipped/</link><guid isPermaLink="false">https://danielhearn.co.uk/spaceshipped/</guid><pubDate>Sun, 30 Apr 2023 22:12:03 GMT</pubDate><content:encoded>&lt;p&gt;&lt;span
-      class=&quot;gatsby-resp-image-wrapper&quot;
-      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 630px; &quot;
-    &gt;
-      &lt;a
-    class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/blog/static/555d1356d84e2fd197d54b396e401600/b5bda/spaceshipped.png&quot;
-    style=&quot;display: block&quot;
-    target=&quot;_blank&quot;
-    rel=&quot;noopener&quot;
-  &gt;
-    &lt;span
-    class=&quot;gatsby-resp-image-background-image&quot;
-    style=&quot;padding-bottom: 139.873417721519%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,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&apos;); background-size: cover; display: block;&quot;
-  &gt;&lt;/span&gt;
-  &lt;img
-        class=&quot;gatsby-resp-image-image&quot;
-        alt=&quot;SpaceShipped&quot;
-        title=&quot;&quot;
-        src=&quot;/blog/static/555d1356d84e2fd197d54b396e401600/f058b/spaceshipped.png&quot;
-        srcset=&quot;/blog/static/555d1356d84e2fd197d54b396e401600/c26ae/spaceshipped.png 158w,
-/blog/static/555d1356d84e2fd197d54b396e401600/6bdcf/spaceshipped.png 315w,
-/blog/static/555d1356d84e2fd197d54b396e401600/f058b/spaceshipped.png 630w,
-/blog/static/555d1356d84e2fd197d54b396e401600/b5bda/spaceshipped.png 643w&quot;
-        sizes=&quot;(max-width: 630px) 100vw, 630px&quot;
-        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
-        loading=&quot;lazy&quot;
-        decoding=&quot;async&quot;
-      /&gt;
-  &lt;/a&gt;
-    &lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;I reviewed the print and play version from &lt;a href=&quot;https://www.pnparcade.com/products/spaceshipped&quot;&gt;PNP Arcade&lt;/a&gt; for $3.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Death Valley (Solo Mode)]]></title><description><![CDATA[I reviewed the print and play version from PNP Arcade for $3. Official Description: Death Valley is a pocket-sized, push-your-luck, tableau…]]></description><link>https://danielhearn.co.uk/death_valley/</link><guid isPermaLink="false">https://danielhearn.co.uk/death_valley/</guid><pubDate>Sun, 30 Apr 2023 22:12:03 GMT</pubDate><content:encoded>&lt;p&gt;&lt;span
+&lt;p&gt;I reviewed the &lt;a href=&quot;http://xmedia.quined.nl/shop/sprawlopolis/&quot;&gt;Quined Games&lt;/a&gt; version that I bought from &lt;a href=&quot;https://www.board-game.co.uk/product/sprawlopolis/&quot;&gt;Zatu Games&lt;/a&gt;.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Death Valley (Solo Mode)]]></title><description><![CDATA[I reviewed the print and play version from PNP Arcade for $3. Official Description: Death Valley is a pocket-sized, push-your-luck, tableau…]]></description><link>https://danielhearn.co.uk/death_valley/</link><guid isPermaLink="false">https://danielhearn.co.uk/death_valley/</guid><pubDate>Sun, 30 Apr 2023 22:12:03 GMT</pubDate><content:encoded>&lt;p&gt;&lt;span
       class=&quot;gatsby-resp-image-wrapper&quot;
       style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 630px; &quot;
     &gt;
@@ -344,4 +282,66 @@ the art.&lt;/p&gt;
   &lt;/a&gt;
     &lt;/span&gt;&lt;/p&gt;
 &lt;p&gt;Sadly the only expansion for Death Valley, it includes 6 new cards across the card types in the base game. When using the expansion you switch out any number of base game cards with the expansion cards, this gives greater replayability than the base game as tableau combos are harder to predict. Some of these cards also work well with the scrapbook hiding mechanic which felt underutilised in the base game.&lt;/p&gt;
-&lt;h3&gt;Conclusion&lt;/h3&gt;</content:encoded></item></channel></rss>
+&lt;h3&gt;Conclusion&lt;/h3&gt;</content:encoded></item><item><title><![CDATA[Ragemore]]></title><description><![CDATA[I reviewed the print and play version from PNP Arcade for $3.]]></description><link>https://danielhearn.co.uk/ragemore/</link><guid isPermaLink="false">https://danielhearn.co.uk/ragemore/</guid><pubDate>Sun, 30 Apr 2023 22:12:03 GMT</pubDate><content:encoded>&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 630px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/blog/static/f0b67235030772dd73d5f4b033f382ef/b5bda/ragemore.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 139.873417721519%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,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&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;Ragemore Valley&quot;
+        title=&quot;&quot;
+        src=&quot;/blog/static/f0b67235030772dd73d5f4b033f382ef/f058b/ragemore.png&quot;
+        srcset=&quot;/blog/static/f0b67235030772dd73d5f4b033f382ef/c26ae/ragemore.png 158w,
+/blog/static/f0b67235030772dd73d5f4b033f382ef/6bdcf/ragemore.png 315w,
+/blog/static/f0b67235030772dd73d5f4b033f382ef/f058b/ragemore.png 630w,
+/blog/static/f0b67235030772dd73d5f4b033f382ef/b5bda/ragemore.png 643w&quot;
+        sizes=&quot;(max-width: 630px) 100vw, 630px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+        decoding=&quot;async&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;I reviewed the print and play version from &lt;a href=&quot;https://www.pnparcade.com/collections/solo-games/products/ragemore&quot;&gt;PNP Arcade&lt;/a&gt; for $3.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[SpaceShipped]]></title><description><![CDATA[I reviewed the print and play version from PNP Arcade for $3.]]></description><link>https://danielhearn.co.uk/spaceshipped/</link><guid isPermaLink="false">https://danielhearn.co.uk/spaceshipped/</guid><pubDate>Sun, 30 Apr 2023 22:12:03 GMT</pubDate><content:encoded>&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 630px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/blog/static/555d1356d84e2fd197d54b396e401600/b5bda/spaceshipped.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 139.873417721519%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,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&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;SpaceShipped&quot;
+        title=&quot;&quot;
+        src=&quot;/blog/static/555d1356d84e2fd197d54b396e401600/f058b/spaceshipped.png&quot;
+        srcset=&quot;/blog/static/555d1356d84e2fd197d54b396e401600/c26ae/spaceshipped.png 158w,
+/blog/static/555d1356d84e2fd197d54b396e401600/6bdcf/spaceshipped.png 315w,
+/blog/static/555d1356d84e2fd197d54b396e401600/f058b/spaceshipped.png 630w,
+/blog/static/555d1356d84e2fd197d54b396e401600/b5bda/spaceshipped.png 643w&quot;
+        sizes=&quot;(max-width: 630px) 100vw, 630px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+        decoding=&quot;async&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;I reviewed the print and play version from &lt;a href=&quot;https://www.pnparcade.com/products/spaceshipped&quot;&gt;PNP Arcade&lt;/a&gt; for $3.&lt;/p&gt;</content:encoded></item></channel></rss>

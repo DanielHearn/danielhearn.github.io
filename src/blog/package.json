@@ -10,9 +10,11 @@
   "dependencies": {
     "@fontsource/merriweather": "^4.5.14",
     "@fontsource/montserrat": "^4.5.14",
+    "axios": "^1.4.0",
     "gatsby": "^5.9.0",
     "gatsby-plugin-feed": "^5.9.0",
     "gatsby-plugin-image": "^3.9.0",
+    "gatsby-plugin-json-output": "^1.2.0",
     "gatsby-plugin-manifest": "^5.9.0",
     "gatsby-plugin-sharp": "^5.9.0",
     "gatsby-remark-images": "^7.9.0",
@@ -21,6 +23,7 @@
     "gatsby-source-filesystem": "^5.9.0",
     "gatsby-transformer-remark": "^6.9.0",
     "gatsby-transformer-sharp": "^5.9.0",
+    "js-search": "^2.0.1",
     "prismjs": "^1.29.0",
     "react": "^18.1.0",
     "react-dom": "^18.1.0"

@@ -7,6 +7,7 @@
 /**
  * @type {import('gatsby').GatsbyConfig}
  */
+const siteUrl = `https://danielhearn.co.uk/blog`
 module.exports = {
   siteMetadata: {
     title: `Gaming with Dan`,
@@ -118,6 +119,64 @@ module.exports = {
         // theme_color: `#663399`,
         display: `minimal-ui`,
         icon: `src/images/icon.png`, // This path is relative to the root of the site.
+      },
+    },
+    {
+      resolve: `gatsby-plugin-json-output`,
+      options: {
+        siteUrl: siteUrl, // defined on top of plugins
+        graphQLQuery: `
+        {
+          allMarkdownRemark(limit: 1000) {
+            edges {
+              node {
+                excerpt
+                html
+                fields {
+                  slug
+                }
+                frontmatter {
+                  title
+                  description
+                  date(formatString: "MMMM DD, YYYY")
+                  tags
+                  thumbnail {
+                    childImageSharp {
+                      resize(width: 200, height: 200) {
+                        src
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      `,
+        serialize: results =>
+          results.data.allMarkdownRemark.edges.map(({ node }) => ({
+            path: node.fields.slug, // MUST contain a path
+            title: node.frontmatter.title,
+            description: node.frontmatter.description,
+            thumbnail: node.frontmatter.thumbnail,
+            tags: node.frontmatter.tags,
+            html: node.html,
+          })),
+        feedMeta: {
+          favicon: `${siteUrl}/icons/icon-48x48.png`,
+          title: "Gaming With Dan",
+        },
+        serializeFeed: results =>
+          results.data.allMarkdownRemark.edges.map(({ node }) => ({
+            id: node.fields.slug,
+            url: siteUrl + node.fields.slug,
+            title: node.frontmatter.title,
+            description: node.frontmatter.description,
+            thumbnail: node.frontmatter.thumbnail,
+            tags: node.frontmatter.tags,
+          })),
+        feedFilename: "post_feed",
+        nodesPerFeedFile: 10000,
       },
     },
   ],
