@@ -11,11 +11,18 @@ tags:
     "Solo Only",
     "Print and Play",
   ]
-thumbnail: "./spaceshipped.png"
-pros: ["Print and Plays well"]
+thumbnail: "./galdors.jpg"
+pros:
+  [
+    "Fun deck manipulation that doesn't feel too fidly",
+    "Print and Plays well",
+    "Free",
+    "Multiple expansions and more coming",
+    "Great Art",
+  ]
 cons: ["TBC"]
 review: "Highly Recommended"
-buy_links: ["Print and Play: https://www.pnparcade.com/products/spaceshipped"]
+buy_links: ["Print and Play: https://greggjewell.itch.io/galdors-grip"]
 conclusion: "TBC"
 relatedPosts:
   - "/death_valley/"
@@ -24,4 +31,4 @@ relatedPosts:
 hidden: true
 ---
 
-TODO
+![Galdor's Grip cards](./galdors.jpg)
