@@ -1,5 +1,6 @@
 import * as React from "react"
 import { Link, graphql } from "gatsby"
+import { filterVisiblePosts } from "../utilities"
 
 import Bio from "../components/bio"
 import Layout from "../components/layout"
@@ -7,13 +8,17 @@ import Seo from "../components/seo"
 
 const BlogIndex = ({ data, location }) => {
   const siteTitle = data.site.siteMetadata?.title || `Title`
-  const recentReviews = data.allMarkdownRemark.nodes.filter(post =>
-    post.frontmatter?.tags?.includes("Review")
+  const recentReviews = filterVisiblePosts(
+    data.allMarkdownRemark.nodes.filter(post =>
+      post.frontmatter?.tags?.includes("Review")
+    )
   )
-  const recentNews = data.allMarkdownRemark.nodes.filter(
-    post =>
-      post.frontmatter?.tags?.includes("News") ||
-      post.frontmatter?.tags?.includes("Opinion")
+  const recentNews = filterVisiblePosts(
+    data.allMarkdownRemark.nodes.filter(
+      post =>
+        post.frontmatter?.tags?.includes("News") ||
+        post.frontmatter?.tags?.includes("Opinion")
+    )
   )
 
   return (
@@ -233,6 +238,7 @@ export const pageQuery = graphql`
               }
             }
           }
+          hidden
         }
       }
     }

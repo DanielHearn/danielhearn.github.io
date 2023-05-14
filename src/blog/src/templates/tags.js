@@ -5,6 +5,7 @@ import Bio from "../components/bio"
 import Layout from "../components/layout"
 import Seo from "../components/seo"
 import { Link, graphql } from "gatsby"
+import { filterVisiblePosts } from "../utilities"
 
 const Tags = ({ pageContext, data, location }) => {
   const { tag } = pageContext
@@ -16,9 +17,7 @@ const Tags = ({ pageContext, data, location }) => {
       <div>
         <h2>{tag}</h2>
         <ol style={{ listStyle: `none` }}>
-          {edges.map(({ node }) => {
-            const post = node
-
+          {filterVisiblePosts(edges.map(edge => edge.node)).map(post => {
             const { slug } = post.fields
             const { title } = post.frontmatter
             return (
@@ -125,6 +124,7 @@ export const pageQuery = graphql`
                 }
               }
             }
+            hidden
           }
         }
       }
