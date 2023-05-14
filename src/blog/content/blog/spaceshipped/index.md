@@ -1,5 +1,5 @@
 ---
-title: SpaceShipped
+title: SpaceShipped Review
 date: "2023-04-30T22:12:03.284Z"
 description: "SpaceShipped is a great space merchant adventure that is let down by extreme randomness."
 tags:

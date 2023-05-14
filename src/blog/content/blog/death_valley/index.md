@@ -1,5 +1,5 @@
 ---
-title: Death Valley (Solo Mode)
+title: Death Valley + Expansion Review (Solo Mode)
 date: "2023-04-30T22:12:03.284Z"
 description: "Death Valley provides great tableau building in a small package but has limited replayability."
 tags:

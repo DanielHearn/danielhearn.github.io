@@ -1,5 +1,5 @@
 ---
-title: Sprawlopolis
+title: Sprawlopolis + Expansions Review (Solo Mode)
 date: "2023-05-01T22:12:03.284Z"
 description: "Sprawlopolis is a fantastic city builder in solo with high replayability."
 tags:

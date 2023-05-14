@@ -1,5 +1,5 @@
 ---
-title: Ragemore
+title: Ragemore Review
 date: "2023-04-30T22:12:03.284Z"
 description: "Ragemore initially feels good but ultimately lacks depth and variety."
 tags:
