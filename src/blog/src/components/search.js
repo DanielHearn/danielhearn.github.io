@@ -76,15 +76,12 @@ class Search extends Component {
         <div style={{ margin: "0 auto" }}>
           <form onSubmit={this.handleSubmit}>
             <div style={{ margin: "0 auto" }}>
-              <label htmlFor="Search" style={{ paddingRight: "10px" }}>
-                Enter your search here
-              </label>
               <input
                 id="Search"
+                className="search"
                 value={searchQuery}
                 onChange={this.searchData}
-                placeholder="Enter your search here"
-                style={{ margin: "0 auto", width: "400px" }}
+                placeholder="Search"
               />
             </div>
           </form>
@@ -129,6 +126,9 @@ class Search extends Component {
               )}
             </div>
           )}
+        </div>
+        <div style={{ marginTop: "2em" }}>
+          <Link to="/">Back home</Link>
         </div>
       </div>
     )

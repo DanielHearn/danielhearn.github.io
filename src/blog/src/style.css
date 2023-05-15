@@ -527,6 +527,12 @@ li a {
   padding-bottom: var(--spacing-2);
 }
 
+.search {
+  font-size: var(--fontSize-2);
+  padding: var(--spacing-1);
+  max-width: 400px;
+  width: 100%;
+}
 
 /* Media queries */
 

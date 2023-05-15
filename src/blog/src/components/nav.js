@@ -32,6 +32,13 @@ const Bio = () => {
           </Link>
         </h4>
       </div>
+      <div>
+        <h4>
+          <Link to="/search/" itemProp="url">
+            <span>Search</span>
+          </Link>
+        </h4>
+      </div>
     </div>
   )
 }
