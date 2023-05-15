@@ -44,6 +44,7 @@ const Bio = () => {
         <p>
           Written by <a href="https://www.danielhearn.co.uk">Daniel Hearn</a>{" "}
           {author?.summary || null} I'm on <a href={bggUrl}>BoardGameGeek</a>.
+          Contact me by <a href="mailto:games@danielhearn.co.uk">email</a>.
         </p>
       )}
     </div>
