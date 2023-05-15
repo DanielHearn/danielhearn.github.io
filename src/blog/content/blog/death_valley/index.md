@@ -39,6 +39,7 @@ relatedPosts:
   - "/spaceshipped/"
   - "/sprawlopolis/"
   - "/ragemore/"
+hidden: false
 ---
 
 ![Death Valley tuckbox and cards](./death_intro.jpg)

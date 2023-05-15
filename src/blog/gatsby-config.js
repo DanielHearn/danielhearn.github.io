@@ -127,7 +127,7 @@ module.exports = {
         siteUrl: siteUrl, // defined on top of plugins
         graphQLQuery: `
         {
-          allMarkdownRemark(limit: 1000) {
+          allMarkdownRemark(limit: 1000,  filter: { frontmatter: { hidden: { eq: false } } } ) {
             edges {
               node {
                 excerpt
@@ -147,6 +147,7 @@ module.exports = {
                       }
                     }
                   }
+                  hidden
                 }
               }
             }
@@ -161,6 +162,7 @@ module.exports = {
             thumbnail: node.frontmatter.thumbnail,
             tags: node.frontmatter.tags,
             html: node.html,
+            hidden: node.frontmatter.hidden,
           })),
         feedMeta: {
           favicon: `${siteUrl}/icons/icon-48x48.png`,
@@ -174,6 +176,7 @@ module.exports = {
             description: node.frontmatter.description,
             thumbnail: node.frontmatter.thumbnail,
             tags: node.frontmatter.tags,
+            hidden: node.frontmatter.hidden,
           })),
         feedFilename: "post_feed",
         nodesPerFeedFile: 10000,

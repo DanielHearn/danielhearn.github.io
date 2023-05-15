@@ -38,6 +38,7 @@ relatedPosts:
   - "/death_valley/"
   - "/sprawlopolis/"
   - "/ragemore/"
+hidden: false
 ---
 
 ![SpaceShipped](./spaceshipped.png)

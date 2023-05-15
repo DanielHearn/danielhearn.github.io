@@ -4,6 +4,7 @@ date: "2023-05-12T19:00:00.00Z"
 description: "Explanation of my reviews."
 tags: ["Board Games", "Opinion"]
 relatedPosts: ["/when_to_buy_new_games/", "/solo_ranking_button_shy_games/"]
+hidden: false
 ---
 
 While I use a an x out of 10 review system on BoardGameGeek, here I

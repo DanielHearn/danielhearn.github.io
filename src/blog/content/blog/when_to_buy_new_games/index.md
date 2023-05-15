@@ -4,6 +4,7 @@ date: "2023-05-07T22:12:03.284Z"
 description: "As someone new to the hobby I've found it difficult to decide when to buy new games."
 tags: ["Board Games", "Opinion"]
 relatedPosts: ["/solo_ranking_button_shy_games/"]
+hidden: false
 ---
 
 As someone new to the hobby I've found it difficult to decide when to buy new games. There are so many recommendations and "essential" games it can be very easy to quickly overbuy. Many people use monthly board game budgets but that results in the urge that you need to buy new games each month.
