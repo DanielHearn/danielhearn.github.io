@@ -514,6 +514,19 @@ li a {
   margin: 0;
 }
 
+.nav {
+  display: flex;
+  flex-direction: row;
+  gap: 1em;
+  margin-top: var(--spacing-6);
+}
+
+.nav h4 {
+  margin: 0;
+  padding-top: var(--spacing-2);
+  padding-bottom: var(--spacing-2);
+}
+
 
 /* Media queries */
 
