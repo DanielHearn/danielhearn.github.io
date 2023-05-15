@@ -18,7 +18,7 @@ class Search extends Component {
   async componentDidMount() {
     Axios.get("/blog/post_feed-1.json")
       .then(result => {
-        const bookData = result.data.filter.items
+        const bookData = result.data.items
         this.setState({ bookList: bookData })
         this.rebuildIndex(bookData)
       })
