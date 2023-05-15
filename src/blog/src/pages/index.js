@@ -154,9 +154,8 @@ const BlogIndex = ({ data, location }) => {
         <div>
           <h2>Upcoming Reviews</h2>
           <ul>
-            <li>Tussie Mussie (Solo)</li>
-            <li>Skulls of Sedlec (Solo)</li>
             <li>Galdor's Grip (Solo)</li>
+            <li>Iron Helm (Solo)</li>
           </ul>
         </div>
         <div>
