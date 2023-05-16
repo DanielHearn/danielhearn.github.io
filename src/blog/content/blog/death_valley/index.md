@@ -46,7 +46,9 @@ hidden: false
 
 I reviewed the print and play version from [PNP Arcade](https://www.pnparcade.com/products/death-valley) for $3.
 
-Official Description: Death Valley is a pocket-sized, push-your-luck, tableau-building game for 1-2 players, with each traveler striving to assemble the best mix of cards in their journey and scrapbook in order to win the game. Designed by Kevin Ellenburg.
+### Official Description
+
+Death Valley is a pocket-sized, push-your-luck, tableau-building game for 1-2 players, with each traveler striving to assemble the best mix of cards in their journey and scrapbook in order to win the game. Designed by Kevin Ellenburg.
 
 ### Components
 

@@ -41,6 +41,6 @@ relatedPosts:
 hidden: false
 ---
 
-![SpaceShipped](./spaceshipped.png)
+![SpaceShipped](./space_full.jpg)
 
 I reviewed the print and play version from [PNP Arcade](https://www.pnparcade.com/products/spaceshipped) for $3.
