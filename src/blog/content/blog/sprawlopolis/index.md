@@ -43,11 +43,11 @@ hidden: false
 
 ![Sprawlopolis](./sp_box.jpg)
 
-I reviewed the [Quined Games](http://xmedia.quined.nl/shop/sprawlopolis/) version that I bought from [Zatu Games](https://www.board-game.co.uk/product/sprawlopolis/). I then printed out the expansions from PNPArcade. This review mainly covers the solo mode as its the recommended way to play according to the BoardGameGeek community though I may mention the multiplayer occasionally.
+I reviewed the [Quined Games](http://xmedia.quined.nl/shop/sprawlopolis/) version that I bought from [Zatu Games](https://www.board-game.co.uk/product/sprawlopolis/). I then printed out the expansions from PNPArcade. This review primarily covers the solo mode as it's the recommended way to play according to the BoardGameGeek community.
 
 ### Official Description
 
-In Sprawlopolis, 1-4 players work together to build a new city from the ground up. Using only 18 cards and a variable scoring system, the game is never the same twice. Each turn, players will play 1 card from their hand to the growing city, trying to score as many points as possible. Players will have to communicate and plan without revealing their own cards in order to most efficiently develop large areas in each of the 4 zone types. Watch out though, the city hates paying for road maintenance so each road will cost you points in the end. When all cards have been placed, the game ends and players see if they have met dynamically generated minimum score for their game.
+_In Sprawlopolis, 1-4 players work together to build a new city from the ground up. Using only 18 cards and a variable scoring system, the game is never the same twice. Each turn, players will play 1 card from their hand to the growing city, trying to score as many points as possible._
 
 ### Components
 

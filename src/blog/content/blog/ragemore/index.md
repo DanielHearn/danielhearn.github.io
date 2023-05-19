@@ -31,7 +31,7 @@ buy_links:
     "Physical US: https://buttonshygames.com/products/ragemore",
     "Physical UK: https://buttonshygames.com/products/ragemore-uk-only",
   ]
-conclusion: "Rage feels underbaked, the amount of choices per turn in theory gives room for complexity but the strategy I found for winning ended up being consistently usable. The result is a game that feels like it needed an extra mechanic to feel fun after 5 games."
+conclusion: "Ragemore feels underbaked, in theory the amount of choices per turn gives room for complexity but the strategy I found for winning ended up being consistently usable. The result is a game that feels like it needed an extra mechanic to still feel fun after 5 games."
 relatedPosts:
   - "/spaceshipped/"
   - "/sprawlopolis/"
@@ -39,6 +39,8 @@ relatedPosts:
 hidden: false
 ---
 
-![Ragemore Valley](./ragemore.png)
-
 I reviewed the print and play version from [PNP Arcade](https://www.pnparcade.com/collections/solo-games/products/ragemore) for $3.
+
+### Official Description
+
+_Ragemore is an 18 card solo game where you will complete quests, while managing your hand and resources as you delve though the dark, fighting demons, all in a span of 10-15 minutes._

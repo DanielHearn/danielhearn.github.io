@@ -1,7 +1,7 @@
 ---
 title: Iron Helm Review
 date: "2023-04-30T22:12:03.284Z"
-description: "TBC."
+description: "Iron Helm is a fantastic solo dungeon crawler in a fairly small package."
 tags:
   [
     "Board Games",
@@ -18,12 +18,13 @@ pros:
     "Print and plays well",
     "Multiple expansions",
     "Win/Loss along with point scoring gives good replayability",
-    "Expansions for additional post game dungeons gives shorter campaign playthroughs",
+    "Expansions for additional post game dungeons gives opportunity campaign playthroughs",
   ]
 cons:
   [
     "Combat mechanics feel undercooked",
     "Plot cards become repetitive quickly without expansions",
+    "Often came across cards that used morality even though I had not had the chance to increase/decrease my morality yet",
   ]
 review: "Highly Recommended"
 buy_links:
