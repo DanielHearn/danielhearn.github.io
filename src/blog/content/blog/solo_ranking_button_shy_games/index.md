@@ -12,7 +12,7 @@ _This is my solo ranking of Button Shy Games I have played as of May 9th 2023_
 This list includes any expansions for the game where solo only or not as listing expansions would be too confusing. This includes solo only and solo mode games and does not consider the multiplayer modes in any way.
 
 <ol reversed>
-  <li><a href="https://danielhearn.co.uk/blog/ragemore">Ragemore</a></li>
+  <li>Ragemore</li>
   <li>Food Chain Island</li>
   <li>Tussie Mussie <i>Requires expansion</i></li>
   <li><a href="https://danielhearn.co.uk/blog/spaceshipped">SpaceShipped</a></li>

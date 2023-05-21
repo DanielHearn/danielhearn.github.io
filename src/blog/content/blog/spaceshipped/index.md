@@ -37,7 +37,6 @@ conclusion: "Spaceshipped has great potential but with significant flaws, the ga
 relatedPosts:
   - "/death_valley/"
   - "/sprawlopolis/"
-  - "/ragemore/"
 hidden: false
 ---
 

@@ -75,4 +75,6 @@ The boss is picked based upon the enemies you fought during the dungeon. Bosses 
 
 I generally found the game quite hard with enemies able to inflict large amounts of damage in a single hit and easy to run out of energy if you get to aggressive with attacks
 
+### Game End
+
 If you kill a boss you can end the game there and score based upon what you achieved. There are expansions available that you play after completing a dungeon keeping the same character as before allowing for campaign gameplay.

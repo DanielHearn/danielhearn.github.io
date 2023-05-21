@@ -1,8 +1,5 @@
-/**
- * Configure your Gatsby site with this file.
- *
- * See: https://www.gatsbyjs.com/docs/reference/config-files/gatsby-config/
- */
+const filterVisiblePosts = posts =>
+  posts.filter(post => !post.frontmatter?.hidden)
 
 /**
  * @type {import('gatsby').GatsbyConfig}
@@ -15,7 +12,7 @@ module.exports = {
       name: `Daniel Hearn`,
       summary: `, I develop software and play board games.`,
     },
-    description: `Board game reviews and tech.`,
+    description: `Board game reviews and opinion.`,
     siteUrl: `https://danielhearn.co.uk`,
     bggUrl: `https://boardgamegeek.com/user/Averkon`,
   },
@@ -76,7 +73,7 @@ module.exports = {
         feeds: [
           {
             serialize: ({ query: { site, allMarkdownRemark } }) => {
-              return allMarkdownRemark.nodes.map(node => {
+              return filterVisiblePosts(allMarkdownRemark.nodes).map(node => {
                 return Object.assign({}, node.frontmatter, {
                   description: node.excerpt,
                   date: node.frontmatter.date,
@@ -127,7 +124,7 @@ module.exports = {
         siteUrl: siteUrl, // defined on top of plugins
         graphQLQuery: `
         {
-          allMarkdownRemark(limit: 1000,  filter: { frontmatter: { hidden: { eq: false } } } ) {
+          allMarkdownRemark(limit: 1000, filter: { frontmatter: { hidden: { eq: false } } } ) {
             edges {
               node {
                 excerpt

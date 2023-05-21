@@ -28,7 +28,6 @@ conclusion: "Fantastic free hand management game that oozes character."
 relatedPosts:
   - "/death_valley/"
   - "/sprawlopolis/"
-  - "/ragemore/"
 hidden: true
 ---
 

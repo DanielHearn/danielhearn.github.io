@@ -40,13 +40,13 @@ const BlogIndex = ({ data, location }) => {
             </Link>
           </h4>
         </div>
-        <div>
+        {/*<div>
           <h4>
             <Link to="/tags/pick-up-on-sale/" itemProp="url">
               <span itemProp="headline">Pick up on Sale</span>
             </Link>
           </h4>
-        </div>
+        </div>*/}
         <div>
           <h4>
             <Link to="/tags/print-and-play/" itemProp="url">

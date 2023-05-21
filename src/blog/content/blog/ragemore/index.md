@@ -36,7 +36,7 @@ relatedPosts:
   - "/spaceshipped/"
   - "/sprawlopolis/"
   - "/death_valley/"
-hidden: false
+hidden: true
 ---
 
 I reviewed the print and play version from [PNP Arcade](https://www.pnparcade.com/collections/solo-games/products/ragemore) for $3.

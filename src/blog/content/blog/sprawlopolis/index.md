@@ -37,7 +37,6 @@ conclusion: "Sprawlopolis is fantastic as a solo game with simple gameplay that 
 relatedPosts:
   - "/death_valley/"
   - "/spaceshipped/"
-  - "/ragemore/"
 hidden: false
 ---
 
