@@ -102,4 +102,6 @@ The issue in the solo mode is that you alternate between building each side of t
 
 ### Other Expansions
 
-I've yet to try the Roadworks expansions, but will update this review once I've done so.
+I've yet to try the Roadworks expansions, but will update this review once I've done so. The combo expansions are also available to combine Sprawlopolis with Agropolis and Naturopolis.
+
+### Conclusion

@@ -21,7 +21,7 @@ pros:
     "Great Art",
     "Instructions are easy to read",
   ]
-cons: ["Print and play only"]
+cons: ["Print and play only", "In-hand only which some people might not like"]
 review: "Highly Recommended"
 buy_links: ["Print and Play: https://greggjewell.itch.io/galdors-grip"]
 conclusion: "Fantastic free hand management game that oozes character."
@@ -56,3 +56,5 @@ You also have to avoid repeatedly have the figment of feragot cards at the top o
 ### Expansions
 
 Galdor's Grip has three expansions each containing 6 cards that can replace cards from the base game. This gives great replayability.
+
+### Conclusion

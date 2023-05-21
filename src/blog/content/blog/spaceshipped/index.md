@@ -73,3 +73,5 @@ All of these mechanics come together well in giving a space merchant experience 
 ### Expansions
 
 I've yet to try any of the four expansions but they each add new cards that replace cards from the base game.
+
+### Conclusion
