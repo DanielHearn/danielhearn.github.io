@@ -66,7 +66,7 @@ Next you draw three cards from the deck to become your starter hand. This starts
 
 ![Unused scoring pad](./sp_full.jpg)
 
-Once all cards have been played you start scoring. This involves adding together the number of blocks within your largest group for each group type. Then you minus a score for each separate road, this encourages building a city that makes more thematic real sense with large connected roads and different sections of your city. Next you calculate your score for each active scoring card, this can involve getting adding or minusing points for certain block and road placements. Once all of your scores have been summed you get your final score. This is then compared to the target score (sum of all active scoring card targets). This gives you a win/loss goal with additional aim of beating your same score if you happen to have the same scoring cards as a previous game.
+Once all cards have been played you start scoring. This involves adding together the number of blocks within your largest group for each group type. Then you minus a score for each separate road, this encourages building a city that makes more thematic real sense with large connected roads and different sections of your city. Next you calculate your score for each active scoring card, this can involve getting adding or minusing points for certain block and road placements. Once all of your scores have been summed you get your final score. This is then compared to the target score (sum of all active scoring card targets). This gives you a win/loss goal with additional aim of beating your same score if you happen to have the same scoring cards as a previous game. The scoring makes it easy to see where you made bad decisions and try again with a new strategy
 
 ### Beaches Expansion
 
@@ -103,5 +103,9 @@ The issue in the solo mode is that you alternate between building each side of t
 ### Other Expansions
 
 I've yet to try the Roadworks expansions, but will update this review once I've done so. The combo expansions are also available to combine Sprawlopolis with Agropolis and Naturopolis.
+
+### Solo Challenges
+
+The [Button Shy Games' Discord](https://discord.com/invite/aUBMvnu) runs regular solo challenges for many of their games. With the 'opolis series have their most active challenges. These require completing a game with specific scoring cards, often with the more complex and difficult challenges.
 
 ### Conclusion

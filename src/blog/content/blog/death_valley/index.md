@@ -82,4 +82,8 @@ The player scores by adding up the stars from their journey but not from their s
 
 Sadly the only expansion for Death Valley, it includes 6 new cards across the card types in the base game. When using the expansion you switch out any number of base game cards with the expansion cards, this gives greater replayability than the base game as tableau combos are harder to predict. Some of these cards also work well with the scrapbook hiding mechanic which felt underutilised in the base game.
 
+### Solo Challenges
+
+The [Button Shy Games' Discord](https://discord.com/invite/aUBMvnu) runs occasional solo challenges for Death Valley. With these challenges applying custom modifiers to how you play or complete the game giving additional difficulty.
+
 ### Conclusion
