@@ -39,7 +39,7 @@ conclusion: "Iron Helm is a good example of a game being great due to being sum 
 relatedPosts:
   - "/death_valley/"
   - "/sprawlopolis/"
-  - "/galdors_grip/"
+  - "/spaceshipped/"
 hidden: true
 ---
 
@@ -55,11 +55,16 @@ _Iron Helm is a solo-play dungeon crawler in which you play as a hero in search 
 
 PNP has cards but you can either make your own tokens or print out the card trackers from BGG with your own cubes to track, I prefered this to making all the tokens (I still had to make blessing tokens). I recommend printing out the player mat if you get the PNP version to make it easier to track which weapons are equipped. I didn't see a need in printing the gameplay mat.
 
+// TODO
 GAMEFOUND VERSION
 
 ### Gameplay
 
-Dungeon crawler
+// TODO
+Dungeon crawler in a fairly small package
+
+// TODO
+Pick character and start with the skills and trappings assigned to that character, along with the health, energy, rations listed on the character card. Each plays differently with the biggest impact being the main type of skills the character can upgrade with for cheaper.
 
 Play two facedown dungeon cards and pick one and flip it face up, if you don't like the first card then you can push your luck and pick the other card.
 
@@ -70,8 +75,10 @@ The card that triggers the combat will impact enemy health and initial damage me
 
 There are many other encounters during in the dungeon such as merchants, campsites. This means you never know what will be behind the card. An issue I had with another small dungeon crawler One Deck Dungeon.
 
+// TODO
 Continue until all dungeon cards discarded
 
+// TODO
 Continue onto next level of dungeon, flip over a plot card
 These plot cards give choices with many possible impacts. Each plot card has a value, once you have discarded enough plot cards to sum 10 or more you then encounter the boss. The dungeon cards are reshuffled, a ration is reduced and potion is increased if you have it. This means you need to keep resources available as running out will be dangerous. The dungeon tracker card is used to track which level of the dungeon you are on.
 
