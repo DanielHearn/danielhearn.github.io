@@ -26,7 +26,7 @@ This list includes any expansions for the game where solo only or not as listing
   <li>Imperium: Legends (Legends > Classics)</li>
 </ol>
 
-## Top 10 Print and Play SoloGames
+## Top 10 Print and Play Solo Games
 
 <ol reversed>
   <li>Adamastor</li>
