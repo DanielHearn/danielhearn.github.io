@@ -19,7 +19,7 @@ pros:
     "Multiple expansions",
     "Win/Loss along with point scoring gives good replayability",
     "Expansions for additional post game dungeons gives opportunity campaign playthroughs",
-    "Upgrading your character is satisfying",
+    "Upgrading your character is satisfying and impactful",
   ]
 cons:
   [
@@ -27,7 +27,7 @@ cons:
     "Plot cards become repetitive quickly without expansions",
     "Often came across cards that used morality even though I had not had the chance to increase/decrease my morality yet",
     "Instructions aren't the best with the appendix being essential",
-    "Physical edition is expensive especially if importing while outside the USA",
+    "Physical edition is expensive especially if exporting out of the USA",
   ]
 review: "Highly Recommended"
 buy_links:
@@ -40,7 +40,7 @@ relatedPosts:
   - "/death_valley/"
   - "/sprawlopolis/"
   - "/spaceshipped/"
-hidden: true
+hidden: false
 ---
 
 ![Iron Helm cards](./iron_helm.png)
@@ -53,18 +53,27 @@ _Iron Helm is a solo-play dungeon crawler in which you play as a hero in search 
 
 ### Components
 
-PNP has cards but you can either make your own tokens or print out the card trackers from BGG with your own cubes to track, I prefered this to making all the tokens (I still had to make blessing tokens). I recommend printing out the player mat if you get the PNP version to make it easier to track which weapons are equipped. I didn't see a need in printing the gameplay mat.
+The print and play mostly consists of making cards but you can either make your own tokens or print out the card trackers from BGG with your own cubes to track, I prefered this to making all the tokens (I still had to make blessing tokens as there is no alternative). I recommend printing out the player mat if you get the PNP version to make it easier to track which weapons are equipped. I didn't see a need in printing the gameplay mat. If you play the print and play versions you will need to have d12 and d6 dice, along with small euro cubes if you use the tracking cards.
 
-// TODO
-GAMEFOUND VERSION
+The Game Crafter physical edition comes with all the base game cards, along with tokens and dice in a box with dividers and is large enough to fit some expansions. I think this version is expensive for what it is ($54.99 at time of review) especially compared to traditionally published games due to how The Game Crafter works. It is even more expensive if you live outside the USA due to taxes and shipping, so be carefull as many people have mentioned how expensive the game is with all costs considered.
+
+The Game Crafter also separately sells game and player mats to make laying out the game easier and more thematic. I don't think this is essential but I did like using a printed player mat in my PNP version.
 
 ### Gameplay
 
 // TODO
 Dungeon crawler in a fairly small package
 
+![Example of an early character sheet](./iron_character_sheet_early.jpg)
+
 // TODO
 Pick character and start with the skills and trappings assigned to that character, along with the health, energy, rations listed on the character card. Each plays differently with the biggest impact being the main type of skills the character can upgrade with for cheaper.
+
+![Tracking sheet at the beginning of the game](./iron_tracker_sheet_early.jpg)
+
+I used the printed tracking cards from BGG instead of using tokens as this felt cleaner and quicker to use.
+
+![Start of dungeon crawl](./iron_dungeon_1.jpg)
 
 Play two facedown dungeon cards and pick one and flip it face up, if you don't like the first card then you can push your luck and pick the other card.
 
@@ -78,17 +87,37 @@ There are many other encounters during in the dungeon such as merchants, campsit
 // TODO
 Continue until all dungeon cards discarded
 
+![Example of a plot card](./iron_plot_example.jpg)
+
 // TODO
 Continue onto next level of dungeon, flip over a plot card
 These plot cards give choices with many possible impacts. Each plot card has a value, once you have discarded enough plot cards to sum 10 or more you then encounter the boss. The dungeon cards are reshuffled, a ration is reduced and potion is increased if you have it. This means you need to keep resources available as running out will be dangerous. The dungeon tracker card is used to track which level of the dungeon you are on.
 
+![Example of a morality impacting plot card](./iron_morality.jpg)
+
+Some plot cards impact or use the player's morality to give different options or effects. This helps feel like you are actually roleplaying within this world, while being a small additional mechanic. Having high morality generally gives better long term impacts if you draw a plot card that uses your morality level, but choosing a morality lowering option often helps you keep alive. Though I did have many games where I had drawn a plot card that used morality before I had actually had a chance to lower or increase my morality, often making that plot card feel unimpactfull.
+
+![Example of a blessing token](./iron_blessing.jpg)
+
+Blessing tokens can be gained during the dungeon and are placed with your player face down so that you do not know what is on the other side. During combat you can discard a blessing token to reroll a single combat roll. But if you keep tokens until you reach the boss, you can flip the tokens over and gain their effects. This can be healing, additional energy or removing poison.
+
+![Stacks of each enemy type I killed during the game](./iron_count_enemies.jpg)
+
 The boss is picked based upon the enemies you fought during the dungeon. Bosses are just enemies with higher stats so combat is played as normal.
 
+![Lich boss](./iron_boss.jpg)
+
 I generally found the game quite hard with enemies able to inflict large amounts of damage in a single hit and easy to run out of energy if you get too aggressive with attacks.
+
+![Lich boss with low health and dealing 9 damage to the player](./iron_boss_loss.jpg)
+
+This is an example of a game I lost, where the boss only had 2 health left but its counterstrike dealt 9 damage (5 from dice difference added with 4 lich base damage) killed me.
 
 ### Game End
 
 If you kill a boss you can end the game there and score based upon what you achieved. There are expansions available that you play after completing a dungeon keeping the same character as before allowing for campaign gameplay.
+
+I always like games with clear win/loss game ends, especially when you are building a character within a world. Having additional score gives extra replayability by making a difference between games that you just managed to scrape a win compared to a win where everyting thing went right for you.
 
 ### Expansions
 
@@ -97,3 +126,5 @@ The Loot and Lore pack adds new characters, plot cards, enemies and items. This 
 Additional adventure expansions are also available to add campaign gameplay. These adventures are brought into the game after completing a certain number of previous dungeons. Each adventure has a new boss, enemies, character and items. 6 are available on gamecrafter though only 4 are currently on PNP arcade.
 
 There is also the Iron Chest expansion https://www.thegamecrafter.com/games/iron-chest which is only available physically. This adds a new adventure pack, mechanics, items, and random encounters. I've yet to try this expansion due to the cost of importing games from The Game Crafter into the UK.
+
+### Conclusion
