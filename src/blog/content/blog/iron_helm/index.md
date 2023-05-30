@@ -61,13 +61,11 @@ The Game Crafter also separately sells game and player mats to make laying out t
 
 ### Gameplay
 
-// TODO
-Dungeon crawler in a fairly small package
+Iron Helm aims to give dungeon crawler experience with character progression, plot, and random encounters in a relatively small package compared to large dungeon games.
 
 ![Example of an early character sheet](./iron_character_sheet_early.jpg)
 
-// TODO
-Pick character and start with the skills and trappings assigned to that character, along with the health, energy, rations listed on the character card. Each plays differently with the biggest impact being the main type of skills the character can upgrade with for cheaper.
+First you pick one of the four base game characters and start with the skills and trappings assigned to that character, along with tracking the starting health, energy, rations listed on the character card. Each character plays differently as archetypal fantasy classes with the biggest impact being the main type of skills the character can upgrade with. Though any character can upgrade with any skill, just at a higher cost.
 
 ![Tracking sheet at the beginning of the game](./iron_tracker_sheet_early.jpg)
 
@@ -75,23 +73,21 @@ I used the printed tracking cards from BGG instead of using tokens as this felt 
 
 ![Start of dungeon crawl](./iron_dungeon_1.jpg)
 
-Play two facedown dungeon cards and pick one and flip it face up, if you don't like the first card then you can push your luck and pick the other card.
+Next you start exploring the dungeon which consists of turns encoutering the surprises within the dungeon. At the first of each turn you play two facedown dungeon cards from the top of the deck. Then pick one and flip it face up, if you don't like the first card then you can push your luck and pick the other card.
 
-Dungeon cards can often have 2 effects depending on which order the card was picked with the second effect being stronger. Avoiding the first card you picked can be disaterous if you flip over a skirmish. This gives great push your luck gameplay.
+Dungeon cards can often have 2 effects depending on which order the card was picked with the second effect being stronger. Avoiding the first card you picked can be disaterous if you flip over a skirmish or poison trap. This gives great push your luck gameplay, where you might avoid a dangerous encounter to end up in a worse encounter. Though remembering which cards you have already discarded can help judge if flipping over the second card is worth it.
 
-Combat is dice based with your damage impacted by equipment and skills. This combat is very simplistic but is only part of the gameplay
-The card that triggers the combat will impact enemy health and initial damage meaning that choosing the fight if your first dungeon card is a combat encounter can the difference between life and death
+The dungeon encounters can be enemies, merchants, campsites and many others with positive or negative impacts. This means you never know what will be behind the card. An issue I had with One Deck Dungeon another small dungeon crawler. If you encounter an enemy, then you start combat which must be completed before you can continue exploring the dungeon.
 
-There are many other encounters during in the dungeon such as merchants, campsites. This means you never know what will be behind the card. An issue I had with another small dungeon crawler One Deck Dungeon.
+Combat is dice based with your damage modified by equipment and skills. This combat is very simplistic but is only part of the gameplay so I didn't feel it dragged down the game as a whole. The card that triggers the combat will impact enemy health and initial damage meaning that choosing the fight if your first dungeon card is a combat encounter can the difference between life and death.
 
-// TODO
-Continue until all dungeon cards discarded
+Each enemy also has an additional effect such as trading resources to avoid combat or other impacts if the enemy hits you.
+
+The encounter turns continue until you reach the end of the dungeon deck or reach ten plot points on your plot cards. You then shuffle the dungeon deck, increase the dungeon level, lose a ration if available and increase your poison. This dungeon level impacts combat, making it more dangerous as you delve deeper, working great with the theming.
 
 ![Example of a plot card](./iron_plot_example.jpg)
 
-// TODO
-Continue onto next level of dungeon, flip over a plot card
-These plot cards give choices with many possible impacts. Each plot card has a value, once you have discarded enough plot cards to sum 10 or more you then encounter the boss. The dungeon cards are reshuffled, a ration is reduced and potion is increased if you have it. This means you need to keep resources available as running out will be dangerous. The dungeon tracker card is used to track which level of the dungeon you are on.
+After completeting the other parts of the dungeon level completion, you then draw a plot card from the plot deck. These plot cards give choices with many possible impacts. Each plot card has a value, once you have discarded enough plot cards to sum 10 or more you then encounter the boss. The dungeon cards are reshuffled, a ration is reduced and potion is increased if you have it. This means you need to keep resources available as running out will be dangerous. The dungeon tracker card is used to track which level of the dungeon you are on.
 
 ![Example of a morality impacting plot card](./iron_morality.jpg)
 
