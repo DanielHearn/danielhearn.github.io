@@ -40,7 +40,7 @@ relatedPosts:
   - "/death_valley/"
   - "/sprawlopolis/"
   - "/spaceshipped/"
-hidden: false
+hidden: true
 ---
 
 ![Iron Helm cards](./iron_helm.png)
