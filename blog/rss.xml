@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Daniel Hearn's Blog RSS Feed]]></title><description><![CDATA[Board game reviews and opinion.]]></description><link>https://danielhearn.co.uk</link><generator>GatsbyJS</generator><lastBuildDate>Sat, 27 May 2023 13:38:50 GMT</lastBuildDate><item><title><![CDATA[My Top Solo Ranking of Board Games]]></title><description><![CDATA[This is my top solo ranking of all board games I have played as of May 27th 2023 This list includes any expansions for the game where solo…]]></description><link>https://danielhearn.co.uk/solo_ranking_games/</link><guid isPermaLink="false">https://danielhearn.co.uk/solo_ranking_games/</guid><pubDate>Sat, 27 May 2023 12:00:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;em&gt;This is my top solo ranking of all board games I have played as of May 27th 2023&lt;/em&gt;&lt;/p&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Daniel Hearn's Blog RSS Feed]]></title><description><![CDATA[Board game reviews and opinion.]]></description><link>https://danielhearn.co.uk</link><generator>GatsbyJS</generator><lastBuildDate>Tue, 30 May 2023 17:45:28 GMT</lastBuildDate><item><title><![CDATA[My Top Solo Ranking of Board Games]]></title><description><![CDATA[This is my top solo ranking of all board games I have played as of May 27th 2023 This list includes any expansions for the game where solo…]]></description><link>https://danielhearn.co.uk/solo_ranking_games/</link><guid isPermaLink="false">https://danielhearn.co.uk/solo_ranking_games/</guid><pubDate>Sat, 27 May 2023 12:00:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;em&gt;This is my top solo ranking of all board games I have played as of May 27th 2023&lt;/em&gt;&lt;/p&gt;
 &lt;p&gt;This list includes any expansions for the game where solo only or not as listing expansions would be too confusing. This includes solo only and solo mode games but does not consider the multiplayer modes in any way. This list also mixes games regardless of size and complexity.&lt;/p&gt;
 &lt;h2&gt;Top 10 Solo Games&lt;/h2&gt;
 &lt;ol reversed&gt;
@@ -13,7 +13,7 @@
   &lt;li&gt;Gloomhaven: Jaws of the Lion&lt;/li&gt;
   &lt;li&gt;Imperium: Legends (Legends &gt; Classics)&lt;/li&gt;
 &lt;/ol&gt;
-&lt;h2&gt;Top 10 Print and Play SoloGames&lt;/h2&gt;
+&lt;h2&gt;Top 10 Print and Play Solo Games&lt;/h2&gt;
 &lt;ol reversed&gt;
   &lt;li&gt;Adamastor&lt;/li&gt;
   &lt;li&gt;Palm Island&lt;/a&gt;&lt;/li&gt;
@@ -104,7 +104,7 @@ the art.&lt;/p&gt;
 &lt;h3&gt;Official Description&lt;/h3&gt;
 &lt;p&gt;&lt;em&gt;In Sprawlopolis, 1-4 players work together to build a new city from the ground up. Using only 18 cards and a variable scoring system, the game is never the same twice. Each turn, players will play 1 card from their hand to the growing city, trying to score as many points as possible.&lt;/em&gt;&lt;/p&gt;
 &lt;h3&gt;Components&lt;/h3&gt;
-&lt;p&gt;Sprawlopolis like other Button Shy Games, consists of 18 cards. With one side showing a set of four city blocks each of a different type. Along with one or two roads. The other side has a scoring condition. It also comes with scoring pad to help with scoring.&lt;/p&gt;
+&lt;p&gt;Sprawlopolis like other Button Shy Games, consists of 18 cards. With one side showing a set of four city blocks representing each of the four block types. Along with one or two roads that enter and exit the card on different sides. The other side has a unique scoring condition that is only active when draw as a scoring card at the start of the game. It also comes with scoring pad to help with scoring, though this isn&apos;t required.&lt;/p&gt;
 &lt;p&gt;&lt;span
       class=&quot;gatsby-resp-image-wrapper&quot;
       style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 800px; &quot;
@@ -240,7 +240,8 @@ the art.&lt;/p&gt;
       /&gt;
   &lt;/a&gt;
     &lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;Once all cards have been played you start scoring. This involves adding together the number of blocks within your largest group for each group type. Then you minus a score for each separate road, this encourages building a city that makes more thematic real sense with large connected roads and different sections of your city. Next you calculate your score for each active scoring card, this can involve getting adding or minusing points for certain block and road placements. Once all of your scores have been summed you get your final score. This is then compared to the target score (sum of all active scoring card targets). This gives you a win/loss goal with additional aim of beating your same score if you happen to have the same scoring cards as a previous game. The scoring makes it easy to see where you made bad decisions and try again with a new strategy&lt;/p&gt;
+&lt;p&gt;Once all cards have been played you start scoring. This involves adding together the number of blocks within your largest group for each group type. Then you minus a score for each separate road, this encourages building a city that makes more thematic real sense with large connected roads and different sections of your city. Next you calculate your score for each active scoring card, this can involve getting adding or minusing points for certain block and road placements.&lt;/p&gt;
+&lt;p&gt;Once all of your scores have been summed you get your final score. This is then compared to the target score (sum of all active scoring card targets). This gives you a win/loss goal with additional aim of beating your personal best if you happen to have the same scoring cards as a previous game. The scoring makes it easy to see where you made bad decisions and try again with a new strategy. I&apos;ve found the fascinating strategy wise as many players will approach the same scoring conditions in a completely different way, this is evident if you take part in the solo challenges mentioned further down.&lt;/p&gt;
 &lt;h3&gt;Beaches Expansion&lt;/h3&gt;
 &lt;p&gt;&lt;span
       class=&quot;gatsby-resp-image-wrapper&quot;
@@ -275,7 +276,7 @@ the art.&lt;/p&gt;
       /&gt;
   &lt;/a&gt;
     &lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;Beaches adds cards that restrict the area you can build in by creating a horizontal or vertical limit that you cannot build past. But offsets this difficulty increase with an additional scoring card also pulled from the beaches cards. This is my favourite expansion as it works great thematically and mechanically.&lt;/p&gt;
+&lt;p&gt;Beaches adds four cards that restrict the area you can build in by creating a horizontal or vertical limit that you cannot build past. This happens during the game by being placed immediately when draw from the deck, this can often ruin your plans and force you to adapt. But offsets this difficulty increase with an additional scoring card also pulled from the beaches cards that focuses on giving you points by achieving certain goals on blocks near the beaches. This is my favourite expansion as it works great thematically and mechanically.&lt;/p&gt;
 &lt;h3&gt;Construction Zones Expansion&lt;/h3&gt;
 &lt;p&gt;&lt;span
       class=&quot;gatsby-resp-image-wrapper&quot;
@@ -310,7 +311,7 @@ the art.&lt;/p&gt;
       /&gt;
   &lt;/a&gt;
     &lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;Construction Zones adds cards that get played during gameplay when they get drawn into your hand. Each card contains a block with construction on, if this block is not covered by the end of the game you additional lose points. Like beaches you also offset this difficulty increase with a scoring card from this expansion. This didn&apos;t quite hit the same as Beaches as it felt more annoying than fun.&lt;/p&gt;
+&lt;p&gt;Construction Zones adds four cards that get played during gameplay when they get drawn into your hand. Each card contains a block with construction on, if this block is not covered by the end of the game you additional lose points. Like beaches you also offset this difficulty increase with a scoring card from this expansion. This didn&apos;t quite hit the same as Beaches as it felt more annoying than fun, along with not being visible at the end of the game if you covered all construction zones. While after the beaches expansion you can see how the restrictions forced you to adapt.&lt;/p&gt;
 &lt;h3&gt;Point of Interest Expansion&lt;/h3&gt;
 &lt;p&gt;&lt;span
       class=&quot;gatsby-resp-image-wrapper&quot;
@@ -380,7 +381,7 @@ the art.&lt;/p&gt;
       /&gt;
   &lt;/a&gt;
     &lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;Wrecktar adds difficulty by being played when it gets added to the hand. This card covers the last card that was played and then reduces the final score if any commercial blocks are in the same row and column. If you avoid doing that you get 3 extra points. While having a Godzilla like creature attacking your city is a great idea, I felt that the mechanics were lacking. Instead I would have preferred additional cards with military blocks that must be placed in the same row and column to take Wrecktar down.&lt;/p&gt;
+&lt;p&gt;Wrecktar adds difficulty by including a single card that gets played when it gets added to the hand. This card covers the last card that was played and then reduces the final score if any commercial blocks are in the same row and column. If you avoid doing that you get 3 extra points. While having a Godzilla like creature attacking your city is a great idea, I felt that the mechanics were lacking. Instead I would have preferred additional cards with military blocks that must be placed in the same row and column to take Wrecktar down.&lt;/p&gt;
 &lt;h3&gt;Interstate Expansion&lt;/h3&gt;
 &lt;p&gt;&lt;span
       class=&quot;gatsby-resp-image-wrapper&quot;
@@ -415,40 +416,39 @@ the art.&lt;/p&gt;
       /&gt;
   &lt;/a&gt;
     &lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;Interstate is the most unique expansion, but works best in multiplayer where you can play versus another player building your own city on your side of the interstate. The interstate is built horizontally between both players and includes roads that turn off onto your city. Each interstate card also includes half city blocks at opposite sides these cannot be covered but otherwise act as normal city blocks for scoring.&lt;/p&gt;
-&lt;p&gt;The issue in the solo mode is that you alternate between building each side of the city. Which I just didn&apos;t find fun as splitting up the playable cards limits the size and possible layouts of each side.&lt;/p&gt;
+&lt;p&gt;Interstate is the most unique expansion, but works best in multiplayer where you can play versus another player building your own city on your side of the interstate. The interstate is built horizontally with four new cards between both players and includes roads that turn off onto your city. Each interstate card also includes half city blocks at opposite sides these cannot be covered but otherwise act as normal city blocks for scoring.&lt;/p&gt;
+&lt;p&gt;The issue in the solo mode is that you alternate between building each side of the city. Which I just didn&apos;t find fun as splitting up the playable cards limits the size and possible layouts of each side. This expansion does appear to be aimed at multiplayer though, while the others are more player count agnostic.&lt;/p&gt;
 &lt;h3&gt;Other Expansions&lt;/h3&gt;
-&lt;p&gt;I&apos;ve yet to try the Roadworks expansions, but will update this review once I&apos;ve done so. The combo expansions are also available to combine Sprawlopolis with Agropolis and Naturopolis.&lt;/p&gt;
+&lt;p&gt;I&apos;ve yet to try the Roadworks expansions, but will update this review once I&apos;ve done so. The combo expansions are also available to combine Sprawlopolis with Agropolis and Naturopolis. These give a huge amount of additional variety ontop of an already replayable game with from my experience a slightly harder experience.&lt;/p&gt;
 &lt;h3&gt;Solo Challenges&lt;/h3&gt;
 &lt;p&gt;The &lt;a href=&quot;https://discord.com/invite/aUBMvnu&quot;&gt;Button Shy Games&apos; Discord&lt;/a&gt; runs regular solo challenges for many of their games. With the &apos;opolis series have their most active challenges. These require completing a game with specific scoring cards, often with the more complex and difficult challenges.&lt;/p&gt;
+&lt;p&gt;I&apos;ve found these fun, though often difficult to play as the challenges mostly focus on the harder scoring card combinations. Each week has a new challenge from any &apos;opolis game or expansion though, so it is mainly aimed at those with larger &apos;opolis collections.&lt;/p&gt;
 &lt;h3&gt;Conclusion&lt;/h3&gt;</content:encoded></item><item><title><![CDATA[Ragemore Review]]></title><description><![CDATA[I reviewed the print and play version from PNP Arcade for $3. Official Description Ragemore is an 18 card solo game where you will complete…]]></description><link>https://danielhearn.co.uk/ragemore/</link><guid isPermaLink="false">https://danielhearn.co.uk/ragemore/</guid><pubDate>Sun, 30 Apr 2023 22:12:03 GMT</pubDate><content:encoded>&lt;p&gt;I reviewed the print and play version from &lt;a href=&quot;https://www.pnparcade.com/collections/solo-games/products/ragemore&quot;&gt;PNP Arcade&lt;/a&gt; for $3.&lt;/p&gt;
 &lt;h3&gt;Official Description&lt;/h3&gt;
-&lt;p&gt;&lt;em&gt;Ragemore is an 18 card solo game where you will complete quests, while managing your hand and resources as you delve though the dark, fighting demons, all in a span of 10-15 minutes.&lt;/em&gt;&lt;/p&gt;</content:encoded></item><item><title><![CDATA[SpaceShipped Review]]></title><description><![CDATA[I reviewed the print and play version from PNP Arcade for $3. Official Description A solo space trading game of buying and selling resources…]]></description><link>https://danielhearn.co.uk/spaceshipped/</link><guid isPermaLink="false">https://danielhearn.co.uk/spaceshipped/</guid><pubDate>Sun, 30 Apr 2023 22:12:03 GMT</pubDate><content:encoded>&lt;p&gt;&lt;span
+&lt;p&gt;&lt;em&gt;Ragemore is an 18 card solo game where you will complete quests, while managing your hand and resources as you delve though the dark, fighting demons, all in a span of 10-15 minutes.&lt;/em&gt;&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Galdor's Grip]]></title><description><![CDATA[Only available as print and play. But was easy to print and has crosshair markers. Any misalignment is the fault of my lazy duplex print and…]]></description><link>https://danielhearn.co.uk/galdors_grip/</link><guid isPermaLink="false">https://danielhearn.co.uk/galdors_grip/</guid><pubDate>Sun, 30 Apr 2023 22:12:03 GMT</pubDate><content:encoded>&lt;p&gt;&lt;span
       class=&quot;gatsby-resp-image-wrapper&quot;
       style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 800px; &quot;
     &gt;
       &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/blog/static/50f07a992e5b164b4075d55ec1a8fa16/81f49/space_full.jpg&quot;
+    href=&quot;/blog/static/344a73ea1adf376e3f3d4dd0ece3fc04/3f7b8/galdors.jpg&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
   &gt;
     &lt;span
     class=&quot;gatsby-resp-image-background-image&quot;
-    style=&quot;padding-bottom: 47.5%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAKABQDASIAAhEBAxEB/8QAGAAAAwEBAAAAAAAAAAAAAAAAAAMEAgX/xAAVAQEBAAAAAAAAAAAAAAAAAAAAAf/aAAwDAQACEAMQAAABajfFisiD/8QAHBAAAQQDAQAAAAAAAAAAAAAAAQACAxEEEhMz/9oACAEBAAEFAiZbd2TopHHK87K2K//EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQMBAT8BP//EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQIBAT8BP//EABoQAAIDAQEAAAAAAAAAAAAAAAAxAQIRMoH/2gAIAQEABj8CzaiqcwejHJ//xAAaEAACAwEBAAAAAAAAAAAAAAABEQAhUZHx/9oACAEBAAE/ISFF7AApjxwcKKVStMw7Oz1p/9oADAMBAAIAAwAAABBb/wD/xAAXEQADAQAAAAAAAAAAAAAAAAAAARFB/9oACAEDAQE/EIOvT//EABURAQEAAAAAAAAAAAAAAAAAAAAR/9oACAECAQE/EIj/xAAcEAEAAgIDAQAAAAAAAAAAAAABABEhMVFhcfH/2gAIAQEAAT8QvG8lmGrhpLSVwB15HTQFFvuNVSOw8YfIb6n0E//Z&apos;); background-size: cover; display: block;&quot;
+    style=&quot;padding-bottom: 94.5%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAATABQDASIAAhEBAxEB/8QAGAABAQEBAQAAAAAAAAAAAAAAAAQCAQP/xAAXAQEBAQEAAAAAAAAAAAAAAAAAAgED/9oADAMBAAIQAxAAAAHuXpO6TCSoVOI6/wD/xAAbEAACAgMBAAAAAAAAAAAAAAABAgADERIyIf/aAAgBAQABBQLmE6sro4OoVhhTY8s5x6J//8QAGREAAgMBAAAAAAAAAAAAAAAAAAEQETFB/9oACAEDAQE/AXhQuR//xAAZEQABBQAAAAAAAAAAAAAAAAAAARARIUH/2gAIAQIBAT8BSiTG/8QAHxABAAIBAwUAAAAAAAAAAAAAAQACERASMSEzQXKx/9oACAEBAAY/AkamwgD5yzc/IDfPXkjtsZ5ncqQlvU0//8QAHhAAAgICAgMAAAAAAAAAAAAAAREAIUFRMWGhsfH/2gAIAQEAAT8hzshEblJbodQBTfDkCCOmgdxgwZr3GLK0PkMhR0fERakAU//aAAwDAQACAAMAAAAQKOiC/8QAGhEAAgIDAAAAAAAAAAAAAAAAAAERQTFRYf/aAAgBAwEBPxBE5WS0UdFg/8QAFxEBAQEBAAAAAAAAAAAAAAAAARAhMf/aAAgBAgEBPxAOHkM//8QAHhABAQEBAAICAwAAAAAAAAAAAREhADFBUaFxkbH/2gAIAQEAAT8QjcimlEorPf64obbYwGGckF3iGDC2/HGMXoAJmtz355D05oQEEqQSc0ZDQUPt/eFEDxD7veuoQQ/KV+3pKgqGu+jv/9k=&apos;); background-size: cover; display: block;&quot;
   &gt;&lt;/span&gt;
   &lt;img
         class=&quot;gatsby-resp-image-image&quot;
-        alt=&quot;SpaceShipped&quot;
+        alt=&quot;Galdor&amp;#39;s Grip cards&quot;
         title=&quot;&quot;
-        src=&quot;/blog/static/50f07a992e5b164b4075d55ec1a8fa16/a24e6/space_full.jpg&quot;
-        srcset=&quot;/blog/static/50f07a992e5b164b4075d55ec1a8fa16/a6b4f/space_full.jpg 200w,
-/blog/static/50f07a992e5b164b4075d55ec1a8fa16/a6407/space_full.jpg 400w,
-/blog/static/50f07a992e5b164b4075d55ec1a8fa16/a24e6/space_full.jpg 800w,
-/blog/static/50f07a992e5b164b4075d55ec1a8fa16/03ffe/space_full.jpg 1200w,
-/blog/static/50f07a992e5b164b4075d55ec1a8fa16/04bec/space_full.jpg 1600w,
-/blog/static/50f07a992e5b164b4075d55ec1a8fa16/81f49/space_full.jpg 4032w&quot;
+        src=&quot;/blog/static/344a73ea1adf376e3f3d4dd0ece3fc04/a24e6/galdors.jpg&quot;
+        srcset=&quot;/blog/static/344a73ea1adf376e3f3d4dd0ece3fc04/a6b4f/galdors.jpg 200w,
+/blog/static/344a73ea1adf376e3f3d4dd0ece3fc04/a6407/galdors.jpg 400w,
+/blog/static/344a73ea1adf376e3f3d4dd0ece3fc04/a24e6/galdors.jpg 800w,
+/blog/static/344a73ea1adf376e3f3d4dd0ece3fc04/3f7b8/galdors.jpg 950w&quot;
         sizes=&quot;(max-width: 800px) 100vw, 800px&quot;
         style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
         loading=&quot;lazy&quot;
@@ -456,88 +456,24 @@ the art.&lt;/p&gt;
       /&gt;
   &lt;/a&gt;
     &lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;I reviewed the print and play version from &lt;a href=&quot;https://www.pnparcade.com/products/spaceshipped&quot;&gt;PNP Arcade&lt;/a&gt; for $3.&lt;/p&gt;
+&lt;p&gt;Only available as print and play. But was easy to print and has crosshair markers. Any misalignment is the fault of my lazy duplex print and play method.&lt;/p&gt;
 &lt;h3&gt;Official Description&lt;/h3&gt;
-&lt;p&gt;&lt;em&gt;A solo space trading game of buying and selling resources, upgrading your ship, crew, and equipment, dealing with pirates, and making deals. A card game with over 30 random events, 4 types of ship, 4 sets of crew members, and 8 different pieces of equipment to install, all using only 18 cards packed neatly in a little wallet.&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Galdor&apos;s Grip is a solo fantasy card game played entirely in your hands. Cycle through the deck, utilizing player actions and card abilities to strategically manipulate the order and orientation of the cards. Complete scoring objectives to earn enough points (stars) required to win the game, while avoiding any situations that result in a loss.&lt;/em&gt;&lt;/p&gt;
 &lt;h3&gt;Components&lt;/h3&gt;
-&lt;p&gt;SpaceShipped consists of 18 cards with 16 being multi-use and the other two being tracking cards. Each of the multi use cards has content on both sides. One side having the orbital encounter, planetside encounter and marketplace with the other side having an upgrade and resource. These are some of the most content rich cards I&apos;ve seen in a Button Shy Game.&lt;/p&gt;
+&lt;p&gt;Base game has 18 cards with each expansion adding 6 additional cards. You combine the base and expansion cards to assemble a new deck for each game. The cards are extremely well produced for a free print and play game with fantastic art and iconography. As this is an in-hand game you need to choose the right sleeves or print and play method to make the cards easy to manipulate.&lt;/p&gt;
+&lt;p&gt;Each card has a name and art representing the obstacle or location.&lt;/p&gt;
+&lt;p&gt;// TODO
+Value showing the number of cards that will be moved from the top to the bottom of the deck
+Some cards can be flipped to get different effects or values&lt;/p&gt;
 &lt;h3&gt;Gameplay&lt;/h3&gt;
-&lt;p&gt;The aim of SpaceShipped is to buy two xeno crystals before your opponent takes them. This time limit encourages risky choices that balance between making enough credits and surviving into the next turn. To buy a xeno crystal you need 20 credits obtained by buying and selling resources without reaching 0 health.&lt;/p&gt;
-&lt;p&gt;&lt;span
-      class=&quot;gatsby-resp-image-wrapper&quot;
-      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 800px; &quot;
-    &gt;
-      &lt;a
-    class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/blog/static/171d1b6231abf7e394ce0cc0590d0e60/81f49/space_encounter.jpg&quot;
-    style=&quot;display: block&quot;
-    target=&quot;_blank&quot;
-    rel=&quot;noopener&quot;
-  &gt;
-    &lt;span
-    class=&quot;gatsby-resp-image-background-image&quot;
-    style=&quot;padding-bottom: 47.5%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAKABQDASIAAhEBAxEB/8QAFwABAQEBAAAAAAAAAAAAAAAAAwAEBf/EABUBAQEAAAAAAAAAAAAAAAAAAAAB/9oADAMBAAIQAxAAAAHSfIKEgq//xAAbEAADAAIDAAAAAAAAAAAAAAAAAQIDEgQhMf/aAAgBAQABBQJStXMnI6yu6N6PT//EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQMBAT8BP//EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQIBAT8BP//EABkQAAIDAQAAAAAAAAAAAAAAAAABISIykf/aAAgBAQAGPwJVRlcINM0yT//EABsQAQEBAAIDAAAAAAAAAAAAAAERACHhMUFh/9oACAEBAAE/IV1NQ9ajieEWAIeN2XPY5VVV+7//2gAMAwEAAgADAAAAEH8f/8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAwEBPxA//8QAFREBAQAAAAAAAAAAAAAAAAAAEBH/2gAIAQIBAT8Qp//EABsQAAMAAgMAAAAAAAAAAAAAAAABETFRIZHB/9oACAEBAAE/EFRaDi9E9Q8uBetTIkWBRKd0t9pfDc1Z/9k=&apos;); background-size: cover; display: block;&quot;
-  &gt;&lt;/span&gt;
-  &lt;img
-        class=&quot;gatsby-resp-image-image&quot;
-        alt=&quot;SpaceShipped encounter and marketplace row&quot;
-        title=&quot;&quot;
-        src=&quot;/blog/static/171d1b6231abf7e394ce0cc0590d0e60/a24e6/space_encounter.jpg&quot;
-        srcset=&quot;/blog/static/171d1b6231abf7e394ce0cc0590d0e60/a6b4f/space_encounter.jpg 200w,
-/blog/static/171d1b6231abf7e394ce0cc0590d0e60/a6407/space_encounter.jpg 400w,
-/blog/static/171d1b6231abf7e394ce0cc0590d0e60/a24e6/space_encounter.jpg 800w,
-/blog/static/171d1b6231abf7e394ce0cc0590d0e60/03ffe/space_encounter.jpg 1200w,
-/blog/static/171d1b6231abf7e394ce0cc0590d0e60/04bec/space_encounter.jpg 1600w,
-/blog/static/171d1b6231abf7e394ce0cc0590d0e60/81f49/space_encounter.jpg 4032w&quot;
-        sizes=&quot;(max-width: 800px) 100vw, 800px&quot;
-        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
-        loading=&quot;lazy&quot;
-        decoding=&quot;async&quot;
-      /&gt;
-  &lt;/a&gt;
-    &lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;Each turn consists of activating the effects of the current encounter cards going diagonally from the top left of the left card down to the bottom right of the right card. First you activate the orbital encounter of the left card which can be positive or negative, though you have no way to prepare for this encounter which you will see is a big negative for my enjoyment of the game. Next you have the planetside encounter of the middle card which acts the same as the orbital encounter. Though you have a turn to prepare as the encounter cards are shifted to the right after each card with the right card being moved into the upgrade row and the rightmost resource card being flipped and added as the left card of the encounters. Being able to prepare for the planetside encounter is important as you often need to prepare shields or buy certain resources to avoid damage.&lt;/p&gt;
-&lt;p&gt;Next you can buy and sell from the marketplace and upgrade row. The right card in the encounter is the marketplace, this gives two turns to see what prices you can get in the future for buying and selling.&lt;/p&gt;
-&lt;p&gt;&lt;span
-      class=&quot;gatsby-resp-image-wrapper&quot;
-      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 800px; &quot;
-    &gt;
-      &lt;a
-    class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/blog/static/848202b545024eefdb39f2ac60f64cdd/81f49/space_upgrades.jpg&quot;
-    style=&quot;display: block&quot;
-    target=&quot;_blank&quot;
-    rel=&quot;noopener&quot;
-  &gt;
-    &lt;span
-    class=&quot;gatsby-resp-image-background-image&quot;
-    style=&quot;padding-bottom: 47.5%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAKABQDASIAAhEBAxEB/8QAFgABAQEAAAAAAAAAAAAAAAAAAwAF/8QAFQEBAQAAAAAAAAAAAAAAAAAAAAH/2gAMAwEAAhADEAAAAULOGEgq/8QAHBAAAQMFAAAAAAAAAAAAAAAAAgEDEwAQERIh/9oACAEBAAEFAouRph8dXVMqUit//8QAFhEAAwAAAAAAAAAAAAAAAAAAARAR/9oACAEDAQE/AYF//8QAFREBAQAAAAAAAAAAAAAAAAAAEBH/2gAIAQIBAT8Bh//EABoQAAICAwAAAAAAAAAAAAAAAAABEDIRIZH/2gAIAQEABj8CWjI0WfSzj//EABoQAAMBAQEBAAAAAAAAAAAAAAABESExQeH/2gAIAQEAAT8hh4fPB3ysuQQo5hGb6grfdP/aAAwDAQACAAMAAAAQAw//xAAWEQEBAQAAAAAAAAAAAAAAAAABADH/2gAIAQMBAT8QGLL/xAAWEQADAAAAAAAAAAAAAAAAAAAQEUH/2gAIAQIBAT8QSj//xAAcEAEAAwEAAwEAAAAAAAAAAAABABEhMUFRYXH/2gAIAQEAAT8QMI2WfvzKkyYHaQnI4IyuhC0xrlovq/rnSle1uf/Z&apos;); background-size: cover; display: block;&quot;
-  &gt;&lt;/span&gt;
-  &lt;img
-        class=&quot;gatsby-resp-image-image&quot;
-        alt=&quot;SpaceShipped upgrade row&quot;
-        title=&quot;&quot;
-        src=&quot;/blog/static/848202b545024eefdb39f2ac60f64cdd/a24e6/space_upgrades.jpg&quot;
-        srcset=&quot;/blog/static/848202b545024eefdb39f2ac60f64cdd/a6b4f/space_upgrades.jpg 200w,
-/blog/static/848202b545024eefdb39f2ac60f64cdd/a6407/space_upgrades.jpg 400w,
-/blog/static/848202b545024eefdb39f2ac60f64cdd/a24e6/space_upgrades.jpg 800w,
-/blog/static/848202b545024eefdb39f2ac60f64cdd/03ffe/space_upgrades.jpg 1200w,
-/blog/static/848202b545024eefdb39f2ac60f64cdd/04bec/space_upgrades.jpg 1600w,
-/blog/static/848202b545024eefdb39f2ac60f64cdd/81f49/space_upgrades.jpg 4032w&quot;
-        sizes=&quot;(max-width: 800px) 100vw, 800px&quot;
-        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
-        loading=&quot;lazy&quot;
-        decoding=&quot;async&quot;
-      /&gt;
-  &lt;/a&gt;
-    &lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;The upgrades row will have an assortment of ships, crew and ship upgrades. Expensive ships will have more inventory slots which are important later as you need space to contain any resources and xeno crystals you have. This row also shifts to the right each turn with the rightmost card becoming the next resource card. This gives multiple turns to prepare to buy upgrades. Upgrades become very important in avoiding negative encounters and maximising profits.&lt;/p&gt;
-&lt;p&gt;The resource row has a wide assortment of resources available so you normally have opportunities to buy low and sell high, with the occasional turn where you don&apos;t have any profitable choices. Those turns are often a good opportunity to buy upgrades.&lt;/p&gt;
-&lt;p&gt;All of these mechanics come together well in giving a space merchant experience where you are hopping planet to planet buying and selling resources. The issues though comes from the randomness of each mechanic that when combined can ruin a game instantly. For example I had a turn with a 3 damage orbital encounter that I couldn&apos;t prepare for, followed by a 2 damage planetside encounter that could have only be mitigated if I had a resource that hadn&apos;t been available to buy at a decent price recently. Because you can only have a max of 3 health and 2 shields this means that one turn of bad luck can instantly end the game. The other effect of this means you can get really good combinations of turns with a profitable marketplace but it this ends up being unsatisfying as it is rarely due to any good choices you made.&lt;/p&gt;
+&lt;p&gt;All cards are face down at the start. Then you flip over the top card and resolve any effects.&lt;/p&gt;
+&lt;p&gt;ROTATE
+CAN CHOOSE TO MOVE VALUE OF TOP OR NEXT CARD IF FACEUP&lt;/p&gt;
+&lt;p&gt;Next you move the specified number of cards to the bottom of the deck based upon the value of the top card. You can move the top card anywhere within the segment of cards being moved which is the main choice you need to make to win. Bad card orders can mean you miss flipping over face down cards or visiting negative cards. Being able to view the face up cards in the deck makes it easy to plan ahead.&lt;/p&gt;
+&lt;p&gt;The aim is to get 9 stars by the end of the game, these stars are earnt by having face up cards with stars on the top side. Cards with stars often require achieving certain orders of cards within the deck.&lt;/p&gt;
+&lt;p&gt;You also have to avoid repeatedly have the figment of feragot cards at the top of the deck. If this happens to the same of these cards three times then you automatically lose. Though flipping over these cards twice can earn a star so you can push your luck. I often found it quite hard to get nine stars with my average being 5 or 6.&lt;/p&gt;
 &lt;h3&gt;Expansions&lt;/h3&gt;
-&lt;p&gt;I&apos;ve yet to try any of the four expansions but they each add new cards that replace cards from the base game. Adding more variety and difficulty.&lt;/p&gt;
-&lt;h3&gt;Solo Challenges&lt;/h3&gt;
-&lt;p&gt;The &lt;a href=&quot;https://discord.com/invite/aUBMvnu&quot;&gt;Button Shy Games&apos; Discord&lt;/a&gt; runs occasional solo challenges for SpaceShipped. With these challenges applying custom modifiers to how you play or complete the game giving additional difficulty.&lt;/p&gt;
+&lt;p&gt;Galdor&apos;s Grip has three expansions each containing 6 cards that can replace cards from the base game. This gives great replayability due to amount of possible card combinations. These expansions aren&apos;t required though, so I recommend printing out the base game first&lt;/p&gt;
 &lt;h3&gt;Conclusion&lt;/h3&gt;</content:encoded></item><item><title><![CDATA[Death Valley + Expansion Review (Solo Mode)]]></title><description><![CDATA[I reviewed the print and play version from PNP Arcade for $3. Official Description Death Valley is a pocket-sized, push-your-luck, tableau…]]></description><link>https://danielhearn.co.uk/death_valley/</link><guid isPermaLink="false">https://danielhearn.co.uk/death_valley/</guid><pubDate>Sun, 30 Apr 2023 22:12:03 GMT</pubDate><content:encoded>&lt;p&gt;&lt;span
       class=&quot;gatsby-resp-image-wrapper&quot;
       style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 800px; &quot;
@@ -611,7 +547,7 @@ the art.&lt;/p&gt;
     &lt;/span&gt;&lt;/p&gt;
 &lt;p&gt;With the physical version it comes with a wallet to store the cards, while for my print and play version I assembled a tuckbox from BoardGameGeek.&lt;/p&gt;
 &lt;h3&gt;Gameplay&lt;/h3&gt;
-&lt;p&gt;Death valley comes with 2 multiplayer modes and a solo mode that is the focus of this review. The bot in the solo mode is easy to use and helps give the game a very consistent play length making it a great choice during lunch breaks.&lt;/p&gt;
+&lt;p&gt;Death valley comes with 2 multiplayer modes and a solo mode that is the focus of this review. The bot in the solo mode is easy to use and helps give the game a very consistent play length making it a great choice during work breaks.&lt;/p&gt;
 &lt;p&gt;&lt;span
       class=&quot;gatsby-resp-image-wrapper&quot;
       style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 800px; &quot;
@@ -645,7 +581,8 @@ the art.&lt;/p&gt;
       /&gt;
   &lt;/a&gt;
     &lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;You start by shuffling the draw deck and playing the top card as a faceup desert card. In each turn you can choose between playing the top facedown card from the deck or the desert card into your journey. Your journey contains cards you can score stars from but you have to be careful to avoid busting by having 3 cards of the same type, this causes you to clear your journey of cards and discard the busting card into your discard pile. The other option is to rest by moving a card from your journey into your scrapbook to keep it safe as they cannot be lost due to busting with the downside of scrapbook cards not scoring for stars. This gives great push your luck where busting can cause huge consequences. You can also hide journey cards when resting which plays into certain combos while allowing you to avoid busting by hiding cards with duplicated types. Though I did find this mechanic to be underutilised with limited scoring impact using card effects or only occasionally useful for busting.&lt;/p&gt;
+&lt;p&gt;The game starts by shuffling the draw deck and playing the top card as a faceup desert card. In each turn you can choose between playing the top facedown card from the deck or the faceup desert card into your journey. Your journey contains cards you can score stars from but you have to be careful to avoid busting by having 3 cards of the same type. As busting causes you to clear your journey of cards and discard the busting card into your discard pile, lowering your potential score and potentially ruining your planned tableau combos.&lt;/p&gt;
+&lt;p&gt;The other option is to rest by moving a card from your journey into your scrapbook to keep it safe as they cannot be lost due to busting with the downside of scrapbook cards not scoring for stars. This gives great push your luck where busting can cause huge consequences. You can also hide journey cards when resting which plays into certain combos while allowing you to avoid busting by hiding cards with duplicated types. Though I did find this mechanic to be underutilised with limited scoring impact using card effects or only occasionally useful for busting.&lt;/p&gt;
 &lt;p&gt;&lt;span
       class=&quot;gatsby-resp-image-wrapper&quot;
       style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 800px; &quot;
@@ -680,8 +617,8 @@ the art.&lt;/p&gt;
   &lt;/a&gt;
     &lt;/span&gt;&lt;/p&gt;
 &lt;p&gt;The bot has a few possible actions with simple criteria for which one it completes, making it very easy to use. The bot will attempt to bust you, so you need to keep track of the bot&apos;s journey cards to know how many of each card type it has. This allows to work out how many cards of each type would still be available in the deck. I found this works quite well as it&apos;s just smart enough to be engaging without being complicated to handle.&lt;/p&gt;
-&lt;p&gt;The series of player and bot turns continues until only one card is faceup in the desert. This triggers the end of the game and scoring begins. The bot doesn&apos;t use the tableau mechanics of its card due to the potential placement issues that it wouldn&apos;t be able to achieve, instead it gets points per star and the positive points listed in the tableau mechanics per card. This is a problem I always have with these bots as it feels like a mechanic is being wasted though I understand it&apos;s a fundamental problem with adding bots onto multiplayer games.&lt;/p&gt;
-&lt;p&gt;The player scores by adding up the stars from their journey but not from their scrapbook then calculates the scores from their tableau mechanics to get the final score. It also comes with two additional harder difficulty modifiers for the bot that utilise busting.&lt;/p&gt;
+&lt;p&gt;The series of player and bot turns continues until only one card is faceup in the desert. This triggers the end of the game and scoring begins. The bot doesn&apos;t use the tableau mechanics of its card due to the potential placement issues that it wouldn&apos;t be able to achieve. Instead it gets points per star and the positive effect points listed in the tableau mechanics on each of the bot&apos;s cards. This is a problem I always have with these types of bots as it feels like a mechanic is being wasted though I understand it&apos;s a fundamental problem with adding bots onto multiplayer game mechanics.&lt;/p&gt;
+&lt;p&gt;The player scores by adding up the stars from their journey but not from their scrapbook, then calculates the scores from their tableau mechanics to get the final score. It also comes with two additional harder difficulty modifiers for the bot that utilise busting. I did find the bot scoring inconsistent as it can draw cards that have many stars or effect points without the negative impacts that the player would have to deal with if they had played that card in their journey.&lt;/p&gt;
 &lt;p&gt;&lt;span
       class=&quot;gatsby-resp-image-wrapper&quot;
       style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 800px; &quot;
@@ -749,33 +686,35 @@ the art.&lt;/p&gt;
       /&gt;
   &lt;/a&gt;
     &lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;Sadly the only expansion for Death Valley, it includes 6 new cards across the card types in the base game. When using the expansion you switch out any number of base game cards with the expansion cards, this gives greater replayability than the base game as tableau combos are harder to predict. Some of these cards also work well with the scrapbook hiding mechanic which felt underutilised in the base game.&lt;/p&gt;
+&lt;p&gt;Panamint City is sadly the only expansion for Death Valley, it includes 6 new cards across the card types in the base game. When using the expansion you switch out any number of base game cards with the expansion cards, this gives greater replayability than the base game as tableau combos are harder to predict. Some of these cards also work well with the scrapbook hiding mechanic which felt underutilised in the base game. I would recommend this expansion if you are still enjoying the base game after 5+ plays, as I enjoy randomly switching the expansion cards in and seeing how it impacts what tableau combos I aim for.&lt;/p&gt;
 &lt;h3&gt;Solo Challenges&lt;/h3&gt;
-&lt;p&gt;The &lt;a href=&quot;https://discord.com/invite/aUBMvnu&quot;&gt;Button Shy Games&apos; Discord&lt;/a&gt; runs occasional solo challenges for Death Valley. With these challenges applying custom modifiers to how you play or complete the game giving additional difficulty.&lt;/p&gt;
-&lt;h3&gt;Conclusion&lt;/h3&gt;</content:encoded></item><item><title><![CDATA[Galdor's Grip]]></title><description><![CDATA[Only available as print and play. But was easy to print and has crosshair markers. Any misalignment is the fault of my lazy duplex print and…]]></description><link>https://danielhearn.co.uk/galdors_grip/</link><guid isPermaLink="false">https://danielhearn.co.uk/galdors_grip/</guid><pubDate>Sun, 30 Apr 2023 22:12:03 GMT</pubDate><content:encoded>&lt;p&gt;&lt;span
+&lt;p&gt;The &lt;a href=&quot;https://discord.com/invite/aUBMvnu&quot;&gt;Button Shy Games&apos; Discord&lt;/a&gt; runs occasional solo challenges for Death Valley. With these challenges applying custom modifiers to how you play or complete the game giving additional difficulty. I&apos;ve played a few of these challenges and found them a great way to experience the game differently.&lt;/p&gt;
+&lt;h3&gt;Conclusion&lt;/h3&gt;</content:encoded></item><item><title><![CDATA[SpaceShipped Review]]></title><description><![CDATA[I reviewed the print and play version from PNP Arcade for $3. Official Description A solo space trading game of buying and selling resources…]]></description><link>https://danielhearn.co.uk/spaceshipped/</link><guid isPermaLink="false">https://danielhearn.co.uk/spaceshipped/</guid><pubDate>Sun, 30 Apr 2023 22:12:03 GMT</pubDate><content:encoded>&lt;p&gt;&lt;span
       class=&quot;gatsby-resp-image-wrapper&quot;
       style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 800px; &quot;
     &gt;
       &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/blog/static/344a73ea1adf376e3f3d4dd0ece3fc04/3f7b8/galdors.jpg&quot;
+    href=&quot;/blog/static/50f07a992e5b164b4075d55ec1a8fa16/81f49/space_full.jpg&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
   &gt;
     &lt;span
     class=&quot;gatsby-resp-image-background-image&quot;
-    style=&quot;padding-bottom: 94.5%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAATABQDASIAAhEBAxEB/8QAGAABAQEBAQAAAAAAAAAAAAAAAAQCAQP/xAAXAQEBAQEAAAAAAAAAAAAAAAAAAgED/9oADAMBAAIQAxAAAAHuXpO6TCSoVOI6/wD/xAAbEAACAgMBAAAAAAAAAAAAAAABAgADERIyIf/aAAgBAQABBQLmE6sro4OoVhhTY8s5x6J//8QAGREAAgMBAAAAAAAAAAAAAAAAAAEQETFB/9oACAEDAQE/AXhQuR//xAAZEQABBQAAAAAAAAAAAAAAAAAAARARIUH/2gAIAQIBAT8BSiTG/8QAHxABAAIBAwUAAAAAAAAAAAAAAQACERASMSEzQXKx/9oACAEBAAY/AkamwgD5yzc/IDfPXkjtsZ5ncqQlvU0//8QAHhAAAgICAgMAAAAAAAAAAAAAAREAIUFRMWGhsfH/2gAIAQEAAT8hzshEblJbodQBTfDkCCOmgdxgwZr3GLK0PkMhR0fERakAU//aAAwDAQACAAMAAAAQKOiC/8QAGhEAAgIDAAAAAAAAAAAAAAAAAAERQTFRYf/aAAgBAwEBPxBE5WS0UdFg/8QAFxEBAQEBAAAAAAAAAAAAAAAAARAhMf/aAAgBAgEBPxAOHkM//8QAHhABAQEBAAICAwAAAAAAAAAAAREhADFBUaFxkbH/2gAIAQEAAT8QjcimlEorPf64obbYwGGckF3iGDC2/HGMXoAJmtz355D05oQEEqQSc0ZDQUPt/eFEDxD7veuoQQ/KV+3pKgqGu+jv/9k=&apos;); background-size: cover; display: block;&quot;
+    style=&quot;padding-bottom: 47.5%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAKABQDASIAAhEBAxEB/8QAGAAAAwEBAAAAAAAAAAAAAAAAAAMEAgX/xAAVAQEBAAAAAAAAAAAAAAAAAAAAAf/aAAwDAQACEAMQAAABajfFisiD/8QAHBAAAQQDAQAAAAAAAAAAAAAAAQACAxEEEhMz/9oACAEBAAEFAiZbd2TopHHK87K2K//EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQMBAT8BP//EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQIBAT8BP//EABoQAAIDAQEAAAAAAAAAAAAAAAAxAQIRMoH/2gAIAQEABj8CzaiqcwejHJ//xAAaEAACAwEBAAAAAAAAAAAAAAABEQAhUZHx/9oACAEBAAE/ISFF7AApjxwcKKVStMw7Oz1p/9oADAMBAAIAAwAAABBb/wD/xAAXEQADAQAAAAAAAAAAAAAAAAAAARFB/9oACAEDAQE/EIOvT//EABURAQEAAAAAAAAAAAAAAAAAAAAR/9oACAECAQE/EIj/xAAcEAEAAgIDAQAAAAAAAAAAAAABABEhMVFhcfH/2gAIAQEAAT8QvG8lmGrhpLSVwB15HTQFFvuNVSOw8YfIb6n0E//Z&apos;); background-size: cover; display: block;&quot;
   &gt;&lt;/span&gt;
   &lt;img
         class=&quot;gatsby-resp-image-image&quot;
-        alt=&quot;Galdor&amp;#39;s Grip cards&quot;
+        alt=&quot;SpaceShipped&quot;
         title=&quot;&quot;
-        src=&quot;/blog/static/344a73ea1adf376e3f3d4dd0ece3fc04/a24e6/galdors.jpg&quot;
-        srcset=&quot;/blog/static/344a73ea1adf376e3f3d4dd0ece3fc04/a6b4f/galdors.jpg 200w,
-/blog/static/344a73ea1adf376e3f3d4dd0ece3fc04/a6407/galdors.jpg 400w,
-/blog/static/344a73ea1adf376e3f3d4dd0ece3fc04/a24e6/galdors.jpg 800w,
-/blog/static/344a73ea1adf376e3f3d4dd0ece3fc04/3f7b8/galdors.jpg 950w&quot;
+        src=&quot;/blog/static/50f07a992e5b164b4075d55ec1a8fa16/a24e6/space_full.jpg&quot;
+        srcset=&quot;/blog/static/50f07a992e5b164b4075d55ec1a8fa16/a6b4f/space_full.jpg 200w,
+/blog/static/50f07a992e5b164b4075d55ec1a8fa16/a6407/space_full.jpg 400w,
+/blog/static/50f07a992e5b164b4075d55ec1a8fa16/a24e6/space_full.jpg 800w,
+/blog/static/50f07a992e5b164b4075d55ec1a8fa16/03ffe/space_full.jpg 1200w,
+/blog/static/50f07a992e5b164b4075d55ec1a8fa16/04bec/space_full.jpg 1600w,
+/blog/static/50f07a992e5b164b4075d55ec1a8fa16/81f49/space_full.jpg 4032w&quot;
         sizes=&quot;(max-width: 800px) 100vw, 800px&quot;
         style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
         loading=&quot;lazy&quot;
@@ -783,24 +722,88 @@ the art.&lt;/p&gt;
       /&gt;
   &lt;/a&gt;
     &lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;Only available as print and play. But was easy to print and has crosshair markers. Any misalignment is the fault of my lazy duplex print and play method.&lt;/p&gt;
+&lt;p&gt;I reviewed the print and play version from &lt;a href=&quot;https://www.pnparcade.com/products/spaceshipped&quot;&gt;PNP Arcade&lt;/a&gt; for $3.&lt;/p&gt;
 &lt;h3&gt;Official Description&lt;/h3&gt;
-&lt;p&gt;&lt;em&gt;Galdor&apos;s Grip is a solo fantasy card game played entirely in your hands. Cycle through the deck, utilizing player actions and card abilities to strategically manipulate the order and orientation of the cards. Complete scoring objectives to earn enough points (stars) required to win the game, while avoiding any situations that result in a loss.&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;A solo space trading game of buying and selling resources, upgrading your ship, crew, and equipment, dealing with pirates, and making deals. A card game with over 30 random events, 4 types of ship, 4 sets of crew members, and 8 different pieces of equipment to install, all using only 18 cards packed neatly in a little wallet.&lt;/em&gt;&lt;/p&gt;
 &lt;h3&gt;Components&lt;/h3&gt;
-&lt;p&gt;Base game has 18 cards with each expansion adding 6 additional cards. You combine the base and expansion cards to assemble a new deck for each game. The cards are extremely well produced for a free print and play game with fantastic art and iconography. As this is an in-hand game you need to choose the right sleeves or print and play method to make the cards easy to manipulate.&lt;/p&gt;
-&lt;p&gt;Each card has a name and art representing the obstacle or location.&lt;/p&gt;
-&lt;p&gt;// TODO
-Value showing the number of cards that will be moved from the top to the bottom of the deck
-Some cards can be flipped to get different effects or values&lt;/p&gt;
+&lt;p&gt;SpaceShipped consists of 18 cards with 16 being multi-use and the other two being tracking cards. Each of the multi use cards has content on both sides. One side having the orbital encounter, planetside encounter and marketplace with the other side having an upgrade and resource. These are some of the most content rich cards I&apos;ve seen in a Button Shy Game.&lt;/p&gt;
 &lt;h3&gt;Gameplay&lt;/h3&gt;
-&lt;p&gt;All cards are face down at the start. Then you flip over the top card and resolve any effects.&lt;/p&gt;
-&lt;p&gt;ROTATE
-CAN CHOOSE TO MOVE VALUE OF TOP OR NEXT CARD IF FACEUP&lt;/p&gt;
-&lt;p&gt;Next you move the specified number of cards to the bottom of the deck based upon the value of the top card. You can move the top card anywhere within the segment of cards being moved which is the main choice you need to make to win. Bad card orders can mean you miss flipping over face down cards or visiting negative cards. Being able to view the face up cards in the deck makes it easy to plan ahead.&lt;/p&gt;
-&lt;p&gt;The aim is to get 9 stars by the end of the game, these stars are earnt by having face up cards with stars on the top side. Cards with stars often require achieving certain orders of cards within the deck.&lt;/p&gt;
-&lt;p&gt;You also have to avoid repeatedly have the figment of feragot cards at the top of the deck. If this happens to the same of these cards three times then you automatically lose. Though flipping over these cards twice can earn a star so you can push your luck. I often found it quite hard to get nine stars with my average being 5 or 6.&lt;/p&gt;
+&lt;p&gt;The aim of SpaceShipped is to buy two xeno crystals before your opponent takes them. This time limit encourages risky choices that balance between making enough credits and surviving into the next turn. To buy a xeno crystal you need 20 credits obtained by buying and selling resources without reaching 0 health which causes you to lose.&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 800px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/blog/static/171d1b6231abf7e394ce0cc0590d0e60/81f49/space_encounter.jpg&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 47.5%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAKABQDASIAAhEBAxEB/8QAFwABAQEBAAAAAAAAAAAAAAAAAwAEBf/EABUBAQEAAAAAAAAAAAAAAAAAAAAB/9oADAMBAAIQAxAAAAHSfIKEgq//xAAbEAADAAIDAAAAAAAAAAAAAAAAAQIDEgQhMf/aAAgBAQABBQJStXMnI6yu6N6PT//EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQMBAT8BP//EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQIBAT8BP//EABkQAAIDAQAAAAAAAAAAAAAAAAABISIykf/aAAgBAQAGPwJVRlcINM0yT//EABsQAQEBAAIDAAAAAAAAAAAAAAERACHhMUFh/9oACAEBAAE/IV1NQ9ajieEWAIeN2XPY5VVV+7//2gAMAwEAAgADAAAAEH8f/8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAwEBPxA//8QAFREBAQAAAAAAAAAAAAAAAAAAEBH/2gAIAQIBAT8Qp//EABsQAAMAAgMAAAAAAAAAAAAAAAABETFRIZHB/9oACAEBAAE/EFRaDi9E9Q8uBetTIkWBRKd0t9pfDc1Z/9k=&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;SpaceShipped encounter and marketplace row&quot;
+        title=&quot;&quot;
+        src=&quot;/blog/static/171d1b6231abf7e394ce0cc0590d0e60/a24e6/space_encounter.jpg&quot;
+        srcset=&quot;/blog/static/171d1b6231abf7e394ce0cc0590d0e60/a6b4f/space_encounter.jpg 200w,
+/blog/static/171d1b6231abf7e394ce0cc0590d0e60/a6407/space_encounter.jpg 400w,
+/blog/static/171d1b6231abf7e394ce0cc0590d0e60/a24e6/space_encounter.jpg 800w,
+/blog/static/171d1b6231abf7e394ce0cc0590d0e60/03ffe/space_encounter.jpg 1200w,
+/blog/static/171d1b6231abf7e394ce0cc0590d0e60/04bec/space_encounter.jpg 1600w,
+/blog/static/171d1b6231abf7e394ce0cc0590d0e60/81f49/space_encounter.jpg 4032w&quot;
+        sizes=&quot;(max-width: 800px) 100vw, 800px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+        decoding=&quot;async&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;Each turn consists of activating the effects of the current encounter cards going diagonally from the top left of the left card down to the bottom right of the right card. First you activate the orbital encounter of the left card which can be positive or negative, though you have no way to prepare for this encounter which you will see is a big negative for my enjoyment of the game. Next you have the planetside encounter of the middle card which acts the same as the orbital encounter. Though you have a turn to prepare as the encounter cards are shifted to the right after each card. With the right card being moved into the upgrade row and the rightmost resource card being flipped and added as the left card of the encounters. Being able to prepare for the planetside encounter is important as you often need to prepare shields or buy certain resources to avoid damage.&lt;/p&gt;
+&lt;p&gt;Next you can buy and sell from the marketplace and upgrade row. The right card in the encounter is the marketplace, this gives two turns to see what prices you can get in the future for buying and selling.&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 800px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/blog/static/848202b545024eefdb39f2ac60f64cdd/81f49/space_upgrades.jpg&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 47.5%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAKABQDASIAAhEBAxEB/8QAFgABAQEAAAAAAAAAAAAAAAAAAwAF/8QAFQEBAQAAAAAAAAAAAAAAAAAAAAH/2gAMAwEAAhADEAAAAULOGEgq/8QAHBAAAQMFAAAAAAAAAAAAAAAAAgEDEwAQERIh/9oACAEBAAEFAouRph8dXVMqUit//8QAFhEAAwAAAAAAAAAAAAAAAAAAARAR/9oACAEDAQE/AYF//8QAFREBAQAAAAAAAAAAAAAAAAAAEBH/2gAIAQIBAT8Bh//EABoQAAICAwAAAAAAAAAAAAAAAAABEDIRIZH/2gAIAQEABj8CWjI0WfSzj//EABoQAAMBAQEBAAAAAAAAAAAAAAABESExQeH/2gAIAQEAAT8hh4fPB3ysuQQo5hGb6grfdP/aAAwDAQACAAMAAAAQAw//xAAWEQEBAQAAAAAAAAAAAAAAAAABADH/2gAIAQMBAT8QGLL/xAAWEQADAAAAAAAAAAAAAAAAAAAQEUH/2gAIAQIBAT8QSj//xAAcEAEAAwEAAwEAAAAAAAAAAAABABEhMUFRYXH/2gAIAQEAAT8QMI2WfvzKkyYHaQnI4IyuhC0xrlovq/rnSle1uf/Z&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;SpaceShipped upgrade row&quot;
+        title=&quot;&quot;
+        src=&quot;/blog/static/848202b545024eefdb39f2ac60f64cdd/a24e6/space_upgrades.jpg&quot;
+        srcset=&quot;/blog/static/848202b545024eefdb39f2ac60f64cdd/a6b4f/space_upgrades.jpg 200w,
+/blog/static/848202b545024eefdb39f2ac60f64cdd/a6407/space_upgrades.jpg 400w,
+/blog/static/848202b545024eefdb39f2ac60f64cdd/a24e6/space_upgrades.jpg 800w,
+/blog/static/848202b545024eefdb39f2ac60f64cdd/03ffe/space_upgrades.jpg 1200w,
+/blog/static/848202b545024eefdb39f2ac60f64cdd/04bec/space_upgrades.jpg 1600w,
+/blog/static/848202b545024eefdb39f2ac60f64cdd/81f49/space_upgrades.jpg 4032w&quot;
+        sizes=&quot;(max-width: 800px) 100vw, 800px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+        decoding=&quot;async&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;The upgrades row will have an assortment of ships, crew and ship upgrades. Expensive ships will have more inventory slots which are important later as you need space to contain any resources and xeno crystals you have. This row also shifts to the right each turn with the rightmost card becoming the next resource card. This gives multiple turns to prepare to buy upgrades. Upgrades become very important in avoiding negative encounters and maximising profits.&lt;/p&gt;
+&lt;p&gt;The resource row has a wide assortment of resources available so you normally have opportunities to buy low and sell high, with the occasional turn where you don&apos;t have any profitable choices. Those turns are often a good opportunity to buy upgrades.&lt;/p&gt;
+&lt;p&gt;All of these mechanics come together well in giving a space merchant experience where you are hopping planet to planet buying and selling resources. The issues though comes from the randomness of each mechanic that when combined can ruin a game instantly. For example I had a turn with a 3 damage orbital encounter that I couldn&apos;t prepare for, followed by a 2 damage planetside encounter that could have only be mitigated if I had a resource that hadn&apos;t been available to buy at a decent price recently. Because you can only have a max of 3 health and 2 shields this means that one turn of bad luck can instantly end the game. The other effect of this means you can get really good combinations of turns with a profitable marketplace but it this ends up being unsatisfying as it is rarely due to any good choices you made.&lt;/p&gt;
 &lt;h3&gt;Expansions&lt;/h3&gt;
-&lt;p&gt;Galdor&apos;s Grip has three expansions each containing 6 cards that can replace cards from the base game. This gives great replayability due to amount of possible card combinations. These expansions aren&apos;t required though, so I recommend printing out the base game first&lt;/p&gt;
+&lt;p&gt;I&apos;ve yet to try any of the four expansions but they each add new cards that replace cards from the base game. Adding more variety and difficulty.&lt;/p&gt;
+&lt;h3&gt;Solo Challenges&lt;/h3&gt;
+&lt;p&gt;The &lt;a href=&quot;https://discord.com/invite/aUBMvnu&quot;&gt;Button Shy Games&apos; Discord&lt;/a&gt; runs occasional solo challenges for SpaceShipped. With these challenges applying custom modifiers to how you play or complete the game giving additional difficulty.&lt;/p&gt;
 &lt;h3&gt;Conclusion&lt;/h3&gt;</content:encoded></item><item><title><![CDATA[Iron Helm Review]]></title><description><![CDATA[I reviewed the Print and Play version available from PNP Arcade for $5. But only some expansions are available for print and play. Official…]]></description><link>https://danielhearn.co.uk/iron_helm/</link><guid isPermaLink="false">https://danielhearn.co.uk/iron_helm/</guid><pubDate>Sun, 30 Apr 2023 22:12:03 GMT</pubDate><content:encoded>&lt;p&gt;&lt;span
       class=&quot;gatsby-resp-image-wrapper&quot;
       style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 800px; &quot;
@@ -837,29 +840,327 @@ CAN CHOOSE TO MOVE VALUE OF TOP OR NEXT CARD IF FACEUP&lt;/p&gt;
 &lt;h3&gt;Official Description&lt;/h3&gt;
 &lt;p&gt;&lt;em&gt;Iron Helm is a solo-play dungeon crawler in which you play as a hero in search of one last major score before finally hanging up the sword and retiring.&lt;/em&gt;&lt;/p&gt;
 &lt;h3&gt;Components&lt;/h3&gt;
-&lt;p&gt;PNP has cards but you can either make your own tokens or print out the card trackers from BGG with your own cubes to track, I prefered this to making all the tokens (I still had to make blessing tokens). I recommend printing out the player mat if you get the PNP version to make it easier to track which weapons are equipped. I didn&apos;t see a need in printing the gameplay mat.&lt;/p&gt;
-&lt;p&gt;// TODO
-GAMEFOUND VERSION&lt;/p&gt;
+&lt;p&gt;The print and play mostly consists of making cards but you can either make your own tokens or print out the card trackers from BGG with your own cubes to track, I prefered this to making all the tokens (I still had to make blessing tokens as there is no alternative). I recommend printing out the player mat if you get the PNP version to make it easier to track which weapons are equipped. I didn&apos;t see a need in printing the gameplay mat. If you play the print and play versions you will need to have d12 and d6 dice, along with small euro cubes if you use the tracking cards.&lt;/p&gt;
+&lt;p&gt;The Game Crafter physical edition comes with all the base game cards, along with tokens and dice in a box with dividers and is large enough to fit some expansions. I think this version is expensive for what it is ($54.99 at time of review) especially compared to traditionally published games due to how The Game Crafter works. It is even more expensive if you live outside the USA due to taxes and shipping, so be carefull as many people have mentioned how expensive the game is with all costs considered.&lt;/p&gt;
+&lt;p&gt;The Game Crafter also separately sells game and player mats to make laying out the game easier and more thematic. I don&apos;t think this is essential but I did like using a printed player mat in my PNP version.&lt;/p&gt;
 &lt;h3&gt;Gameplay&lt;/h3&gt;
-&lt;p&gt;// TODO
-Dungeon crawler in a fairly small package&lt;/p&gt;
-&lt;p&gt;// TODO
-Pick character and start with the skills and trappings assigned to that character, along with the health, energy, rations listed on the character card. Each plays differently with the biggest impact being the main type of skills the character can upgrade with for cheaper.&lt;/p&gt;
-&lt;p&gt;Play two facedown dungeon cards and pick one and flip it face up, if you don&apos;t like the first card then you can push your luck and pick the other card.&lt;/p&gt;
-&lt;p&gt;Dungeon cards can often have 2 effects depending on which order the card was picked with the second effect being stronger. Avoiding the first card you picked can be disaterous if you flip over a skirmish. This gives great push your luck gameplay.&lt;/p&gt;
-&lt;p&gt;Combat is dice based with your damage impacted by equipment and skills. This combat is very simplistic but is only part of the gameplay
-The card that triggers the combat will impact enemy health and initial damage meaning that choosing the fight if your first dungeon card is a combat encounter can the difference between life and death&lt;/p&gt;
-&lt;p&gt;There are many other encounters during in the dungeon such as merchants, campsites. This means you never know what will be behind the card. An issue I had with another small dungeon crawler One Deck Dungeon.&lt;/p&gt;
-&lt;p&gt;// TODO
-Continue until all dungeon cards discarded&lt;/p&gt;
-&lt;p&gt;// TODO
-Continue onto next level of dungeon, flip over a plot card
-These plot cards give choices with many possible impacts. Each plot card has a value, once you have discarded enough plot cards to sum 10 or more you then encounter the boss. The dungeon cards are reshuffled, a ration is reduced and potion is increased if you have it. This means you need to keep resources available as running out will be dangerous. The dungeon tracker card is used to track which level of the dungeon you are on.&lt;/p&gt;
+&lt;p&gt;Iron Helm aims to give dungeon crawler experience with character progression, plot, and random encounters in a relatively small package compared to large dungeon games.&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 800px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/blog/static/7c4e6b9e0ecde8350deadb785e62df6a/76997/iron_character_sheet_early.jpg&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 141.5%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAcABQDASIAAhEBAxEB/8QAGAAAAwEBAAAAAAAAAAAAAAAAAAIEAQP/xAAVAQEBAAAAAAAAAAAAAAAAAAAAAf/aAAwDAQACEAMQAAABFsgNGI67Dxq8Qj//xAAcEAADAAIDAQAAAAAAAAAAAAAAAQIREgMTITL/2gAIAQEAAQUCeBs2Q4jVPJ4PhRcwkdlsj6Z//8QAFBEBAAAAAAAAAAAAAAAAAAAAIP/aAAgBAwEBPwEf/8QAFBEBAAAAAAAAAAAAAAAAAAAAIP/aAAgBAgEBPwEf/8QAHRAAAQQCAwAAAAAAAAAAAAAAAAEQIVERYQIyQf/aAAgBAQAGPwIts6skg9s5YRNS3ZX/AP/EAB0QAQACAwADAQAAAAAAAAAAAAEAESExQVFhccH/2gAIAQEAAT8h8KX+w+tIVw66LfVSk51jkq7seyWbXTjERQ1sZQcRcDUtQFCuxI0T/9oADAMBAAIAAwAAABBgOg//xAAZEQACAwEAAAAAAAAAAAAAAAABEQAQIUH/2gAIAQMBAT8QA5Esv//EABgRAAIDAAAAAAAAAAAAAAAAAAABEBEx/9oACAECAQE/EGih5H//xAAbEAEBAQEBAQEBAAAAAAAAAAABESEAMUFRYf/aAAgBAQABPxBgGWiT3hatA+2t984MA37CcNQNt9aYXtEGiwwvEHK4gPXU4Hn+p702PNlbuXsE/O1KABPPJyHBDtEQhkPzv//Z&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;Example of an early character sheet&quot;
+        title=&quot;&quot;
+        src=&quot;/blog/static/7c4e6b9e0ecde8350deadb785e62df6a/a24e6/iron_character_sheet_early.jpg&quot;
+        srcset=&quot;/blog/static/7c4e6b9e0ecde8350deadb785e62df6a/a6b4f/iron_character_sheet_early.jpg 200w,
+/blog/static/7c4e6b9e0ecde8350deadb785e62df6a/a6407/iron_character_sheet_early.jpg 400w,
+/blog/static/7c4e6b9e0ecde8350deadb785e62df6a/a24e6/iron_character_sheet_early.jpg 800w,
+/blog/static/7c4e6b9e0ecde8350deadb785e62df6a/03ffe/iron_character_sheet_early.jpg 1200w,
+/blog/static/7c4e6b9e0ecde8350deadb785e62df6a/04bec/iron_character_sheet_early.jpg 1600w,
+/blog/static/7c4e6b9e0ecde8350deadb785e62df6a/76997/iron_character_sheet_early.jpg 1907w&quot;
+        sizes=&quot;(max-width: 800px) 100vw, 800px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+        decoding=&quot;async&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;First you pick one of the four base game characters and start with the skills and trappings assigned to that character, along with tracking the starting health, energy, rations listed on the character card. Each character plays differently as archetypal fantasy classes with the biggest impact being the main type of skills the character can upgrade with. Though any character can upgrade with any skill, just at a higher cost.&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 800px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/blog/static/7aed6b0295a18f2707b4ea8f1a48c372/c0b78/iron_tracker_sheet_early.jpg&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 101%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAUABQDASIAAhEBAxEB/8QAGAABAAMBAAAAAAAAAAAAAAAAAAECBAP/xAAVAQEBAAAAAAAAAAAAAAAAAAAAAf/aAAwDAQACEAMQAAABpFucZkq1QJlC/wD/xAAZEAEBAQEBAQAAAAAAAAAAAAACAQMSEyH/2gAIAQEAAQUCGZo8zFvJHyYBm+d4i+vg0sGq6X//xAAUEQEAAAAAAAAAAAAAAAAAAAAg/9oACAEDAQE/AR//xAAUEQEAAAAAAAAAAAAAAAAAAAAg/9oACAECAQE/AR//xAAfEAACAQIHAAAAAAAAAAAAAAAAARECMRIhIkFRYYH/2gAIAQEABj8CTaLbGR5yYlXc1OSOhKESz//EABoQAQEBAQEBAQAAAAAAAAAAAAERACFBMVH/2gAIAQEAAT8htZ53USfXdFmE8wIp38ZzYB9LokXPoZcgMAXAzRCzf//aAAwDAQACAAMAAAAQGA/+/8QAFhEBAQEAAAAAAAAAAAAAAAAAASBR/9oACAEDAQE/EB2P/8QAFhEBAQEAAAAAAAAAAAAAAAAAEQEg/9oACAECAQE/ECuP/8QAGxABAQEBAQADAAAAAAAAAAAAAREhADFBcbH/2gAIAQEAAT8Qu3KVXdzg9QTG9r0DYcE5DYQtH49g59cEROfIez3hEtuYm8ADC6W2S++9HxMFG/vA8BMJ53//2Q==&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;Tracking sheet at the beginning of the game&quot;
+        title=&quot;&quot;
+        src=&quot;/blog/static/7aed6b0295a18f2707b4ea8f1a48c372/a24e6/iron_tracker_sheet_early.jpg&quot;
+        srcset=&quot;/blog/static/7aed6b0295a18f2707b4ea8f1a48c372/a6b4f/iron_tracker_sheet_early.jpg 200w,
+/blog/static/7aed6b0295a18f2707b4ea8f1a48c372/a6407/iron_tracker_sheet_early.jpg 400w,
+/blog/static/7aed6b0295a18f2707b4ea8f1a48c372/a24e6/iron_tracker_sheet_early.jpg 800w,
+/blog/static/7aed6b0295a18f2707b4ea8f1a48c372/03ffe/iron_tracker_sheet_early.jpg 1200w,
+/blog/static/7aed6b0295a18f2707b4ea8f1a48c372/04bec/iron_tracker_sheet_early.jpg 1600w,
+/blog/static/7aed6b0295a18f2707b4ea8f1a48c372/c0b78/iron_tracker_sheet_early.jpg 1886w&quot;
+        sizes=&quot;(max-width: 800px) 100vw, 800px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+        decoding=&quot;async&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;I used the printed tracking cards from BGG instead of using tokens as this felt cleaner and quicker to use.&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 800px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/blog/static/0c33a6ece934f7c0796e32628e757279/81f49/iron_dungeon_1.jpg&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 42%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAIABQDASIAAhEBAxEB/8QAFwABAAMAAAAAAAAAAAAAAAAAAAMEBf/EABQBAQAAAAAAAAAAAAAAAAAAAAH/2gAMAwEAAhADEAAAAZK4GcF//8QAGRABAAIDAAAAAAAAAAAAAAAAAQACAxIh/9oACAEBAAEFAuzKtS7s/wD/xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAEDAQE/AT//xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAECAQE/AT//xAAYEAACAwAAAAAAAAAAAAAAAAAAEDFCUf/aAAgBAQAGPwKamr//xAAZEAEAAwEBAAAAAAAAAAAAAAABABEhMWH/2gAIAQEAAT8hfDh1lqzSRQaqip//2gAMAwEAAgADAAAAEP8A7//EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQMBAT8QP//EABYRAAMAAAAAAAAAAAAAAAAAABARIf/aAAgBAgEBPxB0f//EABoQAQACAwEAAAAAAAAAAAAAAAEAETFBUWH/2gAIAQEAAT8QrMYAEN49YKLcwHpFaKFB5P/Z&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;Start of dungeon crawl&quot;
+        title=&quot;&quot;
+        src=&quot;/blog/static/0c33a6ece934f7c0796e32628e757279/a24e6/iron_dungeon_1.jpg&quot;
+        srcset=&quot;/blog/static/0c33a6ece934f7c0796e32628e757279/a6b4f/iron_dungeon_1.jpg 200w,
+/blog/static/0c33a6ece934f7c0796e32628e757279/a6407/iron_dungeon_1.jpg 400w,
+/blog/static/0c33a6ece934f7c0796e32628e757279/a24e6/iron_dungeon_1.jpg 800w,
+/blog/static/0c33a6ece934f7c0796e32628e757279/03ffe/iron_dungeon_1.jpg 1200w,
+/blog/static/0c33a6ece934f7c0796e32628e757279/04bec/iron_dungeon_1.jpg 1600w,
+/blog/static/0c33a6ece934f7c0796e32628e757279/81f49/iron_dungeon_1.jpg 4032w&quot;
+        sizes=&quot;(max-width: 800px) 100vw, 800px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+        decoding=&quot;async&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;Next you start exploring the dungeon which consists of turns encoutering the surprises within the dungeon. At the first of each turn you play two facedown dungeon cards from the top of the deck. Then pick one and flip it face up, if you don&apos;t like the first card then you can push your luck and pick the other card.&lt;/p&gt;
+&lt;p&gt;Dungeon cards can often have 2 effects depending on which order the card was picked with the second effect being stronger. Avoiding the first card you picked can be disaterous if you flip over a skirmish or poison trap. This gives great push your luck gameplay, where you might avoid a dangerous encounter to end up in a worse encounter. Though remembering which cards you have already discarded can help judge if flipping over the second card is worth it.&lt;/p&gt;
+&lt;p&gt;The dungeon encounters can be enemies, merchants, campsites and many others with positive or negative impacts. This means you never know what will be behind the card. An issue I had with One Deck Dungeon another small dungeon crawler. If you encounter an enemy, then you start combat which must be completed before you can continue exploring the dungeon.&lt;/p&gt;
+&lt;p&gt;Combat is dice based with your damage modified by equipment and skills. This combat is very simplistic but is only part of the gameplay so I didn&apos;t feel it dragged down the game as a whole. The card that triggers the combat will impact enemy health and initial damage meaning that choosing the fight if your first dungeon card is a combat encounter can the difference between life and death.&lt;/p&gt;
+&lt;p&gt;Each enemy also has an additional effect such as trading resources to avoid combat or other impacts if the enemy hits you.&lt;/p&gt;
+&lt;p&gt;The encounter turns continue until you reach the end of the dungeon deck or reach ten plot points on your plot cards. You then shuffle the dungeon deck, increase the dungeon level, lose a ration if available and increase your poison. This dungeon level impacts combat, making it more dangerous as you delve deeper, working great with the theming.&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 800px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/blog/static/bd43861bd3c88bfac1624c25b5a5854d/81f49/iron_plot_example.jpg&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 47.5%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAKABQDASIAAhEBAxEB/8QAGAAAAgMAAAAAAAAAAAAAAAAAAAMBAgT/xAAVAQEBAAAAAAAAAAAAAAAAAAAAAf/aAAwDAQACEAMQAAABotizISJ//8QAGRAAAgMBAAAAAAAAAAAAAAAAA0IAEBEx/9oACAEBAAEFAnNlMTk//8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAwEBPwE//8QAFREBAQAAAAAAAAAAAAAAAAAAARD/2gAIAQIBAT8BZ//EABgQAAIDAAAAAAAAAAAAAAAAAAEQABEx/9oACAEBAAY/AhMpB//EABkQAQADAQEAAAAAAAAAAAAAAAEAEUEhEP/aAAgBAQABPyE0JwKPWRhJqLd8/9oADAMBAAIAAwAAABBT3//EABYRAAMAAAAAAAAAAAAAAAAAAAEQMf/aAAgBAwEBPxARf//EABURAQEAAAAAAAAAAAAAAAAAABAx/9oACAECAQE/EKP/xAAaEAEAAgMBAAAAAAAAAAAAAAABABEhMUFh/9oACAEBAAE/EKtAl6e4iV9dDeIMxog03BBH0x3P/9k=&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;Example of a plot card&quot;
+        title=&quot;&quot;
+        src=&quot;/blog/static/bd43861bd3c88bfac1624c25b5a5854d/a24e6/iron_plot_example.jpg&quot;
+        srcset=&quot;/blog/static/bd43861bd3c88bfac1624c25b5a5854d/a6b4f/iron_plot_example.jpg 200w,
+/blog/static/bd43861bd3c88bfac1624c25b5a5854d/a6407/iron_plot_example.jpg 400w,
+/blog/static/bd43861bd3c88bfac1624c25b5a5854d/a24e6/iron_plot_example.jpg 800w,
+/blog/static/bd43861bd3c88bfac1624c25b5a5854d/03ffe/iron_plot_example.jpg 1200w,
+/blog/static/bd43861bd3c88bfac1624c25b5a5854d/04bec/iron_plot_example.jpg 1600w,
+/blog/static/bd43861bd3c88bfac1624c25b5a5854d/81f49/iron_plot_example.jpg 4032w&quot;
+        sizes=&quot;(max-width: 800px) 100vw, 800px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+        decoding=&quot;async&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;After completeting the other parts of the dungeon level completion, you then draw a plot card from the plot deck. These plot cards give choices with many possible impacts. Each plot card has a value, once you have discarded enough plot cards to sum 10 or more you then encounter the boss. The dungeon cards are reshuffled, a ration is reduced and potion is increased if you have it. This means you need to keep resources available as running out will be dangerous. The dungeon tracker card is used to track which level of the dungeon you are on.&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 800px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/blog/static/e3fa3d49a0cce607390fdd2455b7925b/81f49/iron_morality.jpg&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 47.5%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAKABQDASIAAhEBAxEB/8QAGAAAAgMAAAAAAAAAAAAAAAAAAAIBAwT/xAAVAQEBAAAAAAAAAAAAAAAAAAAAAf/aAAwDAQACEAMQAAABVSkzkEn/xAAbEAABBAMAAAAAAAAAAAAAAAABAAIDECExMv/aAAgBAQABBQIdznCO31//xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAEDAQE/AT//xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAECAQE/AT//xAAVEAEBAAAAAAAAAAAAAAAAAAABIP/aAAgBAQAGPwIr/8QAGhABAAIDAQAAAAAAAAAAAAAAAQARECExQf/aAAgBAQABPyHqgporeOESm32M/9oADAMBAAIAAwAAABAw/wD/xAAWEQADAAAAAAAAAAAAAAAAAAABEDH/2gAIAQMBAT8QEX//xAAWEQEBAQAAAAAAAAAAAAAAAAABECH/2gAIAQIBAT8QTZ//xAAZEAEAAwEBAAAAAAAAAAAAAAABABExIaH/2gAIAQEAAT8QdKwb8gOK6jsSMNN6RyIlNZqf/9k=&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;Example of a morality impacting plot card&quot;
+        title=&quot;&quot;
+        src=&quot;/blog/static/e3fa3d49a0cce607390fdd2455b7925b/a24e6/iron_morality.jpg&quot;
+        srcset=&quot;/blog/static/e3fa3d49a0cce607390fdd2455b7925b/a6b4f/iron_morality.jpg 200w,
+/blog/static/e3fa3d49a0cce607390fdd2455b7925b/a6407/iron_morality.jpg 400w,
+/blog/static/e3fa3d49a0cce607390fdd2455b7925b/a24e6/iron_morality.jpg 800w,
+/blog/static/e3fa3d49a0cce607390fdd2455b7925b/03ffe/iron_morality.jpg 1200w,
+/blog/static/e3fa3d49a0cce607390fdd2455b7925b/04bec/iron_morality.jpg 1600w,
+/blog/static/e3fa3d49a0cce607390fdd2455b7925b/81f49/iron_morality.jpg 4032w&quot;
+        sizes=&quot;(max-width: 800px) 100vw, 800px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+        decoding=&quot;async&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;Some plot cards impact or use the player&apos;s morality to give different options or effects. This helps feel like you are actually roleplaying within this world, while being a small additional mechanic. Having high morality generally gives better long term impacts if you draw a plot card that uses your morality level, but choosing a morality lowering option often helps you keep alive. Though I did have many games where I had drawn a plot card that used morality before I had actually had a chance to lower or increase my morality, often making that plot card feel unimpactfull.&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 800px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/blog/static/1fc02e88d6555cc7a7f7d07796e09d29/81f49/iron_blessing.jpg&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 42.5%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAJABQDASIAAhEBAxEB/8QAGAAAAgMAAAAAAAAAAAAAAAAAAAMBAgT/xAAVAQEBAAAAAAAAAAAAAAAAAAABAP/aAAwDAQACEAMQAAABhWRkBQH/xAAaEAACAwEBAAAAAAAAAAAAAAAAAgEDEhMy/9oACAEBAAEFAsJyoWHLYy7EeT//xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAEDAQE/AT//xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAECAQE/AT//xAAaEAACAgMAAAAAAAAAAAAAAAAAEQEgIjFR/9oACAEBAAY/AnO10yFFP//EABgQAQEBAQEAAAAAAAAAAAAAAAEAMSFB/9oACAEBAAE/IRubswZ8BAuNuxnb/9oADAMBAAIAAwAAABB0P//EABYRAQEBAAAAAAAAAAAAAAAAAAEQEf/aAAgBAwEBPxAMn//EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQIBAT8QP//EABsQAQACAwEBAAAAAAAAAAAAAAEAESExQXGx/9oACAEBAAE/EERbBhkusXBgLYM12H8hCi75Nvs+ybp//9k=&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;Example of a blessing token&quot;
+        title=&quot;&quot;
+        src=&quot;/blog/static/1fc02e88d6555cc7a7f7d07796e09d29/a24e6/iron_blessing.jpg&quot;
+        srcset=&quot;/blog/static/1fc02e88d6555cc7a7f7d07796e09d29/a6b4f/iron_blessing.jpg 200w,
+/blog/static/1fc02e88d6555cc7a7f7d07796e09d29/a6407/iron_blessing.jpg 400w,
+/blog/static/1fc02e88d6555cc7a7f7d07796e09d29/a24e6/iron_blessing.jpg 800w,
+/blog/static/1fc02e88d6555cc7a7f7d07796e09d29/03ffe/iron_blessing.jpg 1200w,
+/blog/static/1fc02e88d6555cc7a7f7d07796e09d29/04bec/iron_blessing.jpg 1600w,
+/blog/static/1fc02e88d6555cc7a7f7d07796e09d29/81f49/iron_blessing.jpg 4032w&quot;
+        sizes=&quot;(max-width: 800px) 100vw, 800px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+        decoding=&quot;async&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;Blessing tokens can be gained during the dungeon and are placed with your player face down so that you do not know what is on the other side. During combat you can discard a blessing token to reroll a single combat roll. But if you keep tokens until you reach the boss, you can flip the tokens over and gain their effects. This can be healing, additional energy or removing poison.&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 800px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/blog/static/bb924bd48dda0942017151932c20b432/81f49/iron_count_enemies.jpg&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 47.5%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAKABQDASIAAhEBAxEB/8QAGAAAAwEBAAAAAAAAAAAAAAAAAAMEAQL/xAAVAQEBAAAAAAAAAAAAAAAAAAAAAf/aAAwDAQACEAMQAAAB3iWeGCA//8QAGRAAAwEBAQAAAAAAAAAAAAAAAQIDABEx/9oACAEBAAEFAmSeM5dsqqx8OO//xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAEDAQE/AT//xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAECAQE/AT//xAAbEAABBAMAAAAAAAAAAAAAAAAAASAiQVGBkf/aAAgBAQAGPwLgm7I4Z//EABsQAAIDAQEBAAAAAAAAAAAAAAERADFBIZHh/9oACAEBAAE/IRQ0E9eznkj8INinVwzrYRdy8//aAAwDAQACAAMAAAAQXD//xAAVEQEBAAAAAAAAAAAAAAAAAAAQEf/aAAgBAwEBPxCH/8QAFREBAQAAAAAAAAAAAAAAAAAAERD/2gAIAQIBAT8QWf/EABwQAQEAAgIDAAAAAAAAAAAAAAERACExQVFh0f/aAAgBAQABPxCNaAPep9Yk4ppPAYa4UFKLXO5cO/eXWufOJRW6z//Z&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;Stacks of each enemy type I killed during the game&quot;
+        title=&quot;&quot;
+        src=&quot;/blog/static/bb924bd48dda0942017151932c20b432/a24e6/iron_count_enemies.jpg&quot;
+        srcset=&quot;/blog/static/bb924bd48dda0942017151932c20b432/a6b4f/iron_count_enemies.jpg 200w,
+/blog/static/bb924bd48dda0942017151932c20b432/a6407/iron_count_enemies.jpg 400w,
+/blog/static/bb924bd48dda0942017151932c20b432/a24e6/iron_count_enemies.jpg 800w,
+/blog/static/bb924bd48dda0942017151932c20b432/03ffe/iron_count_enemies.jpg 1200w,
+/blog/static/bb924bd48dda0942017151932c20b432/04bec/iron_count_enemies.jpg 1600w,
+/blog/static/bb924bd48dda0942017151932c20b432/81f49/iron_count_enemies.jpg 4032w&quot;
+        sizes=&quot;(max-width: 800px) 100vw, 800px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+        decoding=&quot;async&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
 &lt;p&gt;The boss is picked based upon the enemies you fought during the dungeon. Bosses are just enemies with higher stats so combat is played as normal.&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 800px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/blog/static/8ba650ad3ec6681798b1498f93312355/81f49/iron_boss.jpg&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 47.5%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAKABQDASIAAhEBAxEB/8QAGAAAAgMAAAAAAAAAAAAAAAAAAAIBAwT/xAAUAQEAAAAAAAAAAAAAAAAAAAAA/9oADAMBAAIQAxAAAAFFjOVAH//EABsQAAEEAwAAAAAAAAAAAAAAAAIABBAREhNC/9oACAEBAAEFAgrY4xpdHH//xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAEDAQE/AT//xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAECAQE/AT//xAAYEAACAwAAAAAAAAAAAAAAAAAAARESIP/aAAgBAQAGPwJSKuf/xAAaEAEAAgMBAAAAAAAAAAAAAAABESEAEDFB/9oACAEBAAE/IQokl4aILuNeMS9df//aAAwDAQACAAMAAAAQlA//xAAWEQADAAAAAAAAAAAAAAAAAAABEDH/2gAIAQMBAT8QEX//xAAWEQADAAAAAAAAAAAAAAAAAAABEDH/2gAIAQIBAT8QNX//xAAaEAEAAwEBAQAAAAAAAAAAAAABABExIXGR/9oACAEBAAE/ECIqUjmMBayvhHcgowo055EOj11js//Z&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;Lich boss&quot;
+        title=&quot;&quot;
+        src=&quot;/blog/static/8ba650ad3ec6681798b1498f93312355/a24e6/iron_boss.jpg&quot;
+        srcset=&quot;/blog/static/8ba650ad3ec6681798b1498f93312355/a6b4f/iron_boss.jpg 200w,
+/blog/static/8ba650ad3ec6681798b1498f93312355/a6407/iron_boss.jpg 400w,
+/blog/static/8ba650ad3ec6681798b1498f93312355/a24e6/iron_boss.jpg 800w,
+/blog/static/8ba650ad3ec6681798b1498f93312355/03ffe/iron_boss.jpg 1200w,
+/blog/static/8ba650ad3ec6681798b1498f93312355/04bec/iron_boss.jpg 1600w,
+/blog/static/8ba650ad3ec6681798b1498f93312355/81f49/iron_boss.jpg 4032w&quot;
+        sizes=&quot;(max-width: 800px) 100vw, 800px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+        decoding=&quot;async&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
 &lt;p&gt;I generally found the game quite hard with enemies able to inflict large amounts of damage in a single hit and easy to run out of energy if you get too aggressive with attacks.&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 800px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/blog/static/0be31be89039f7a9c4eb70703e62260f/81f49/iron_boss_loss.jpg&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 47.5%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAKABQDASIAAhEBAxEB/8QAFwAAAwEAAAAAAAAAAAAAAAAAAAIDBP/EABUBAQEAAAAAAAAAAAAAAAAAAAAB/9oADAMBAAIQAxAAAAFsN8xIUj//xAAaEAEAAQUAAAAAAAAAAAAAAAACAQADECEx/9oACAEBAAEFAgTMXNLC7X//xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAEDAQE/AT//xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAECAQE/AT//xAAYEAEBAAMAAAAAAAAAAAAAAAABEAASUf/aAAgBAQAGPwJ2xDtZ/8QAGhABAAMAAwAAAAAAAAAAAAAAAQARMRAhQf/aAAgBAQABPyGpHvUriTXCxJQwyf/aAAwDAQACAAMAAAAQoO//xAAWEQEBAQAAAAAAAAAAAAAAAAARARD/2gAIAQMBAT8QSOf/xAAWEQEBAQAAAAAAAAAAAAAAAAABERD/2gAIAQIBAT8QCsz/xAAaEAEAAwEBAQAAAAAAAAAAAAABABEhQTFh/9oACAEBAAE/EEAFAarkJYCKteV5HW4gNKbxlhhvH7PCf//Z&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;Lich boss with low health and dealing 9 damage to the player&quot;
+        title=&quot;&quot;
+        src=&quot;/blog/static/0be31be89039f7a9c4eb70703e62260f/a24e6/iron_boss_loss.jpg&quot;
+        srcset=&quot;/blog/static/0be31be89039f7a9c4eb70703e62260f/a6b4f/iron_boss_loss.jpg 200w,
+/blog/static/0be31be89039f7a9c4eb70703e62260f/a6407/iron_boss_loss.jpg 400w,
+/blog/static/0be31be89039f7a9c4eb70703e62260f/a24e6/iron_boss_loss.jpg 800w,
+/blog/static/0be31be89039f7a9c4eb70703e62260f/03ffe/iron_boss_loss.jpg 1200w,
+/blog/static/0be31be89039f7a9c4eb70703e62260f/04bec/iron_boss_loss.jpg 1600w,
+/blog/static/0be31be89039f7a9c4eb70703e62260f/81f49/iron_boss_loss.jpg 4032w&quot;
+        sizes=&quot;(max-width: 800px) 100vw, 800px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+        decoding=&quot;async&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;This is an example of a game I lost, where the boss only had 2 health left but its counterstrike dealt 9 damage (5 from dice difference added with 4 lich base damage) killed me.&lt;/p&gt;
 &lt;h3&gt;Game End&lt;/h3&gt;
 &lt;p&gt;If you kill a boss you can end the game there and score based upon what you achieved. There are expansions available that you play after completing a dungeon keeping the same character as before allowing for campaign gameplay.&lt;/p&gt;
+&lt;p&gt;I always like games with clear win/loss game ends, especially when you are building a character within a world. Having additional score gives extra replayability by making a difference between games that you just managed to scrape a win compared to a win where everyting thing went right for you.&lt;/p&gt;
 &lt;h3&gt;Expansions&lt;/h3&gt;
 &lt;p&gt;The Loot and Lore pack adds new characters, plot cards, enemies and items. This is combined with a base game to expand its content. I found this really improved the content variety.&lt;/p&gt;
 &lt;p&gt;Additional adventure expansions are also available to add campaign gameplay. These adventures are brought into the game after completing a certain number of previous dungeons. Each adventure has a new boss, enemies, character and items. 6 are available on gamecrafter though only 4 are currently on PNP arcade.&lt;/p&gt;
-&lt;p&gt;There is also the Iron Chest expansion &lt;a href=&quot;https://www.thegamecrafter.com/games/iron-chest&quot;&gt;https://www.thegamecrafter.com/games/iron-chest&lt;/a&gt; which is only available physically. This adds a new adventure pack, mechanics, items, and random encounters. I&apos;ve yet to try this expansion due to the cost of importing games from The Game Crafter into the UK.&lt;/p&gt;</content:encoded></item></channel></rss>
+&lt;p&gt;There is also the Iron Chest expansion &lt;a href=&quot;https://www.thegamecrafter.com/games/iron-chest&quot;&gt;https://www.thegamecrafter.com/games/iron-chest&lt;/a&gt; which is only available physically. This adds a new adventure pack, mechanics, items, and random encounters. I&apos;ve yet to try this expansion due to the cost of importing games from The Game Crafter into the UK.&lt;/p&gt;
+&lt;h3&gt;Conclusion&lt;/h3&gt;</content:encoded></item></channel></rss>
