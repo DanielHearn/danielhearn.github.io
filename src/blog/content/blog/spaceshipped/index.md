@@ -15,16 +15,17 @@ tags:
 thumbnail: "./spaceshipped.png"
 pros:
   [
-    "Achieves the theme's mechanics with only 18 cards",
+    "Achieves the theme's mechanics well with only 18 cards",
     "Print and Plays well",
     "Choices for riskier plays or longer plays that might risk to losing to the enemy",
-    "Great multi use cards that packs lots of gameplay into very little",
+    "Great multi use cards that packs in lots of gameplay",
+    "Winning feels satisfying as you have a story to tell with close calls from encounters and profitable turns where everything was perfect",
   ]
 cons:
   [
-    "Balance, some upgrades statistically worse than others",
-    "Randomness can suddenly end the game without any notice and time to prepare",
-    "Some games can drag on due to poor market cards, resulting in inconsistent game lengths",
+    "Balance, as some upgrades statistically worse than others",
+    "Randomness can suddenly end the game without any notice or time to prepare",
+    "Some games can drag on due to poor market card order, resulting in inconsistent game lengths",
   ]
 review: "Recommended"
 buy_links:
@@ -54,11 +55,11 @@ SpaceShipped consists of 18 cards with 16 being multi-use and the other two bein
 
 ### Gameplay
 
-The aim of SpaceShipped is to buy two xeno crystals before your opponent takes them. This time limit encourages risky choices that balance between making enough credits and surviving into the next turn. To buy a xeno crystal you need 20 credits obtained by buying and selling resources without reaching 0 health.
+The aim of SpaceShipped is to buy two xeno crystals before your opponent takes them. This time limit encourages risky choices that balance between making enough credits and surviving into the next turn. To buy a xeno crystal you need 20 credits obtained by buying and selling resources without reaching 0 health which causes you to lose.
 
 ![SpaceShipped encounter and marketplace row](./space_encounter.jpg)
 
-Each turn consists of activating the effects of the current encounter cards going diagonally from the top left of the left card down to the bottom right of the right card. First you activate the orbital encounter of the left card which can be positive or negative, though you have no way to prepare for this encounter which you will see is a big negative for my enjoyment of the game. Next you have the planetside encounter of the middle card which acts the same as the orbital encounter. Though you have a turn to prepare as the encounter cards are shifted to the right after each card with the right card being moved into the upgrade row and the rightmost resource card being flipped and added as the left card of the encounters. Being able to prepare for the planetside encounter is important as you often need to prepare shields or buy certain resources to avoid damage.
+Each turn consists of activating the effects of the current encounter cards going diagonally from the top left of the left card down to the bottom right of the right card. First you activate the orbital encounter of the left card which can be positive or negative, though you have no way to prepare for this encounter which you will see is a big negative for my enjoyment of the game. Next you have the planetside encounter of the middle card which acts the same as the orbital encounter. Though you have a turn to prepare as the encounter cards are shifted to the right after each card. With the right card being moved into the upgrade row and the rightmost resource card being flipped and added as the left card of the encounters. Being able to prepare for the planetside encounter is important as you often need to prepare shields or buy certain resources to avoid damage.
 
 Next you can buy and sell from the marketplace and upgrade row. The right card in the encounter is the marketplace, this gives two turns to see what prices you can get in the future for buying and selling.
 
