@@ -51,7 +51,9 @@ _It’s been a year since Leland Williams passed on. A year later, his family re
 
 ### Components
 
-Fishing Lessons consists of 18 cards like other Button Shy Games, with the physical edition coming in a wallet. Three cards are double sided character cards, with each character having a backstory and a unique gameplay goal. Seven cards are fish cards with one side having the same lake art and the other side having a unique combination of fish. Each fish has a name and a coloured letter which is used in the character goals. The final eight cards are lesson cards that each describe two actions you character must take during the activation step.
+Fishing Lessons consists of 18 cards like other Button Shy Games, with the physical edition coming in a wallet. Three cards are double sided character cards, with each character having a backstory and a unique gameplay goal. Seven cards are fish cards with one side having identical lake art and the other side having a unique combination of two fish. Each fish has a name and a coloured letter which is used in the character goals. The final eight cards are lesson cards that each describe two actions you character must take during the activation step if played.
+
+![Fishing Lessons](./fishing_lessons_character_1.jpg)
 
 The art for the fish, characters and lake look great, but I felt that the font and goal letters looked out of place compared to the art style used elsewhere. Additionally the use of white boxes on the character cards seemed out of place and unfinished when in constrast to other Button Shy Games.
 
@@ -63,11 +65,11 @@ Fishing lessons is game about programming actions in a certain order over multip
 
 ![Fishing Lessons](./fishing_lessons_3.jpg)
 
-At the start of the game you shuffle the lesson deck and draw three cards as your starting deck. Then you play a lesson card from your deck into the lesson row below the lake cards, these will be the actions completed by your character during the fishing step. The lesson card can be placed next to or replacing an existing lesso card, if replaced then the old card is discard out of the game.
+At the start of the game you shuffle the lesson deck and draw three cards as your starting deck. Then you play a lesson card from your deck into the lesson row below the lake cards, these will be the actions completed by your character during the fishing step. The lesson card can be placed next to or replacing an existing lesson card, if replaced then the old card is discard out of the game. This makes it possible to remove cards that might have been useful early on to find the correct fish but that became a hindrance later on.
 
 ![Fishing Lessons](./fishing_lessons_4.jpg)
 
-The fishing step involves activating each lesson card from left to right until all are activated. These cards each have 2 actions with the top action activated first, some actions may give you a choice on the number of spaces your character can move or which fishing action can be completed. Fishing actions will flip faceup or facedown lake cards depending on what the action specifies. Because these lessons will be brought across each turn you have to plan into the future as bad decisions can have a long lasting impact. Building these movement and fishing combos is very satisfying, especially early on where you still have some turns of leeway available and are still trying to which cards have the fish you want.
+The fishing step involves activating each lesson card from left to right until all are activated. These cards each have 2 actions with the top action activated first, some actions may give you a choice on the number of spaces your character can move or which fishing action can be completed. Fishing actions will flip faceup or facedown lake cards depending on where the action specifies. Because these lessons will be brought across each turn you have to plan into the future as bad decisions can have a long lasting impact. Building these movement and fishing combos is very satisfying, especially early on where you still have some turns of leeway available and are still trying to which cards have the fish you want.
 
 ![Fishing Lessons](./fishing_lessons_7.jpg)
 
@@ -76,6 +78,8 @@ After completing all actions the next turn begins and you draw a new lesson card
 ![Fishing Lessons](./fishing_lessons_11.jpg)
 
 I found the easy mode way too easy but good for the first game as a way to teach the mechanics. Medium felt more satisfying and seemed like the mode that best fit the theme of using the lessons to fish. While hard requires you to go through all turns until the lessson deck is empty. While this does prevent luck from making it easy to win on an early turn. I didn't enjoy having to keep going through turns, even though from a thematic perspective I have found and caught the fish.
+
+![Fishing Lessons](./fishing_lessons_difficulty.jpg)
 
 The two difficulty moddifiers can be used on any difficulty and both add restrictions. Night fishing limits the number of lesson cards that can be replaced to two. I liked this modifier as keeping the active lesson cards down to only two was a strategy I used a lot without this modifier. So it forced me to engage more with programming my turns better.
 
