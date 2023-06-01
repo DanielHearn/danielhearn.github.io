@@ -39,6 +39,7 @@ conclusion: "Death Valley is a great solo tableau builder, with push your luck t
 relatedPosts:
   - "/spaceshipped/"
   - "/sprawlopolis/"
+  - "/fishing_lessons/"
 hidden: false
 ---
 
