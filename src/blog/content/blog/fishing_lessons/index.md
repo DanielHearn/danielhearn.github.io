@@ -22,8 +22,9 @@ pros:
   ]
 cons:
   [
-    "Some parts of the art out of place",
-    "Limited variety compared to other Button Shy Games",
+    "Some parts of the art felt out of place",
+    "Likely doesn't have long lasting replayability compared to other Button Shy Games",
+    "Limited set of goals as I would have preferred multiple goals to be combined for greater replayability",
   ]
 review: "Recommended"
 buy_links:
@@ -32,12 +33,12 @@ buy_links:
     "Physical US: https://buttonshygames.com/products/fishing-lessons",
     "Physical UK: https://buttonshygames.com/products/fishing-lessons-uk-only",
   ]
-conclusion: "Fishing Lessons is simple yet satisfying with just the right level of brain burning that doesn't feel overwhelming. I'm not always in the mood for it"
+conclusion: "Fishing Lessons is simple yet satisfying with just the right level of brain burning programming that doesn't feel overwhelming. I'm not always in the mood for it but when I do pick it up the available modes and modifiers make it easy to find the right difficulty for my mood."
 relatedPosts:
   - "/death_valley/"
   - "/sprawlopolis/"
   - "/spaceshipped/"
-hidden: true
+hidden: false
 ---
 
 ![Fishing Lessons](./fishing_lessons_10.jpg)
@@ -56,16 +57,31 @@ The art for the fish, characters and lake look great, but I felt that the font a
 
 ### Gameplay
 
-// TODO
-End goal depends on difficulty, each mode changes when you check if the goal has been reached. This goal is based upon the character you have chosen, these either require a certain number of fish symbols to be on the face up cards or a certain number of faceup fish cards.
+![Fishing Lessons](./fishing_lessons_1.jpg)
 
-![Fishing Lessons](./fishing_lessons_lessons_1.jpg)
+Fishing lessons is game about programming actions in a certain order over multiple turns to achieve the goal on your chosen character card. Though when you can check that you have achieved your goal depends on the difficulty you have chosen before starting the game. Your character goal either requires a certain number of fish symbols to be on the face up cards or a certain number of faceup fish cards within the lake. This lake consists of 7 lake cards that your character moves left and right over with no movement beyond the left and right lake cards.
 
-// TODO
-I found easy, way too easy but good for the first game as a way to teach the mechanics. Medium felt more satisfying and seemed like the mode that best fit the theme of using the lessons to fish. While hard requires you to go through all turns until the lessson deck is empty. While this does prevent luck from making it easy to win on an early turn, I didn't enjoy having to keep going through turns, even though from a thematic perspective I have found and caught the fish.
+![Fishing Lessons](./fishing_lessons_3.jpg)
 
-// TODO
-At the start of the game you shuffle the lesson deck and draw three cards as your starting deck. Then you play a lesson card into the lesson row below the lake cards, these will be the actions completed by your character during the fishing phase.
+At the start of the game you shuffle the lesson deck and draw three cards as your starting deck. Then you play a lesson card from your deck into the lesson row below the lake cards, these will be the actions completed by your character during the fishing step. The lesson card can be placed next to or replacing an existing lesso card, if replaced then the old card is discard out of the game.
+
+![Fishing Lessons](./fishing_lessons_4.jpg)
+
+The fishing step involves activating each lesson card from left to right until all are activated. These cards each have 2 actions with the top action activated first, some actions may give you a choice on the number of spaces your character can move or which fishing action can be completed. Fishing actions will flip faceup or facedown lake cards depending on what the action specifies. Because these lessons will be brought across each turn you have to plan into the future as bad decisions can have a long lasting impact. Building these movement and fishing combos is very satisfying, especially early on where you still have some turns of leeway available and are still trying to which cards have the fish you want.
+
+![Fishing Lessons](./fishing_lessons_7.jpg)
+
+After completing all actions the next turn begins and you draw a new lesson card into your hand, with the turn continuing as before. The game ends when you either complete your goal according to the difficulty mode goal checking timing and your character goal or when the lesson deck is empty and you have completed the current turn.
+
+![Fishing Lessons](./fishing_lessons_11.jpg)
+
+I found the easy mode way too easy but good for the first game as a way to teach the mechanics. Medium felt more satisfying and seemed like the mode that best fit the theme of using the lessons to fish. While hard requires you to go through all turns until the lessson deck is empty. While this does prevent luck from making it easy to win on an early turn. I didn't enjoy having to keep going through turns, even though from a thematic perspective I have found and caught the fish.
+
+The two difficulty moddifiers can be used on any difficulty and both add restrictions. Night fishing limits the number of lesson cards that can be replaced to two. I liked this modifier as keeping the active lesson cards down to only two was a strategy I used a lot without this modifier. So it forced me to engage more with programming my turns better.
+
+The Boat Ramp modifier was different to play with at first but is clever for combining the theme and mechanics well. This modifier makes the character card start at the leftmost lake card which acts as the side you must enter and exit the lake from. Then you must also finish at the goal while at the leftmost lake card. I found this much harder as you are often forced to make fishing actions while returning to the left so programming lessons requires even more thought.
+
+These modifiers are great for adding more variety and complexity as you get better at the game. After a few games I found that playing on medium with Night Fishing and sometimes Boat ramp was the most fun for me. As I'm not always in the mood for a brain burning game when playing smaller games.
 
 ### Expansions
 
