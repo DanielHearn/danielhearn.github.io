@@ -7,7 +7,7 @@ relatedPosts: ["/when_to_buy_new_games/", "/review_methodology/"]
 hidden: false
 ---
 
-_This is my solo ranking of Button Shy Games I have played as of May 9th 2023_
+_This is my solo ranking of Button Shy Games I have played as of June 4th 2023_
 
 This list includes any expansions for the game where solo only or not as listing expansions would be too confusing. This includes solo only and solo mode games and does not consider the multiplayer modes in any way.
 
@@ -16,6 +16,7 @@ This list includes any expansions for the game where solo only or not as listing
   <li>Food Chain Island</li>
   <li>Tussie Mussie <i>Requires expansion</i></li>
   <li><a href="https://danielhearn.co.uk/blog/spaceshipped">SpaceShipped</a></li>
+  <li><a href="https://danielhearn.co.uk/blog/fishing_lessons">Fishing Lessons</a></li>
   <li><a href="https://danielhearn.co.uk/blog/death_valley">Death Valley</a></li>
   <li>Skulls of Sedlec <i>Requires expansion</i></li>
   <li>ROVE: Results-Oriented Versatile Explorer</li>
