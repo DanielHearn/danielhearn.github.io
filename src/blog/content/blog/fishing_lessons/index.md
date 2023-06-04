@@ -1,6 +1,6 @@
 ---
 title: Fishing Lessons Review
-date: "2023-04-30T22:12:03.284Z"
+date: "2023-06-01T12:12:03.284Z"
 description: "Fishing Lessons is a satisfying programming game that has limited replayability."
 tags:
   [
