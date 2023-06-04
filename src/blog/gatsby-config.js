@@ -181,5 +181,12 @@ module.exports = {
         nodesPerFeedFile: 10000,
       },
     },
+    {
+      resolve: `gatsby-plugin-google-analytics`,
+      options: {
+        trackingId: "G-RFX31BT9CH",
+        head: true,
+      },
+    },
   ],
 }
