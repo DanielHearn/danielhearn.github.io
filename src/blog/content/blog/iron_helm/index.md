@@ -28,6 +28,7 @@ cons:
     "Often came across cards that used morality even though I had not had the chance to increase/decrease my morality yet",
     "Instructions aren't the best with the appendix being essential",
     "Physical edition is expensive especially if exporting out of the USA",
+    "Limited expansions available for Print and Play",
   ]
 review: "Highly Recommended"
 buy_links:
@@ -61,11 +62,11 @@ The Game Crafter also separately sells game and player mats to make laying out t
 
 ### Gameplay
 
-Iron Helm aims to give dungeon crawler experience with character progression, plot, and random encounters in a relatively small package compared to large dungeon games.
+Iron Helm aims to give dungeon crawler experience with character progression, plot, and random encounters in a relatively small package compared to large dungeon crawl games.
 
 ![Example of an early character sheet](./iron_character_sheet_early.jpg)
 
-First you pick one of the four base game characters and start with the skills and trappings assigned to that character, along with tracking the starting health, energy, rations listed on the character card. Each character plays differently as archetypal fantasy classes with the biggest impact being the main type of skills the character can upgrade with. Though any character can upgrade with any skill, just at a higher cost.
+First you pick one of the four base game characters and start with the skills and trappings assigned to that character, along with tracking the starting health, energy, rations listed on the character card. Each character plays differently as archetypal fantasy classes with the biggest impact being the main type of skills the character can upgrade with. Though any character can upgrade with any skill, just at a higher cost. This gives a good amount of variation; though some skills seemed more consistently useful compared to others that required rarer events to be useful.
 
 ![Tracking sheet at the beginning of the game](./iron_tracker_sheet_early.jpg)
 
@@ -79,15 +80,15 @@ Dungeon cards can often have 2 effects depending on which order the card was pic
 
 The dungeon encounters can be enemies, merchants, campsites and many others with positive or negative impacts. This means you never know what will be behind the card. An issue I had with One Deck Dungeon another small dungeon crawler. If you encounter an enemy, then you start combat which must be completed before you can continue exploring the dungeon.
 
-Combat is dice based with your damage modified by equipment and skills. This combat is very simplistic but is only part of the gameplay so I didn't feel it dragged down the game as a whole. The card that triggers the combat will impact enemy health and initial damage meaning that choosing the fight if your first dungeon card is a combat encounter can the difference between life and death.
+Enemy health scales based upon the dungeon level and whether it is a skirmish or ambush card, this does mean the game gets harder further into the dungeon. Though the damage is consistent which can mean you can take large amounts of damage early on. Combat is dice based with your damage modified by equipment and skills. This leads into my main issue of the combat being too basic with equipment and skills only allowing for re-rolls or modifiers. Offensive potions can be used instead of using energy to attack or you can attack for one damage without spending energy. Thought I didn't find any of these combat options particularly compelling as it mostly felt like trying to trade blows with the enemy as quick as possible with limited strategy. Though as combat is only a part of the gameplay I didn't find it a deal breaker.
 
-Each enemy also has an additional effect such as trading resources to avoid combat or other impacts if the enemy hits you.
+Each enemy also has an additional effect such as trading resources to avoid combat or other impacts if the enemy hits you. This gives extra flavour to the encounters and encourages being cautious with resources as they may be useful in other ways.
 
 The encounter turns continue until you reach the end of the dungeon deck or reach ten plot points on your plot cards. You then shuffle the dungeon deck, increase the dungeon level, lose a ration if available and increase your poison. This dungeon level impacts combat, making it more dangerous as you delve deeper, working great with the theming.
 
 ![Example of a plot card](./iron_plot_example.jpg)
 
-After completeting the other parts of the dungeon level completion, you then draw a plot card from the plot deck. These plot cards give choices with many possible impacts. Each plot card has a value, once you have discarded enough plot cards to sum 10 or more you then encounter the boss. The dungeon cards are reshuffled, a ration is reduced and potion is increased if you have it. This means you need to keep resources available as running out will be dangerous. The dungeon tracker card is used to track which level of the dungeon you are on.
+After completeting the other parts of the dungeon level completion, you then draw a plot card from the plot deck. These plot cards give choices with many possible impacts. Each plot card has a value, once you have discarded enough plot cards to sum 10 or more you then encounter the boss. The dungeon cards are reshuffled, a ration is reduced and potion is increased if you have it. This means you need to keep resources available as running out will be dangerous. The dungeon tracker card is used to track which level of the dungeon you are on. One issue I had as that the plot card values are inconsistent, so bad luck with the cards can make the game drag on. Making your chances of having enough health and energy to combat the boss less likely.
 
 ![Example of a morality impacting plot card](./iron_morality.jpg)
 
@@ -95,7 +96,7 @@ Some plot cards impact or use the player's morality to give different options or
 
 ![Example of a blessing token](./iron_blessing.jpg)
 
-Blessing tokens can be gained during the dungeon and are placed with your player face down so that you do not know what is on the other side. During combat you can discard a blessing token to reroll a single combat roll. But if you keep tokens until you reach the boss, you can flip the tokens over and gain their effects. This can be healing, additional energy or removing poison.
+Blessing tokens can be gained during the dungeon and are placed with your player face down so that you do not know what is on the other side. During combat you can discard a blessing token to reroll a single combat roll. But if you keep tokens until you reach the boss, you can flip the tokens over and gain their effects. This can be healing, additional energy or removing poison. I found the healing from these very important, especially if I got unluckly with health potions from the merchant and potion deck.
 
 ![Stacks of each enemy type I killed during the game](./iron_count_enemies.jpg)
 
@@ -103,23 +104,23 @@ The boss is picked based upon the enemies you fought during the dungeon. Bosses 
 
 ![Lich boss](./iron_boss.jpg)
 
-I generally found the game quite hard with enemies able to inflict large amounts of damage in a single hit and easy to run out of energy if you get too aggressive with attacks.
+I generally found the game quite hard with enemies able to inflict large amounts of damage in a single hit and easy to run out of energy if you get too aggressive with attacks. So I would often get skills so that I could avoid skirmishes or risk choosing the second dungeon card as otherwise I would end up with low health by the time I got to the boss.
 
 ![Lich boss with low health and dealing 9 damage to the player](./iron_boss_loss.jpg)
 
-This is an example of a game I lost, where the boss only had 2 health left but its counterstrike dealt 9 damage (5 from dice difference added with 4 lich base damage) killed me.
+This is an example of a game I lost, where the boss only had 2 health left but its counterstrike dealt 9 damage (5 from dice difference added with 4 lich base damage) which killed me. As there are no campaign/legacy systems without the adventure expansions, if you die nothing is caried over across games.
 
 ### Game End
 
-If you kill a boss you can end the game there and score based upon what you achieved. There are expansions available that you play after completing a dungeon keeping the same character as before allowing for campaign gameplay.
+If you kill a boss you can end the game there and score based upon what you achieved, with a thematic home given based on the score boundaries. There are expansions available that you play after completing a dungeon keeping the same character as before allowing for campaign gameplay. As these are available via Print and Play, I was printing adventure expansions once I completed the game with the previous expansion.
 
-I always like games with clear win/loss game ends, especially when you are building a character within a world. Having additional score gives extra replayability by making a difference between games that you just managed to scrape a win compared to a win where everyting thing went right for you.
+I always like games with clear win/loss game ends, especially when you are building a character within a world. Having an additional score gives extra replayability by making a difference between games that you just managed to scrape a win compared to a win where everyting thing went right for you.
 
 ### Expansions
 
 The Loot and Lore pack adds new characters, plot cards, enemies and items. This is combined with a base game to expand its content. I found this really improved the content variety.
 
-Additional adventure expansions are also available to add campaign gameplay. These adventures are brought into the game after completing a certain number of previous dungeons. Each adventure has a new boss, enemies, character and items. 6 are available on gamecrafter though only 4 are currently on PNP arcade.
+Additional adventure expansions are also available to add campaign gameplay. These adventures are brought into the game after completing a certain number of previous dungeons. Each adventure has a new boss, enemies, character and items. Six are available on gamecrafter though only four are currently on PNP arcade.
 
 There is also the Iron Chest expansion https://www.thegamecrafter.com/games/iron-chest which is only available physically. This adds a new adventure pack, mechanics, items, and random encounters. I've yet to try this expansion due to the cost of importing games from The Game Crafter into the UK.
 
