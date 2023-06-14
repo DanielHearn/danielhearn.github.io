@@ -7,6 +7,10 @@ import Seo from "../components/seo"
 import RecommendationTable from "../components/recommendationTable"
 import ReviewResult from "../components/reviewResult"
 import Tags from "../components/tags"
+import Lightbox from "yet-another-react-lightbox"
+import Captions from "yet-another-react-lightbox/plugins/captions"
+import "yet-another-react-lightbox/styles.css"
+import "yet-another-react-lightbox/plugins/captions.css"
 
 const BlogPostTemplate = ({
   data: { site, markdownRemark: post, relatedPosts, fields },
@@ -16,6 +20,42 @@ const BlogPostTemplate = ({
   const tags = post.frontmatter.tags
   const title = post.frontmatter.title
   const date = post.frontmatter.date
+
+  const [open, setOpen] = React.useState(false)
+  const [images, setImages] = React.useState([])
+  const [imageIndex, setImageIndex] = React.useState(null)
+  const captionsRef = React.useRef(null)
+
+  React.useEffect(() => {
+    const imageElements = [
+      ...document.querySelectorAll('section[itemprop="articleBody"] img'),
+    ]
+
+    setImages(
+      imageElements.map(img => {
+        return {
+          src: img.srcset.split(",").pop().split(" ")[0].trim() || img.src,
+          description: img.alt,
+          imageFit: "contain",
+        }
+      })
+    )
+
+    imageElements.forEach((image, i) => {
+      image.addEventListener("click", e => {
+        e.preventDefault()
+        setImageIndex(i)
+      })
+    })
+  }, [])
+
+  React.useEffect(() => {
+    if (imageIndex !== null && imageIndex >= 0) {
+      setOpen(true)
+    } else {
+      setOpen(false)
+    }
+  }, [imageIndex])
 
   return (
     <Layout location={location} title={siteTitle}>
@@ -73,6 +113,24 @@ const BlogPostTemplate = ({
         <footer>
           <Bio />
         </footer>
+
+        {images.length && (
+          <Lightbox
+            open={open}
+            close={() => setOpen(false)}
+            slides={images}
+            plugins={[Captions]}
+            captions={{ ref: captionsRef, descriptionTextAlign: "center" }}
+            on={{
+              click: () => {
+                ;(captionsRef.current?.visible
+                  ? captionsRef.current?.hide
+                  : captionsRef.current?.show)?.()
+              },
+            }}
+            index={imageIndex}
+          />
+        )}
       </article>
       {relatedPosts?.edges?.length > 0 && (
         <>
