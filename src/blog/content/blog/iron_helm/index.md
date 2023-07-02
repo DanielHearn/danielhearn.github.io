@@ -19,14 +19,14 @@ pros:
     "Multiple expansions",
     "Win/Loss along with point scoring gives good replayability",
     "Adventure pack expansions give campaign gameplay",
-    "Upgrading your character is satisfying and impactful",
+    "Upgrading your character is satisfying",
   ]
 cons:
   [
     "Combat mechanics feel undercooked",
     "Plot cards become repetitive quickly without expansions",
     "Often came across cards that used morality even though I had not had the chance to increase/decrease my morality yet",
-    "Instructions aren't the best with the appendix being essential",
+    "Manual isn't great for a simple game with the appendix/helper being essential when first playing",
     "Physical edition is expensive especially if exporting out of the USA",
     "Limited expansions available for Print and Play",
   ]
@@ -41,7 +41,7 @@ relatedPosts:
   - "/death_valley/"
   - "/sprawlopolis/"
   - "/spaceshipped/"
-hidden: true
+hidden: false
 ---
 
 ![Iron Helm cards](./iron_helm.png)
@@ -60,17 +60,23 @@ _Along the way you will learn new skills and upgrade your character with new ite
 
 ### Components
 
-The print and play version mostly consists of making cards but you can either make your own tokens or print out the card trackers from BGG with your own cubes to track, I prefered this to making all the tokens (I still had to make blessing tokens as there is no alternative). I recommend printing out the player mat if you get the PNP version to make it easier to track which weapons are equipped. I didn't see a need in printing the gameplay mat. If you play the print and play versions you will need to have two d12 and at least three d6 dice, along with small euro cubes if you use the tracking cards.
+The print and play version mostly consists of making cards along with a few types of tokens to track attributes. Though you can print out the card trackers from Board Game Geek with your own cubes to track, I preferred this to making all the tokens (I still had to make blessing tokens as there is no alternative). I recommend printing out the player mat if you get this version to make it easier to track which weapons are equipped compared to those in your inventory. I didn't see a need in printing the gameplay mat. If you play this version you will need to have two d12 and at least three d6 dice, along with small euro cubes if you use the tracking cards.
 
-The Game Crafter physical edition comes with all the base game cards, along with tokens and dice in a box with dividers and is large enough to fit some expansions. I think this version is expensive for what it is ($54.99 at time of review) especially compared to traditionally published games due to how The Game Crafter works. It is even more expensive if you live outside the USA due to taxes and shipping, so be carefull as many people have mentioned how expensive the game is with all costs considered.
+![Iron Helm physical edition](./iron_physical.png)
+
+[The Game Crafter physical edition](https://www.thegamecrafter.com/games/iron-helm) comes with all the base game cards, along with tokens and dice in a box with dividers and is large enough to fit some expansions. I think this version is expensive for what it is ($54.99 at time of review) especially compared to traditionally published games due to how The Game Crafter works. It is even more expensive if you live outside the USA due to taxes and shipping, so be careful as many people have mentioned how expensive the game is with all costs considered.
+
+![Iron Helm player mats](./iron_player_mats.jpg)
 
 The Game Crafter also separately sells game and player mats to make laying out the game easier and more thematic. I don't think this is essential but I did like using a printed player mat in my PNP version.
 
 ### Gameplay
 
-Iron Helm aims to give dungeon crawler experience with character progression, narrative events, and random encounters in a relatively small package compared to large dungeon crawl games.
+![Start of dungeon crawl](./iron_dungeon_1.jpg)
 
-![Example of an early character sheet](./iron_character_sheet_early.jpg)
+Iron Helm aims to give dungeon crawler experience with character progression, narrative events, and random encounters in a relatively small package compared to larger dungeon crawl games.
+
+![Available characters in the base game](./iron_characters.jpg)
 
 First you pick one of the four base game characters and start with the skills and trappings assigned to that character, along with tracking the starting health, energy, and rations listed on the character card. Each character plays differently as archetypal fantasy classes with the biggest impact being the main type of skills the character can upgrade with. Though any character can upgrade with any skill, just at a higher cost. This gives a good amount of variation; though some skills seemed more consistently useful compared to others that required rarer events to be useful.
 
@@ -78,13 +84,21 @@ First you pick one of the four base game characters and start with the skills an
 
 I used the printed tracking cards from BGG instead of using tokens as this felt cleaner and quicker to use. Most actions are going to involve tracking these character attributes.
 
-![Start of dungeon crawl](./iron_dungeon_1.jpg)
+![Two facedown dungeon cards](./iron_helm_dungeon_down.jpg)
 
-Next you start exploring the dungeon which consists of turns encountering the many surprises within the dungeon. At the first of each turn you play two facedown dungeon cards from the top of the deck. Then pick one and flip it face up, if you don't like the first card then you can push your luck and pick the other card.
+Next you start exploring the dungeon which consists of turns encountering the many surprises within the dungeon. At the first step of each turn you play two facedown dungeon cards from the top of the deck.
 
-Dungeon cards can often have 2 effects depending on which order the card was picked with the second effect being stronger. Avoiding the first card you picked can be disasterous if you flip over a skirmish or poison trap. This gives great push your luck gameplay, where you might avoid a dangerous encounter to end up in a worse encounter. Though remembering which cards you have already discarded can help judge if flipping over the second card is worth it.
+![Flipping the first dungeon card](./iron_dungeon_up_1.jpg)
+
+Then pick one and flip it face up, if you don't like the first card then you can push your luck and pick the other card.
+
+![Selecting the second dungeon card option](./iron_dungeon_up_2.jpg)
+
+Dungeon cards can often have 2 effects depending on which order the card was picked with the second effect being stronger. Avoiding the first card you picked can be disastrous if you flip over a skirmish or poison trap. This gives great push your luck gameplay, where you might avoid a dangerous encounter to end up in a worse encounter on the other card. Though remembering which cards you have already discarded in the dungeon level can help judge if flipping over the second card is worth it.
 
 The dungeon encounters can be enemies, merchants, campsites and many others with positive or negative impacts. This means you never know what will be behind the card. Certain skills and items can modify some of the encounters nullifying or reducing their negative impacts on you. If you encounter an enemy, then you start combat which must be completed before you can continue exploring the dungeon.
+
+![Combat with a Zombie](./iron_zombie_health.jpg)
 
 Enemy health scales based upon the dungeon level and whether it is a skirmish or ambush card, this does mean the game gets harder further into the dungeon. Though the damage is consistent which can mean you can take large amounts of damage early on especially with tougher enemies. Combat is dice based with your damage modified by equipment and skills. This leads into my main issue of the combat being too basic with equipment and skills only allowing for re-rolls or modifiers. Offensive potions can be used instead of using energy to attack or you can attack for one damage without spending energy. Thought I didn't find any of these combat options particularly compelling as it mostly felt like trying to trade blows with the enemy as quick as possible with limited strategy. Though as combat is only a part of the gameplay I didn't find it a deal breaker.
 
@@ -98,7 +112,7 @@ After completing the other parts of the dungeon level completion, you then draw 
 
 ![Example of a morality impacting plot card](./iron_morality.jpg)
 
-Some plot cards impact or use the player's morality to give different options or effects. This helps feel like you are actually roleplaying within this world, while being a small additional mechanic. Having high morality generally gives better long term impacts if you draw a plot card that uses your morality level, but choosing a morality lowering option often helps you keep alive. Though I did have many games where I had drawn a plot card that used morality before I had actually had a chance to lower or increase my morality, often making that plot card feel unimpactfull.
+Some plot cards impact or use the player's morality to give different options or effects. This helps feel like you are actually roleplaying within this world, while being a small additional mechanic. Having high morality generally gives better long term impacts if you draw a plot card that uses your morality level, but choosing a morality lowering option often helps you keep alive. Though I did have many games where I had drawn a plot card that used morality before I had actually had a chance to lower or increase my morality, often making that plot card feel unimpactful.
 
 ![Example of a blessing token](./iron_blessing.jpg)
 
@@ -110,23 +124,23 @@ The boss is picked based upon the most common enemy type you fought during the d
 
 ![Lich boss](./iron_boss.jpg)
 
-I generally found the game quite hard with enemies and bosses able to inflict large amounts of damage in a single hit. With it being easy to run out of energy if you get too aggressive with attacks. So I would often get skills so that I could avoid skirmishes or risk choosing the second dungeon card as otherwise I would end up with low health by the time I got to the boss, with limited opportunities to heal up.
+I generally found the game quite hard with enemies and bosses able to inflict large amounts of damage in a single hit. With it being easy to run out of energy if you get too aggressive with attacks. So I would often get skills to could avoid skirmishes or risk choosing the second dungeon card as otherwise I would end up with low health by the time I got to the boss, with limited opportunities to heal up.
 
 ![Lich boss with low health and dealing 9 damage to the player](./iron_boss_loss.jpg)
 
-The example above shows a game I lost, where the boss only had 2 health left but it made a counterstrike that dealt 9 damage (5 from dice difference added with 4 lich base damage) which killed me. As there are no campaign/legacy systems without the adventure expansions, if you die nothing is carried over across games. So losing to unexpectedly very high damage can feel anticlimatic.
+The example boss fight above shows a game I lost, where the boss only had 2 health left but it made a counterstrike that dealt 9 damage (5 from dice difference added with 4 Lich base damage) which killed me. As there are no campaign/legacy systems without the adventure expansions, if you die nothing is carried over across games. So losing to unexpectedly very high damage can feel anticlimactic.
 
 ### Game End
 
 If you kill a boss you can end the game there and score based upon what you achieved, with thematic home flavour text given based on the score boundaries. There are expansions available that you play after completing a dungeon keeping the same character as before allowing for campaign gameplay. As these are available via Print and Play, I was printing adventure expansions once I completed the game with the previous expansion.
 
-I always like games with clear win/loss game ends, especially when you are building a character within a world. Having an additional score gives extra replayability by making a difference between games that you just managed to scrape a win compared to a win where everyting thing went right for you.
+I always like games with clear win/loss game ends, especially when you are building a character within a world. Having an additional score gives extra replayability by making a difference between games that you just managed to scrape a win compared to a win where everything thing went right for you.
 
 ### Expansions
 
 The Loot and Lore pack adds new characters, plot cards, enemies and items. This is combined with a base game to expand its content. I found this really improved the content variety as it is always applied to the base game.
 
-Additional adventure expansions are also available to add campaign gameplay. These adventures are brought into the game after completing the base game and previous adventure expansions. Each adventure has a new boss, enemies, character and items. Six are available on gamecrafter though only four are currently on PNP arcade. These help give variety and seemed to have a slightly higher difficulty, though I do wish there was more to the experience between dungeons during a campaign. As you only reset attributes and have the opportunity to buy trappings. I would have liked more events to help build the narrative as you only get a small sentence of flavour text when starting the next dungeon.
+Additional adventure expansions are also available to add campaign gameplay. These adventures are brought into the game after completing the base game and previous adventure expansions. Each adventure has a new boss, enemies, character and items. Six are available on The Game Crafter though only four are currently on PNP arcade. These help give variety and seemed to have a slightly higher difficulty, though I do wish there was more to the experience between dungeons during a campaign. As you only reset attributes and have the opportunity to buy trappings. I would have liked more events to help build the narrative as you only get a small sentence of flavour text when starting the next dungeon.
 
 There is also the Iron Chest expansion https://www.thegamecrafter.com/games/iron-chest which is only available physically. This adds a new adventure pack, mechanics, items, and random encounters. I've yet to try this expansion due to the cost of importing games from The Game Crafter into the UK.
 
