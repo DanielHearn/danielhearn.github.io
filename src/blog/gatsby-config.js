@@ -7,7 +7,7 @@ const filterVisiblePosts = posts =>
 const siteUrl = `https://danielhearn.co.uk/blog`
 module.exports = {
   siteMetadata: {
-    title: `Fn`,
+    title: `Gaming with Dan`,
     author: {
       name: `Daniel Hearn`,
       summary: `, I develop software and play board games.`,
