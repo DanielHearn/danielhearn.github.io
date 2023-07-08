@@ -1,6 +1,7 @@
 ---
 title: Iron Helm Review
 date: "2023-07-02T12:12:03.284Z"
+updated_date: "2023-07-08T13:12:03.284Z"
 description: "Iron Helm is a fantastic solo dungeon crawler in a fairly small package."
 tags:
   [

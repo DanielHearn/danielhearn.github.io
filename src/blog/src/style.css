@@ -534,6 +534,12 @@ li a {
   width: 100%;
 }
 
+.updated_date {
+  font-size: var(--fontSize-1) !important;
+  font-style: italic;
+  color: var(--color-text-light)
+}
+
 /* Media queries */
 
 @media (max-width: 42rem) {

@@ -20,6 +20,7 @@ const BlogPostTemplate = ({
   const tags = post.frontmatter.tags
   const title = post.frontmatter.title
   const date = post.frontmatter.date
+  const updated_date = post.frontmatter.updated_date
 
   const [open, setOpen] = React.useState(false)
   const [images, setImages] = React.useState([])
@@ -67,6 +68,9 @@ const BlogPostTemplate = ({
         <header>
           <h1 itemProp="headline">{title}</h1>
           <p>{date}</p>
+          {updated_date && (
+            <p className="updated_date">Updated on {updated_date}</p>
+          )}
           {tags?.length && <Tags tags={tags} />}
         </header>
         <section
@@ -205,6 +209,7 @@ export const pageQuery = graphql`
       frontmatter {
         title
         date(formatString: "MMMM DD, YYYY")
+        updated_date(formatString: "MMMM DD, YYYY")
         description
         tags
         pros

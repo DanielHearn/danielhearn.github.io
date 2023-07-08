@@ -145,6 +145,7 @@ exports.createSchemaCustomization = ({ actions }) => {
       title: String
       description: String
       date: Date @dateformat
+      updated_date: Date @dateformat
       result: String
       relatedPosts: [String!]
       hidden: Boolean

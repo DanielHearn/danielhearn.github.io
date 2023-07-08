@@ -138,6 +138,7 @@ module.exports = {
                   title
                   description
                   date(formatString: "MMMM DD, YYYY")
+                  updated_date(formatString: "MMMM DD, YYYY")
                   tags
                   thumbnail {
                     childImageSharp {
