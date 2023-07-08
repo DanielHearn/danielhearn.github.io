@@ -26,7 +26,7 @@ cons:
   [
     "Combat mechanics feel undercooked",
     "Plot cards become repetitive quickly without expansions",
-    "Often came across cards that used morality even though I had not had the chance to increase/decrease my morality yet",
+    "In the base game I often came across cards that used morality even though I had not had the chance to increase/decrease my morality yet",
     "Manual isn't great for a simple game with the appendix/helper being essential when first playing",
     "Physical edition is expensive especially if exporting out of the USA",
     "Limited expansions available for Print and Play",
@@ -113,7 +113,9 @@ After completing the other parts of the dungeon level completion, you then draw 
 
 ![Example of a morality impacting plot card](./iron_morality.jpg)
 
-Some plot cards impact or use the player's morality to give different options or effects. This helps feel like you are actually roleplaying within this world, while being a small additional mechanic. Having high morality generally gives better long term impacts if you draw a plot card that uses your morality level, but choosing a morality lowering option often helps you keep alive. Though I did have many games where I had drawn a plot card that used morality before I had actually had a chance to lower or increase my morality, often making that plot card feel unimpactful.
+Some plot cards impact or use the player's morality to give different options or effects. This helps feel like you are actually roleplaying within this world, while being a small additional mechanic. Having high morality generally gives better long term impacts if you draw a plot card that uses your morality level, but choosing a morality lowering option often helps you keep alive. Though I did have many games where I had drawn a plot card that used morality before I had actually had a chance to lower or increase my morality, often making that plot card have little impact.
+
+_The morality issues listed are fixed well in the The Howling Abyss Dungeon Deck expansion which replaces the base game dungeon deck with additional complexity and better usage of morality._
 
 ![Example of a blessing token](./iron_blessing.jpg)
 
@@ -139,10 +141,28 @@ I always like games with clear win/loss game ends, especially when you are build
 
 ### Expansions
 
-The Loot and Lore pack adds new characters, plot cards, enemies and items. This is combined with a base game to expand its content. I found this really improved the content variety as it is always applied to the base game.
+#### Loot and Lore
 
-Additional adventure expansions are also available to add campaign gameplay. These adventures are brought into the game after completing the base game and previous adventure expansions. Each adventure has a new boss, enemies, character and items. Six are available on The Game Crafter though only four are currently on PNP arcade. These help give variety and seemed to have a slightly higher difficulty, though I do wish there was more to the experience between dungeons during a campaign. As you only reset attributes and have the opportunity to buy trappings. I would have liked more events to help build the narrative as you only get a small sentence of flavour text when starting the next dungeon.
+![New cards in the Loot and Lore pack](./iron_loot_lore.jpg)
+
+The Loot and Lore pack adds new characters, plot cards, enemies and items. This is combined with a base game to expand its content. I found this really improved the variety as it is always applied to the base game. I would heavily recommend getting this expansion once you have played and enjoyed your first few games of Iron Helm.
+
+#### Adventure Expansions
+
+Additional adventure expansions are also available to add campaign gameplay. These adventures are brought into the game after completing the base game and previous adventure expansions. Each adventure has a new boss, enemies, character and items. Six are available on The Game Crafter though only four are currently on PNP arcade. These help give more variety and seemed to have a slightly higher difficulty, though I do wish there was more to the experience between dungeons during a campaign. As you only reset attributes and have the opportunity to buy trappings. I would have liked more events to help build the narrative as you only get a small sentence of flavour text when starting the next dungeon.
+
+#### Iron Chest Expansion
 
 There is also the Iron Chest expansion https://www.thegamecrafter.com/games/iron-chest which is only available physically. This adds a new adventure pack, mechanics, items, and random encounters. I've yet to try this expansion due to the cost of importing games from The Game Crafter into the UK.
+
+#### Howling Abyss Dungeon Deck
+
+![New cards in the Howling Abyss Dungeon Deck](./iron_howling.jpg)
+
+After writing this review the The Howling Abyss Dungeon Deck expansion became available for print and play. This expansion adds a new 18 card deck as an alternative to the base game's dungeon deck. This deck mostly contains the same ideas and encounters from that original deck but with additional complexity and impacts, which I felt were different enough to be interesting. Greater use of dice rolls and additional choices on the cards enhanced the push your luck as cards with negative impacts can have the chance to be even more dangerous. Some negative cards also have small positive impacts such as discarding rations but also gaining a potion. This means there are fewer moments where a playthrough can feel over due to a single dungeon card. The art on these cards are also more complex than the base game's art while keeping the original theme.
+
+My favourite addition in this expansion are the new dungeon cards with completely new mechanics, these are mostly focused on the use of the character's morality. This gives the morality system a much needed improvement as it has limited use in the base game, outside of scoring and a few specific cards. Having low morality when using this deck is now much more risky due to the Archangel card which makes you gain or lose health depending on morality.
+
+I recommend this expansion once you've gotten too used to base game's dungeon deck, though I do wish most of the card changes would be applied to the original deck in a new edition of the base game.
 
 ### Conclusion
