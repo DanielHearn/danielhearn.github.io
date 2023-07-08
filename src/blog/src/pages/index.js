@@ -155,15 +155,8 @@ const BlogIndex = ({ data, location }) => {
           <h2>Upcoming Reviews</h2>
           <ul>
             <li>Galdor's Grip (Solo)</li>
-            <li>Iron Helm (Solo)</li>
-          </ul>
-        </div>
-        <div>
-          <h2>Interested Games</h2>
-          <ul>
-            <li>Imperium: Horizons</li>
-            <li>One Deck Galaxy</li>
-            <li>Resist!</li>
+            <li>Deck 52: Space Wrecked (Solo)</li>
+            <li>Wildtails: A Pirate Legacy (Solo)</li>
           </ul>
         </div>
       </div>

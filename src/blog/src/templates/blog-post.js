@@ -118,7 +118,7 @@ const BlogPostTemplate = ({
           <Bio />
         </footer>
 
-        {images.length && (
+        {images.length > 0 && (
           <Lightbox
             open={open}
             close={() => setOpen(false)}
