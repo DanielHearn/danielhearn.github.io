@@ -26,10 +26,10 @@ cons:
   [
     "Combat mechanics feel undercooked",
     "Plot cards become repetitive quickly without expansions",
-    "In the base game I often came across cards that used morality even though I had not had the chance to increase/decrease my morality yet",
-    "Manual isn't great for a simple game with the appendix/helper being essential when first playing",
+    "In the base game I often came across cards that used morality even though I had not had the opportunity to increase/decrease my morality yet",
+    "Manual isn't great for such a simple game with the appendix and helper being essential when first playing",
     "Physical edition is expensive especially if exporting out of the USA",
-    "Limited expansions available for Print and Play",
+    "Limited expansions available for Print and Play, though more appear to be coming available",
   ]
 review: "Highly Recommended"
 buy_links:
@@ -37,7 +37,7 @@ buy_links:
     "Print and Play: https://www.pnparcade.com/products/iron-helm",
     "Physical: https://www.thegamecrafter.com/games/iron-helm",
   ]
-conclusion: "Iron Helm is a good example of a game being great due to being sum of its parts. The combat is very simple but when combined with all the other mechanics it comes together to give the feeling of dungeon crawling in a small package."
+conclusion: "Iron Helm is a good example of a game being great due to being sum of its parts. The combat is very simple but when combined with all the other mechanics it comes together to give a fantastic dungeon crawling experience in a small package."
 relatedPosts:
   - "/death_valley/"
   - "/sprawlopolis/"
@@ -115,7 +115,7 @@ After completing the other parts of the dungeon level completion, you then draw 
 
 Some plot cards impact or use the player's morality to give different options or effects. This helps feel like you are actually roleplaying within this world, while being a small additional mechanic. Having high morality generally gives better long term impacts if you draw a plot card that uses your morality level, but choosing a morality lowering option often helps you keep alive. Though I did have many games where I had drawn a plot card that used morality before I had actually had a chance to lower or increase my morality, often making that plot card have little impact.
 
-_The morality issues listed are fixed well in the The Howling Abyss Dungeon Deck expansion which replaces the base game dungeon deck with additional complexity and better usage of morality._
+_The morality issues listed are improved upon in the The Howling Abyss Dungeon Deck expansion which replaces the base game dungeon deck with additional complexity and better usage of morality._
 
 ![Example of a blessing token](./iron_blessing.jpg)
 
@@ -149,11 +149,11 @@ The Loot and Lore pack adds new characters, plot cards, enemies and items. This 
 
 #### Adventure Expansions
 
-Additional adventure expansions are also available to add campaign gameplay. These adventures are brought into the game after completing the base game and previous adventure expansions. Each adventure has a new boss, enemies, character and items. Six are available on The Game Crafter though only four are currently on PNP arcade. These help give more variety and seemed to have a slightly higher difficulty, though I do wish there was more to the experience between dungeons during a campaign. As you only reset attributes and have the opportunity to buy trappings. I would have liked more events to help build the narrative as you only get a small sentence of flavour text when starting the next dungeon.
+Additional adventure expansions are also available to add campaign gameplay. These adventures are brought into the game after completing the base game and previous adventure expansions. Each adventure has a new boss, enemies, character and items. Six are available on The Game Crafter though only four are currently on PNP arcade. These help give more variety and seemed to have a slightly higher difficulty, though I do wish there was more to the experience between dungeons during a campaign. As you only reset attributes and have the opportunity to buy trappings. I would have liked more events to help build the narrative as you only get a small sentence of flavour text when starting the next dungeon. These expansions works well in print and play as you can just buy and print them after completing a previous dungeon.
 
 #### Iron Chest Expansion
 
-There is also the Iron Chest expansion https://www.thegamecrafter.com/games/iron-chest which is only available physically. This adds a new adventure pack, mechanics, items, and random encounters. I've yet to try this expansion due to the cost of importing games from The Game Crafter into the UK.
+There is also the Iron Chest expansion which is only available physically from The Game Crafter. This adds a new adventure pack, mechanics, items, and random encounters. I've yet to try this expansion due to the cost of importing games from The Game Crafter into the UK.
 
 #### Howling Abyss Dungeon Deck
 
