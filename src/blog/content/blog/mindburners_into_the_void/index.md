@@ -6,16 +6,16 @@ tags: ["Board Games", "Review", "Solo Review", "Recommend", "Print and Play"]
 thumbnail: "./mindburners_v.jpg"
 pros:
   [
-    "Quick and satisfying gameplay",
+    "Quick and satisfying mechanics",
     "Good tableau options due to the multiple scoring sections of each card",
     "Only uses 10 of the 18 cards per game meaning you won’t get bored by seeing the same options repeatedly",
-    "Great art and graphics",
+    "Great art and theming",
     "Simple instructions with clear descriptions of how scoring works",
     "Print and plays well due to bleed on the back sides",
   ]
 cons:
   [
-    "AI scores can be a bit random depending on the random placement. Even with using all of the installation abilities it can fluctuate in score by 20-30",
+    "AI scores can be a bit random depending on the random placement. Even with using all of the installation abilities it can fluctuate in score by 20 to 30 points",
     "Some ability and install ability score criteria are less interesting than others",
     "It has no card sized rules available with instead a one-sided page with rules",
   ]
@@ -29,7 +29,7 @@ relatedPosts:
   - "/death_valley/"
   - "/sprawlopolis/"
   - "/spaceshipped/"
-hidden: false
+hidden: true
 ---
 
 ![Mindburners: Into the Void cards](./mindburners_v.jpg)
@@ -42,7 +42,7 @@ _Mindburners: Into the Void is a strategic cyber-occult card drafting and arrang
 
 ### Components
 
-Mindburners: Into the Void consists of 18 cards each containing great art and theming along with a suite with a base value, symbols, binary value, basic ability and install ability.
+Mindburners: Into the Void consists of 18 cards each containing great art and theming along with a suit, base value, symbols, binary value, basic ability and install ability.
 
 ### First Draft
 
@@ -91,9 +91,5 @@ I did feel that the installed card criteria was often less interesting than the 
 With a slight change to scoring to accommodate that the AI cannot place cards effectively. This does make it harder than 2 player, but I found that even if I got similar scores between multiple games, the AI score would fluctuate a lot. Making it feel less satisfying to get the win as I didn’t feel like I earned it.
 
 To get a good score you really have to get good drafts to maximise the basic abilities with installed cards giving you the extra edge needed to win.
-
-### Theme
-
-As with Nathan Meunier's other games this continues to have great art and theming along with very readable iconography. The binary and installation mechanics were the standout thematic mechanics for me.
 
 ### Conclusion

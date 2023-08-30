@@ -1,8 +1,8 @@
 ---
 title: Iron Helm Review
 date: "2023-07-02T12:12:03.284Z"
-updated_date: "2023-07-08T13:12:03.284Z"
-description: "Iron Helm is a fantastic solo dungeon crawler in a fairly small package."
+updated_date: "2023-08-30T18:12:03.284Z"
+description: "Iron Helm is a fantastic solo dungeon crawler in a small package."
 tags:
   [
     "Board Games",
@@ -17,7 +17,7 @@ pros:
   [
     "Great dungeon crawling in a small package",
     "Print and plays well",
-    "Multiple expansions",
+    "Multiple expansions adding new content and mechanics",
     "Win/Loss along with point scoring gives good replayability",
     "Adventure pack expansions give campaign gameplay",
     "Upgrading your character is satisfying",
@@ -26,10 +26,9 @@ cons:
   [
     "Combat mechanics feel undercooked",
     "Plot cards become repetitive quickly without expansions",
-    "In the base game I often came across cards that used morality even though I had not had the opportunity to increase/decrease my morality yet",
-    "Manual isn't great for such a simple game with the appendix and helper being essential when first playing",
+    "Morality is under-utilised in the base game",
+    "Manual lacks details and awkwardly laid out",
     "Physical edition is expensive especially if exporting out of the USA",
-    "Limited expansions available for Print and Play, though more appear to be coming available",
   ]
 review: "Highly Recommended"
 buy_links:
@@ -47,7 +46,11 @@ hidden: false
 
 ![Iron Helm cards](./iron_helm.png)
 
-I reviewed the Print and Play version available from PNP Arcade for $5. But only some expansions are available for print and play.
+I reviewed the Print and Play version available from PNP Arcade for $5.
+
+### Intro
+
+Coming from a video game heavy background I've found dungeon crawling board games to often have too much busy work making me less likely to get them out. Iron helm on the other hand uses a small set of card decks where games often end at just the right length, making it one of my most played and favourite games.
 
 ### Official Description
 
@@ -85,7 +88,7 @@ First you pick one of the four base game characters and start with the skills an
 
 I used the printed tracking cards from BGG instead of using tokens as this felt cleaner and quicker to use. Most actions are going to involve tracking these character attributes.
 
-![Two facedown dungeon cards](./iron_helm_dungeon_down.jpg)
+![Two facedown dungeon cards](./iron_dungeon_down.jpg)
 
 Next you start exploring the dungeon which consists of turns encountering the many surprises within the dungeon. At the first step of each turn you play two facedown dungeon cards from the top of the deck.
 
@@ -135,11 +138,13 @@ The example boss fight above shows a game I lost, where the boss only had 2 heal
 
 ### Game End
 
-If you kill a boss you can end the game there and score based upon what you achieved, with thematic home flavour text given based on the score boundaries. There are expansions available that you play after completing a dungeon keeping the same character as before allowing for campaign gameplay. As these are available via Print and Play, I was printing adventure expansions once I completed the game with the previous expansion.
+If you kill a boss you can end the game there and score based upon what you achieved, with thematic home flavour text given based on the score boundaries. There are expansions available that you play after completing a dungeon while keeping the same character as before allowing for campaign gameplay. As these are available via Print and Play, I was printing adventure expansions once I completed the game with the previous expansion.
 
 I always like games with clear win/loss game ends, especially when you are building a character within a world. Having an additional score gives extra replayability by making a difference between games that you just managed to scrape a win compared to a win where everything thing went right for you.
 
 ### Expansions
+
+Iron helm has many small expansions of which I've each reviewed below.
 
 #### Loot and Lore
 
@@ -149,11 +154,27 @@ The Loot and Lore pack adds new characters, plot cards, enemies and items. This 
 
 #### Adventure Expansions
 
-Additional adventure expansions are also available to add campaign gameplay. These adventures are brought into the game after completing the base game and previous adventure expansions. Each adventure has a new boss, enemies, character and items. All of these adventure expansions are available on The Game Crafter and on PNPArcade. These help give more variety and seemed to have a slightly higher difficulty, though I do wish there was more to the experience between dungeons during a campaign. As you only reset attributes and have the opportunity to buy trappings. I would have liked more events to help build the narrative as you only get a small sentence of flavour text when starting the next dungeon. These expansions works well in print and play as you can just buy and print them after completing a previous dungeon.
+Additional adventure expansions are also available to add campaign gameplay. These adventures are brought into the game after completing the base game and previous adventure expansions. Each adventure has a new boss, enemies, character and items. These help give more variety and seemed to have a slightly higher difficulty, though I do wish there was more to the experience between dungeons during a campaign. As you only reset attributes and have the opportunity to buy trappings. I would have liked more events to help build the narrative as you only get a small sentence of flavour text when starting the next dungeon. These expansions works well in print and play as you can just buy and print them after completing a previous dungeon.
 
 #### Iron Chest Expansion
 
-There is also the Iron Chest expansion which is only available physically from The Game Crafter. This adds a new adventure pack, mechanics, items, and random encounters. I've yet to try this expansion due to the cost of importing games from The Game Crafter into the UK.
+There is also the Iron Chest expansion which combines multiple features into a larger expansion set. This adds a new adventure pack, affliction and environment mechanics, artifact items and mercenaries. Each expansion can be applied to the game on their own or combined to make a much more complex experience.
+
+The adventure pack is the only level 4 adventure and acts as the final dungeon of the adventure. This is just a slightly more difficult adventure pack with nothing significantly different from the other adventure packs.
+
+Afflictions are gained during the dungeon and apply mostly negative impacts against your character, though they can be removed by using health potions and antidotes. These do make the game harder but add extra flavour and consequences for your actions. I found this an interesting mechanic adding danger to gaining poison on when fighting certain enemies.
+
+Additional mini-boss enemies are added to the plot and enemy decks with benefits such as additional plot points and blessings for defeating them. These do increase difficulty but add additional tension when drawing cards from their decks.
+
+Environments are drawn at the start of each dungeon level and add various changes to the dungeon encounter cards with positive and negative impacts. These help give variety to each dungeon level as the base game doesn't do much to differentiate between each subsequent level in the dungeon outside of higher enemy health. These do make the game slightly harder but you can take advantage of the positive benefits the environment might give, such as extra gold or rations. While thematically the design of these environments can clash with the theming of the adventure pack, I found this a good addition to the game but you do have to pay more attention to how the environment impacts your current action due to the lack of formatting on the environment card for its impacts.
+
+Mercenaries can be hired for a few gold and each have different benefits for bringing them along on your adventure. But each time a mercenary's specific event happens they lose morale, represented by a d6 die placed on the mercenary card. If they reach zero morale the mercenary is discarded, but you can pay one gold to increase their morale by one. So conserving gold can be helpful when bringing them along. This mostly makes the game easier but not significantly as their benefits are often only helpful in certain dungeons and scenarios.
+
+Artifacts are powerful items that can only be gained by discarding blessing tokens you have earned during a dungeon. These can make more complex character builds compared to the base and adventure pack items but the random drawing from the deck does mean you may get an artifact that doesn't work well with your planned build.
+
+Random encounters in between each dungeon level are added by new encounter cards with two for each dungeon difficulty. These encounters can be positive or negative but you will have some idea of what will be ahead unless the encounter uses a dice roll. These help add to the theming and flavour of exploring a dungeon which I felt lacking in the base game.
+
+Overall this expansion is fairly essential when you start wanting additional variety and greater difficulty. This difficulty is mostly fairly done and doesn't feel cheap. My only complaint with this expansion is when printing and playing the random encounter cards are not poker sized like the normal cards so may not fit in your current storage solution. I printed them at 65% scale to fit them in my deck boxes with the rest of the game's cards, they are still legible but do look off compared to the rest of the game's art.
 
 #### Howling Abyss Dungeon Deck
 
