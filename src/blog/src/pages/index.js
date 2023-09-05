@@ -150,17 +150,6 @@ const BlogIndex = ({ data, location }) => {
           )
         })}
       </ol>
-      <div className="column-wrap">
-        <div>
-          <h2>Upcoming Reviews</h2>
-          <ul>
-            <li>Mindburners: Into The Void</li>
-            <li>Galdor's Grip (Solo)</li>
-            <li>Deck 52: Space Wrecked (Solo)</li>
-            <li>Wildtails: A Pirate Legacy (Solo)</li>
-          </ul>
-        </div>
-      </div>
 
       <h2>My Review Methodology</h2>
       <p>
