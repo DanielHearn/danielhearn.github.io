@@ -43,7 +43,9 @@ hidden: false
 
 ![Sprawlopolis](./sp_box.jpg)
 
-I reviewed the [Quined Games](http://xmedia.quined.nl/shop/sprawlopolis/) version that I bought from [Zatu Games](https://www.board-game.co.uk/product/sprawlopolis/). I then printed out the expansions from PNPArcade. This review primarily covers the solo mode as it's the recommended way to play according to the BoardGameGeek community.
+I reviewed the [Quined Games](http://xmedia.quined.nl/shop/sprawlopolis/) version that I bought from [Zatu Games](https://www.board-game.co.uk/product/sprawlopolis/). I then printed out the expansions from PNPArcade. This review primarily covers the solo mode as it's the recommended and most popular way to play according to the BoardGameGeek community.
+
+Sprawlopolis is the first of the 'opolis' series and just from a few games you will quickly see how it became so popular. Simple mechanics with a ridiculous amount of choices to make results in a satisfying map builder.
 
 ### Official Description
 

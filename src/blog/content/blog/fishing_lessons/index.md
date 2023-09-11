@@ -45,6 +45,8 @@ hidden: false
 
 I reviewed the print and play version from [PNP Arcade](https://www.pnparcade.com/products/fishing-lessons) for $3 (I got it on sale for $2).
 
+Initially I wasn't sure about Fishing Lessons as I find games with programming mechanics a bit artificial with a painted on theme. But this one pleasantly surprised me and has become a go to game when I want a more complex yet small puzzle to solve.
+
 ### Official Description
 
 _It’s been a year since Leland Williams passed on. A year later, his family remembers his humor, warmth and – especially – his love of fishing. You play a member of his family going out on a solo fishing trip. With a specific sporting goal in mind, you’ll recall lessons and memories from Leland. If you piece together the lessons in just the right order, you’ll have a great day on the lake!_

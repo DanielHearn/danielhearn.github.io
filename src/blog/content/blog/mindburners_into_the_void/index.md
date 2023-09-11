@@ -36,8 +36,6 @@ hidden: false
 
 I reviewed the Print and Play version available from PNP Arcade for $4.50.
 
-### Intro
-
 Tableau builders are one of my favourite genres and Mindburners: Into the Void has cemented its place as one of my go-tos. This was also my first Nathan Meunier games and have since started collecting more due to the impression this one left one me.
 
 ### Official Description

@@ -48,8 +48,6 @@ hidden: false
 
 I reviewed the Print and Play version available from PNP Arcade for $5.
 
-### Intro
-
 Coming from a video game heavy background I've found dungeon crawling board games to often have too much busy work making me less likely to get them out. Iron helm on the other hand uses a small set of card decks where games often end at just the right length, making it one of my most played and favourite games.
 
 ### Official Description
