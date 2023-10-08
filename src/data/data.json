@@ -58,6 +58,12 @@
       "desc": "My board game blog built with Gatsby.",
       "image": "img/blog_thumbnail.png",
       "link": "https://danielhearn.co.uk/blog"
+    },
+    {
+      "title": "University Project: Climate Monitor",
+      "desc": "Final year project I built a internet-of-things climate monitoring system with a web-app ",
+      "image": "img/final_year_project.png",
+      "link": "https://danielhearn.co.uk/Final_801685.pdf"
     }
   ],
   "side_projects": [
