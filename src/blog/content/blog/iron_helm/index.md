@@ -36,7 +36,7 @@ buy_links:
     "Print and Play: https://www.pnparcade.com/products/iron-helm",
     "Physical: https://www.thegamecrafter.com/games/iron-helm",
   ]
-conclusion: "Iron Helm is a good example of a game being great due to being sum of its parts. The combat is very simple but when combined with all the other mechanics it comes together to give a fantastic dungeon crawling experience in a small package."
+conclusion: "Iron Helm is a good example of a game being great due to being sum of its parts. The combat is very simple but when combined with all the other mechanics it comes together to give a fantastic dungeon crawling experience in a small package. Though I do think getting the expansions is needed to keep the game fresh with new characters and dungeons."
 relatedPosts:
   - "/death_valley/"
   - "/sprawlopolis/"

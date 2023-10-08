@@ -1,6 +1,6 @@
 ---
 title: Doom Machine Review
-date: "2023-09-18T22:12:03.284Z"
+date: "2023-10-08T12:00:00.000Z"
 description: "Doom Machine is a fantastic dice-chucker with punishing difficulty."
 tags:
   [
@@ -16,16 +16,16 @@ pros:
   [
     "Greate theming and art",
     "Simple but satisfying gameplay",
-    "Mechanics and many available choices reduce randomness",
+    "Utility mechanics and many available choices reduce randomness",
     "High difficulty but feels attainable after a few tries",
     "Extra difficulty mode adds replayability",
     "Random order and missing machine parts in each game can drastically change the strategies required to win",
   ]
 cons:
   [
-    "Bleed on PNP version isn’t great due to card outline on both sides so need to trim other the side if printing duplex",
-    "Instruction cards are awkward to learn from",
-    "PNP requires many dice and tracking cubes",
+    "Bleed on print and play version isn’t great due to card outline on both sides so need to trim other the side if printing duplex",
+    "Instruction cards are awkward to learn from. A booklet style like Button Shy Games would have been better",
+    "Print and play version requires many dice and tracking cubes",
   ]
 review: "Recommended"
 buy_links:
@@ -53,23 +53,31 @@ _Doom Machine is an intense pressure-cooker card and dice mint tin solo game exp
 
 ### Components
 
-Components include tin sized cards for the physical edition. While print and play has options for tin or poker sized cards. For print and play you will need at least 20 d6 along with three tracking cubes to track attributes.
+Components are tin sized cards in a tin with dice and tracking cubes for the physical edition. While the print and play has options for tin or poker sized cards. For print and play you will need 20 d6 dice along with three tracking cubes to track attributes.
+
+![Doom Machine physical edition](./dm_physical.jpeg)
 
 ### Gameplay
 
-The aim of Doom Machine is to uncover the doom core and destroy it. But you need to survive parts of the doom machine until the core is uncovered. To do this you roll dice and place those to attack the active parts of the machine, while defending yourself to avoid running out of Health. This means that deciding which part to attack is your main strategic choice as some parts might do more damage in the short or long term, others can give good or bad impacts when destroyed. Meanwhile you also need to assign dice to shields to defend from incoming damage. Luckily the game makes it easy to calculate incoming damage as it is always predictable from the next action listed on active machine part tracks. Some parts will deal defined damage numbers while others will base it on the current level of sentience and power as tracked on the machine card. This results in a more impactful choices in the later game.
+The aim of Doom Machine is to uncover the doom core and destroy it. But you need to survive as each part of the doom machine attacks you until the core is uncovered, letting you destroy it.
 
 ![Doom Machine starting layout](./dm_start.jpg)
+
+To do this you roll dice and place them to attack the active parts of the machine, while defending yourself to avoid running out of health. This means that deciding which part to attack is your main strategic choice as some parts might do more damage in the short or long term, others can also give good or bad impacts when destroyed. Each machine part requires different combinations of dice, one might require a single die of a specific number, while another might require doubles.
 
 Due to this being a dice chucker there of course has to be a mechanic to reduce randomness. You have a choice at the start of each turn after rolling your dice to reroll some dice or modify dice to an adjacent value. The amount of dice you can impact depends on if you play the normal or hard mode. This also gives a great push your luck element as rerolling dice in the aim to get a value you want adds further risk.
 
 ![Doom Machine starting layout](./dm_reroll.jpg)
 
-Each machine part has a dice representing its health, once that reaches zero the machine part is removed from the game with its destruction effect activated. If you already have less than 10 dice you also can take the die from the machine part and add it into your pool. This gives a great sense of progression as more dice opens more opportunities.
+Meanwhile you also need to assign dice to shields to defend from incoming damage. Luckily the game makes it easy to calculate incoming damage as it is always predictable from the next action listed on active machine part tracks. Some parts will deal defined damage numbers while others will base it on the current level of sentience and power as tracked on the machine card. This results in a more impactful choices in the later game.
+
+![Doom Machine assign](./dm_shield.jpg)
+
+Each machine part has a yellow die representing its health, once that reaches zero the machine part is removed from the game with its destruction effect activated. If you already have less than 10 dice you also can take the die from the machine part and add it into your pool. This gives a great sense of progression as more dice opens more opportunities, though you can only get up to 10 dice.
 
 ![Doom Machine assign](./dm_assign_dice.jpg)
 
-After assigning your dice to machine parts and shields, the machine phase begins. This starts with each active machine part starting from the left part having its dice moved to the next action on the track, this action is immediately triggered causing the impact described on the part key due to different cards using the icons but with different impacts. If the dice moves off the end of the track it is moved back to the start. Once each part has been activated a new card is drawn from the machine deck and is added to the left edge of the part row. This part isn’t activated in the current turn so is only assigned a die with the next turn started after.
+After assigning your dice to machine parts and shields, the machine phase begins. This starts with each active machine part starting from the left having its dice moved to the next action on the track. This action is immediately triggered causing the impact described on the card key due to each card using the same icons but with different impacts. If the dice moves off the end of the track it is moved back to the start. Once each part has been activated a new card is drawn from the machine deck and is added to the left edge of the part row. This part isn’t activated in the current turn so is only assigned a die with the next turn started after.
 
 ![Doom Machine machine](./dm_defend.jpg)
 
