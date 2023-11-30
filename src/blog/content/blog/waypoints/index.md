@@ -1,6 +1,7 @@
 ---
 title: Waypoints Review
-date: "2023-11-25T12:00:00.000Z"
+date: "2023-11-29T12:00:00.000Z"
+updated_date: "2023-11-30T12:00:00.000Z"
 description: "Waypoints is a fantastic roll and write that meshes perfectly with its theme."
 tags:
   ["Board Games", "Review", "Solo Review", "Highly Recommend", "Print and Play"]
@@ -10,14 +11,14 @@ pros:
     "Great art and visual design",
     "Simple yet effective mechanics",
     "Theme meshes well with gameplay",
-    "Two maps with different mechanics adds variety",
+    "Three maps with different mechanics adds variety",
     "Different starting points and game goals keep each game slightly different",
     "Great game length, with just the right amount of decisions with repetition",
   ]
 cons:
   [
     "Rules layout and design seems an afterthought",
-    "Map 3 is coming, but there is limited information on the timeline for future content with Postmark games",
+    "Limited information on the timeline for future content with Postmark games",
     "No player interaction in multiplayer, which might put some people off compared to games like Cartographers Heroes",
   ]
 review: "Highly Recommended"
@@ -42,7 +43,7 @@ _Battle the elements in Waypoints as you hike through a landscape of mountains, 
 
 ### Components
 
-Waypoints like others from Postmark Games are only available for print and play. Currently you get access to two maps each with their own mechanics and achievements, with more planned for the future without additional cost. You can either write directly on the printed sheets or laminate them, though I prefer keeping the sheets to look back on in the future. Any number of players can play, though you will need a sheet for each player.
+Waypoints like others from Postmark Games are only available for print and play. Currently you get access to three maps each with their own mechanics and achievements, with more planned for the future without additional cost. You can either write directly on the printed sheets or laminate them, though I prefer keeping the sheets to look back on in the future. Any number of players can play, though you will need a sheet for each player.
 
 ### Gameplay
 
@@ -76,7 +77,7 @@ Map 2 "Burning Rock Canyon" has a large canyon along the middle which severely r
 
 ![Waypoints map 2](./wp_map_2.jpg)
 
-Map 3 is coming in the future, though there is no word on when outside of it being worked on according to the Postmark Games' Discord server.
+Map 3 "The Great Western Coast" was released the day after this review was originally published. This map features coasts with islands that can be reached with minimal movement via ferries. As the largest difference with this map is that sea gridlines cost 2 movement to cross making planning your island exploration important.
 
 ### Modes
 
