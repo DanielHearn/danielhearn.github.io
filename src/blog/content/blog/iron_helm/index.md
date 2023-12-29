@@ -36,7 +36,7 @@ buy_links:
     "Print and Play: https://www.pnparcade.com/products/iron-helm",
     "Physical: https://www.thegamecrafter.com/games/iron-helm",
   ]
-conclusion: "Iron Helm is a good example of a game being great due to being sum of its parts. The combat is very simple but when combined with all the other mechanics it comes together to give a fantastic dungeon crawling experience in a small package. Though I do think getting the expansions is needed to keep the game fresh with new characters and dungeons."
+conclusion: "Iron Helm is a good example of a game being great due to being sum of its parts. The combat is very simple but when combined with all the other mechanics it comes together to give a fantastic dungeon crawling experience in a small package. Though I do think slowly mixing in the expansions is needed to keep the game fresh with new characters and dungeons, though this can result in a bloated game where just playing a more complex dungeon crawler might be more suitable."
 relatedPosts:
   - "/death_valley/"
   - "/sprawlopolis/"
@@ -48,7 +48,7 @@ hidden: false
 
 I reviewed the Print and Play version available from PNP Arcade for $5.
 
-Coming from a video game heavy background I've found dungeon crawling board games to often have too much busy work making me less likely to get them out. Iron helm on the other hand uses a small set of card decks where games often end at just the right length, making it one of my most played and favourite games.
+Coming from a video game heavy background I've found dungeon crawling board games will to often have too much busy work making me less likely to get them out. Iron Helm on the other hand uses a small set of card decks where games often end at just the right length, making it one of my most played and favourite games.
 
 ### Official Description
 
@@ -70,13 +70,13 @@ The print and play version mostly consists of making cards along with a few type
 
 ![Iron Helm player mats](./iron_player_mats.jpg)
 
-The Game Crafter also separately sells game and player mats to make laying out the game easier and more thematic. I don't think this is essential but I did like using a printed player mat in my PNP version.
+The Game Crafter also separately sells game and player mats to make laying out the game easier and more thematic. I don't think this is essential but I did like using a printed player mat in my printed version.
 
 ### Gameplay
 
 ![Start of dungeon crawl](./iron_dungeon_1.jpg)
 
-Iron Helm aims to give dungeon crawler experience with character progression, narrative events, and random encounters in a relatively small package compared to larger dungeon crawl games.
+Iron Helm aims to give a dungeon crawler experience with character progression, narrative events, and random encounters in a relatively small package compared to larger dungeon crawl games.
 
 ![Available characters in the base game](./iron_characters.jpg)
 
@@ -84,7 +84,7 @@ First you pick one of the four base game characters and start with the skills an
 
 ![Tracking sheet at the beginning of the game](./iron_tracker_sheet_early.jpg)
 
-I used the printed tracking cards from BGG instead of using tokens as this felt cleaner and quicker to use. Most actions are going to involve tracking these character attributes.
+I used the printed tracking cards from BGG instead of using tokens as this felt cleaner and quicker to use. Most actions are going to involve tracking these character attributes, including gold, rations, poison, health, and energy (used to attack).
 
 ![Two facedown dungeon cards](./iron_dungeon_down.jpg)
 
@@ -142,7 +142,7 @@ I always like games with clear win/loss game ends, especially when you are build
 
 ### Expansions
 
-Iron helm has many small expansions of which I've each reviewed below.
+Iron helm has many small expansions of which I've each reviewed below. I would recommend trying the base game first then slowly building a collection of the expansions if going the printed route, though playing with all expansions at once does cause some bloat in mechanics and things to track.
 
 #### Loot and Lore
 
@@ -178,9 +178,9 @@ Overall this expansion is fairly essential when you start wanting additional var
 
 ![New cards in the Howling Abyss Dungeon Deck](./iron_howling.jpg)
 
-After writing this review the The Howling Abyss Dungeon Deck expansion became available for print and play. This expansion adds a new 18 card deck as an alternative to the base game's dungeon deck. This deck mostly contains the same ideas and encounters from that original deck but with additional complexity and impacts, which I felt were different enough to be interesting. Greater use of dice rolls and additional choices on the cards enhanced the push your luck as cards with negative impacts can have the chance to be even more dangerous. Some negative cards also have small positive impacts such as discarding rations but also gaining a potion. This means there are fewer moments where a playthrough can feel over due to a single dungeon card. The art on these cards are also more complex than the base game's art while keeping the original theme.
+After initially writing this review the The Howling Abyss Dungeon Deck expansion became available for print and play. This expansion adds a new 18 card deck as an alternative to the base game's dungeon deck. This deck mostly contains the same ideas and encounters from that original deck but with additional complexity and impacts, which I felt were different enough to be interesting. Greater use of dice rolls and additional choices on the cards enhanced the push your luck as cards with negative impacts can have the chance to be even more dangerous. Some negative cards also have small positive impacts such as discarding rations but also gaining a potion. This means there are fewer moments where a playthrough can feel over due to a single dungeon card. The art on these cards are also more complex than the base game's art while keeping the original theme.
 
-My favourite addition in this expansion are the new dungeon cards with completely new mechanics, these are mostly focused on the use of the character's morality. This gives the morality system a much needed improvement as it has limited use in the base game, outside of scoring and a few specific cards. Having low morality when using this deck is now much more risky due to the Archangel card which makes you gain or lose health depending on morality.
+My favourite addition in this expansion are the new dungeon cards with completely new mechanics, these are mostly focused on the use of the character's morality. This gives the morality system a much needed improvement as it has limited use in the base game outside of scoring and a few specific cards. Having low morality when using this deck is now much more risky due to the Archangel card which makes you gain or lose health depending on morality.
 
 I recommend this expansion once you've gotten too used to base game's dungeon deck, though I do wish most of the card changes would be applied to the original deck in a new edition of the base game.
 
