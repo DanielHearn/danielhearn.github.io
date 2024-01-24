@@ -1,16 +1,16 @@
 ---
 title: My Top Solo Ranking of Board Games
 date: "2023-05-27T12:00:00.00Z"
-updated_date: "2023-12-29T12:00:00.00Z"
-description: "My solo ranking of solo all board games I have played"
+updated_date: "2024-01-24T12:00:00.00Z"
+description: "My ranking of all board games I have played in solo"
 tags: ["Board Games", "Opinion"]
 relatedPosts: ["/when_to_buy_new_games/", "/solo_ranking_button_shy_games/"]
 hidden: false
 ---
 
-_This is my top solo ranking of all board games along with a ranking of print and play games I have played as of 29th December 2023_
+_This is my top solo ranking of all board games along with a ranking of print and play games I have played as of 24th January 2024_
 
-This list includes any expansions for the game where solo only or not as listing expansions would be too confusing. This includes solo only and solo mode games but does not consider the multiplayer modes in any way. This list also mixes games regardless of size and complexity.
+This list includes games that have solo modes or require expansions to have a solo mode. But does not consider the multiplayer modes in any way. This list also mixes games regardless of size and complexity.
 
 ## Top 20 Solo Games
 
@@ -40,16 +40,16 @@ This list includes any expansions for the game where solo only or not as listing
 ## Top 20 Print and Play Solo Games
 
 <ol reversed>
-  <li>Wildtails: A Pirate Legacy</li>
-  <li>Deck 52: Space Wrecked</li>
-  <li>Ugly Gryphon Inn</li>
-  <li><a href="https://danielhearn.co.uk/blog/spaceshipped">SpaceShipped</a></li>
+  <li>At The Helm</li>
   <li>Ragemore</li>
-  <li>Food Chain Island</li>
-  <li>Skulls of Sedlec</li>
-  <li>Unsurmountable</li>
-  <li><a href="https://danielhearn.co.uk/blog/fishing_lessons">Fishing Lessons</a></li>
+  <li><a href="https://danielhearn.co.uk/blog/spaceshipped">SpaceShipped</a></li>
   <li>Palm Island</a></li>
+  <li>Ugly Gryphon Inn</li>
+  <li>Skulls of Sedlec <i>Requires expansion</i></li>
+  <li>Unsurmountable</li>
+  <li>The Royal Limited</li>
+  <li>Food Chain Island</li>
+  <li><a href="https://danielhearn.co.uk/blog/fishing_lessons">Fishing Lessons</a></li>
   <li><a href="https://danielhearn.co.uk/blog/mindburners_into_the_void">Mindburners: Into The Void</a></li>
   <li><a href="https://danielhearn.co.uk/blog/doom_machine">Doom Machine</a></li>
   <li><a href="https://danielhearn.co.uk/blog/death_valley">Death Valley</a></li>

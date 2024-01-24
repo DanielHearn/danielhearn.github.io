@@ -57,7 +57,7 @@ Fishing Lessons consists of 18 cards like other Button Shy Games, with the physi
 
 ![Fishing Lessons character cards](./fishing_lessons_character_1.jpg)
 
-The art for the fish, characters and lake look great, but I felt that the font and goal letters looked out of place compared to the art style used elsewhere. Additionally the use of white boxes on the character cards seemed out of place and unfinished when in constrast to other Button Shy Games.
+The art for the fish, characters and lake look great, but I felt that the font and goal letters looked out of place compared to the art style used elsewhere. Additionally the use of white boxes on the character cards seemed out of place and unfinished when in contrast to other Button Shy Games.
 
 ### Gameplay
 
@@ -79,11 +79,11 @@ After completing all actions the next turn begins and you draw a new lesson card
 
 ![Fishing Lessons result after three turns and replacing a lesson card](./fishing_lessons_11.jpg)
 
-I found the easy mode way too easy but good for the first game as a way to teach the mechanics. Medium felt more satisfying and seemed like the mode that best fit the theme of using the lessons to fish. While hard requires you to go through all turns until the lessson deck is empty. While this does prevent luck from making it easy to win on an early turn. I didn't enjoy having to keep going through turns, even though from a thematic perspective I have found and caught the fish.
+I found the easy mode way too easy but good for the first game as a way to teach the mechanics. Medium felt more satisfying and seemed like the mode that best fit the theme of using the lessons to fish. While hard requires you to go through all turns until the lesson deck is empty. While this does prevent luck from making it easy to win on an early turn. I didn't enjoy having to keep going through turns, even though from a thematic perspective I have found and caught the fish.
 
 ![Fishing Lessons difficulty and challenge modifiers](./fishing_lessons_difficulty.jpg)
 
-The two difficulty moddifiers can be used on any difficulty and both add restrictions. Night fishing limits the number of lesson cards that can be replaced to two. I liked this modifier as keeping the active lesson cards down to only two was a strategy I used a lot without this modifier. So it forced me to engage more with programming my turns better.
+The two difficulty modifiers can be used on any difficulty and both add restrictions. Night fishing limits the number of lesson cards that can be replaced to two. I liked this modifier as keeping the active lesson cards down to only two was a strategy I used a lot without this modifier. So it forced me to engage more with programming my turns better.
 
 The Boat Ramp modifier was different to play with at first but is clever for combining the theme and mechanics well. This modifier makes the character card start at the leftmost lake card which acts as the side you must enter and exit the lake from. Then you must also finish at the goal while at the leftmost lake card. I found this much harder as you are often forced to make fishing actions while returning to the left so programming lessons requires even more thought.
 
@@ -93,7 +93,7 @@ These modifiers are great for adding more variety and complexity as you get bett
 
 At time of review only two expansions are currently available, Fabled Fish and Family Friends. Though more expansions are coming. I've yet to play these expansions, but I will update this review when I try them.
 
-The Fabled Fish expansion adds four cards each with legendary fish that are added into the lake. One of these cards is sadded to the lake in each game, when reveleaed that fish has a special ability that is triggered.
+The Fabled Fish expansion adds four cards each with legendary fish that are added into the lake. One of these cards is added to the lake in each game, when revealed that fish has a special ability that is triggered.
 
 The Family Friends expansion adds three new cards, with two being lessons cards that randomly replace lesson cards from the base game. With the third card being a double sided character card with new goals.
 
