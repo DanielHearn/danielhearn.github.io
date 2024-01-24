@@ -29,14 +29,14 @@ const BlogIndex = ({ data, location }) => {
         <div>
           <h4>
             <Link to="/tags/highly-recommend/" itemProp="url">
-              <span itemProp="headline">Highly Recommended</span>
+              <span itemProp="headline">Highly Recommended -></span>
             </Link>
           </h4>
         </div>
         <div>
           <h4>
             <Link to="/tags/recommend/" itemProp="url">
-              <span itemProp="headline">Recommended</span>
+              <span itemProp="headline">Recommended -></span>
             </Link>
           </h4>
         </div>
@@ -50,7 +50,7 @@ const BlogIndex = ({ data, location }) => {
         <div>
           <h4>
             <Link to="/tags/print-and-play/" itemProp="url">
-              <span itemProp="headline">Print and Play</span>
+              <span itemProp="headline">Print and Play -></span>
             </Link>
           </h4>
         </div>
@@ -90,7 +90,15 @@ const BlogIndex = ({ data, location }) => {
                         <span itemProp="headline">{title}</span>
                       </Link>
                     </h2>
-                    <small>{post.frontmatter.date}</small>
+                    <small>
+                      {post.frontmatter.date}
+                      {post.frontmatter.updated_date && (
+                        <span className="updated_date">
+                          {" "}
+                          (updated {post.frontmatter.updated_date})
+                        </span>
+                      )}
+                    </small>
                   </header>
                   <section>
                     <p
@@ -134,7 +142,15 @@ const BlogIndex = ({ data, location }) => {
                         <span itemProp="headline">{title}</span>
                       </Link>
                     </h2>
-                    <small>{post.frontmatter.date}</small>
+                    <small>
+                      {post.frontmatter.date}
+                      {post.frontmatter.updated_date && (
+                        <span className="updated_date">
+                          {" "}
+                          (updated {post.frontmatter.updated_date})
+                        </span>
+                      )}
+                    </small>
                   </header>
                   <section>
                     <p
@@ -210,6 +226,7 @@ export const pageQuery = graphql`
         }
         frontmatter {
           date(formatString: "MMMM DD, YYYY")
+          updated_date(formatString: "MMMM DD, YYYY")
           title
           description
           tags
