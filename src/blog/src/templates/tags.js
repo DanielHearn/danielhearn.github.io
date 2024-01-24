@@ -15,7 +15,7 @@ const Tags = ({ pageContext, data, location }) => {
     <Layout location={location} title={tag}>
       <Bio />
       <div>
-        <h2>{tag}</h2>
+        {tag === "Review" ? <h2>Reviews</h2> : <h2>{tag}</h2>}
         <ol style={{ listStyle: `none` }}>
           {filterVisiblePosts(edges.map(edge => edge.node)).map(post => {
             const { slug } = post.fields
