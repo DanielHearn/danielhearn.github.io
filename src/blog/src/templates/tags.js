@@ -44,7 +44,15 @@ const Tags = ({ pageContext, data, location }) => {
                           <span itemProp="headline">{title}</span>
                         </Link>
                       </h2>
-                      <small>{post.frontmatter.date}</small>
+                      <small>
+                        {post.frontmatter.date}
+                        {post.frontmatter.updated_date && (
+                          <span className="updated_date">
+                            {" "}
+                            (updated {post.frontmatter.updated_date})
+                          </span>
+                        )}
+                      </small>
                     </header>
                     <section>
                       <p
@@ -115,6 +123,7 @@ export const pageQuery = graphql`
           }
           frontmatter {
             date(formatString: "MMMM DD, YYYY")
+            updated_date(formatString: "MMMM DD, YYYY")
             title
             description
             thumbnail {

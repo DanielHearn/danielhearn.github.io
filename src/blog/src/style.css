@@ -540,6 +540,10 @@ li a {
   color: var(--color-text-light)
 }
 
+small .updated_date {
+  font-size: inherit !important;
+}
+
 /* Media queries */
 
 @media (max-width: 42rem) {
