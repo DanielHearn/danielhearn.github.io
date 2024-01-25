@@ -46,7 +46,7 @@ _Colostle is a rulebook and setting for an adventure in the impossible roomlands
 
 ### Components
 
-Playing Colostle requires any journal and a deck of generic playing cards, though using their custom card deck is more thematic. I preferred this as you receive a printable deck after buying the digital version with simple yet expressive art.
+Playing Colostle requires any journal and a deck of generic playing cards, though using their custom card deck is more thematic. I preferred this as you receive a printable deck after buying the digital version with simple yet expressive art. The rulebook is available as a PDF or physical book directly from the official site but it might be available with quicker delivery from other sites.
 
 ![Colostle cards](./colostle_cards.jpg)
 
