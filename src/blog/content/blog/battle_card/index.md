@@ -20,7 +20,7 @@ cons:
   ]
 review: "Recommended"
 buy_links: ["Digital: https://www.postmarkgames.com/battle-card"]
-conclusion: "While I would first recommend other Postmark games such as Waypoints or Voyages for greater replayability and multiplayer. Battle Cards still fills the niche of small war games and I felt that it's worth the money, especially once the full series has been released. I also think this system has great potential for more complexity and agency if they experiment with larger maps"
+conclusion: "While I would first recommend other Postmark games such as Waypoints or Voyages for greater replayability and multiplayer. Battle Cards still fills the niche of small war games and I felt that it's worth the money, especially once the full series has been released. I also think this system has great potential for more complexity and agency if they experiment with larger maps."
 relatedPosts:
   - "/waypoints/"
   - "/mindburners_into_the_void/"
