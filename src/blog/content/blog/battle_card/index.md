@@ -1,7 +1,7 @@
 ---
 title: Battle Card Review
 date: "2024-01-27T12:00:00.000Z"
-description: "Battle Card mostly successfully attempts to recreate historical battles in a small scale."
+description: "Battle Card is a mostly successful attempt at recreating historical battles in a small scale."
 tags: ["Board Games", "Review", "Solo Review", "Recommend", "Print and Play"]
 thumbnail: "./battle_card.png"
 pros:
