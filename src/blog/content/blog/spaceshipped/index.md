@@ -58,13 +58,15 @@ SpaceShipped consists of 18 cards with 16 being multi-use and the other two bein
 
 The aim of SpaceShipped is to buy two xeno crystals before your opponent takes them. This time limit encourages risky choices that balance between making enough credits and surviving into the next turn. To buy a xeno crystal you need 20 credits obtained by buying and selling resources without reaching 0 health which causes you to lose.
 
-![SpaceShipped encounter and marketplace row](./space_encounter.jpg)
+![Encounter and marketplace row](./space_encounter.jpg)
+_Encounter and marketplace row_
 
 Each turn consists of activating the effects of the current encounter cards going diagonally from the top left of the left card down to the bottom right of the right card. First you activate the orbital encounter of the left card which can be positive or negative, though you have no way to prepare for this encounter which you will see is a big negative for my enjoyment of the game. Next you have the planetside encounter of the middle card which acts the same as the orbital encounter. Though you have a turn to prepare as the encounter cards are shifted to the right after each card. With the right card being moved into the upgrade row and the rightmost resource card being flipped and added as the left card of the encounters. Being able to prepare for the planetside encounter is important as you often need to prepare shields or buy certain resources to avoid damage.
 
 Next you can buy and sell from the marketplace and upgrade row. The right card in the encounter is the marketplace, this gives two turns to see what prices you can get in the future for buying and selling.
 
-![SpaceShipped upgrade row](./space_upgrades.jpg)
+![Upgrade row with a ship, crew and upgrade](./space_upgrades.jpg)
+_Upgrade row with a ship, crew and upgrade_
 
 The upgrades row will have an assortment of ships, crew and ship upgrades. Expensive ships will have more inventory slots which are important later as you need space to contain any resources and xeno crystals you have. This row also shifts to the right each turn with the rightmost card becoming the next resource card. This gives multiple turns to prepare to buy upgrades. Upgrades become very important in avoiding negative encounters and maximising profits.
 

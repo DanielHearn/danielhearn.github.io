@@ -400,7 +400,7 @@ ul {
 
 .RecommendationTable {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr;
   gap: var(--spacing-4);
 }
 
@@ -544,6 +544,11 @@ small .updated_date {
   font-size: inherit !important;
 }
 
+em {
+  color: var(--color-text-light);
+  padding: var(--spacing-1) var(--spacing-0);
+}
+
 /* Media queries */
 
 @media (max-width: 42rem) {
@@ -565,9 +570,6 @@ small .updated_date {
     list-style-position: inside;
   }
   .table--2 {
-    grid-template-columns: 1fr;
-  }
-  .RecommendationTable {
     grid-template-columns: 1fr;
   }
   .main-heading {

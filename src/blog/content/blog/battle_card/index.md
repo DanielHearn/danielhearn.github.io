@@ -20,7 +20,7 @@ cons:
   ]
 review: "Recommended"
 buy_links: ["Digital: https://www.postmarkgames.com/battle-card"]
-conclusion: "While I would first recommend other Postmark games such as Waypoints or Voyages for greater replayability and multiplayer. Battle Cards still fills the niche of small war games and I felt that it's worth the money, especially once the full series has been released. I also think this system has great potential for more complexity and agency if they experiment with larger maps."
+conclusion: "While I would first recommend other Postmark games such as Waypoints or Voyages for greater replayability and flexibility for solo and multiplayer. Battle Cards still manages to fill the niche of small war games and I felt that it's worth the money, especially once the full series has been released. I also think this system has great potential for more complexity and agency if they experiment with larger maps."
 relatedPosts:
   - "/waypoints/"
   - "/mindburners_into_the_void/"
@@ -30,7 +30,7 @@ hidden: false
 
 ![Battle Card Series 1 Maps](./battle_card_spread.jpg)
 
-Bought the Battle Card from the [Postmark Games](https://www.postmarkgames.com/battle-card) for £4.
+I bought Battle Card from [Postmark Games](https://www.postmarkgames.com/battle-card) for £4.
 
 I was initially hesitant in trying Battle Card after reading about the lack of player agency, but after trying their free Market Garden map which acts as an introduction to the series I was pleasantly surprised by a simple yet effective simulation of historical battles.
 
@@ -46,17 +46,20 @@ Each map is available for print and play only with A4 and US letter versions. To
 
 An additional map based on [Market Garden](https://boardgamegeek.com/filepage/265900/battle-card-market-garden-v2-color) is available for free and is recommended to learn how their game system works. The following paid maps each increase in complexity with more dice and mechanics to utilise.
 
-![Battle Card Market Garden Map](./battle_card_market.png)
+![Market Garden map after setup](./battle_card_market.png)
+_Market Garden map after setup_
 
 ### Gameplay
 
-Winning a map normally requires capturing or retreating to a certain location, sometimes defeating a number of enemies is also an option. While losing involves reaching a certain number of turns or losing your units making every decision have a big impact.
+Winning a map normally requires capturing or retreating to a certain location, sometimes defeating a number of enemies is also an option. While losing involves reaching a certain number of turns or losing your units, this makes every decision have a big impact.
 
-![Battle Card Malayan Map](./battle_card_malayan_early.jpg)
+![Malayan map early in the game](./battle_card_malayan_early.jpg)
+_Battle Card Malayan map early in the game_
 
 Units are represented on the map as dice with their values indicating their strength. The combat can differ slightly between maps but the core mechanic is that you roll a dice for each unit as they attack or defend against the closest enemy. The result of the rolled die matches a combat result on the map’s combat table, with different outcomes depending on which unit has a dice value advantage. Often you are given the options to advance or withdraw units, this becomes one of the most impactful choices you make as you strategically reposition to get the best combat advantage. After the combat actions there are often mechanics for weather or reinforcements depending on the map to spice up each game.
 
-![Battle Card Malayan Map Late Game](./battle_card_malayan_later.jpg)
+![Malayan map late into the game](./battle_card_malayan_later.jpg)
+_Battle Card Malayan map late into the game_
 
 I think at this point it's best to address the player agency problem that is often the main discussion about this game. While yes this isn’t a full war simulation due to the size and low complexity of the game, I would identify the aim of the game as to understand what actions had to be completed within the actual historical battle to win. I found that after losing or winning a map I knew what actions had resulted in the outcomes of the battle. Though this presents this issue of that once you win a map you know how to repeat that win with only a few potential differences based on the randomness of the dice rolls.
 

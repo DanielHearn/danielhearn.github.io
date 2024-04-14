@@ -55,9 +55,10 @@ _Death Valley is a pocket-sized, push-your-luck, tableau-building game for 1-2 p
 
 ### Components
 
-Death valley like other Button Shy Games, consists of 18 cards though Death Valley only has one side with gameplay content. Each card has great art based on the real life aspect of Death Valley it represents along with the card name, number of stars (points), tableau ability, card type, and details on the real aspect of the card.
+Death valley like other Button Shy Games, consists of 18 cards though Death Valley only has one side with gameplay content. Each card has great art based on the real life aspect of Death Valley it represents along with the card name, number of stars (points), tableau ability, card type, and details on the real aspect of the card. The iconography is easy to identify and fits well into the rest of the graphic design and art.
 
-![Death Valley card example](./death_card.jpg)
+![Example of a card that belongs to the water suit with one scoring star](./death_card.jpg)
+_Example of a card that belongs to the water suit with one scoring star_
 
 With the physical version it comes with a wallet to store the cards, while for my print and play version I assembled a tuckbox from BoardGameGeek.
 
@@ -65,13 +66,15 @@ With the physical version it comes with a wallet to store the cards, while for m
 
 Death valley comes with 2 multiplayer modes and a solo mode that is the focus of this review. The bot in the solo mode is easy to use and helps give the game a very consistent play length making it a great choice during work breaks.
 
-![Death Valley middle way during a match against the solo bot](./death_mid.jpg)
+![Middle way through a match against the solo bot, with the bot's card above followed by the player's journey and scrapbook rows below](./death_mid.jpg)
+_Death Valley middle way through a match against the solo bot, with the bot's card above followed by the player's journey and scrapbook rows below_
 
 The game starts by shuffling the draw deck and playing the top card as a faceup desert card. In each turn you can choose between playing the top facedown card from the deck or the faceup desert card into your journey. Your journey contains cards you can score stars from but you have to be careful to avoid busting by having 3 cards of the same type. As busting causes you to clear your journey of cards and discard the busting card into your discard pile, lowering your potential score and potentially ruining your planned tableau combos.
 
 The other option is to rest by moving a card from your journey into your scrapbook to keep it safe as they cannot be lost due to busting with the downside of scrapbook cards not scoring for stars. This gives great push your luck where busting can cause huge consequences. You can also hide journey cards when resting which plays into certain combos while allowing you to avoid busting by hiding cards with duplicated types. Though I did find this mechanic to be underutilised with limited scoring impact using card effects or only occasionally useful for busting.
 
-![Death Valley hidden card example](./death_hidden.jpg)
+![Example of a hidden card below the Eureka Dunes card](./death_hidden.jpg)
+_Example of a hidden card below the Eureka Dunes card_
 
 The bot has a few possible actions with simple criteria for which one it completes, making it very easy to use. The bot will attempt to bust you, so you need to keep track of the bot's journey cards to know how many of each card type it has. This allows to work out how many cards of each type would still be available in the deck. I found this works quite well as it's just smart enough to be engaging without being complicated to handle.
 
@@ -79,13 +82,15 @@ The series of player and bot turns continues until only one card is faceup in th
 
 The player scores by adding up the stars from their journey but not from their scrapbook, then calculates the scores from their tableau mechanics to get the final score. It also comes with two additional harder difficulty modifiers for the bot that utilise busting. I did find the bot scoring inconsistent as it can draw cards that have many stars or effect points without the negative impacts that the player would have to deal with if they had played that card in their journey.
 
-![Death Valley end of game example](./death_end.jpg)
+![Example of the end of game state, the bot's cards are on multiple rows to make the photo easier. The bot won due to player busts from the sun suit reducing cards in the journey row](./death_end.jpg)
+_Example of the end of game state, the bot's cards are on multiple rows to make the photo easier. The bot won due to player busts from the sun suit reducing cards in the journey row_
 
 ### Panamint City Expansion
 
-![Death Valley expansion cards](./death_exp.jpg)
+![Cards within the Panamint City expansion](./death_exp.jpg)
+_Cards within the Panamint City expansion_
 
-Panamint City is sadly the only expansion for Death Valley, it includes 6 new cards across the card types in the base game. When using the expansion you switch out any number of base game cards with the expansion cards, this gives greater replayability than the base game as tableau combos are harder to predict. Some of these cards also work well with the scrapbook hiding mechanic which felt underutilised in the base game. I would recommend this expansion if you are still enjoying the base game after 5+ plays, as I enjoy randomly switching the expansion cards in and seeing how it impacts what tableau combos I aim for.
+Panamint City is sadly the only expansion for Death Valley, it includes 6 new cards across the card types in the base game. When using the expansion you switch out any number of base game cards with the expansion cards, this gives greater replayability than the base game as tableau combos are harder to predict. Some of these cards also work well with the scrapbook hiding mechanic which felt underutilised in the base game. I would recommend this expansion if you are still enjoying the base game after 10+ plays, as I enjoy randomly switching the expansion cards in and seeing how it impacts what tableau combos I aim for.
 
 ### Solo Challenges
 
