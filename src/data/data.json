@@ -59,6 +59,12 @@
       "link": "https://danielhearn.co.uk/blog"
     },
     {
+      "title": "Creative Prompt Generator",
+      "desc": "A prompt generator for creative uses such as art.",
+      "image": "img/prompt.png",
+      "link": "https://danielhearn.co.uk/prompt-generator/"
+    },
+    {
       "title": "University Project: Climate Monitor",
       "desc": "Internet-of-things climate monitoring system with a web-app that I built for my final year University project.",
       "image": "img/final_year_project.png",
