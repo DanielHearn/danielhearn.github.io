@@ -54,13 +54,13 @@ const BlogIndex = ({ data, location }) => {
             </Link>
           </h4>
         </div>
-        {/*<div>
-          <h3>
-            <Link to="/tags/do-not-recommend/" itemProp="url">
-              <span itemProp="headline">Do Not Recommend</span>
+        <div>
+          <h4>
+            <Link to="/tags/video-game/" itemProp="url">
+              <span itemProp="headline">Video Games -></span>
             </Link>
-          </h3>
-        </div>*/}
+          </h4>
+        </div>
       </div>
       <h2>Recent Reviews</h2>
       <ol style={{ listStyle: `none` }}>
