@@ -14,31 +14,23 @@ html
     main
       section.container.intro
         h1.text--medium
-          | Hi, I'm Dan—a Senior Frontend Developer at 
+          | Hi, I'm Dan—a Senior Software Engineer at 
           a.link(href=links.freshrelevance) Dotdigital.
       #content
         section.container.experience
-          h3.text--large.heading Senior Frontend Developer at Dotdigital (Fresh Relevance)
+          h3.text--large.heading Senior Software Engineer at Dotdigital (Fresh Relevance)
           h2.text--medium.sub-heading July 2020 - Current
           p.text--small
             | At Dotdigital I develop user interfaces with
             | React, Redux, and TypeScript. Including being responsible for projects, working on larger connected feature sets,
-            | maintaining existing features, migrating older technology, along with implementing high-priority changes and fixes. 
+            | maintaining existing features, migrating older technology, along with implementing high-priority changes and fixes. I also increasingly work on backend services in Python and Node often in work involving content delivery, data processing, and reporting.
           p.text--small
-            | Examples of projects include: 
-            a.link(href=links.testing) Testing & Optimization UI
-            | , 
-            a.link(href=links.siteInfoBar) Site Info Bar
-            | , 
-            a.link(href=links.smartblockBuilder) SmartBlock Builder
-            | , 
-            a.link(href=links.itemLevelReporting) Item Level Reporting
-            | , 
-            a.link(href=links.topLevelReporting) Top Level Reporting
-            | , Product Management, Product Details, UI theme overhaul.
+            | Examples of projects include: Testing & Optimization UI, Site Info Bar, SmartBlock Builder, Top and Item Level Reporting, Product Management, Product Details, UI theme overhauls.
           p.text--small
             | I also assist the client scripting team by owning time critical customer facing issues and
-            | have previously supported placement students. Additionally I implement backend changes in Python and Node where my knowledge is needed.
+            | have previously supported placement students.
+          p.text--small
+            | Over this time I have been promoted from Junior to Middle Level and then onto Senior Software Engineer.
         section.container.experience
           h3.text--large.heading Placement at Fresh Relevance
           h2.text--medium.sub-heading July 2018 - May 2019
@@ -50,51 +42,34 @@ html
           h3.text--large.heading University of Portsmouth
           h2.text--medium.sub-heading Sept 2016 - May 2020
           p.text--small
-            | I recieved a First in BSc Computer Science along with the British Computer Society Prize 
+            | I achieved a First in BSc Computer Science along with the British Computer Society Prize 
             | for Best Final Year Student in my course.
           p.text--small
             | As my final year project I built a internet-of-things
             | climate monitoring system with a web-app allowing users to view 
-            | recorded statistics about the local climates around them. This used hardware including Raspberry Pi, microcontrollers, radio modules, sensors and batteries. With the web-app and backend built with Vue, Python (Flask), SQLite.
+            | recorded statistics about the local climates around them. This used hardware including Raspberry Pi, micro-controllers, radio modules, sensors and batteries. With the web-app and backend built with Vue, Python (Flask), SQLite.
         section.container.projects#work
-          h3.text--large Projects
+          h3.text--large personal Projects
           section.grid.grid--2
             each project in projects
               include includes/project.pug
-        section.container.about.grid.grid--3#about
+        section.container.about#about
           .about__content.grid-item--col-1-3
             h3.text--large About Me
             p.text--small
-              | I write code experiments on 
-              a.link(href=links.codepen) Codepen
-              | , host my person project code on 
+              | I host my personal project code on 
               a.link(href=links.github) Github
               | . 
             p.text--small
-              | I'm proficient in Javascript (Typescript, Flow), React, Vue;
-              | while using Webpack, Gulp, Git, in my workflow. 
-              | Additionally, I have experience with Python (Django, Flask), Node, along with working knowledge of Java, SQL and MongoDB.
-            p.text--small
-              | Outside of tech, I like to cook, bake, cycle, run, read, and play board games. I also occasionally 3D model with Blender and Blockbench.
+              | I'm proficient in React, Typescript, Python (Django, Flask), Node, Vue;
+              | while using Copilot, MCPs, Webpack, Gulp, Git, in my workflow. 
+              | Additionally, I have experience with SQL and MongoDB.
             p.text--small
               | I've been writing board and video game reviews and opinion on 
-              a.text--small.link(href="/blog/") my blog since April 2023
+              a.text--small.link(href="/blog/") my blog
               | . 
-          .side-project__content
-            h3.text--large Side Projects
-            each project in side_projects
-              a.text--small.link(href=project.link) #{project.title}
-            h3.text--large Older Projects
-            each project in old_projects
-              a.text--small.link(href=project.link) #{project.title}
-        section.container.projects#models
-          h3.text--large 3D Models
-          section.grid.grid--3
-            each project in models
-              include includes/project.pug
       section.container.footer
         div
-          a.text--small(href=links.codepen) Codepen
           a.text--small(href=links.github) Github
           a.text--small(href=links.email) Email
           a.text--small(href=links.blog) Blog

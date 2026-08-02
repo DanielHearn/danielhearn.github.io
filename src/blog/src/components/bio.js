@@ -30,16 +30,6 @@ const Bio = () => {
 
   return (
     <div className="bio">
-      <StaticImage
-        className="bio-avatar"
-        layout="fixed"
-        formats={["auto", "webp", "avif"]}
-        src="../images/profile-pic.png"
-        width={50}
-        height={50}
-        quality={95}
-        alt="Profile picture"
-      />
       {author?.name && (
         <p>
           Written by <a href="https://www.danielhearn.co.uk">Daniel Hearn</a>{" "}

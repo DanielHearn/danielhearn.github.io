@@ -1,15 +1,10 @@
 {
   "links": {
-    "freshrelevance": "https://www.freshrelevance.com/",
+    "freshrelevance": "https://dotdigital.com/",
     "codepen": "https://codepen.io/danhearn/",
     "github": "https://github.com/DanielHearn",
     "email": "mailto:dan@danielhearn.co.uk",
-    "blog": "https://danielhearn.co.uk/blog",
-    "siteInfoBar": "https://www.freshrelevance.com/blog/system-enhancements-upgrading-ui-ux/",
-    "testing": "https://www.freshrelevance.com/solutions/testing-and-optimization/",
-    "smartblockBuilder": "https://www.freshrelevance.com/blog/platform-enhancements/",
-    "itemLevelReporting": "https://www.freshrelevance.com/blog/platform-enhancements/",
-    "topLevelReporting": "https://www.freshrelevance.com/blog/q2-2023-platform-enhancements-roundup/"
+    "blog": "https://danielhearn.co.uk/blog"
   },
   "fresh_experience": [
     {
@@ -47,22 +42,10 @@
       "link": "https://github.com/DanielHearn/downpen"
     },
     {
-      "title": "Maze Generator",
-      "desc": "2D Maze Generator web-app built with React.",
-      "image": "img/maze.jpeg",
-      "link": "https://danielhearn.co.uk/maze-generator/"
-    },
-    {
       "title": "Gaming With Dan",
       "desc": "My board and video game blog built with Gatsby.",
       "image": "img/blog_thumbnail.png",
       "link": "https://danielhearn.co.uk/blog"
-    },
-    {
-      "title": "Creative Prompt Generator",
-      "desc": "A prompt generator for creative uses such as art.",
-      "image": "img/prompt.png",
-      "link": "https://danielhearn.co.uk/prompt-generator/"
     },
     {
       "title": "University Project: Climate Monitor",
