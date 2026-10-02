@@ -1,124 +1,123 @@
-;(() => {
-  const gulp = require('gulp'),
-    gulpSass = require('gulp-sass')(require('sass')),
-    gulpUseref = require('gulp-useref'),
-    gulpCache = require('gulp-cache'),
-    del = require('del'),
-    gulpImagemin = require('gulp-imagemin'),
-    gulpCssnano = require('gulp-cssnano'),
-    gulpIf = require('gulp-if'),
-    gulpPug = require('gulp-pug'),
-    browserSync = require('browser-sync').create(),
-    fs = require('fs'),
-    scssSource = 'src/scss/**'
+const { src, dest, watch, series, parallel } = require('gulp')
+const gulpSass = require('gulp-sass')(require('sass'))
+const gulpCache = require('gulp-cache')
+const del = require('del')
+const gulpImagemin = require('gulp-imagemin')
+const gulpIf = require('gulp-if')
+const gulpPug = require('gulp-pug')
+const browserSync = require('browser-sync').create()
+const fs = require('fs')
 
-  function server(done) {
-    browserSync.init({
-      server: {
-        baseDir: './',
-      },
-    })
-    done()
+const paths = {
+  scssEntry: 'src/scss/main.scss',
+  scssSource: 'src/scss/**/*.scss',
+  pugSource: 'src/pug/*.pug',
+  dataFile: './src/data/data.json',
+  images: 'src/img/*.+(png|jpg|jpeg|gif|svg)',
+  favicons: 'src/favicons/*.+(png|jpg|jpeg|gif|svg|ico|xml|json|webmanifest)',
+  js: 'src/js/*.js',
+  assets: 'src/assets/*',
+  blog: 'src/blog/public/**/*',
+  blogStatic: 'blog/static/**/*',
+}
+
+function serve(done) {
+  browserSync.init({
+    server: {
+      baseDir: './',
+    },
+  })
+  done()
+}
+
+async function getPugData() {
+  try {
+    const rawData = await fs.promises.readFile(paths.dataFile, 'utf-8')
+    return JSON.parse(rawData)
+  } catch (error) {
+    console.warn('Unable to parse Pug data file; falling back to empty object.', error)
+    return {}
   }
+}
 
-  function sass() {
-    return gulp
-      .src('src/scss/main.scss')
-      .pipe(gulpSass().on('error', gulpSass.logError))
-      .pipe(gulp.dest('css'))
-  }
+async function pugTask() {
+  const data = await getPugData()
 
-  function js() {
-    return gulp.src('src/js/*.js').pipe(gulp.dest('js'))
-  }
+  return src(paths.pugSource)
+    .pipe(
+      gulpPug({ data }).on('error', (error) => {
+        console.error(error)
+      }),
+    )
+    .pipe(dest('./'))
+}
 
-  function images() {
-    return gulp
-      .src('src/img/*.+(png|jpg|jpeg|gif|svg)')
-      .pipe(gulpCache(gulpImagemin()))
-      .pipe(gulp.dest('img'))
-  }
+function sassTask() {
+  return src(paths.scssEntry).pipe(gulpSass().on('error', gulpSass.logError)).pipe(dest('css'))
+}
 
-  function assets() {
-    return gulp.src('src/assets/*').pipe(gulp.dest('assets'))
-  }
+function jsTask() {
+  return src(paths.js).pipe(dest('js'))
+}
 
-  function copyBlog() {
-    return gulp.src('src/blog/public/**/**').pipe(gulp.dest('blog'))
-  }
+function imagesTask() {
+  return src(paths.images).pipe(gulpCache(gulpImagemin())).pipe(dest('img'))
+}
 
-  function copyBlogStatic() {
-    return gulp.src('blog/static/**/**').pipe(gulp.dest('static'))
-  }
+function assetsTask() {
+  return src(paths.assets).pipe(dest('assets'))
+}
 
-  function favicons() {
-    return gulp
-      .src('src/favicons/*.+(png|jpg|jpeg|gif|svg|ico|xml|json|webmanifest)')
-      .pipe(gulpIf('*.+(png|jpg|jpeg|gif|svg)', gulpCache(gulpImagemin())))
-      .pipe(gulp.dest('favicons'))
-  }
+function faviconsTask() {
+  return src(paths.favicons)
+    .pipe(gulpIf('*.+(png|jpg|jpeg|gif|svg)', gulpCache(gulpImagemin())))
+    .pipe(dest('favicons'))
+}
 
-  function pug(done) {
-    fs.readFile('./src/data/data.json', 'utf-8', (err, data) => {
-      if (err) throw err
+function copyBlog() {
+  return src(paths.blog).pipe(dest('blog'))
+}
 
-      try {
-        data = JSON.parse(data)
-      } catch (e) {
-        console.log(e)
-        data = {}
-      }
+function copyBlogStatic() {
+  return src(paths.blogStatic).pipe(dest('static'))
+}
 
-      return gulp
-        .src('src/pug/*.pug')
-        .pipe(
-          gulpPug({ data: data }).on('error', function (err) {
-            console.log(err)
-          }),
-        )
-        .pipe(gulp.dest('./'))
-    })
-    done()
-  }
+async function cleanDist() {
+  await del([
+    './js',
+    './css',
+    './favicons',
+    './img',
+    './index.html',
+    './404.html',
+    './blog/',
+    './static/',
+  ])
+}
 
-  function cleanDist(done) {
-    del.sync([
-      './js',
-      './css',
-      './favicons',
-      './img',
-      './index.html',
-      './404.html',
-      './blog/',
-      './static/',
-    ])
-    done()
-  }
+function watchFiles() {
+  watch('src/pug/**', series(pugTask, browserSync.reload))
+  watch('src/data/*.json', series(pugTask, browserSync.reload))
+  watch(paths.scssSource, series(sassTask, browserSync.reload))
+  watch('src/*.html').on('change', browserSync.reload)
+  watch(paths.js, browserSync.reload)
+}
 
-  function watch(done) {
-    gulp.watch('src/pug/**', pug)
-    gulp.watch('src/data/*.json', pug)
-    gulp.watch(scssSource, sass)
-    gulp.watch('src/*.html').on('change', browserSync.reload)
-    gulp.watch('src/js/*.js', browserSync.reload)
-    done()
-  }
-
-  exports.clean = gulp.series(cleanDist)
-
-  exports.watch = gulp.series(pug, sass, images, favicons, js, assets, watch, server)
-
-  exports.build = gulp.series(
-    cleanDist,
-    pug,
-    sass,
-    images,
-    favicons,
-    js,
-    assets,
-    copyBlog,
-    copyBlogStatic,
-  )
-
-  exports.default = gulp.series(watch, server)
-})()
+exports.clean = cleanDist
+exports.watch = series(
+  parallel(pugTask, sassTask, imagesTask, faviconsTask, jsTask, assetsTask),
+  serve,
+  watchFiles,
+)
+exports.build = series(
+  cleanDist,
+  pugTask,
+  sassTask,
+  imagesTask,
+  faviconsTask,
+  jsTask,
+  assetsTask,
+  copyBlog,
+  copyBlogStatic,
+)
+exports.default = exports.watch
