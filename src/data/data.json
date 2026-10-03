@@ -18,26 +18,32 @@
   ],
   "projects": [
     {
+      "title": "Heronym",
+      "desc": "Name generator for fantasy characters, built with React.",
+      "image": "img/heronym.jpeg",
+      "link": "https://danielhearn.co.uk/heronym"
+    },
+    {
       "title": "Streamist",
-      "desc": "A Vue app for watching multiple Twitch streams in one place.",
+      "desc": "Vue app for watching multiple Twitch streams in one place.",
       "image": "img/streamist.jpeg",
       "link": "https://danielhearn.co.uk/streamist"
     },
     {
       "title": "Korean Handbook",
-      "desc": "A Vue app covering the basics of the Korean language.",
+      "desc": "Vue app covering the basics of the Korean language.",
       "image": "img/korean.jpeg",
       "link": "https://danielhearn.co.uk/korean-handbook/"
     },
     {
       "title": "CSS Loaders",
-      "desc": "A collection of CSS loading animations built with React.",
+      "desc": "Collection of CSS loading animations, built with React.",
       "image": "img/css_loaders.jpeg",
       "link": "https://danielhearn.co.uk/css-loaders/"
     },
     {
       "title": "Downpen",
-      "desc": "A Node script for exporting all of a CodePen user's pens.",
+      "desc": "Node script for exporting all of a CodePen user's pens.",
       "image": "img/downpen.jpeg",
       "link": "https://github.com/DanielHearn/downpen"
     },
