@@ -19,37 +19,37 @@
   "projects": [
     {
       "title": "Streamist",
-      "desc": "Vue web-app for viewing multiple Twitch.tv streams.",
+      "desc": "A Vue app for watching multiple Twitch streams in one place.",
       "image": "img/streamist.jpeg",
       "link": "https://danielhearn.co.uk/streamist"
     },
     {
       "title": "Korean Handbook",
-      "desc": "Vue web-app teaching basics of the Korean language.",
+      "desc": "A Vue app covering the basics of the Korean language.",
       "image": "img/korean.jpeg",
       "link": "https://danielhearn.co.uk/korean-handbook/"
     },
     {
       "title": "CSS Loaders",
-      "desc": "React web-app showcasing a collection of my CSS loading animations.",
+      "desc": "A collection of CSS loading animations built with React.",
       "image": "img/css_loaders.jpeg",
       "link": "https://danielhearn.co.uk/css-loaders/"
     },
     {
       "title": "Downpen",
-      "desc": "Node program to export all of a Codepen User's pens.",
+      "desc": "A Node script for exporting all of a CodePen user's pens.",
       "image": "img/downpen.jpeg",
       "link": "https://github.com/DanielHearn/downpen"
     },
     {
       "title": "Gaming With Dan",
-      "desc": "My board and video game blog built with Gatsby.",
+      "desc": "My board game and video game blog, built with Gatsby.",
       "image": "img/blog_thumbnail.png",
       "link": "https://danielhearn.co.uk/blog"
     },
     {
       "title": "University Project: Climate Monitor",
-      "desc": "Internet-of-things climate monitoring system with a web-app that I built for my final year University project.",
+      "desc": "An IoT climate monitoring system and web app built for my final-year project.",
       "image": "img/final_year_project.png",
       "link": "https://danielhearn.co.uk/Final_801685.pdf"
     }
