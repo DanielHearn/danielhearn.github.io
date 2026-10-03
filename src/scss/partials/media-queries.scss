@@ -3,9 +3,9 @@
 @media screen and (max-width: 50em) {
   html body {
     .nav__content {
-      padding: 0.5em 1em;
+      padding: 0.75em 1em;
       .nav__title {
-        font-size: 1.4rem;
+        font-size: 1.35rem;
         &--mobile {
           display: flex;
         }
@@ -14,8 +14,9 @@
         }
       }
       .nav__links {
+        gap: 0.9em;
         a {
-          padding-left: 1em;
+          padding-left: 0;
         }
       }
     }
@@ -25,24 +26,23 @@
         font-size: 1.25rem;
       }
     }
-    
+
     .text--medium {
       font-size: 1.25rem;
     }
-    
+
     .text--small, .text--medium.sub-heading {
       font-size: 1rem;
     }
     main {
       .intro {
-        height: 50vh;
-        min-height: 200px;
-        margin-top: 50px;
-        margin-bottom: 0;
+        min-height: 16rem;
+        margin-top: 64px;
+        margin-bottom: 1.5em;
         padding: 0 1em !important;
         h1 {
-          font-size: 1.25rem;
-          padding: 0
+          font-size: clamp(2rem, 8vw, 3rem);
+          padding: 0;
         }
       }
       #content {
@@ -52,10 +52,13 @@
       .container {
         padding: 1em 0;
       }
+      .experience {
+        padding: 1.1em 1rem;
+      }
       .projects {
         .grid {
           grid-template-columns: repeat(1, 1fr);
-          row-gap: 4em;
+          row-gap: 1.5em;
         }
       }
       .grid--2-1 {

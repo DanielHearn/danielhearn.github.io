@@ -15,14 +15,17 @@ html {
   height: 100%;
   box-sizing: border-box;
   margin: 0;
+  scroll-behavior: smooth;
 }
 
 body {
   font-family: 'Poppins', sans-serif;
   margin: 0;
-  background: $bg-colour;
+  background: #f5f3f0;
   color: $dark-text-colour;
   max-width: 100%;
+  line-height: 1.6;
+  letter-spacing: -0.02em;
 }
 
 main {
@@ -32,6 +35,16 @@ main {
 
 h3 {
   font-weight: $bold-weight;
+  letter-spacing: -0.04em;
+}
+
+p {
+  margin: 0;
+}
+
+img {
+  display: block;
+  max-width: 100%;
 }
 
 ::-moz-selection { background: $selection-colour; }

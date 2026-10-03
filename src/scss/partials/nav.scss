@@ -2,8 +2,9 @@
 
 .nav__title {
   font-weight: $extra-bold-weight;
-  text-transform: uppercase;
+  text-transform: none;
   margin: 0;
+  letter-spacing: -0.05em;
   &--mobile {
     display: none;
   }
@@ -13,29 +14,35 @@ nav {
   width: 100%;
   position: fixed;
   top: 0;
-  width: 100%;
   box-sizing: border-box;
-  background: $nav-colour;
+  background: rgba(245, 243, 240, 0.8);
+  backdrop-filter: blur(14px);
+  border-bottom: 1px solid rgba(17, 17, 17, 0.08);
   z-index: 20;
   .nav__content {
     max-width: $content-width;
-    padding: 1.25em 2em;
+    padding: 1em 2em;
     margin: 0 auto;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    align-items: flex-end;
+    align-items: center;
     .nav__links {
       font-weight: $extra-bold-weight;
-      padding-bottom: 0.2em; // Fix alignment with title
+      display: flex;
+      align-items: center;
+      gap: 1.4em;
       a {
-        padding-left: 1.5em;
+        padding: 0.35em 0.1em;
+        border-bottom: 2px solid transparent;
+        transition: color 0.2s ease, border-color 0.2s ease;
         &.active {
           color: $accent-colour;
-          text-decoration: underline;
+          border-color: $accent-colour;
         }
         &:hover {
           color: $accent-colour;
+          border-color: $accent-colour;
         }
       }
     }

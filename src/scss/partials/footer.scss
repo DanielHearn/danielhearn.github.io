@@ -3,32 +3,28 @@
 .footer {
   display: flex;
   flex-wrap: wrap;
-  background: #1d1e24;
+  background: #111827;
   justify-content: flex-start;
   div {
-    padding-left: 2em;
-    padding-right: 2em;
+    padding: 1.5em 2em 2em;
     margin-left: auto;
     margin-right: auto;
     width: 100%;
     max-width: 70em;
     display: flex;
     flex-wrap: wrap;
+    gap: 1.5em;
   }
   a {
     font-size: $s-size;
     font-weight: $semi-bold-weight;
     line-height: 1.5em;
-    padding: 0.6em 1em 0.6em 0;
-    color: $bg-colour;
-    &:not(:last-of-type) {
-      margin-right: 0.75em;
-    }
+    color: rgba(255, 255, 255, 0.9);
     &:visited {
-      color: $bg-colour;
+      color: rgba(255, 255, 255, 0.9);
     }
     &:hover {
-      color: $bg-colour;
+      color: #9f8cff;
     }
   }
 }
