@@ -1,6 +1,9 @@
 dist
 node_modules
 node_modules/**
+src/blog/node_modules/
+src/blog/public/
+src/blog/.cache/
 
 # Windows image file caches
 Thumbs.db

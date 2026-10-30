@@ -78,10 +78,6 @@ function copyBlog() {
   return src(paths.blog).pipe(dest('blog'))
 }
 
-function copyBlogStatic() {
-  return src(paths.blogStatic).pipe(dest('static'))
-}
-
 async function cleanDist() {
   await del([
     './js',
@@ -91,7 +87,6 @@ async function cleanDist() {
     './index.html',
     './404.html',
     './blog/',
-    './static/',
   ])
 }
 
@@ -118,6 +113,5 @@ exports.build = series(
   jsTask,
   assetsTask,
   copyBlog,
-  copyBlogStatic,
 )
 exports.default = exports.watch
