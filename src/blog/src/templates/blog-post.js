@@ -1,5 +1,5 @@
 import * as React from "react"
-import { Link, graphql } from "gatsby"
+import { Link, graphql, withPrefix } from "gatsby"
 
 import Bio from "../components/bio"
 import Layout from "../components/layout"
@@ -157,8 +157,10 @@ const BlogPostTemplate = ({
                           {post.frontmatter.thumbnail && (
                             <img
                               src={
-                                post.frontmatter.thumbnail.childImageSharp
-                                  .resize.src
+                                withPrefix(
+                                  post.frontmatter.thumbnail.childImageSharp
+                                    .resize.src
+                                )
                               }
                               alt={`Cover of ${title}`}
                             />

@@ -4,7 +4,7 @@ import PropTypes from "prop-types"
 import Bio from "../components/bio"
 import Layout from "../components/layout"
 import Seo from "../components/seo"
-import { Link, graphql } from "gatsby"
+import { Link, graphql, withPrefix } from "gatsby"
 import { filterVisiblePosts } from "../utilities"
 
 const Tags = ({ pageContext, data, location }) => {
@@ -30,9 +30,9 @@ const Tags = ({ pageContext, data, location }) => {
                   <div>
                     {post.frontmatter.thumbnail && (
                       <img
-                        src={
+                        src={withPrefix(
                           post.frontmatter.thumbnail.childImageSharp.resize.src
-                        }
+                        )}
                         alt={`Cover of ${title}`}
                       />
                     )}

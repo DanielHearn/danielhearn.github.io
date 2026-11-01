@@ -5,6 +5,22 @@ const filterVisiblePosts = posts =>
  * @type {import('gatsby').GatsbyConfig}
  */
 const siteUrl = `https://danielhearn.co.uk/blog`
+const prefixThumbnailUrl = thumbnail => {
+  const src = thumbnail?.childImageSharp?.resize?.src
+  if (!src) return thumbnail
+
+  return {
+    ...thumbnail,
+    childImageSharp: {
+      ...thumbnail.childImageSharp,
+      resize: {
+        ...thumbnail.childImageSharp.resize,
+        src: `${siteUrl}${src}`,
+      },
+    },
+  }
+}
+
 module.exports = {
   siteMetadata: {
     title: `Gaming with Dan`,
@@ -159,7 +175,7 @@ module.exports = {
             path: node.fields.slug, // MUST contain a path
             title: node.frontmatter.title,
             description: node.frontmatter.description,
-            thumbnail: node.frontmatter.thumbnail,
+            thumbnail: prefixThumbnailUrl(node.frontmatter.thumbnail),
             tags: node.frontmatter.tags,
             html: node.html,
             hidden: node.frontmatter.hidden,
@@ -174,7 +190,7 @@ module.exports = {
             url: siteUrl + node.fields.slug,
             title: node.frontmatter.title,
             description: node.frontmatter.description,
-            thumbnail: node.frontmatter.thumbnail,
+            thumbnail: prefixThumbnailUrl(node.frontmatter.thumbnail),
             tags: node.frontmatter.tags,
             hidden: node.frontmatter.hidden,
           })),

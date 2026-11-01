@@ -1,5 +1,5 @@
 import * as React from "react"
-import { Link, graphql } from "gatsby"
+import { Link, graphql, withPrefix } from "gatsby"
 import { filterVisiblePosts } from "../utilities"
 
 import Bio from "../components/bio"
@@ -76,9 +76,9 @@ const BlogIndex = ({ data, location }) => {
                 <div>
                   {post.frontmatter.thumbnail && (
                     <img
-                      src={
+                      src={withPrefix(
                         post.frontmatter.thumbnail.childImageSharp.resize.src
-                      }
+                      )}
                       alt={`Cover of ${title}`}
                     />
                   )}
@@ -128,9 +128,9 @@ const BlogIndex = ({ data, location }) => {
                 <div>
                   {post.frontmatter.thumbnail && (
                     <img
-                      src={
+                      src={withPrefix(
                         post.frontmatter.thumbnail.childImageSharp.resize.src
-                      }
+                      )}
                       alt={`Cover of ${title}`}
                     />
                   )}
